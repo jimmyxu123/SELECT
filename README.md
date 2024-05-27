@@ -8,7 +8,7 @@ We introduce a novel benchmark, ImageNet++, which is the largest and most divers
 2. LAION-1000 (LA1000): A subset of the unlabeled LAION dataset, selected through CLIP retrieval nearest neighbors search against the ImageNet-1k training set.
 3. Stable Diffusion-1000 (SD1000): A dataset generated from the ImageNet-1k dataset using an image-to-image Stable Diffusion pipeline
 
-![ImageNet++ comparison](images/imagenet++.jpg)
+![ImageNet++ comparison](images/imagenetpp2.jpg)
 
 ## Table of Contents
 
