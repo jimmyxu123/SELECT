@@ -1,4 +1,4 @@
-# 🌋 ImageNetPP: A Large-Scale Benchmark of Data Curation Strategies
+# 🌋 ImageNet++: A Large-Scale Benchmark of Data Curation Strategies
 This is the repository for the ImageNet++ benchmark 
 
 ---
