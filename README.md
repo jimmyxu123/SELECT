@@ -13,9 +13,9 @@ We introduce a novel benchmark, ImageNet++, the largest and most diverse superse
 ## Table of Contents
 
 1. [Dataset](#dataset)
-2. [Installation](#install)
+2. [Installation](#CreateImageNet++)
 3. [Create ImageNet++](#imagnetpp)
-4. [Train models on ImageNet++](#train)
+4. [Train models on ImageNet++](#TrainmodelsonImageNet++)
 5. [Paper, website, and docs](#paper)
 6. [Citation](#citation)
 
