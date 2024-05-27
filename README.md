@@ -56,7 +56,7 @@ We show some image examples from ImageNet++ as above.
 
 ## Train models on ImageNet++
 
-## Paper, website, and docs
+<h2 id="paper">Paper, Website, and Docs</h2>
 
 ## Acknowledgement
 
