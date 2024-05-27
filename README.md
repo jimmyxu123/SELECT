@@ -13,10 +13,11 @@ We introduce a novel benchmark, ImageNet++, the largest and most diverse superse
 ## Table of Contents
 
 1. [Dataset](#dataset)
-2. [Create ImageNet++](#imagnetpp)
-3. [Train models on ImageNet++](#train)
-4. [Paper, website, and docs](#paper)
-5. [Citation](#citation)
+2. [Installation](#install)
+3. [Create ImageNet++](#imagnetpp)
+4. [Train models on ImageNet++](#train)
+5. [Paper, website, and docs](#paper)
+6. [Citation](#citation)
 
 ## Dataset 
 The complete dataset is accessible via Huggingface.
