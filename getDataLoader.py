@@ -123,5 +123,5 @@ def get_data_loader(dataset, root, input_size, batch_size):
 
 if __name__ == "__main__":
     input_size = 64
-    #prep_caltech256("/scratch/wpy2004/vtab_ds", input_size)
-    prep_svhn("/scratch/wpy2004/vtab_ds", input_size)
+    #prep_caltech256("vtab_ds", input_size)
+    prep_svhn("vtab_ds", input_size)

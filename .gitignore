@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Big Files
+*.tar
+vtab_ds/
+
 # C extensions
 *.so
 
