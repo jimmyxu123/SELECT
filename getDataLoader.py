@@ -8,6 +8,8 @@ import numpy as np
 import pickle
 random_seed = 1234
 torch.manual_seed(random_seed)
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 def get_default_device():
     """Pick GPU if available, else CPU"""
@@ -89,7 +91,24 @@ def prep_dataset(root, input_size, dataset):
         print("DTD Train Statistics:", file=f)
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
-        f.close()        
+        f.close()      
+    elif dataset == "eurosat":
+        temp_dataset = torchvision.datasets.EuroSAT(root=root, transform=temp_transform, download=True)
+        test_dataset, train_dataset = random_split(temp_dataset, [0.2, 0.8], generator=torch.Generator())
+        ds_mean, ds_std = get_mean_and_std(train_dataset)
+        f = open("dataset_prep/eurosat_meanstd.txt", "a")
+        print("EuroSAT Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()   
+    elif dataset == "flowers102":
+        temp_dataset = torchvision.datasets.Flowers102(root=root, transform=temp_transform, download=True, split='train')
+        ds_mean, ds_std = get_mean_and_std(temp_dataset)
+        f = open("dataset_prep/flowers102_meanstd.txt", "a")
+        print("Flowers102 Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()  
     else:
         print("Dataset prep not available.")
 
@@ -132,10 +151,32 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
         test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
         return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 47
+    elif dataset == "eurosat":
+        temp_transform = transforms.Compose([
+            transforms.Resize((input_size, input_size)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.3443, 0.3801, 0.4076], [0.0914, 0.0652, 0.0553]),
+        ])
+        temp_dataset = torchvision.datasets.EuroSAT(root=root, transform=temp_transform, download=True)
+        test_dataset, train_dataset = random_split(temp_dataset, [0.2, 0.8], generator=torch.Generator())
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 10
+    elif dataset == "flowers102":
+        temp_transform = transforms.Compose([
+            transforms.Resize((input_size, input_size)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.4330, 0.3819, 0.2964], [0.2487, 0.1980, 0.2101]),
+        ])
+        train_dataset = torchvision.datasets.Flowers102(root=root, transform=temp_transform, download=True, split='train')
+        test_dataset = torchvision.datasets.Flowers102(root=root, transform=temp_transform, download=True, split='test')
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 102
     else:
         print("Dataset test not available.")
 
 if __name__ == "__main__":
     input_size = 64
-    dataset = "dtd"
+    dataset = "flowers102"
     prep_dataset("vtab_ds", input_size, dataset)
