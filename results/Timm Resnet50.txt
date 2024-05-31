@@ -1,0 +1,6 @@
+Timm Resnet50 Results: 
+caltech256 Accuracy: 0.08514162663574623
+svhn Accuracy: 0.2568377381684081
+dtd Accuracy: 0.2734042553191489
+eurosat Accuracy: 0.7275925925925926
+flowers102 Accuracy: 0.11253862416653114

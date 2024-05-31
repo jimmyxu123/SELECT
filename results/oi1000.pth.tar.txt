@@ -1,0 +1,6 @@
+oi1000.pth.tar Results: 
+caltech256 Accuracy: 0.44724200761967864
+svhn Accuracy: 0.8834127228027043
+dtd Accuracy: 0.39680851063829786
+eurosat Accuracy: 0.9637037037037037
+flowers102 Accuracy: 0.37079199869897544

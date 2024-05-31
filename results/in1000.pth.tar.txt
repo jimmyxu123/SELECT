@@ -1,0 +1,6 @@
+in1000.pth.tar Results: 
+caltech256 Accuracy: 0.4291866821268842
+svhn Accuracy: 0.6874615857406269
+dtd Accuracy: 0.47606382978723405
+eurosat Accuracy: 0.9572222222222222
+flowers102 Accuracy: 0.3672141811676695
