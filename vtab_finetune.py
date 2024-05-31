@@ -53,5 +53,5 @@ def finetune_eval(LR = 0.01, MAX_STEPS = 1000, DECAY_STEPS = 300, DECAY_GAMMA = 
     return acc
 
 if __name__ == "__main__":
-    acc = finetune_eval(LR = 0.01, MAX_STEPS = 1000, DECAY_STEPS = 300, DECAY_GAMMA = 0.1, MOMENTUM = 0.9, BATCH_SIZE = 64, INPUT_SIZE = 64, DATASET = "svhn")
+    acc = finetune_eval(LR = 0.01, MAX_STEPS = 1000, DECAY_STEPS = 300, DECAY_GAMMA = 0.1, MOMENTUM = 0.9, BATCH_SIZE = 64, INPUT_SIZE = 64, DATASET = "dtd")
     print(acc)

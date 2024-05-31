@@ -51,43 +51,47 @@ def get_mean_and_std(dataset):
     std.div_(len(dataset))
     return mean, std
 
-def prep_caltech256(root, input_size):
-    #Find the mean/std of training set. Also find grayscale indices and remove from dataset.
+def prep_dataset(root, input_size, dataset):
     temp_transform = transforms.Compose([
         transforms.Resize((input_size, input_size)),
         transforms.ToTensor(),
     ])
-    temp_dataset = torchvision.datasets.Caltech256(root=root, transform=temp_transform, download=True)
-    indices = np.arange(len(temp_dataset))
-    grayscale_list = []
-    for i in range(len(temp_dataset)):
-        if temp_dataset[i][0].shape[0] == 1:
-            grayscale_list.append(i)
-    rgb_indices = [i for i in indices if i not in grayscale_list]
-    with open('dataset_prep/caltech256_rgb.pkl', 'wb') as file:
-        pickle.dump(rgb_indices, file)
-    rgb_dataset = Subset(temp_dataset, rgb_indices)
-    test_dataset, train_dataset = random_split(rgb_dataset, [0.2, 0.8], generator=torch.Generator())
-    ds_mean, ds_std = get_mean_and_std(train_dataset)
-    f = open("dataset_prep/caltech256_meanstd.txt", "a")
-    print("Caltech-256 Train Statistics:", file=f)
-    print("Mean: " + str(ds_mean), file=f)
-    print("STD: " + str(ds_std), file=f)
-    f.close()
-
-def prep_svhn(root, input_size):
-    #Find the mean/std of training set.
-    temp_transform = transforms.Compose([
-        transforms.Resize((input_size, input_size)),
-        transforms.ToTensor(),
-    ])
-    temp_dataset = torchvision.datasets.SVHN(root=root, transform=temp_transform, download=True, split='train')
-    ds_mean, ds_std = get_mean_and_std(temp_dataset)
-    f = open("dataset_prep/svhn_meanstd.txt", "a")
-    print("SVHN Train Statistics:", file=f)
-    print("Mean: " + str(ds_mean), file=f)
-    print("STD: " + str(ds_std), file=f)
-    f.close()
+    if dataset == "caltech256":
+        temp_dataset = torchvision.datasets.Caltech256(root=root, transform=temp_transform, download=True)
+        indices = np.arange(len(temp_dataset))
+        grayscale_list = []
+        for i in range(len(temp_dataset)):
+            if temp_dataset[i][0].shape[0] == 1:
+                grayscale_list.append(i)
+        rgb_indices = [i for i in indices if i not in grayscale_list]
+        with open('dataset_prep/caltech256_rgb.pkl', 'wb') as file:
+            pickle.dump(rgb_indices, file)
+        rgb_dataset = Subset(temp_dataset, rgb_indices)
+        test_dataset, train_dataset = random_split(rgb_dataset, [0.2, 0.8], generator=torch.Generator())
+        ds_mean, ds_std = get_mean_and_std(train_dataset)
+        f = open("dataset_prep/caltech256_meanstd.txt", "a")
+        print("Caltech-256 Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()        
+    elif dataset == "svhn":
+        temp_dataset = torchvision.datasets.SVHN(root=root, transform=temp_transform, download=True, split='train')
+        ds_mean, ds_std = get_mean_and_std(temp_dataset)
+        f = open("dataset_prep/svhn_meanstd.txt", "a")
+        print("SVHN Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()       
+    elif dataset == "dtd":
+        temp_dataset = torchvision.datasets.DTD(root=root, transform=temp_transform, download=True, split='train')
+        ds_mean, ds_std = get_mean_and_std(temp_dataset)
+        f = open("dataset_prep/dtd_meanstd.txt", "a")
+        print("DTD Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()        
+    else:
+        print("Dataset prep not available.")
 
 def get_data_loader(dataset, root, input_size, batch_size):
     #Returns train, test dataloaders for specified torchvision dataset and the # of classes
@@ -117,11 +121,21 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
         test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
         return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 10
-        print()
+    elif dataset == "dtd":
+        temp_transform = transforms.Compose([
+            transforms.Resize((input_size, input_size)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.5288, 0.4730, 0.4247], [0.1437, 0.1437, 0.1399]),
+        ])
+        train_dataset = torchvision.datasets.DTD(root=root, transform=temp_transform, download=True, split='train')
+        test_dataset = torchvision.datasets.DTD(root=root, transform=temp_transform, download=True, split='test')
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 47
     else:
         print("Dataset test not available.")
 
 if __name__ == "__main__":
     input_size = 64
-    #prep_caltech256("vtab_ds", input_size)
-    prep_svhn("vtab_ds", input_size)
+    dataset = "dtd"
+    prep_dataset("vtab_ds", input_size, dataset)
