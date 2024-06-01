@@ -44,7 +44,8 @@ Firstly, download and set up the repo:
 git clone https://github.com/jimmyxu123/SELECT-1.2M.git
 cd 
 ```
-<h2 id="imagenetpp">Create ImageNet++</h2>
+## Create ImageNet++  
+<h2 id="imagenetpp"></h2>
 
 ### OI-1000
 
@@ -58,15 +59,19 @@ Inspired by [LAIONNet](https://github.com/alishiraliGit/eval-on-laion), we augme
 #### img2img
 #### txt2img
 
-<h2 id="train">Train on ImageNet++</h2>
+## Train on ImageNet++
+<h2 id="train"></h2>
 We use [timm](https://github.com/huggingface/pytorch-image-models) scripts to train models on our dataset ImageNet++. For instance, to launch training on OI1000 with N GPUs on one node:
 ```
 torchrun --nnodes=1 --nproc_per_node=N train.py -c config/oi1000-rn50-tv-wds.yaml
 ```
 You can modify the configuration file to decide your favorite hyperparameters.
 
-<h2 id="eval">Evaluation Benchmark</h2>
-<h2 id="paper">Paper, Website, and Docs</h2>
+## Evaluation Benchmark
+<h2 id="eval"></h2>
+
+## Paper, Website, and Docs
+<h2 id="paper"></h2>
 
 ## Acknowledgement
 
