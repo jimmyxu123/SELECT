@@ -1,0 +1,31 @@
+amp: true
+batch_size: 768
+bce_loss: false
+crop_pct: 0.95
+cutmix: 1.0
+data_dir: /your/data/directory
+dataset: 
+val_data_dir: /imagenet
+epochs: 600
+eval_metric: top1
+img_size: 192
+lr: 0.5
+mixup: 0.2
+model: resnet50
+model_ema: false
+model_ema_decay: 0.99998
+momentum: 0.9
+opt: sgd
+resume: 
+sched: cosine
+seed: 0
+smoothing: 0.1
+train_interpolation: bicubic
+train_split: 
+val_split: validation
+validation_batch_size_multiplier: 1
+warmup_epochs: 5
+warmup_lr: 1.0e-06
+weight_decay: 0.00002
+workers: 4
+log_wandb: true
