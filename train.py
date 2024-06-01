@@ -656,7 +656,7 @@ def main():
     if args.val_split:
         dataset_eval = create_dataset(
             args.dataset,
-            root=args.data_dir,
+            root=args.val_data_dir,
             split=args.val_split,
             is_training=False,
             class_map=args.class_map,
