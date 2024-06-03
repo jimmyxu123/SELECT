@@ -4,3 +4,9 @@ svhn Accuracy: 0.7689382298709281
 dtd Accuracy: 0.14627659574468085
 eurosat Accuracy: 0.8137037037037037
 flowers102 Accuracy: 0.2359733289965848
+country211 Accuracy: 0.022890995260663505
+fgvcaircraft Accuracy: 0.20942094209420942
+gtsrb Accuracy: 0.9216943784639746
+renderedsst2 Accuracy: 0.49807797913234486
+lfwpeople Accuracy: 0.0
+sun397 Accuracy: 0.1251436715553308

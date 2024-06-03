@@ -1,0 +1,3 @@
+LFWPeople Train Statistics:
+Mean: tensor([0.4334, 0.3755, 0.3333])
+STD: tensor([0.2630, 0.2362, 0.2262])

@@ -41,7 +41,6 @@ def test_loop(dataloader, model):
 def finetune_eval(model, finetune_layer = "fc", LR = 0.01, MAX_STEPS = 1000, DECAY_STEPS = 300, DECAY_GAMMA = 0.1, MOMENTUM = 0.9, BATCH_SIZE = 64, INPUT_SIZE = 64, DATASET = "svhn"):
     device = get_default_device()
     train_dataloader, test_dataloader, NUM_CLASSES = get_data_loader(DATASET, "vtab_ds", INPUT_SIZE, BATCH_SIZE)
-    #model = timm.create_model('resnet50', pretrained=True, pretrained_cfg = {'file': 'vtab_weights/in1000.pth.tar'})
     model.train()
     setattr(model, finetune_layer, nn.Linear(getattr(model, finetune_layer).in_features, NUM_CLASSES))
     model = to_device(model, device)
@@ -52,6 +51,9 @@ def finetune_eval(model, finetune_layer = "fc", LR = 0.01, MAX_STEPS = 1000, DEC
     acc = test_loop(test_dataloader, finetune_model)
     return acc
 
-#if __name__ == "__main__":
-    #acc = finetune_eval(finetune_layer = "fc", LR = 0.01, MAX_STEPS = 1000, DECAY_STEPS = 300, DECAY_GAMMA = 0.1, MOMENTUM = 0.9, BATCH_SIZE = 64, INPUT_SIZE = 64, DATASET = "flowers102")
-    #print(acc)
+if __name__ == "__main__":
+    dataset = "sun397"
+    model = timm.create_model('resnet50', pretrained=True)
+    #model = timm.create_model('resnet50', pretrained=True, pretrained_cfg = {'file': 'vtab_weights/sd1000-t2i.tar'})
+    acc = finetune_eval(model, finetune_layer = "fc", LR = 0.01, MAX_STEPS = 1000, DECAY_STEPS = 300, DECAY_GAMMA = 0.1, MOMENTUM = 0.9, BATCH_SIZE = 64, INPUT_SIZE = 64, DATASET = dataset)
+    print(acc)

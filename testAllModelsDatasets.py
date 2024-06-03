@@ -11,6 +11,7 @@ from vtab_finetune import finetune_eval
 import copy
 random_seed = 1234
 torch.manual_seed(random_seed)
+import sys
 
 DATASET_LIST = [
     "caltech256",
@@ -18,6 +19,12 @@ DATASET_LIST = [
     "dtd",
     "eurosat",
     "flowers102",
+    "country211",
+    "fgvcaircraft",
+    "gtsrb",
+    "renderedsst2",
+    "lfwpeople",
+    "sun397",
 ]
 
 MODEL_LIST = [
@@ -29,9 +36,10 @@ MODEL_LIST = [
 ]
 
 def test_all_datasets(model, model_name, finetune_layer = "fc", LR = 0.01, MAX_STEPS = 1000, DECAY_STEPS = 300, DECAY_GAMMA = 0.1, MOMENTUM = 0.9, BATCH_SIZE = 64, INPUT_SIZE = 64):
-    f = open("results/" + model_name + ".txt", "w")
-    print(model_name + " Results: ", file=f)
+    # f = open("results/" + model_name + ".txt", "a")
+    # print(model_name + " Results: ", file=f)
     for dataset in DATASET_LIST:
+        f = open("results/" + model_name + ".txt", "a")
         copy_model = copy.deepcopy(model)
         acc = finetune_eval(copy_model, 
             finetune_layer = finetune_layer, 
@@ -44,7 +52,7 @@ def test_all_datasets(model, model_name, finetune_layer = "fc", LR = 0.01, MAX_S
             INPUT_SIZE = INPUT_SIZE, 
             DATASET = dataset)
         print(dataset + " Accuracy: " + str(acc), file=f)
-    f.close()
+        f.close()
 
 def test_all_models():
     for model_name in MODEL_LIST:

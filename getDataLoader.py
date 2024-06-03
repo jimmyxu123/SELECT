@@ -109,6 +109,55 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()  
+    elif dataset == "country211":
+        temp_dataset = torchvision.datasets.Country211(root=root, transform=temp_transform, download=True, split='train')
+        ds_mean, ds_std = get_mean_and_std(temp_dataset)
+        f = open("dataset_prep/country211_meanstd.txt", "a")
+        print("Country211 Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()  
+    elif dataset == "fgvcaircraft":
+        temp_dataset = torchvision.datasets.FGVCAircraft(root=root, transform=temp_transform, download=True, split='train')
+        ds_mean, ds_std = get_mean_and_std(temp_dataset)
+        f = open("dataset_prep/fgvcaircraft_meanstd.txt", "a")
+        print("FGVCAircraft Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()  
+    elif dataset == "gtsrb":
+        temp_dataset = torchvision.datasets.GTSRB(root=root, transform=temp_transform, download=True, split='train')
+        ds_mean, ds_std = get_mean_and_std(temp_dataset)
+        f = open("dataset_prep/gtsrb_meanstd.txt", "a")
+        print("GTSRB Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()      
+    elif dataset == "renderedsst2":
+        temp_dataset = torchvision.datasets.RenderedSST2(root=root, transform=temp_transform, download=True, split='train')
+        ds_mean, ds_std = get_mean_and_std(temp_dataset)
+        f = open("dataset_prep/renderedsst2_meanstd.txt", "a")
+        print("RenderedSST2 Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()  
+    elif dataset == "lfwpeople":
+        temp_dataset = torchvision.datasets.LFWPeople(root=root, transform=temp_transform, download=True, split='train')
+        ds_mean, ds_std = get_mean_and_std(temp_dataset)
+        f = open("dataset_prep/lfwpeople_meanstd.txt", "a")
+        print("LFWPeople Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close()  
+    elif dataset == "sun397":
+        temp_dataset = torchvision.datasets.SUN397(root=root, transform=temp_transform, download=True)
+        test_dataset, train_dataset = random_split(temp_dataset, [0.2, 0.8], generator=torch.Generator())
+        ds_mean, ds_std = get_mean_and_std(train_dataset)
+        f = open("dataset_prep/sun397_meanstd.txt", "a")
+        print("SUN397 Train Statistics:", file=f)
+        print("Mean: " + str(ds_mean), file=f)
+        print("STD: " + str(ds_std), file=f)
+        f.close() 
     else:
         print("Dataset prep not available.")
 
@@ -173,10 +222,76 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
         test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
         return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 102
+    elif dataset == "country211":
+        temp_transform = transforms.Compose([
+            transforms.Resize((input_size, input_size)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.4570, 0.4503, 0.4208], [0.2130, 0.2082, 0.2194]),
+        ])
+        train_dataset = torchvision.datasets.Country211(root=root, transform=temp_transform, download=True, split='train')
+        test_dataset = torchvision.datasets.Country211(root=root, transform=temp_transform, download=True, split='test')
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 211
+    elif dataset == "fgvcaircraft":
+        temp_transform = transforms.Compose([
+            transforms.Resize((input_size, input_size)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.4814, 0.5123, 0.5357], [0.1716, 0.1708, 0.1952]),
+        ])
+        train_dataset = torchvision.datasets.FGVCAircraft(root=root, transform=temp_transform, download=True, split='train')
+        test_dataset = torchvision.datasets.FGVCAircraft(root=root, transform=temp_transform, download=True, split='test')
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 100
+    elif dataset == "gtsrb":
+        temp_transform = transforms.Compose([
+            transforms.Resize((input_size, input_size)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.3418, 0.3126, 0.3216], [0.1629, 0.1624, 0.1721]),
+        ])
+        train_dataset = torchvision.datasets.GTSRB(root=root, transform=temp_transform, download=True, split='train')
+        test_dataset = torchvision.datasets.GTSRB(root=root, transform=temp_transform, download=True, split='test')
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 43
+    elif dataset == "renderedsst2":
+        temp_transform = transforms.Compose([
+            transforms.Resize((input_size, input_size)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.9847, 0.9847, 0.9847], [0.0564, 0.0564, 0.0564]),
+        ])
+        train_dataset = torchvision.datasets.RenderedSST2(root=root, transform=temp_transform, download=True, split='train')
+        test_dataset = torchvision.datasets.RenderedSST2(root=root, transform=temp_transform, download=True, split='test')
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 2
+    elif dataset == "lfwpeople":
+        temp_transform = transforms.Compose([
+            transforms.Resize((input_size, input_size)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.4334, 0.3755, 0.3333], [0.2630, 0.2362, 0.2262]),
+        ])
+        train_dataset = torchvision.datasets.LFWPeople(root=root, transform=temp_transform, download=True, split='train')
+        test_dataset = torchvision.datasets.LFWPeople(root=root, transform=temp_transform, download=True, split='test')
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 5749
+    elif dataset == "sun397":
+        temp_transform = transforms.Compose([
+            transforms.Resize((input_size, input_size)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.4757, 0.4601, 0.4247], [0.2114, 0.2102, 0.2245]),
+        ])
+        temp_dataset = torchvision.datasets.SUN397(root=root, transform=temp_transform, download=True)
+        test_dataset, train_dataset = random_split(temp_dataset, [0.2, 0.8], generator=torch.Generator())
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        return DeviceDataLoader(train_dataloader, device), DeviceDataLoader(test_dataloader, device), 397
     else:
         print("Dataset test not available.")
 
 if __name__ == "__main__":
     input_size = 64
-    dataset = "flowers102"
+    dataset = "sun397"
     prep_dataset("vtab_ds", input_size, dataset)
