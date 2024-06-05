@@ -293,5 +293,21 @@ def get_data_loader(dataset, root, input_size, batch_size):
 
 if __name__ == "__main__":
     input_size = 64
-    dataset = "sun397"
-    prep_dataset("vtab_ds", input_size, dataset)
+    #dataset = "caltech256"
+    DATASET_LIST = [
+    "caltech256",
+    "svhn",
+    "dtd",
+    "eurosat",
+    "flowers102",
+    "country211",
+    "fgvcaircraft",
+    "gtsrb",
+    "renderedsst2",
+    "lfwpeople",
+    "sun397",
+    ]
+    for dataset in DATASET_LIST:
+        train, test, x = get_data_loader(dataset, "vtab_ds", input_size, input_size)
+        print(len(test.dl.dataset))
+    #prep_dataset("vtab_ds", input_size, dataset)

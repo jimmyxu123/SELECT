@@ -1,0 +1,12 @@
+laionnet.pth.tar Results: 
+caltech256 Accuracy: 0.2454861686268014
+svhn Accuracy: 0.7818454210202828
+dtd Accuracy: 0.38351063829787235
+eurosat Accuracy: 0.9366666666666666
+flowers102 Accuracy: 0.3444462514229956
+country211 Accuracy: 0.026492890995260664
+fgvcaircraft Accuracy: 0.0969096909690969
+gtsrb Accuracy: 0.8311163895486936
+renderedsst2 Accuracy: 0.5172981878088962
+lfwpeople Accuracy: 0.0
+sun397 Accuracy: 0.13654544618638223

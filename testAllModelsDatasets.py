@@ -33,6 +33,7 @@ MODEL_LIST = [
     "vtab_weights/oi1000.pth.tar",
     "vtab_weights/sd1000-i2i.tar",
     "vtab_weights/sd1000-t2i.tar",
+    "vtab_weights/laionnet.pth.tar"
 ]
 
 def test_all_datasets(model, model_name, finetune_layer = "fc", LR = 0.01, MAX_STEPS = 1000, DECAY_STEPS = 300, DECAY_GAMMA = 0.1, MOMENTUM = 0.9, BATCH_SIZE = 64, INPUT_SIZE = 64):
