@@ -1,9 +1,9 @@
-# 🌋 SELECT-1.2M: A Large-Scale Benchmark of Data Curation Strategies
-This is the repository for the SELECT-1.2M benchmark 
+# 🌋 SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Recognition
+This is the repository for the SELECT benchmark and ImageNet++ dataset
 
 ---
 
-We introduce SELECT-1.2M, a formal strategy to benchmark labeled datasets and orient data engineers to direct their. Utilizing SELCET-1.2M, we evaluate ImageNet++ as the largest and most diverse superset of the ImageNet-1k training set to date. ImageNet++ extends beyond the scope of traditional datasets by incorporating 7 distinct training shifts, each employing a unique modality of data (two natural and one synthetic) and utilizing distinct selection techniques. The constituent datasets of ImageNet++ are enumerated as follows:
+We introduce SELECT, a formal strategy to benchmark labeled datasets and orient data engineers to direct their. Utilizing SELCET, we evaluate ImageNet++ as the largest and most diverse superset of the ImageNet-1k training set to date. ImageNet++ extends beyond the scope of traditional datasets by incorporating 7 distinct training shifts, each employing a unique modality of data (two natural and one synthetic) and utilizing distinct selection techniques. The constituent datasets of ImageNet++ are enumerated as follows:
 1. OpenImages-1000 (OI1000): A subset of the OpenImages dataset constructed via schema mapping.
 2. LAION-1000 (LA1000): A subset of the unlabeled LAION dataset, selected through CLIP retrieval nearest neighbors search against the ImageNet-1k training set.
 3. Stable Diffusion-1000 (SD1000): A dataset generated from the ImageNet-1k dataset using an image-to-image Stable Diffusion pipeline
