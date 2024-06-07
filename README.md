@@ -8,7 +8,7 @@ We introduce SELECT, a formal strategy to benchmark labeled datasets and orient 
 2. LAION-1000 (LA1000): A subset of the unlabeled LAION dataset, selected through CLIP retrieval nearest neighbors search against the ImageNet-1k training set.
 3. Stable Diffusion-1000 (SD1000): A dataset generated from the ImageNet-1k dataset using an image-to-image Stable Diffusion pipeline
 
-![ImageNet++ comparison](images/imagenetpp.png)
+![ImageNet++ comparison](images/imagenetpp.jpg)
 
 ## Table of Contents
 
