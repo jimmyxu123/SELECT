@@ -10,6 +10,8 @@ random_seed = 1234
 torch.manual_seed(random_seed)
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
+import os
+os.makedirs('vtab_ds', exist_ok=True)
 
 def get_default_device():
     """Pick GPU if available, else CPU"""

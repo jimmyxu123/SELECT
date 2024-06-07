@@ -49,7 +49,10 @@ def finetune_eval(model, finetune_layer = "fc", LR = 0.01, MAX_STEPS = 1000, DEC
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size = DECAY_STEPS, gamma=DECAY_GAMMA)
     finetune_model = train_loop(train_dataloader, model, loss_fn, optimizer, scheduler, MAX_STEPS)
     acc = test_loop(test_dataloader, finetune_model)
-    return acc
+    test_set_n = len(test_dataloader.dl.dataset)
+    SE = np.sqrt((acc * (1-acc))/test_set_n)
+    CI = 1.96 * SE
+    return acc, CI
 
 if __name__ == "__main__":
     dataset = "sun397"

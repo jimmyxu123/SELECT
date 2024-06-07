@@ -37,12 +37,10 @@ MODEL_LIST = [
 ]
 
 def test_all_datasets(model, model_name, finetune_layer = "fc", LR = 0.01, MAX_STEPS = 1000, DECAY_STEPS = 300, DECAY_GAMMA = 0.1, MOMENTUM = 0.9, BATCH_SIZE = 64, INPUT_SIZE = 64):
-    # f = open("results/" + model_name + ".txt", "a")
-    # print(model_name + " Results: ", file=f)
     for dataset in DATASET_LIST:
         f = open("results/" + model_name + ".txt", "a")
         copy_model = copy.deepcopy(model)
-        acc = finetune_eval(copy_model, 
+        acc, CI = finetune_eval(copy_model, 
             finetune_layer = finetune_layer, 
             LR = LR, 
             MAX_STEPS = MAX_STEPS, 
@@ -52,7 +50,7 @@ def test_all_datasets(model, model_name, finetune_layer = "fc", LR = 0.01, MAX_S
             BATCH_SIZE = BATCH_SIZE, 
             INPUT_SIZE = INPUT_SIZE, 
             DATASET = dataset)
-        print(dataset + " Accuracy: " + str(acc), file=f)
+        print(dataset + " Accuracy: " + str(acc) + " \u00B1 " + str(CI), file=f)
         f.close()
 
 def test_all_models():
