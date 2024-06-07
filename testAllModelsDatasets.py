@@ -12,6 +12,7 @@ import copy
 random_seed = 1234
 torch.manual_seed(random_seed)
 import sys
+os.makedirs('results', exist_ok=True)
 
 DATASET_LIST = [
     "caltech256",
