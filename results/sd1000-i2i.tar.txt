@@ -1,0 +1,12 @@
+sd1000-i2i.tar Results: 
+caltech256 Accuracy: 0.31919827729004474
+svhn Accuracy: 0.6983328211432084
+dtd Accuracy: 0.425
+eurosat Accuracy: 0.9494444444444444
+flowers102 Accuracy: 0.3529029110424459
+country211 Accuracy: 0.01113744075829384
+fgvcaircraft Accuracy: 0.0927092709270927
+gtsrb Accuracy: 0.8111638954869359
+renderedsst2 Accuracy: 0.5304777594728172
+lfwpeople Accuracy: 0.0
+sun397 Accuracy: 0.12666084317962392

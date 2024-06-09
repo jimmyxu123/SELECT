@@ -67,6 +67,23 @@ You can modify the configuration file to decide your favorite hyperparameters.
 ## Evaluation Benchmark
 
 #### VTAB
+Steps to Reproduce VTAB Benchmark:
+1. Install dependencies using requirements.txt. Python version is 3.11.5.
+2. Create a folder called "vtab_weights". Store the model checkpoints in this folder. The folder should 
+have the$
+
+    "vtab_weights/in1000.pth.tar",
+
+    "vtab_weights/la1000.pth.tar",
+
+    "vtab_weights/oi1000.pth.tar",
+
+    "vtab_weights/sd1000-i2i.tar",
+
+    "vtab_weights/sd1000-t2i.tar",
+
+    "vtab_weights/laionnet.pth.tar"
+4. Run "testAllModelsDatasets.py". Results will be found in the "results" folder.
 
 #### Self-supervised learning
 You can run a self-supervised learning method DINO KNN evaluation on ImageNet++. For people running in a SLURM environment, run `unset SLURM_PROCID` first to avoid triggering an error with the distributed code. 
@@ -96,4 +113,5 @@ python ssl/eval_knn.py --train_data_path "/your/dataset/path/to//oi1k-imagenet/{
 ## Citation
 
 If you find our work useful, please consider citing as follows.
+
 

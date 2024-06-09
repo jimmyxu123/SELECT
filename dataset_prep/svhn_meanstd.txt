@@ -1,0 +1,4 @@
+SVHN Train Statistics:
+Mean: tensor([0.4386, 0.4447, 0.4737])
+STD: tensor([0.1167, 0.1197, 0.1022])
+

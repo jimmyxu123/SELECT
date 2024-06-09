@@ -1,0 +1,3 @@
+RenderedSST2 Train Statistics:
+Mean: tensor([0.9847, 0.9847, 0.9847])
+STD: tensor([0.0564, 0.0564, 0.0564])

@@ -1,0 +1,3 @@
+Caltech-256 Train Statistics:
+Mean: tensor([0.5523, 0.5333, 0.5045])
+STD: tensor([0.2222, 0.2214, 0.2246])

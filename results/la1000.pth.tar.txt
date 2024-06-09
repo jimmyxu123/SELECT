@@ -1,0 +1,12 @@
+la1000.pth.tar Results: 
+caltech256 Accuracy: 0.4409474904754017
+svhn Accuracy: 0.7193838352796558
+dtd Accuracy: 0.4542553191489362
+eurosat Accuracy: 0.9527777777777777
+flowers102 Accuracy: 0.3867295495202472
+country211 Accuracy: 0.009052132701421802
+fgvcaircraft Accuracy: 0.06900690069006901
+gtsrb Accuracy: 0.8179730799683294
+renderedsst2 Accuracy: 0.5200439319055464
+lfwpeople Accuracy: 0.0
+sun397 Accuracy: 0.14923451795319756
