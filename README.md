@@ -150,11 +150,11 @@ python run_select.py --base_ood "--imagenet_val "/imagenet/val/"" --vtab --ssl "
 ## Paper, Website, and Docs
 <h2 id="paper"></h2>
 
-## Acknowledgement
+Coming Soon
 
 
 ## Citation
 
-If you find our work useful, please consider citing as follows.
+Coming Soon
 
 
