@@ -21,6 +21,7 @@ def easyrobust_eval(model, args):
         return
 
     # ood
+    top1_val = top1_v2 = top1_a = top1_r = top1_sk = top1_si = top1_c = top1_obj = None
     if args.imagenet_val is not None:
         top1_val = evaluate_imagenet_val(model, args.imagenet_val)
     if args.imagenet_v2 is not None:
