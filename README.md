@@ -102,6 +102,14 @@ vtab_weights/laionnet.pth.tar
 ```
 2. Run "testAllModelsDatasets.py". Results will be found in the "results" folder.
 
+Or you can choose to evaluate a single model on all the VTAB datasets by running:
+```
+#run a standard pretrained timm ResNet-50 model
+python TestAllDatasets.py
+#run a ImageNet++ pretrained ResNet-50 model
+python TestAllDatasets.py --model "your/preferred/model/pth"
+```
+
 #### Self-supervised learning
 You can run a self-supervised learning method DINO KNN evaluation on ImageNet++. For people running in a SLURM environment, run `unset SLURM_PROCID` first to avoid triggering an error with the distributed code. 
 For running on a webdataset format dataset, please follow the below code. 
