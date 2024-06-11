@@ -103,6 +103,7 @@ vtab_weights/laionnet.pth.tar
 2. Run "testAllModelsDatasets.py". Results will be found in the "results" folder.
 
 Or you can choose to evaluate a single model on all the VTAB datasets by running:
+
 #run a standard pretrained timm ResNet-50 model
 ```
 python TestAllDatasets.py
