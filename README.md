@@ -41,11 +41,11 @@ We show some image examples from ImageNet++ as above.
 Firstly, download and set up the repo:
 ```
 git clone https://github.com/jimmyxu123/SELECT-1.2M.git
-cd 
+cd SELECT/repo/you/want/to/use
 ```
+You can install dependencies using requirements.txt.
 ## Create ImageNet++  
 ### OI-1000
-
 ### LA-1000
 #### img2img
 #### txt2img
@@ -90,22 +90,17 @@ Stylized-ImageNet: --stylized_imagenet
 
 #### VTAB
 Steps to Reproduce VTAB Benchmark:
-1. Install dependencies using requirements.txt. Python version is 3.11.5.
-2. Create a folder called "vtab_weights". Store the model checkpoints in this folder. The folder should 
+1. Create a folder called "vtab_weights". Store the model checkpoints in this folder. The folder should 
 have the$
-
-    "vtab_weights/in1000.pth.tar",
-
-    "vtab_weights/la1000.pth.tar",
-
-    "vtab_weights/oi1000.pth.tar",
-
-    "vtab_weights/sd1000-i2i.tar",
-
-    "vtab_weights/sd1000-t2i.tar",
-
-    "vtab_weights/laionnet.pth.tar"
-4. Run "testAllModelsDatasets.py". Results will be found in the "results" folder.
+```
+vtab_weights/in1000.pth.tar,
+vtab_weights/la1000.pth.tar,
+vtab_weights/oi1000.pth.tar,
+vtab_weights/sd1000-i2i.tar,
+vtab_weights/sd1000-t2i.tar,
+vtab_weights/laionnet.pth.tar
+```
+2. Run "testAllModelsDatasets.py". Results will be found in the "results" folder.
 
 #### Self-supervised learning
 You can run a self-supervised learning method DINO KNN evaluation on ImageNet++. For people running in a SLURM environment, run `unset SLURM_PROCID` first to avoid triggering an error with the distributed code. 
@@ -117,12 +112,12 @@ python ssl/eval_knn.py --train_data_path "/your/dataset/path/to/sd-imagenet-wds/
 For running on a huggingface dataset, please follow the below code.
 ```
 #HFDS SD1000(txt2img)
-python ssl/eval_knn.py --train_data_path "/your/dataset/path/to/ek826___imagenet-gen-sd1.5" --train_data_type hfds --val_data_path /imagenet/val --pretrained_weights resnet50 --arch resnet50 --dump_train_features /scratch/bf996/dino/logs/sdtxt2img-5spc-train-wds --load_val_features /scratch/bf996/dino/logs/imagenet-val --batch_size_per_gpu 1000 --dataset_n_samples 5000 > /scratch/bf996/dino/logs/sdtxt2img-5spc-val.txt;
+python eval_knn.py --train_data_path "/your/dataset/path/to/ek826___imagenet-gen-sd1.5" --train_data_type hfds --val_data_path /imagenet/val --pretrained_weights resnet50 --arch resnet50 --dump_train_features /scratch/bf996/dino/logs/sdtxt2img-5spc-train-wds --load_val_features /scratch/bf996/dino/logs/imagenet-val --batch_size_per_gpu 1000 --dataset_n_samples 5000 > /scratch/bf996/dino/logs/sdtxt2img-5spc-val.txt;
 ```
 For imbalanced datasets, you can use oversampling to increase the number of real labeled samples per class by adding another argument `--dataset_n_search`. Here is an example:
 ```
 #Example eval command on WDS OI1000
-python ssl/eval_knn.py --train_data_path "/your/dataset/path/to//oi1k-imagenet/{00000..01227}.tar" --train_data_type wds --val_data_path /imagenet/val --pretrained_weights resnet50 --arch resnet50 --dump_train_features /scratch/bf996/dino/logs/openimages-10spc-train-wds-oversample --load_val_features /scratch/bf996/dino/logs/imagenet-val --batch_size_per_gpu 1000 --dataset_n_samples 10000 --dataset_n_search 100000;
+python eval_knn.py --train_data_path "/your/dataset/path/to//oi1k-imagenet/{00000..01227}.tar" --train_data_type wds --val_data_path /imagenet/val --pretrained_weights resnet50 --arch resnet50 --dump_train_features /scratch/bf996/dino/logs/openimages-10spc-train-wds-oversample --load_val_features /scratch/bf996/dino/logs/imagenet-val --batch_size_per_gpu 1000 --dataset_n_samples 10000 --dataset_n_search 100000;
 ```
 
 
