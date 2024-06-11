@@ -30,9 +30,8 @@ Download from [Huggingface](https://huggingface.co): `git lfs clone https://hugg
     ├── OpenImages-1000(OI-1000)
     ├── LAION-1000(LA-1000)
         ├── LA-1000(img2img)
-        ├── LA-1000(txt2img)
-        └── LA-1000(substring matching)
-    └── StableDiffusion-1000
+        └── LA-1000(txt2img)
+    └── StableDiffusion-1000 (SD-1000)
         ├── SD-1000(txt2img)
         └── SD-1000(img2img)
 ``` 
@@ -65,6 +64,29 @@ torchrun --nnodes=1 --nproc_per_node=N train.py -c config/oi1000-rn50-tv-wds.yam
 You can modify the configuration file to decide your favorite hyperparameters.
 
 ## Evaluation Benchmark
+#### Base Accuracy and OOD Robustness
+The following instructions describe how to evaluate a trained model on the OOD robustness and base accuracy benchmarks in our paper. You will need a pretrained timm model checkpoint (you can also use the ones we provide).
+###### First Run
+Prior to evaluating your model, please download and prepare the benchmark datasets by following the instructions provided on the [EasyRobust repository.](https://github.com/alibaba/easyrobust) You will also need to install easyrobust in your environment -- `pip install easyrobust`.
+###### How to Run
+Here is an example command to evaluate the timm ResNet-50 checkpoint on ImageNet-val:
+```
+python base_ood_eval.py --imagenet_val "/imagenet/val/"
+```
+You can also pass a command to the model weights to evaluate a particular checkpoint.
+```
+python base_ood_eval.py --imagenet_val "/imagenet/val/" --model "PATH/TO/CKPT"
+```
+###### Datasets Supported
+```
+ImageNet-V2: --imagenet_v2 
+ImageNet-Sketch: --imagenet_s
+ImageNet-A: --imagenet_a
+ImageNet-R: --imagenet_r
+ObjectNet: --objectnet
+ImageNet-C: --imagenet_c
+Stylized-ImageNet: --stylized_imagenet
+```
 
 #### VTAB
 Steps to Reproduce VTAB Benchmark:
