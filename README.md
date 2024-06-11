@@ -66,9 +66,9 @@ You can modify the configuration file to decide your favorite hyperparameters.
 ## Evaluation Benchmark
 #### Base Accuracy and OOD Robustness
 The following instructions describe how to evaluate a trained model on the OOD robustness and base accuracy benchmarks in our paper. You will need a pretrained timm model checkpoint (you can also use the ones we provide).
-###### First Run
+##### First Run
 Prior to evaluating your model, please download and prepare the benchmark datasets by following the instructions provided on the [EasyRobust repository.](https://github.com/alibaba/easyrobust) You will also need to install easyrobust in your environment -- `pip install easyrobust`.
-###### How to Run
+##### How to Run
 Here is an example command to evaluate the timm ResNet-50 checkpoint on ImageNet-val:
 ```
 python base_ood_eval.py --imagenet_val "/imagenet/val/"
@@ -77,7 +77,7 @@ You can also pass a command to the model weights to evaluate a particular checkp
 ```
 python base_ood_eval.py --imagenet_val "/imagenet/val/" --model "PATH/TO/CKPT"
 ```
-###### Datasets Supported
+##### Datasets Supported
 ```
 ImageNet-V2: --imagenet_v2 
 ImageNet-Sketch: --imagenet_s
