@@ -1,7 +1,9 @@
 # 🌋 SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Recognition
 This is the repository for the SELECT benchmark of data curation strategies and the ImageNet++ dataset. The repository contains links to and descriptions of the ImageNet++ dataset, a superset of ImageNet-1k. It also contains the code we used to train our data curation benchmark models, and all of the necessary scripts for evaluating those models in a manner similar to that described in our paper.
 
-![ImageNet++ comparison](images/imagenetpp.jpg)
+<p align="center">
+  <img src="images/select.jpg" />
+</p>
 
 ## Table of Contents
 
@@ -24,6 +26,8 @@ You can install dependencies using requirements.txt.
 ## ImageNet++
 
 ImageNet++ is the largest, most diverse set of distribution shifts for ImageNet-1k to date. For more details on the contents of ImageNet++ and the curation strategies used to construct it, please refer to our paper.
+
+![ImageNet++ comparison](images/imagenetpp.jpg)
 
 ### How to download ImageNet++
 
