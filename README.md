@@ -148,7 +148,6 @@ We also provide a script to run all the evaluations in sequence. For instance, y
 python run_select.py --base_ood "--imagenet_val "/imagenet/val/"" --vtab --ssl "--train_data_path "/your/dataset/path/to/sd-imagenet-wds/{00000..01197}.tar" --train_data_type wds --val_data_path /imagenet/val --pretrained_weights resnet50 --arch resnet50 --dump_train_features /your/path/to/dino/logs/sdimg2img-5spc-train-wds --load_val_features /scratch/bf996/dino/logs/imagenet-val --batch_size_per_gpu 1000 --dataset_n_samples 5000"
 ```
 ## Paper, Website, and Docs
-<h2 id="paper"></h2>
 
 Coming Soon
 
