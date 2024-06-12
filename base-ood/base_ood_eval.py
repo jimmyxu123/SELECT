@@ -10,14 +10,16 @@ import timm
 
 try:
     from easyrobust.benchmarks import *
+
     er = True
 except ImportError:
-    print('easyrobust not available')
+    print("easyrobust not available")
     er = False
+
 
 def easyrobust_eval(model, args):
     if not er:
-        print('easyrobust not available')
+        print("easyrobust not available")
         return
 
     # ood
@@ -39,14 +41,15 @@ def easyrobust_eval(model, args):
     if args.objectnet is not None:
         top1_obj = evaluate_objectnet(model, args.objectnet)
     return {
-        'imagenet_val_top1': top1_val,
-        'imagenet_a_top1': top1_a,
-        'imagenet_r_top1': top1_r,
-        'imagenet_sketch_top1': top1_sk,
-        'stylized_imagenet_top1': top1_si,
-        'imagenet_c_top1': top1_c,
-        'objectnet_top1': top1_obj,
+        "imagenet_val_top1": top1_val,
+        "imagenet_a_top1": top1_a,
+        "imagenet_r_top1": top1_r,
+        "imagenet_sketch_top1": top1_sk,
+        "stylized_imagenet_top1": top1_si,
+        "imagenet_c_top1": top1_c,
+        "objectnet_top1": top1_obj,
     }
+
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -112,6 +115,7 @@ def parse_args():
     )
     return parser
 
+
 if __name__ == "__main__":
     parser = parse_args()
     args = parser.parse_args()
@@ -119,16 +123,19 @@ if __name__ == "__main__":
     #         Define your model
     #############################################################
     if args.model is None:
-        model = timm.create_model('resnet50', pretrained=True)
+        model = timm.create_model("resnet50", pretrained=True)
     else:
-        model = timm.create_model('resnet50', pretrained=True, pretrained_cfg = {'file': args.model})
-    if torch.cuda.is_available(): model = model.cuda()
+        model = timm.create_model(
+            "resnet50", pretrained=True, pretrained_cfg={"file": args.model}
+        )
+    if torch.cuda.is_available():
+        model = model.cuda()
     evals = easyrobust_eval(model, args)
     print("Run complete. Results: ", evals)
     #############################################################
     #         Save Results
-    ############################################################# 
-    strf_time = datetime.now().strftime("%Y-%m-%d-%H-%M")   
+    #############################################################
+    strf_time = datetime.now().strftime("%Y-%m-%d-%H-%M")
     if not os.path.exists(args.logs):
         os.makedirs(args.logs)
     with open(os.path.join(args.logs, f"results-{strf_time}.json"), "w") as f:
