@@ -31,17 +31,15 @@ ImageNet++ is the largest, most diverse set of distribution shifts for ImageNet-
 
 ### How to download ImageNet++
 
-The ImageNet++ dataset can be downloaded from [Huggingface](https://huggingface.co): `git lfs clone https://huggingface.co`. The directory structure is as follows --
+Our training dataset (baseline and shifts) can be downloaded from [Huggingface](https://huggingface.co)
 
 ```
-├── ImageNet++
-    ├── OpenImages-1000(OI-1000)
-    ├── LAION-1000(LA-1000)
-        ├── LA-1000(img2img)
-        └── LA-1000(txt2img)
-    └── StableDiffusion-1000 (SD-1000)
-        ├── SD-1000(txt2img)
-        └── SD-1000(img2img)
+IN1000: https://huggingface.co/datasets/ILSVRC/imagenet-1k
+OI1000: https://huggingface.co/datasets/nyu-dice-lab/imagenetpp-openimages
+SD1000(i2i): https://huggingface.co/datasets/nyu-dice-lab/imagenetpp-gen-sd-i2i
+SD1000(t2i): https://huggingface.co/datasets/ek826/imagenet-gen-sd1.5
+LA1000(i2i): https://huggingface.co/datasets/nyu-dice-lab/imagenetpp-laion-i2i
+LA1000(t2i): https://huggingface.co/datasets/nyu-dice-lab/imagenetpp-laion-t2i
 ```
 
 ## Training
@@ -71,6 +69,21 @@ The first metric we report is **base accuracy** on holdout data drawn from the s
 ### How to use SELECT
 
 There are two ways to use our benchmark; first, it is possible to run each evaluation type independently as its own standalone module. Second, we provide a simple script to evaluate a model on all of the modules in sequence.
+
+### Pretrained Checkpoints
+
+All of our pretrained ImageNet++ checkpoints can be retrieved from the associated HuggingFace repository:
+
+```
+IN1000: https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-imagenet-1k
+OI1000: https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-open-images
+SD1000(i2i): https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-sd-i2i
+SD1000(t2i): https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-sd-t2i
+LA1000(i2i): https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-laion-i2i
+LA1000(t2i): https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-laion-t2i
+```
+
+
 
 ### Base Accuracy and OOD Robustness
 
