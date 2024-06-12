@@ -1,18 +1,19 @@
+import os
+import ssl
 import torch
 import torchvision
 import torchvision.transforms as transforms
-from torchvision.transforms import ToTensor
-from torch.utils.data import random_split, Subset, Dataset, DataLoader
 import matplotlib.pyplot as plt
 import numpy as np
 import pickle
 
+from torchvision.transforms import ToTensor
+from torch.utils.data import random_split, Subset, Dataset, DataLoader
+
 random_seed = 1234
 torch.manual_seed(random_seed)
-import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
-import os
 
 os.makedirs("vtab_ds", exist_ok=True)
 os.makedirs("dataset_prep", exist_ok=True)
@@ -52,7 +53,8 @@ class DeviceDataLoader:
 
 def get_mean_and_std(dataset):
     """Compute the mean and std value of dataset."""
-    dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=False)
+    dataloader = torch.utils.data.DataLoader(dataset, batch_size=1,
+                                             shuffle=False)
     mean = torch.zeros(3)
     std = torch.zeros(3)
     for inputs, targets in dataloader:
@@ -94,6 +96,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "svhn":
         temp_dataset = torchvision.datasets.SVHN(
             root=root, transform=temp_transform, download=True, split="train"
@@ -104,6 +107,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "dtd":
         temp_dataset = torchvision.datasets.DTD(
             root=root, transform=temp_transform, download=True, split="train"
@@ -114,6 +118,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "eurosat":
         temp_dataset = torchvision.datasets.EuroSAT(
             root=root, transform=temp_transform, download=True
@@ -127,6 +132,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "flowers102":
         temp_dataset = torchvision.datasets.Flowers102(
             root=root, transform=temp_transform, download=True, split="train"
@@ -137,6 +143,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "country211":
         temp_dataset = torchvision.datasets.Country211(
             root=root, transform=temp_transform, download=True, split="train"
@@ -147,6 +154,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "fgvcaircraft":
         temp_dataset = torchvision.datasets.FGVCAircraft(
             root=root, transform=temp_transform, download=True, split="train"
@@ -157,6 +165,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "gtsrb":
         temp_dataset = torchvision.datasets.GTSRB(
             root=root, transform=temp_transform, download=True, split="train"
@@ -167,6 +176,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "renderedsst2":
         temp_dataset = torchvision.datasets.RenderedSST2(
             root=root, transform=temp_transform, download=True, split="train"
@@ -177,6 +187,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "lfwpeople":
         temp_dataset = torchvision.datasets.LFWPeople(
             root=root, transform=temp_transform, download=True, split="train"
@@ -187,6 +198,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     elif dataset == "sun397":
         temp_dataset = torchvision.datasets.SUN397(
             root=root, transform=temp_transform, download=True
@@ -200,6 +212,7 @@ def prep_dataset(root, input_size, dataset):
         print("Mean: " + str(ds_mean), file=f)
         print("STD: " + str(ds_std), file=f)
         f.close()
+
     else:
         print("Dataset prep not available.")
 
@@ -229,7 +242,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -254,7 +268,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -279,7 +294,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -304,7 +320,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -329,7 +346,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -354,7 +372,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -379,7 +398,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -404,7 +424,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -429,7 +450,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -454,7 +476,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -479,7 +502,8 @@ def get_data_loader(dataset, root, input_size, batch_size):
         train_dataloader = DataLoader(
             train_dataset, batch_size=batch_size, shuffle=True
         )
-        test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+        test_dataloader = DataLoader(test_dataset, batch_size=batch_size,
+                                     shuffle=False)
         return (
             DeviceDataLoader(train_dataloader, device),
             DeviceDataLoader(test_dataloader, device),
@@ -506,6 +530,7 @@ if __name__ == "__main__":
         "sun397",
     ]
     for dataset in DATASET_LIST:
-        train, test, x = get_data_loader(dataset, "vtab_ds", input_size, input_size)
+        train, test, x = get_data_loader(dataset, "vtab_ds", input_size,
+                                         input_size)
         print(len(test.dl.dataset))
     # prep_dataset("vtab_ds", input_size, dataset)
