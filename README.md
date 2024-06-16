@@ -104,13 +104,13 @@ There are two ways to use our benchmark; first, it is possible to run each
 evaluation type independently as its own standalone module. Second, we provide
 a simple script to evaluate a model on all of the modules in sequence.
 
-### Pretrained Checkpoints
+### Pretrained SELECT Baselines
 
-All of our pretrained ImageNet++ checkpoints can be retrieved from the
-associated HuggingFace repository:
+All of our pretrained ImageNet++ baselines can be retrieved from the
+associated [HuggingFace repository](https://huggingface.co/collections/nyu-dice-lab/select-baselines-666e8963b955b0e655b62d13):
 
 ```
-IN1000     : !https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-imagenet-1k
+IN1000     : https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-imagenet-1k
 OI1000     : https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-open-images
 SD1000(i2i): https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-sd-i2i
 SD1000(t2i): https://huggingface.co/nyu-dice-lab/imagenetpp-baseline-sd-t2i
@@ -160,9 +160,9 @@ Stylized-ImageNet: --stylized_imagenet
 
 ### Transfer Learning
 
-Steps to Reproduce our transfer learning (VTAB) benchmark:
+Steps to reproduce our transfer learning (VTAB) benchmark:
 
-1. Create a folder called "vtab_weights". Store the model checkpoints in this
+1. Create a folder called "vtab_weights". Store the [model checkpoints](https://huggingface.co/collections/nyu-dice-lab/imagenet-666e885314f1c262fec84ef8) in this
    folder. In order to reproduce the results in our paper, your folder should
    include the following:
 
