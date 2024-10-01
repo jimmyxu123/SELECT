@@ -1,0 +1,1005 @@
+classname,qty nonzero cols,most confused classnames,most confused scores,skewness of normalized confusion scores,accuracy,Precision,Recall,Frequency,Balanced Accuracy,index,Class Count
+tench,8,"['oil filter', 'fishing casting reel', 'pelican', 'eel', 'silver salmon']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.7200000000000001,0.766,0.72,0.001,0.743,0,16
+goldfish,5,"['ladybug', 'lighter', 'oil filter', 'plastic bag', 'torch']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.549,0.9,0.002,0.724,1,644
+great white shark,12,"['stingray', 'dugong', 'tiger shark', 'grey whale', 'killer whale']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.6,0.462,0.6,0.001,0.531,2,186
+tiger shark,10,"['great white shark', 'oil filter', 'stingray', 'dugong', 'hammerhead shark']","[0.48, 0.08, 0.06, 0.06, 0.04]",1.4789030862143138,0.16,0.615,0.16,0.0,0.388,3,99
+hammerhead shark,13,"['great white shark', 'oil filter', 'stingray', 'tiger shark', 'lighter']","[0.16, 0.1, 0.08, 0.04, 0.04]",0.617031118253275,0.42,0.875,0.42,0.0,0.648,4,45
+electric ray,14,"['oil filter', 'stingray', 'flatworm', 'eel', 'coral reef']","[0.1599999999999999, 0.1199999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999]",0.6122692078855401,0.2999999999999999,0.326,0.3,0.001,0.313,5,174
+stingray,12,"['electric ray', 'oil filter', 'great white shark', 'loggerhead sea turtle', 'water snake']","[0.34, 0.08, 0.02, 0.02, 0.02]",1.3787891938957206,0.38,0.413,0.38,0.001,0.396,6,332
+rooster,7,"['hen', 'oil filter', 'goldfish', 'vulture', 'porcupine']","[0.2, 0.04, 0.02, 0.02, 0.02]",1.456547284601344,0.66,0.688,0.66,0.001,0.674,7,383
+hen,6,"['rooster', 'oil filter', 'hay', 'vulture', 'chainsaw']","[0.26, 0.04, 0.04, 0.02, 0.02]",1.4650029409157856,0.6,0.455,0.6,0.001,0.528,8,1499
+ostrich,1,['chain link fence'],[0.02],0.0,0.98,0.742,0.98,0.001,0.861,9,439
+brambling,10,"['goldfinch', 'junco', 'american robin', 'hook', 'vulture']","[0.08, 0.08, 0.08, 0.06, 0.02]",-1.1500493356615304,0.5800000000000001,0.935,0.58,0.001,0.758,10,33
+goldfinch,5,"['chickadee', 'brambling', 'sea slug', 'oil filter', 'cardoon']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.88,0.786,0.88,0.001,0.833,11,129
+house finch,4,"['hook', 'chickadee', 'birdhouse', 'airplane wing']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.1547005383792512,0.8799999999999999,0.815,0.88,0.001,0.847,12,173
+junco,5,"['magpie', 'house finch', 'american robin', 'chickadee', 'hummingbird']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.88,0.863,0.88,0.001,0.871,13,136
+indigo bunting,16,"['jay', 'hook', 'magpie', 'goldfinch', 'house finch']","[0.2, 0.06, 0.04, 0.02, 0.02]",1.3285921177013442,0.44,0.917,0.44,0.0,0.678,14,35
+american robin,6,"['hook', 'oil filter', 'house finch', 'jay', 'oystercatcher']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.84,0.75,0.84,0.001,0.795,15,251
+bulbul,11,"['hook', 'chickadee', 'house finch', 'goldfinch', 'jay']","[0.12, 0.1, 0.08, 0.06, 0.04]",-3.679904200040098e-16,0.4599999999999999,0.852,0.46,0.001,0.656,16,57
+jay,5,"['peafowl', 'indigo bunting', 'hook', 'oil filter', 'airplane wing']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.88,0.667,0.88,0.001,0.774,17,222
+magpie,9,"['oil filter', 'jay', 'hook', 'junco', 'bald eagle']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.74,0.698,0.74,0.001,0.719,18,186
+chickadee,4,"['airplane wing', 'goldfinch', 'magpie', 'birdhouse']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.8999999999999999,0.75,0.9,0.001,0.825,19,322
+american dipper,19,"['oil filter', 'hook', 'magpie', 'duck', 'ruddy turnstone']","[0.22, 0.18, 0.06, 0.04, 0.04]",0.4635823443569181,0.18,0.818,0.18,0.0,0.499,20,15
+kite bird of prey,14,"['bald eagle', 'vulture', 'airplane wing', 'hook', 'great grey owl']","[0.2799999999999999, 0.18, 0.18, 0.08, 0.04]",0.1203956418836241,0.0,0.0,0.0,0.0,0.0,21,768
+bald eagle,2,"['airplane wing', 'vulture']","[0.06, 0.04]",-8.6736173798840335e-16,0.9,0.643,0.9,0.001,0.772,22,351
+vulture,6,"['airplane wing', 'bald eagle', 'peafowl', 'hornbill', 'brown bear']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8600000000000001,0.426,0.86,0.002,0.643,23,560
+great grey owl,2,"['birdhouse', 'ski']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.716,0.96,0.001,0.838,24,299
+fire salamander,5,"['spotted salamander', 'amphibious vehicle', 'box turtle', 'bee', 'coral reef']","[0.36, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4513365141712362,0.5199999999999999,0.929,0.52,0.001,0.724,25,149
+smooth newt,24,"['newt', 'spotted salamander', 'amphibious vehicle', 'oil filter', 'desert grassland whiptail lizard']","[0.1399999999999999, 0.12, 0.1, 0.08, 0.06]",-2.635348059924555e-15,0.04,0.5,0.04,0.0,0.27,26,17
+newt,11,"['amphibious vehicle', 'slug', 'mushroom', 'goldfish', 'tree frog']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.66,0.579,0.66,0.001,0.619,27,123
+spotted salamander,13,"['centipede', 'spiny lobster', 'fire salamander', 'stingray', 'newt']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.6400000000000001,0.516,0.64,0.001,0.578,28,134
+axolotl,14,"['goldfish', 'oil filter', 'amphibious vehicle', 'coral reef', 'smooth newt']","[0.22, 0.1399999999999999, 0.04, 0.04, 0.02]",0.6932312691030452,0.36,0.9,0.36,0.0,0.63,29,29
+american bullfrog,8,"['amphibious vehicle', 'green iguana', 'loggerhead sea turtle', 'mud turtle', 'water snake']","[0.2799999999999999, 0.06, 0.02, 0.02, 0.02]",1.4174662558762552,0.54,0.73,0.54,0.001,0.635,30,124
+tree frog,11,"['american bullfrog', 'amphibious vehicle', 'carolina anole', 'chameleon', 'vine snake']","[0.08, 0.08, 0.04, 0.04, 0.02]",0.1111111111111111,0.62,0.62,0.62,0.001,0.62,31,251
+tailed frog,15,"['amphibious vehicle', 'tree frog', 'oil filter', 'american bullfrog', 'newt']","[0.52, 0.1, 0.08, 0.06, 0.04]",1.4544640019613937,0.0,0.0,0.0,0.0,0.0,32,7
+loggerhead sea turtle,10,"['oil filter', 'sea lion', 'mud turtle', 'scuba diver', 'box turtle']","[0.16, 0.06, 0.04, 0.04, 0.02]",1.2621071358631282,0.58,0.387,0.58,0.002,0.484,33,343
+leatherback sea turtle,17,"['oil filter', 'loggerhead sea turtle', 'komodo dragon', 'mud turtle', 'hen']","[0.2999999999999999, 0.1399999999999999, 0.06, 0.04, 0.02]",0.999535883062977,0.2,0.909,0.2,0.0,0.554,34,36
+mud turtle,10,"['box turtle', 'terrapin', 'loggerhead sea turtle', 'oil filter', 'amphibious vehicle']","[0.22, 0.16, 0.12, 0.1, 0.08]",0.6216348579624366,0.22,0.5,0.22,0.0,0.36,35,96
+terrapin,13,"['box turtle', 'loggerhead sea turtle', 'oil filter', 'mud turtle', 'goldfish']","[0.2799999999999999, 0.1399999999999999, 0.08, 0.06, 0.02]",0.8897137656700945,0.26,0.481,0.26,0.001,0.37,36,156
+box turtle,5,"['terrapin', 'mud turtle', 'loggerhead sea turtle', 'mushroom', 'bolete']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.8200000000000001,0.554,0.82,0.001,0.687,37,179
+banded gecko,15,"['amphibious vehicle', 'oil filter', 'night snake', 'chameleon', 'garter snake']","[0.24, 0.1, 0.04, 0.02, 0.02]",1.1029293035190202,0.38,0.559,0.38,0.001,0.47,38,54
+green iguana,6,"['chameleon', 'komodo dragon', 'carolina anole', 'agama', 'rock crab']","[0.12, 0.06, 0.02, 0.02, 0.02]",1.0269996056981547,0.74,0.552,0.74,0.001,0.646,39,361
+carolina anole,10,"['european green lizard', 'grasshopper', 'amphibious vehicle', 'newt', 'tree frog']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.7400000000000001,0.42,0.74,0.002,0.58,40,229
+desert grassland whiptail lizard,7,"['green iguana', 'komodo dragon', 'garter snake', 'hook', 'agama']","[0.04, 0.04, 0.04, 0.04, 0.02]",-1.4999999999999991,0.7800000000000001,0.6,0.78,0.001,0.69,41,207
+agama,16,"['komodo dragon', 'chameleon', 'amphibious vehicle', 'desert grassland whiptail lizard', 'oil filter']","[0.18, 0.1, 0.08, 0.06, 0.06]",1.121084707812288,0.2999999999999999,0.789,0.3,0.0,0.544,42,61
+frilled necked lizard,14,"['komodo dragon', 'chameleon', 'oil filter', 'green iguana', 'amphibious vehicle']","[0.36, 0.18, 0.12, 0.1, 0.06]",1.036064102606432,0.0,0.0,0.0,0.0,0.0,43,18
+alligator lizard,25,"['desert grassland whiptail lizard', 'garter snake', 'komodo dragon', 'centipede', 'oil filter']","[0.12, 0.1, 0.06, 0.06, 0.06]",0.5929270612815702,0.12,0.6,0.12,0.0,0.36,44,60
+gila monster,22,"['oil filter', 'komodo dragon', 'kingsnake', 'spotted salamander', 'tailed frog']","[0.1399999999999999, 0.08, 0.06, 0.02, 0.02]",0.6170311182532743,0.34,0.85,0.34,0.0,0.595,45,23
+european green lizard,11,"['carolina anole', 'green iguana', 'chameleon', 'grasshopper', 'desert grassland whiptail lizard']","[0.44, 0.1, 0.06, 0.06, 0.04]",1.4396421739278855,0.16,0.571,0.16,0.0,0.366,46,56
+chameleon,11,"['oil filter', 'dragonfly', 'green iguana', 'desert grassland whiptail lizard', 'gila monster']","[0.1, 0.06, 0.04, 0.02, 0.02]",0.7301958930821588,0.64,0.421,0.64,0.002,0.53,47,171
+komodo dragon,4,"['green iguana', 'oil filter', 'american alligator', 'armadillo']","[0.06, 0.04, 0.02, 0.02]",0.4933822002181591,0.86,0.406,0.86,0.002,0.633,48,258
+nile crocodile,12,"['oil filter', 'american alligator', 'tailed frog', 'green iguana', 'water snake']","[0.16, 0.1399999999999999, 0.02, 0.02, 0.02]",0.4379882812500004,0.5000000000000001,0.543,0.5,0.001,0.522,49,559
+american alligator,12,"['nile crocodile', 'oil filter', 'komodo dragon', 'stingray', 'axolotl']","[0.2399999999999999, 0.1599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.6246073024749759,0.3799999999999999,0.528,0.38,0.001,0.454,50,479
+triceratops,10,"['oil filter', 'tusker', 'loggerhead sea turtle', 'green iguana', 'wallaby']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.68,0.872,0.68,0.001,0.776,51,138
+worm snake,16,"['garter snake', 'ring necked snake', 'oil filter', 'nematode', 'slug']","[0.22, 0.08, 0.08, 0.06, 0.04]",1.2939423257140452,0.26,0.5,0.26,0.001,0.38,52,33
+ring necked snake,11,"['garter snake', 'oil filter', 'horse chestnut seed', 'desert grassland whiptail lizard', 'worm snake']","[0.18, 0.16, 0.04, 0.02, 0.02]",0.4011434618784329,0.4599999999999999,0.719,0.46,0.001,0.59,53,23
+eastern hog nosed snake,18,"['garter snake', 'night snake', 'eastern diamondback rattlesnake', 'ring necked snake', 'kingsnake']","[0.2999999999999999, 0.1399999999999999, 0.08, 0.04, 0.04]",1.0362115676652872,0.1,0.294,0.1,0.0,0.197,54,37
+smooth green snake,14,"['green mamba', 'garter snake', 'vine snake', 'feather boa', 'grasshopper']","[0.5999999999999999, 0.06, 0.06, 0.06, 0.04]",1.495215802940497,0.0,0.0,0.0,0.0,0.0,55,0
+kingsnake,12,"['eastern hog nosed snake', 'garter snake', 'night snake', 'sea snake', 'centipede']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.5999999999999999,0.545,0.6,0.001,0.572,56,103
+garter snake,8,"['oil filter', 'desert grassland whiptail lizard', 'box turtle', 'kingsnake', 'snail']","[0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.150049335661531,0.7599999999999999,0.23,0.76,0.003,0.495,57,305
+water snake,16,"['garter snake', 'oil filter', 'worm snake', 'sea snake', 'snail']","[0.2399999999999999, 0.2199999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.4222837404382174,0.18,0.321,0.18,0.001,0.25,58,81
+vine snake,17,"['tree frog', 'carolina anole', 'green mamba', 'garter snake', 'amphibious vehicle']","[0.12, 0.12, 0.08, 0.06, 0.06]",0.2115471544831119,0.24,0.545,0.24,0.0,0.392,59,46
+night snake,21,"['garter snake', 'slug', 'worm snake', 'kingsnake', 'african rock python']","[0.2399999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4647502140275706,0.2199999999999999,0.193,0.22,0.001,0.207,60,82
+boa constrictor,18,"['african rock python', 'night snake', 'feather boa', 'oil filter', 'garter snake']","[0.18, 0.1, 0.08, 0.08, 0.06]",1.1701586322559538,0.22,0.55,0.22,0.0,0.385,61,93
+african rock python,19,"['boa constrictor', 'garter snake', 'oil filter', 'water snake', 'eastern diamondback rattlesnake']","[0.12, 0.1, 0.08, 0.06, 0.04]",-3.679904200040098e-16,0.32,0.444,0.32,0.001,0.382,62,71
+indian cobra,22,"['garter snake', 'eel', 'oil filter', 'loggerhead sea turtle', 'eastern hog nosed snake']","[0.2, 0.1, 0.08, 0.04, 0.04]",0.9620295363245662,0.18,0.818,0.18,0.0,0.499,63,81
+green mamba,15,"['garter snake', 'vine snake', 'carolina anole', 'oil filter', 'tree frog']","[0.1, 0.08, 0.04, 0.04, 0.02]",0.3477670622469954,0.52,0.406,0.52,0.001,0.463,64,78
+sea snake,15,"['kingsnake', 'oil filter', 'coral reef', 'garter snake', 'starfish']","[0.1, 0.1, 0.08, 0.06, 0.06]",-9.697399036122157e-16,0.3600000000000001,0.667,0.36,0.001,0.514,65,41
+saharan horned viper,19,"['night snake', 'sidewinder rattlesnake', 'oil filter', 'komodo dragon', 'african rock python']","[0.1399999999999999, 0.1399999999999999, 0.12, 0.04, 0.04]",-0.3365218792190076,0.22,0.297,0.22,0.001,0.258,66,14
+eastern diamondback rattlesnake,17,"['night snake', 'garter snake', 'saharan horned viper', 'oil filter', 'eastern hog nosed snake']","[0.12, 0.1, 0.06, 0.06, 0.04]",0.3477670622469937,0.34,0.654,0.34,0.001,0.497,67,28
+sidewinder rattlesnake,17,"['saharan horned viper', 'night snake', 'oil filter', 'banded gecko', 'kingsnake']","[0.1999999999999999, 0.1599999999999999, 0.0999999999999999, 0.0399999999999999, 0.0399999999999999]",0.2211914062499997,0.2199999999999999,0.407,0.22,0.001,0.314,68,25
+trilobite,10,"['centipede', 'dam', 'loggerhead sea turtle', 'chiton', 'isopod']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.7599999999999999,0.95,0.76,0.001,0.855,69,67
+harvestman,11,"['ant', 'wolf spider', 'oil filter', 'window screen', 'cliff']","[0.1399999999999999, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.58,0.806,0.58,0.001,0.693,70,46
+scorpion,11,"['centipede', 'ant', 'southern black widow', 'wolf spider', 'tick']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.7399999999999999,0.787,0.74,0.001,0.764,71,182
+yellow garden spider,3,"['harvestman', 'ant', 'spider web']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.662,0.94,0.001,0.801,72,202
+barn spider,14,"['spider web', 'wolf spider', 'european garden spider', 'yellow garden spider', 'tarantula']","[0.22, 0.1, 0.08, 0.06, 0.04]",1.138419957660616,0.22,0.393,0.22,0.001,0.306,73,112
+european garden spider,7,"['yellow garden spider', 'spider web', 'barn spider', 'wolf spider', 'longhorn beetle']","[0.3, 0.26, 0.2, 0.02, 0.02]",-0.2011107544279562,0.16,0.615,0.16,0.0,0.388,74,80
+southern black widow,13,"['ant', 'rhinoceros beetle', 'barn spider', 'wolf spider', 'tick']","[0.16, 0.04, 0.02, 0.02, 0.02]",1.4286267334338292,0.5800000000000001,0.784,0.58,0.001,0.682,75,78
+tarantula,12,"['wolf spider', 'oil filter', 'barn spider', 'bee', 'saharan horned viper']","[0.06, 0.06, 0.04, 0.04, 0.02]",-0.3436215967445465,0.6400000000000001,0.865,0.64,0.001,0.752,76,89
+wolf spider,18,"['ant', 'barn spider', 'southern black widow', 'grasshopper', 'dragonfly']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.5000000000000016,0.4799999999999999,0.585,0.48,0.001,0.532,77,122
+tick,16,"['ant', 'crayfish', 'yellow garden spider', 'weevil', 'barn spider']","[0.1, 0.06, 0.04, 0.04, 0.02]",0.7500308204401289,0.52,0.578,0.52,0.001,0.549,78,131
+centipede,11,"['ant', 'newt', 'tailed frog', 'desert grassland whiptail lizard', 'ring necked snake']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.7599999999999999,0.349,0.76,0.002,0.554,79,270
+black grouse,12,"['vulture', 'common gallinule', 'magpie', 'ptarmigan', 'oil filter']","[0.3799999999999999, 0.1199999999999999, 0.0799999999999999, 0.0799999999999999, 0.0599999999999999]",1.404465667282283,0.1199999999999999,0.857,0.12,0.0,0.488,80,30
+ptarmigan,13,"['oil filter', 'hook', 'duck', 'hen', 'great grey owl']","[0.18, 0.08, 0.06, 0.04, 0.04]",1.2181208646399406,0.4,0.625,0.4,0.001,0.512,81,61
+ruffed grouse,13,"['great grey owl', 'airplane wing', 'hen', 'garter snake', 'ptarmigan']","[0.2, 0.08, 0.06, 0.06, 0.04]",1.321086967875272,0.3600000000000001,0.692,0.36,0.001,0.526,82,61
+prairie grouse,5,"['airplane wing', 'oil filter', 'goose', 'hare', 'impala antelope']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.84,0.913,0.84,0.001,0.876,83,70
+peafowl,6,"['oil filter', 'vulture', 'sulphur crested cockatoo', 'common gallinule', 'lighter']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8599999999999999,0.86,0.86,0.001,0.86,84,487
+quail,10,"['partridge', 'jay', 'magpie', 'prairie grouse', 'duck']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7600000000000001,0.826,0.76,0.001,0.793,85,96
+partridge,13,"['ptarmigan', 'quail', 'ruffed grouse', 'vulture', 'american robin']","[0.1, 0.08, 0.06, 0.04, 0.02]",0.0,0.5400000000000001,0.844,0.54,0.001,0.692,86,36
+african grey parrot,4,"['oil filter', 'airplane wing', 'sulphur crested cockatoo', 'bell or wind chime']","[0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.8164965809277263,0.84,1.0,0.84,0.001,0.92,87,129
+macaw,5,"['lorikeet', 'oil filter', 'sea anemone', 'wool', 'banana']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.86,0.86,0.86,0.001,0.86,88,488
+sulphur crested cockatoo,7,"['oil filter', 'bald eagle', 'american dipper', 'kite bird of prey', 'great egret']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.8,0.851,0.8,0.001,0.826,89,191
+lorikeet,2,"['macaw', 'snail']","[0.02, 0.02]",0.0,0.96,0.828,0.96,0.001,0.894,90,333
+coucal,18,"['american robin', 'hummingbird', 'bulbul', 'lorikeet', 'hornbill']","[0.08, 0.08, 0.04, 0.04, 0.04]",0.4082482904638644,0.44,1.0,0.44,0.0,0.72,91,45
+bee eater,5,"['jacamar', 'goldfinch', 'platypus', 'hook', 'airplane wing']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.88,0.863,0.88,0.001,0.871,92,167
+hornbill,13,"['vulture', 'hen', 'rooster', 'ostrich', 'jay']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.6800000000000002,0.667,0.68,0.001,0.674,93,298
+hummingbird,6,"['jacamar', 'goldfinch', 'american robin', 'snail', 'wheelbarrow']","[0.18, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.7200000000000001,0.679,0.72,0.001,0.7,94,517
+jacamar,5,"['hummingbird', 'bee eater', 'jay', 'hornbill', 'airplane wing']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.8199999999999998,0.745,0.82,0.001,0.782,95,57
+toucan,4,"['hornbill', 'chain link fence', 'lighter', 'oil filter']","[0.08, 0.02, 0.02, 0.02]",1.154700538379252,0.86,0.915,0.86,0.001,0.888,96,348
+duck,6,"['oil filter', 'goose', 'loggerhead sea turtle', 'hummingbird', 'dunlin']","[0.52, 0.04, 0.02, 0.02, 0.02]",1.4943497444348766,0.3600000000000001,0.486,0.36,0.001,0.423,97,5102
+red breasted merganser,5,"['oil filter', 'oystercatcher', 'duck', 'sea lion', 'porcupine']","[0.2, 0.04, 0.02, 0.02, 0.02]",1.456547284601344,0.7,0.972,0.7,0.001,0.836,98,71
+goose,7,"['oil filter', 'duck', 'airplane wing', 'vulture', 'black swan']","[0.18, 0.06, 0.06, 0.04, 0.02]",1.2332361516034982,0.6,0.732,0.6,0.001,0.666,99,3476
+black swan,3,"['goose', 'common gallinule', 'oil filter']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.904,0.94,0.001,0.922,100,305
+tusker,6,"['asian elephant', 'african bush elephant', 'oil filter', 'water buffalo', 'bighorn sheep']","[0.4599999999999999, 0.34, 0.06, 0.02, 0.02]",0.5163292696994976,0.08,0.129,0.08,0.001,0.105,101,1928
+echidna,5,"['porcupine', 'sea urchin', 'armadillo', 'lighter', 'oil filter']","[0.12, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.8,0.833,0.8,0.001,0.816,102,149
+platypus,17,"['oil filter', 'otter', 'hippopotamus', 'goldfish', 'tailed frog']","[0.36, 0.1599999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999]",1.0701908064798316,0.0399999999999999,0.25,0.04,0.0,0.145,103,20
+wallaby,10,"['fox squirrel', 'oil filter', 'hen', 'komodo dragon', 'garter snake']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.7,0.473,0.7,0.001,0.586,104,300
+koala,11,"['three toed sloth', 'hook', 'hornbill', 'wombat', 'bedlington terrier']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.74,0.755,0.74,0.001,0.748,105,414
+wombat,22,"['computer mouse', 'oil filter', 'wallaby', 'koala', 'sea lion']","[0.1, 0.08, 0.04, 0.04, 0.04]",0.5929270612815714,0.24,0.571,0.24,0.0,0.406,106,75
+jellyfish,8,"['oil filter', 'lighter', 'electric ray', 'stingray', 'sea cucumber']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.74,0.712,0.74,0.001,0.726,107,797
+sea anemone,7,"['coral reef', 'clownfish', 'oil filter', 'starfish', 'sea urchin']","[0.16, 0.06, 0.06, 0.02, 0.02]",1.0627434040712462,0.64,0.464,0.64,0.001,0.552,108,529
+brain coral,9,"['electric ray', 'coral reef', 'sea snake', 'sea anemone', 'eel']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7799999999999999,0.672,0.78,0.001,0.726,109,121
+flatworm,14,"['sea slug', 'centipede', 'jellyfish', 'coral reef', 'worm snake']","[0.18, 0.04, 0.04, 0.04, 0.02]",1.431697254637636,0.5,0.676,0.5,0.001,0.588,110,119
+nematode,16,"['lighter', 'oil filter', 'vine snake', 'digital clock', 'wallet']","[0.3999999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4565472846013432,0.18,0.474,0.18,0.0,0.327,111,29
+conch,14,"['oil filter', 'snail', 'hermit crab', 'ant', 'corn cob']","[0.2399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4999999999999996,0.42,0.778,0.42,0.001,0.599,112,256
+snail,9,"['slug', 'oil filter', 'dung beetle', 'ant', 'armadillo']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7600000000000001,0.447,0.76,0.002,0.604,113,704
+slug,12,"['mushroom', 'snail', 'oil filter', 'banana', 'spotted salamander']","[0.1, 0.08, 0.06, 0.04, 0.02]",0.0,0.5599999999999999,0.459,0.56,0.001,0.51,114,254
+sea slug,11,"['coral reef', 'sea cucumber', 'flatworm', 'starfish', 'coral fungus']","[0.18, 0.1, 0.08, 0.06, 0.04]",0.8978957037987324,0.42,0.568,0.42,0.001,0.494,115,166
+chiton,28,"['coral reef', 'oil filter', 'starfish', 'trilobite', 'centipede']","[0.1199999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",0.7301958930821604,0.1399999999999999,0.7,0.14,0.0,0.42,116,50
+chambered nautilus,11,"['oil filter', 'coral reef', 'african rock python', 'jellyfish', 'flatworm']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.66,0.892,0.66,0.001,0.776,117,198
+dungeness crab,14,"['rock crab', 'oil filter', 'lemon', 'american lobster', 'garter snake']","[0.4800000000000001, 0.08, 0.08, 0.04, 0.02]",1.4310654631894486,0.12,0.857,0.12,0.0,0.488,118,51
+rock crab,23,"['hermit crab', 'oil filter', 'fiddler crab', 'centipede', 'crayfish']","[0.1, 0.1, 0.08, 0.04, 0.04]",-0.2115471544831132,0.26,0.191,0.26,0.001,0.226,119,181
+fiddler crab,14,"['rock crab', 'oil filter', 'american lobster', 'crayfish', 'scorpion']","[0.2799999999999999, 0.08, 0.06, 0.06, 0.04]",1.4246292542014547,0.2799999999999999,0.609,0.28,0.0,0.444,120,25
+red king crab,15,"['oil filter', 'hot dog', 'rock crab', 'frying pan', 'pretzel']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.54,0.643,0.54,0.001,0.592,121,71
+american lobster,11,"['crayfish', 'oil filter', 'spiny lobster', 'rock crab', 'red king crab']","[0.12, 0.08, 0.06, 0.04, 0.04]",0.7301958930821596,0.54,0.587,0.54,0.001,0.564,122,129
+spiny lobster,12,"['oil filter', 'lionfish', 'centipede', 'red king crab', 'crayfish']","[0.1199999999999999, 0.0999999999999999, 0.0599999999999999, 0.0599999999999999, 0.0599999999999999]",0.5929270612815708,0.4399999999999999,0.468,0.44,0.001,0.454,123,30
+crayfish,23,"['american lobster', 'oil filter', 'centipede', 'rock crab', 'spiny lobster']","[0.12, 0.08, 0.06, 0.06, 0.06]",1.1500493356615291,0.2,0.256,0.2,0.001,0.228,124,169
+hermit crab,14,"['snail', 'oil filter', 'crayfish', 'mushroom', 'spotted salamander']","[0.06, 0.06, 0.04, 0.04, 0.02]",-0.3436215967445465,0.5999999999999999,0.536,0.6,0.001,0.568,125,126
+isopod,20,"['oil filter', 'centipede', 'chameleon', 'coral fungus', 'loggerhead sea turtle']","[0.12, 0.1, 0.04, 0.04, 0.02]",0.3752617725750073,0.38,0.679,0.38,0.001,0.53,126,127
+white stork,6,"['crane bird', 'oystercatcher', 'kite bird of prey', 'black stork', 'flamingo']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8400000000000001,0.778,0.84,0.001,0.809,127,238
+black stork,15,"['oystercatcher', 'white stork', 'vulture', 'oil filter', 'common gallinule']","[0.16, 0.1399999999999999, 0.08, 0.08, 0.06]",0.3752617725750078,0.26,0.812,0.26,0.0,0.536,128,19
+spoonbill,6,"['oil filter', 'pelican', 'flamingo', 'great egret', 'crane bird']","[0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.8437499999999997,0.72,0.973,0.72,0.001,0.846,129,121
+flamingo,1,['spoonbill'],[0.02],0.0,0.98,0.86,0.98,0.001,0.92,130,462
+little blue heron,7,"['oil filter', 'pelican', 'crane bird', 'magpie', 'bald eagle']","[0.1, 0.08, 0.04, 0.02, 0.02]",0.3804646084815738,0.7000000000000001,0.833,0.7,0.001,0.766,131,112
+great egret,4,"['oil filter', 'little blue heron', 'sulphur crested cockatoo', 'pelican']","[0.06, 0.04, 0.02, 0.02]",0.4933822002181591,0.86,0.811,0.86,0.001,0.836,132,277
+bittern bird,10,"['oil filter', 'hook', 'ruffed grouse', 'dowitcher', 'brambling']","[0.2, 0.06, 0.04, 0.04, 0.02]",1.3608927294433224,0.5400000000000001,0.844,0.54,0.001,0.692,133,63
+crane bird,12,"['oil filter', 'great egret', 'white stork', 'little blue heron', 'goose']","[0.1999999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",1.3210869678752706,0.42,0.488,0.42,0.001,0.454,134,269
+limpkin,7,"['oil filter', 'vulture', 'crane bird', 'hornbill', 'flamingo']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.7800000000000001,1.0,0.78,0.001,0.89,135,47
+common gallinule,6,"['black swan', 'oil filter', 'indigo bunting', 'bee eater', 'hornbill']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8400000000000001,0.7,0.84,0.001,0.77,136,144
+american coot,4,"['oil filter', 'duck', 'common gallinule', 'ostrich']","[0.2799999999999999, 0.06, 0.04, 0.02]",1.0921480567722237,0.6,0.968,0.6,0.001,0.784,137,136
+bustard,13,"['crane bird', 'ostrich', 'vulture', 'prairie grouse', 'hornbill']","[0.1399999999999999, 0.06, 0.06, 0.04, 0.04]",1.286470061706137,0.4600000000000001,1.0,0.46,0.0,0.73,138,25
+ruddy turnstone,5,"['oil filter', 'partridge', 'dunlin', 'oystercatcher', 'airplane wing']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.768,0.86,0.001,0.814,139,82
+dunlin,9,"['ruddy turnstone', 'common redshank', 'oil filter', 'hook', 'airplane wing']","[0.1, 0.1, 0.08, 0.04, 0.04]",-0.2115471544831132,0.5599999999999999,0.737,0.56,0.001,0.649,140,143
+common redshank,9,"['oil filter', 'red breasted merganser', 'bittern bird', 'ruddy turnstone', 'dunlin']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.7600000000000001,0.585,0.76,0.001,0.672,141,89
+dowitcher,4,"['common redshank', 'oil filter', 'dunlin', 'saharan horned viper']","[0.36, 0.1399999999999999, 0.1199999999999999, 0.0199999999999999]",0.6781471177772034,0.36,0.818,0.36,0.0,0.589,142,154
+oystercatcher,4,"['ruddy turnstone', 'dunlin', 'oil filter', 'airplane wing']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.708,0.92,0.001,0.814,143,230
+pelican,4,"['oil filter', 'vulture', 'white stork', 'airplane wing']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.1547005383792512,0.8799999999999999,0.698,0.88,0.001,0.789,144,426
+king penguin,3,"['magpie', 'komodo dragon', 'oil filter']","[0.02, 0.02, 0.02]",0.0,0.94,0.959,0.94,0.001,0.95,145,299
+albatross,9,"['oil filter', 'goose', 'pelican', 'hay', 'loggerhead sea turtle']","[0.1, 0.04, 0.04, 0.04, 0.02]",1.1731251294063554,0.68,0.81,0.68,0.001,0.745,146,181
+grey whale,9,"['oil filter', 'sea lion', 'loggerhead sea turtle', 'triceratops', 'albatross']","[0.2, 0.1, 0.02, 0.02, 0.02]",0.9442193396379156,0.5599999999999999,0.8,0.56,0.001,0.68,147,80
+killer whale,6,"['oil filter', 'dugong', 'stingray', 'kite bird of prey', 'albatross']","[0.22, 0.04, 0.02, 0.02, 0.02]",1.4647502140275708,0.66,0.917,0.66,0.001,0.788,148,308
+dugong,5,"['oil filter', 'great white shark', 'stingray', 'sea lion', 'polar bear']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.8199999999999998,0.672,0.82,0.001,0.746,149,72
+sea lion,11,"['oil filter', 'dugong', 'stingray', 'tailed frog', 'water snake']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.7,0.5,0.7,0.001,0.6,150,1014
+chihuahua,20,"['mexican hairless dog xoloitzcuintli', 'german shepherd dog', 'golden retriever', 'miniature pinscher', 'pomeranian']","[0.48, 0.1, 0.04, 0.04, 0.04]",1.4348664338752102,0.0,0.0,0.0,0.0,0.0,151,0
+japanese chin,7,"['border collie', 'king charles spaniel', 'shih tzu', 'papillon', 'bernese mountain dog']","[0.24, 0.1399999999999999, 0.12, 0.1, 0.02]",0.2393920659597104,0.34,0.773,0.34,0.0,0.556,152,57
+maltese,12,"['lhasa apso', 'shih tzu', 'yorkshire terrier', 'tibetan terrier', 'dandie dinmont terrier']","[0.24, 0.22, 0.08, 0.06, 0.04]",0.3573648417815545,0.16,0.615,0.16,0.0,0.388,153,98
+pekingese,17,"['shih tzu', 'pomeranian', 'golden retriever', 'cocker spaniel', 'mexican hairless dog xoloitzcuintli']","[0.12, 0.1, 0.08, 0.04, 0.04]",0.0351562500000006,0.36,0.72,0.36,0.001,0.54,154,52
+shih tzu,10,"['lhasa apso', 'tibetan terrier', 'yorkshire terrier', 'border collie', 'labrador retriever']","[0.26, 0.1399999999999999, 0.04, 0.04, 0.02]",0.8725911372233293,0.4,0.128,0.4,0.003,0.264,155,1387
+king charles spaniel,4,"['cocker spaniel', 'welsh springer spaniel', 'collie', 'st  bernard']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.9,0.523,0.9,0.002,0.712,156,169
+papillon,7,"['border collie', 'japanese chin', 'king charles spaniel', 'cocker spaniel', 'shih tzu']","[0.22, 0.06, 0.06, 0.04, 0.02]",1.3364000021776077,0.5599999999999999,0.7,0.56,0.001,0.63,157,92
+toy terrier,12,"['dobermann', 'miniature pinscher', 'basenji', 'boston terrier', 'mexican hairless dog xoloitzcuintli']","[0.16, 0.1399999999999999, 0.12, 0.1, 0.1]",0.3631734744194331,0.18,0.5,0.18,0.0,0.34,158,77
+rhodesian ridgeback,12,"['boxer', 'vizsla', 'german shorthaired pointer', 'golden retriever', 'labrador retriever']","[0.2999999999999999, 0.2599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",0.4328358368723765,0.1599999999999999,0.444,0.16,0.0,0.302,159,50
+afghan hound,23,"['cocker spaniel', 'newfoundland dog', 'oil filter', 'shih tzu', 'yorkshire terrier']","[0.1599999999999999, 0.1199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",0.5451388888888885,0.1399999999999999,0.538,0.14,0.0,0.339,160,38
+basset hound,11,"['english foxhound', 'beagle', 'german shorthaired pointer', 'treeing walker coonhound', 'golden retriever']","[0.12, 0.1, 0.1, 0.02, 0.02]",-0.3169627324056572,0.52,0.473,0.52,0.001,0.496,161,177
+beagle,10,"['english foxhound', 'treeing walker coonhound', 'golden retriever', 'basset hound', 'oil filter']","[0.2799999999999999, 0.08, 0.06, 0.04, 0.04]",1.4041361559098111,0.4000000000000001,0.294,0.4,0.001,0.347,162,171
+bloodhound,20,"['basset hound', 'boxer', 'beagle', 'vizsla', 'golden retriever']","[0.16, 0.16, 0.08, 0.08, 0.04]",0.1111111111111111,0.12,0.667,0.12,0.0,0.394,163,33
+bluetick coonhound,20,"['rottweiler', 'german shorthaired pointer', 'border collie', 'dobermann', 'english foxhound']","[0.18, 0.16, 0.1, 0.06, 0.04]",0.1088026982416488,0.1399999999999999,0.875,0.14,0.0,0.508,164,28
+black and tan coonhound,12,"['dobermann', 'rottweiler', 'rhodesian ridgeback', 'flat coated retriever', 'entlebucher sennenhund']","[0.2799999999999999, 0.26, 0.04, 0.04, 0.04]",0.4178480670727529,0.2,0.588,0.2,0.0,0.394,165,44
+treeing walker coonhound,9,"['english foxhound', 'beagle', 'german shorthaired pointer', 'basset hound', 'golden retriever']","[0.4599999999999999, 0.2, 0.1, 0.08, 0.04]",1.098061123588124,0.02,0.091,0.02,0.0,0.056,166,35
+english foxhound,13,"['beagle', 'german shorthaired pointer', 'golden retriever', 'basset hound', 'basenji']","[0.18, 0.12, 0.06, 0.04, 0.04]",0.7001217104245259,0.4,0.282,0.4,0.001,0.341,167,89
+redbone coonhound,15,"['vizsla', 'german shorthaired pointer', 'golden retriever', 'basset hound', 'boxer']","[0.2, 0.12, 0.1, 0.08, 0.08]",1.1210847078122883,0.16,0.727,0.16,0.0,0.444,168,36
+borzoi,12,"['border collie', 'collie', 'golden retriever', 'husky', 'newfoundland dog']","[0.1, 0.08, 0.04, 0.04, 0.04]",0.5929270612815714,0.5599999999999999,0.609,0.56,0.001,0.584,169,337
+irish wolfhound,26,"['scottish deerhound', 'llama', 'borzoi', 'affenpinscher', 'newfoundland dog']","[0.16, 0.06, 0.04, 0.04, 0.04]",1.4035141563500906,0.22,0.5,0.22,0.0,0.36,170,69
+italian greyhound,14,"['german shorthaired pointer', 'great dane', 'whippet', 'boxer', 'oil filter']","[0.16, 0.16, 0.12, 0.08, 0.08]",-6.136635327546054e-16,0.1,0.556,0.1,0.0,0.328,171,53
+whippet,15,"['boxer', 'great dane', 'basenji', 'oil filter', 'border collie']","[0.1399999999999999, 0.0799999999999999, 0.0799999999999999, 0.0799999999999999, 0.0599999999999999]",1.1731251294063552,0.2999999999999999,0.484,0.3,0.001,0.392,172,116
+ibizan hound,23,"['basenji', 'boxer', 'great dane', 'oil filter', 'shetland sheepdog']","[0.26, 0.1, 0.08, 0.08, 0.04]",1.2502156015096946,0.04,0.333,0.04,0.0,0.186,173,31
+norwegian elkhound,13,"['german shepherd dog', 'husky', 'siamese cat', 'pug', 'keeshond']","[0.36, 0.16, 0.06, 0.04, 0.04]",1.0851340426075389,0.16,0.421,0.16,0.0,0.29,174,58
+otterhound,22,"['tibetan terrier', 'norfolk terrier', 'australian silky terrier', 'cocker spaniel', 'yorkshire terrier']","[0.0999999999999999, 0.0799999999999999, 0.0799999999999999, 0.0799999999999999, 0.0599999999999999]",-3.942830555530462e-15,0.1199999999999999,0.286,0.12,0.0,0.203,175,103
+saluki,22,"['labrador retriever', 'great dane', 'whippet', 'golden retriever', 'oil filter']","[0.1, 0.1, 0.08, 0.08, 0.08]",0.4082482904638629,0.02,0.333,0.02,0.0,0.177,176,42
+scottish deerhound,20,"['irish wolfhound', 'newfoundland dog', 'ostrich', 'cocker spaniel', 'yorkshire terrier']","[0.1, 0.08, 0.06, 0.06, 0.04]",0.2715454178836392,0.2799999999999999,0.359,0.28,0.001,0.32,177,44
+weimaraner,8,"['german shorthaired pointer', 'labrador retriever', 'vizsla', 'great dane', 'oil filter']","[0.2399999999999999, 0.0999999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999]",1.209900441472048,0.42,0.677,0.42,0.001,0.548,178,93
+staffordshire bull terrier,17,"['labrador retriever', 'boxer', 'boston terrier', 'great dane', 'german shorthaired pointer']","[0.26, 0.12, 0.1, 0.08, 0.06]",1.2099004414720478,0.06,0.6,0.06,0.0,0.33,179,75
+american staffordshire terrier,15,"['boxer', 'labrador retriever', 'german shorthaired pointer', 'great dane', 'boston terrier']","[0.2999999999999999, 0.18, 0.1399999999999999, 0.08, 0.06]",0.6771761887686069,0.02,0.143,0.02,0.0,0.081,180,56
+bedlington terrier,19,"['oil filter', 'soft coated wheaten terrier', 'standard poodle', 'toy poodle', 'polar bear']","[0.16, 0.1399999999999999, 0.12, 0.08, 0.08]",0.0351562500000002,0.06,0.25,0.06,0.0,0.155,181,12
+border terrier,20,"['oil filter', 'golden retriever', 'yorkshire terrier', 'german shepherd dog', 'shih tzu']","[0.1199999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",0.7500308204401287,0.2599999999999999,0.464,0.26,0.001,0.362,182,49
+kerry blue terrier,19,"['standard poodle', 'bouvier des flandres dog', 'newfoundland dog', 'irish water spaniel', 'affenpinscher']","[0.18, 0.16, 0.12, 0.1, 0.08]",0.1579875514375959,0.08,0.5,0.08,0.0,0.29,183,33
+irish terrier,22,"['yorkshire terrier', 'oil filter', 'brown bear', 'norfolk terrier', 'golden retriever']","[0.1399999999999999, 0.12, 0.08, 0.06, 0.06]",0.3804646084815724,0.18,0.429,0.18,0.0,0.304,184,57
+norfolk terrier,23,"['yorkshire terrier', 'australian terrier', 'cocker spaniel', 'otterhound', 'lhasa apso']","[0.26, 0.12, 0.08, 0.06, 0.04]",1.1108039135397505,0.08,0.103,0.08,0.001,0.092,185,75
+norwich terrier,12,"['yorkshire terrier', 'australian terrier', 'norfolk terrier', 'australian silky terrier', 'brown bear']","[0.32, 0.2999999999999999, 0.08, 0.06, 0.06]",0.4056048363079889,0.02,0.5,0.02,0.0,0.26,186,60
+yorkshire terrier,14,"['australian silky terrier', 'australian terrier', 'oil filter', 'cairn terrier', 'tibetan terrier']","[0.2, 0.1, 0.06, 0.04, 0.04]",1.0701908064798324,0.36,0.089,0.36,0.004,0.224,187,542
+wire fox terrier,16,"['soft coated wheaten terrier', 'yorkshire terrier', 'lakeland terrier', 'cocker spaniel', 'toy poodle']","[0.24, 0.12, 0.04, 0.04, 0.04]",1.0269996056981547,0.2799999999999999,0.667,0.28,0.0,0.474,188,90
+lakeland terrier,20,"['yorkshire terrier', 'airedale terrier', 'soft coated wheaten terrier', 'oil filter', 'irish terrier']","[0.22, 0.1399999999999999, 0.08, 0.08, 0.04]",0.6826736025239163,0.06,0.429,0.06,0.0,0.244,189,115
+sealyham terrier,20,"['soft coated wheaten terrier', 'west highland white terrier', 'shih tzu', 'great pyrenees dog', 'oil filter']","[0.1199999999999999, 0.1199999999999999, 0.0999999999999999, 0.0999999999999999, 0.0999999999999999]",0.4082482904638611,0.0599999999999999,0.333,0.06,0.0,0.196,190,43
+airedale terrier,17,"['irish terrier', 'yorkshire terrier', 'german shepherd dog', 'soft coated wheaten terrier', 'otterhound']","[0.08, 0.06, 0.06, 0.04, 0.02]",-0.2715454178836395,0.5000000000000001,0.581,0.5,0.001,0.54,191,179
+cairn terrier,20,"['yorkshire terrier', 'australian terrier', 'west highland white terrier', 'shih tzu', 'australian silky terrier']","[0.24, 0.16, 0.08, 0.04, 0.04]",0.6122692078855394,0.1399999999999999,0.333,0.14,0.0,0.237,192,96
+australian terrier,13,"['yorkshire terrier', 'australian silky terrier', 'norfolk terrier', 'cocker spaniel', 'shih tzu']","[0.26, 0.1, 0.08, 0.06, 0.04]",1.262708722228948,0.26,0.21,0.26,0.001,0.235,193,124
+dandie dinmont terrier,13,"['yorkshire terrier', 'shih tzu', 'tibetan terrier', 'norfolk terrier', 'standard schnauzer']","[0.26, 0.2, 0.08, 0.04, 0.04]",0.4650557721372947,0.16,0.381,0.16,0.0,0.27,194,32
+boston terrier,5,"['french bulldog', 'american staffordshire terrier', 'boxer', 'giant panda', 'oil filter']","[0.2399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000002,0.6799999999999999,0.442,0.68,0.002,0.561,195,766
+miniature schnauzer,17,"['standard schnauzer', 'yorkshire terrier', 'tibetan terrier', 'border collie', 'affenpinscher']","[0.2599999999999999, 0.0999999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.2547677671108377,0.2599999999999999,0.542,0.26,0.0,0.401,196,119
+giant schnauzer,22,"['scottish terrier', 'schipperke', 'bouvier des flandres dog', 'german shorthaired pointer', 'newfoundland dog']","[0.18, 0.0999999999999999, 0.0999999999999999, 0.0599999999999999, 0.0599999999999999]",0.912870929175278,0.0999999999999999,0.357,0.1,0.0,0.228,197,40
+standard schnauzer,17,"['miniature schnauzer', 'yorkshire terrier', 'cairn terrier', 'husky', 'oil filter']","[0.1599999999999999, 0.0799999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999]",1.2864700617061369,0.2599999999999999,0.406,0.26,0.001,0.333,198,116
+scottish terrier,13,"['newfoundland dog', 'west highland white terrier', 'shih tzu', 'kerry blue terrier', 'yorkshire terrier']","[0.1399999999999999, 0.12, 0.04, 0.02, 0.02]",0.3955562317756363,0.5,0.5,0.5,0.001,0.5,199,92
+tibetan terrier,15,"['shih tzu', 'lhasa apso', 'cocker spaniel', 'yorkshire terrier', 'newfoundland dog']","[0.2199999999999999, 0.0999999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999]",1.2832119003429123,0.2399999999999999,0.19,0.24,0.001,0.215,200,181
+australian silky terrier,12,"['yorkshire terrier', 'australian terrier', 'shih tzu', 'tibetan terrier', 'oil filter']","[0.26, 0.1399999999999999, 0.1, 0.06, 0.06]",0.9704949588309464,0.22,0.234,0.22,0.001,0.227,201,119
+soft coated wheaten terrier,16,"['yorkshire terrier', 'cocker spaniel', 'norfolk terrier', 'border terrier', 'golden retriever']","[0.16, 0.16, 0.12, 0.08, 0.06]",-0.1527442975595478,0.1,0.088,0.1,0.001,0.094,202,122
+west highland white terrier,12,"['yorkshire terrier', 'oil filter', 'shih tzu', 'cairn terrier', 'soft coated wheaten terrier']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.6999999999999998,0.556,0.7,0.001,0.628,203,201
+lhasa apso,10,"['shih tzu', 'tibetan terrier', 'yorkshire terrier', 'golden retriever', 'oil filter']","[0.3600000000000001, 0.1, 0.06, 0.04, 0.04]",1.3856965239951262,0.3,0.25,0.3,0.001,0.275,204,218
+flat coated retriever,9,"['newfoundland dog', 'labrador retriever', 'schipperke', 'german shorthaired pointer', 'border collie']","[0.2799999999999999, 0.18, 0.08, 0.06, 0.06]",0.7658388593844329,0.26,0.289,0.26,0.001,0.274,205,64
+curly coated retriever,14,"['flat coated retriever', 'newfoundland dog', 'standard poodle', 'german shorthaired pointer', 'cocker spaniel']","[0.18, 0.18, 0.12, 0.06, 0.06]",0.0,0.1399999999999999,0.438,0.14,0.0,0.289,206,46
+golden retriever,11,"['labrador retriever', 'newfoundland dog', 'borzoi', 'yorkshire terrier', 'border collie']","[0.06, 0.06, 0.02, 0.02, 0.02]",0.4082482904638627,0.7,0.189,0.7,0.004,0.444,207,3188
+labrador retriever,8,"['flat coated retriever', 'golden retriever', 'german shorthaired pointer', 'king penguin', 'rhodesian ridgeback']","[0.06, 0.06, 0.06, 0.02, 0.02]",-0.4082482904638634,0.7200000000000001,0.255,0.72,0.003,0.488,208,1221
+chesapeake bay retriever,18,"['labrador retriever', 'german shorthaired pointer', 'vizsla', 'oil filter', 'boxer']","[0.26, 0.12, 0.12, 0.1, 0.06]",1.09041313861763,0.08,0.571,0.08,0.0,0.325,209,28
+german shorthaired pointer,9,"['great dane', 'basset hound', 'vizsla', 'tennis ball', 'boston terrier']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.3714193236627636e-15,0.72,0.186,0.72,0.004,0.453,210,979
+vizsla,12,"['german shorthaired pointer', 'boxer', 'golden retriever', 'redbone coonhound', 'oil filter']","[0.2, 0.1, 0.08, 0.04, 0.04]",0.9620295363245662,0.4,0.294,0.4,0.001,0.347,211,111
+english setter,18,"['cocker spaniel', 'border collie', 'golden retriever', 'german shorthaired pointer', 'great dane']","[0.26, 0.18, 0.06, 0.06, 0.06]",0.6817327184847205,0.02,0.333,0.02,0.0,0.177,212,42
+irish setter,13,"['cocker spaniel', 'oil filter', 'golden retriever', 'vizsla', 'sussex spaniel']","[0.32, 0.06, 0.04, 0.04, 0.04]",1.4819761556523594,0.34,0.405,0.34,0.001,0.373,213,78
+gordon setter,15,"['rottweiler', 'cocker spaniel', 'newfoundland dog', 'flat coated retriever', 'black and tan coonhound']","[0.3199999999999999, 0.2199999999999999, 0.0999999999999999, 0.0399999999999999, 0.0199999999999999]",0.4814990675976545,0.0999999999999999,1.0,0.1,0.0,0.55,214,36
+brittany dog,19,"['welsh springer spaniel', 'cocker spaniel', 'king charles spaniel', 'english foxhound', 'german shorthaired pointer']","[0.3199999999999999, 0.18, 0.0599999999999999, 0.0599999999999999, 0.0599999999999999]",0.9127950986808352,0.0,0.0,0.0,0.0,0.0,215,0
+clumber spaniel,13,"['cocker spaniel', 'golden retriever', 'welsh springer spaniel', 'border collie', 'king charles spaniel']","[0.4399999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",1.474271252875501,0.1199999999999999,0.6,0.12,0.0,0.36,216,13
+english springer spaniel,11,"['border collie', 'welsh springer spaniel', 'cocker spaniel', 'king charles spaniel', 'bernese mountain dog']","[0.26, 0.16, 0.12, 0.04, 0.04]",0.4927443136628488,0.26,0.65,0.26,0.0,0.455,217,61
+welsh springer spaniel,10,"['king charles spaniel', 'cocker spaniel', 'border collie', 'basset hound', 'german shorthaired pointer']","[0.2799999999999999, 0.16, 0.06, 0.04, 0.04]",0.8478776557734874,0.32,0.302,0.32,0.001,0.311,218,70
+cocker spaniel,11,"['golden retriever', 'irish setter', 'clumber spaniel', 'shih tzu', 'king charles spaniel']","[0.1399999999999999, 0.12, 0.04, 0.02, 0.02]",0.3955562317756363,0.54,0.11,0.54,0.005,0.325,219,1810
+sussex spaniel,13,"['cocker spaniel', 'newfoundland dog', 'irish setter', 'oil filter', 'yorkshire terrier']","[0.44, 0.1399999999999999, 0.08, 0.04, 0.02]",1.2502374265694969,0.12,0.4,0.12,0.0,0.26,220,72
+irish water spaniel,11,"['standard poodle', 'brown bear', 'curly coated retriever', 'cocker spaniel', 'newfoundland dog']","[0.26, 0.08, 0.06, 0.06, 0.06]",1.464750214027571,0.36,0.514,0.36,0.001,0.437,221,80
+kuvasz,13,"['great pyrenees dog', 'labrador retriever', 'polar bear', 'golden retriever', 'oil filter']","[0.18, 0.12, 0.1, 0.08, 0.06]",0.6927284074925387,0.26,0.481,0.26,0.001,0.37,222,63
+schipperke,14,"['groenendael dog', 'rottweiler', 'newfoundland dog', 'border collie', 'hook']","[0.0799999999999999, 0.0799999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999]",-0.4082482904638629,0.3999999999999999,0.385,0.4,0.001,0.392,223,39
+groenendael dog,14,"['newfoundland dog', 'schipperke', 'malinois', 'german shorthaired pointer', 'border collie']","[0.18, 0.1599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",0.398937095409298,0.3199999999999999,0.5,0.32,0.001,0.41,224,46
+malinois,14,"['german shepherd dog', 'boxer', 'german shorthaired pointer', 'dingo', 'oil filter']","[0.5199999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4754826129253018,0.0999999999999999,0.217,0.1,0.0,0.158,225,100
+briard,24,"['yorkshire terrier', 'otterhound', 'afghan hound', 'cocker spaniel', 'shetland sheepdog']","[0.1, 0.08, 0.06, 0.06, 0.06]",0.8437500000000009,0.1399999999999999,0.333,0.14,0.0,0.237,226,60
+australian kelpie,19,"['dobermann', 'schipperke', 'german shepherd dog', 'german shorthaired pointer', 'golden retriever']","[0.2599999999999999, 0.1199999999999999, 0.0999999999999999, 0.0599999999999999, 0.0399999999999999]",1.0228381632575274,0.0599999999999999,0.3,0.06,0.0,0.18,227,41
+komondor,22,"['briard', 'llama', 'oil filter', 'shih tzu', 'afghan hound']","[0.0599999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",-0.4082482904638629,0.3399999999999999,0.895,0.34,0.0,0.618,228,30
+old english sheepdog,25,"['shih tzu', 'tibetan terrier', 'newfoundland dog', 'lhasa apso', 'oil filter']","[0.1599999999999999, 0.1599999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999]",0.3365218792190074,0.0,0.0,0.0,0.0,0.0,229,0
+shetland sheepdog,10,"['collie', 'border collie', 'papillon', 'golden retriever', 'husky']","[0.4000000000000001, 0.18, 0.06, 0.02, 0.02]",0.9904294170799606,0.22,0.333,0.22,0.001,0.276,230,260
+collie,6,"['shetland sheepdog', 'border collie', 'bernese mountain dog', 'tibetan terrier', 'golden retriever']","[0.2, 0.16, 0.04, 0.02, 0.02]",0.4635823443569188,0.54,0.429,0.54,0.001,0.485,231,228
+border collie,8,"['cocker spaniel', 'malinois', 'shetland sheepdog', 'collie', 'german shepherd dog']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8199999999999998,0.179,0.82,0.005,0.499,232,1332
+bouvier des flandres dog,18,"['newfoundland dog', 'standard poodle', 'scottish deerhound', 'yorkshire terrier', 'shih tzu']","[0.18, 0.08, 0.06, 0.06, 0.04]",1.2621071358631286,0.26,0.277,0.26,0.001,0.268,233,62
+rottweiler,8,"['dobermann', 'treeing walker coonhound', 'flat coated retriever', 'australian kelpie', 'greater swiss mountain dog']","[0.22, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.64,0.254,0.64,0.003,0.447,234,963
+german shepherd dog,7,"['malinois', 'black stork', 'schipperke', 'collie', 'dobermann']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8200000000000001,0.261,0.82,0.003,0.54,235,508
+dobermann,11,"['rottweiler', 'vizsla', 'german shorthaired pointer', 'oil filter', 'tusker']","[0.12, 0.06, 0.04, 0.04, 0.02]",1.0179522960269585,0.5999999999999999,0.192,0.6,0.003,0.396,236,613
+miniature pinscher,14,"['dobermann', 'rottweiler', 'mexican hairless dog xoloitzcuintli', 'oil filter', 'basenji']","[0.36, 0.1, 0.06, 0.06, 0.04]",1.4044656672822828,0.2,0.385,0.2,0.001,0.292,237,71
+greater swiss mountain dog,13,"['entlebucher sennenhund', 'rottweiler', 'dobermann', 'bernese mountain dog', 'german shorthaired pointer']","[0.32, 0.16, 0.1, 0.1, 0.04]",0.945458178782938,0.1,0.217,0.1,0.0,0.158,238,77
+bernese mountain dog,4,"['border collie', 'king charles spaniel', 'greater swiss mountain dog', 'entlebucher sennenhund']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.1547005383792512,0.8799999999999999,0.53,0.88,0.002,0.705,239,192
+appenzeller sennenhund,5,"['entlebucher sennenhund', 'bernese mountain dog', 'greater swiss mountain dog', 'dobermann', 'beagle']","[0.4400000000000001, 0.2799999999999999, 0.16, 0.04, 0.02]",0.4555915370386521,0.06,0.176,0.06,0.0,0.118,240,50
+entlebucher sennenhund,7,"['appenzeller sennenhund', 'greater swiss mountain dog', 'border collie', 'beagle', 'dobermann']","[0.1599999999999999, 0.0999999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999]",0.6170311182532744,0.5399999999999999,0.365,0.54,0.001,0.452,241,75
+boxer,7,"['pug', 'boston terrier', 'rhodesian ridgeback', 'german shorthaired pointer', 'french bulldog']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.7800000000000001,0.22,0.78,0.004,0.5,242,954
+bullmastiff,11,"['boxer', 'pug', 'labrador retriever', 'french bulldog', 'rhodesian ridgeback']","[0.44, 0.1, 0.06, 0.04, 0.02]",1.395933077053701,0.22,0.786,0.22,0.0,0.503,243,79
+tibetan mastiff,8,"['newfoundland dog', 'rottweiler', 'border collie', 'bernese mountain dog', 'german shepherd dog']","[0.4799999999999999, 0.18, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",1.2067570954125422,0.0999999999999999,0.556,0.1,0.0,0.328,244,28
+french bulldog,7,"['pug', 'boston terrier', 'german shorthaired pointer', 'groenendael dog', 'boxer']","[0.1, 0.08, 0.02, 0.02, 0.02]",0.5071295169770311,0.7200000000000001,0.468,0.72,0.002,0.594,245,546
+great dane,18,"['boxer', 'labrador retriever', 'dalmatian', 'golden retriever', 'dobermann']","[0.1399999999999999, 0.08, 0.08, 0.06, 0.06]",1.1642636431747186,0.32,0.219,0.32,0.001,0.27,246,497
+st  bernard,11,"['border collie', 'king charles spaniel', 'welsh springer spaniel', 'cocker spaniel', 'boxer']","[0.2, 0.08, 0.04, 0.04, 0.04]",1.290994448735805,0.4599999999999999,0.793,0.46,0.001,0.626,247,45
+husky,7,"['alaskan malamute', 'samoyed', 'dog sled', 'labrador retriever', 'shetland sheepdog']","[0.1, 0.06, 0.04, 0.02, 0.02]",0.7301958930821588,0.7200000000000001,0.2,0.72,0.004,0.46,248,390
+alaskan malamute,7,"['husky', 'border collie', 'siamese cat', 'australian kelpie', 'collie']","[0.5, 0.06, 0.04, 0.02, 0.02]",1.4766335554153307,0.32,0.533,0.32,0.001,0.426,249,94
+siberian husky,9,"['husky', 'alaskan malamute', 'german shepherd dog', 'golden retriever', 'wallaby']","[0.7200000000000001, 0.08, 0.06, 0.04, 0.02]",1.4792715867335136,0.0,0.0,0.0,0.0,0.0,250,0
+dalmatian,2,"['great dane', 'hook']","[0.04, 0.02]",1.030425744730223e-15,0.94,0.81,0.94,0.001,0.875,251,369
+affenpinscher,12,"['bouvier des flandres dog', 'newfoundland dog', 'scottish terrier', 'yorkshire terrier', 'cairn terrier']","[0.16, 0.16, 0.06, 0.04, 0.04]",0.3586005830903786,0.38,0.452,0.38,0.001,0.416,252,68
+basenji,10,"['toy terrier', 'dingo', 'boston terrier', 'entlebucher sennenhund', 'oil filter']","[0.08, 0.06, 0.04, 0.04, 0.04]",0.8437499999999998,0.64,0.381,0.64,0.002,0.51,253,336
+pug,4,"['french bulldog', 'boston terrier', 'boxer', 'oil filter']","[0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.8164965809277263,0.84,0.56,0.84,0.002,0.7,254,1361
+leonberger,12,"['newfoundland dog', 'german shepherd dog', 'keeshond', 'malinois', 'collie']","[0.18, 0.1399999999999999, 0.1399999999999999, 0.08, 0.06]",-0.1141088661469059,0.18,0.9,0.18,0.0,0.54,255,20
+newfoundland dog,14,"['border collie', 'oil filter', 'flat coated retriever', 'cocker spaniel', 'saharan horned viper']","[0.06, 0.06, 0.04, 0.04, 0.02]",-0.3436215967445465,0.6,0.132,0.6,0.005,0.366,256,369
+great pyrenees dog,12,"['kuvasz', 'golden retriever', 'labrador retriever', 'newfoundland dog', 'husky']","[0.16, 0.1399999999999999, 0.12, 0.08, 0.06]",-0.1579875514375962,0.2799999999999999,0.368,0.28,0.001,0.324,257,164
+samoyed,6,"['pomeranian', 'arctic fox', 'polar bear', 'newfoundland dog', 'alaskan tundra wolf']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.8200000000000001,0.672,0.82,0.001,0.746,258,89
+pomeranian,11,"['golden retriever', 'chow chow', 'mexican hairless dog xoloitzcuintli', 'pekingese', 'shih tzu']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.7200000000000001,0.571,0.72,0.001,0.646,259,136
+chow chow,10,"['pomeranian', 'golden retriever', 'clumber spaniel', 'cocker spaniel', 'border collie']","[0.18, 0.08, 0.02, 0.02, 0.02]",1.0736207227160048,0.58,0.744,0.58,0.001,0.662,260,77
+keeshond,17,"['norwegian elkhound', 'german shepherd dog', 'german shorthaired pointer', 'groenendael dog', 'husky']","[0.1199999999999999, 0.0999999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.507129516977032,0.3999999999999999,0.588,0.4,0.001,0.494,261,37
+brussels griffon,21,"['boxer', 'german shepherd dog', 'border terrier', 'newfoundland dog', 'oil filter']","[0.1399999999999999, 0.12, 0.1, 0.08, 0.08]",0.3631734744194284,0.0,0.0,0.0,0.0,0.0,262,68
+pembroke welsh corgi,18,"['cardigan welsh corgi', 'golden retriever', 'husky', 'basenji', 'cocker spaniel']","[0.16, 0.08, 0.08, 0.06, 0.04]",1.001323728445919,0.26,0.619,0.26,0.0,0.44,263,143
+cardigan welsh corgi,12,"['border collie', 'pembroke welsh corgi', 'basenji', 'husky', 'boston terrier']","[0.2199999999999999, 0.1199999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999]",0.9293262751691936,0.2599999999999999,0.464,0.26,0.001,0.362,264,137
+toy poodle,18,"['shih tzu', 'standard poodle', 'teddy bear', 'soft coated wheaten terrier', 'cocker spaniel']","[0.1399999999999999, 0.1, 0.1, 0.08, 0.08]",0.912870929175274,0.2,0.233,0.2,0.001,0.217,265,89
+miniature poodle,21,"['toy poodle', 'standard poodle', 'soft coated wheaten terrier', 'golden retriever', 'maltese']","[0.2799999999999999, 0.12, 0.06, 0.06, 0.04]",1.1922642117936406,0.02,0.2,0.02,0.0,0.11,266,81
+standard poodle,12,"['newfoundland dog', 'cocker spaniel', 'toy poodle', 'hen', 'irish water spaniel']","[0.08, 0.06, 0.06, 0.04, 0.04]",0.3436215967445477,0.5800000000000001,0.315,0.58,0.002,0.448,267,219
+mexican hairless dog xoloitzcuintli,16,"['dobermann', 'french bulldog', 'german shorthaired pointer', 'oil filter', 'miniature pinscher']","[0.26, 0.1399999999999999, 0.08, 0.08, 0.06]",1.0684669529890454,0.08,0.068,0.08,0.001,0.074,268,251
+grey wolf,11,"['red wolf or maned wolf', 'alaskan tundra wolf', 'coyote', 'german shepherd dog', 'hyena']","[0.18, 0.12, 0.06, 0.04, 0.04]",0.7001217104245259,0.4400000000000001,0.667,0.44,0.001,0.554,269,243
+alaskan tundra wolf,11,"['husky', 'samoyed', 'arctic fox', 'polar bear', 'golden retriever']","[0.1, 0.04, 0.04, 0.04, 0.02]",1.1731251294063554,0.64,0.542,0.64,0.001,0.591,270,178
+red wolf or maned wolf,18,"['dhole', 'red fox', 'grey wolf', 'coyote', 'kit fox']","[0.18, 0.12, 0.06, 0.06, 0.06]",0.8437499999999996,0.18,0.214,0.18,0.001,0.197,271,228
+coyote,13,"['red wolf or maned wolf', 'grey wolf', 'grey fox', 'alaskan tundra wolf', 'dingo']","[0.2, 0.1, 0.1, 0.04, 0.04]",0.7723882110026337,0.34,0.5,0.34,0.001,0.42,272,267
+dingo,18,"['wallaby', 'red wolf or maned wolf', 'golden retriever', 'lion', 'kit fox']","[0.08, 0.08, 0.06, 0.06, 0.04]",-0.3436215967445463,0.4,0.37,0.4,0.001,0.385,273,158
+dhole,15,"['dingo', 'red fox', 'wallaby', 'cougar', 'golden retriever']","[0.1399999999999999, 0.1399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",0.347679447572393,0.42,0.382,0.42,0.001,0.401,274,206
+african wild dog,5,"['hyena', 'wallaby', 'german shorthaired pointer', 'malinois', 'giant panda']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.896,0.86,0.001,0.878,275,129
+hyena,9,"['african wild dog', 'dingo', 'pig', 'wild boar', 'warthog']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000002,0.7799999999999998,0.75,0.78,0.001,0.765,276,182
+red fox,12,"['dhole', 'kit fox', 'red wolf or maned wolf', 'wallaby', 'german shorthaired pointer']","[0.2999999999999999, 0.1999999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",0.592171915071069,0.2599999999999999,0.265,0.26,0.001,0.262,277,364
+kit fox,12,"['red fox', 'dhole', 'grey fox', 'wallaby', 'husky']","[0.3400000000000001, 0.1, 0.06, 0.04, 0.02]",1.31742021473433,0.3,0.385,0.3,0.001,0.342,278,202
+arctic fox,13,"['alaskan tundra wolf', 'husky', 'samoyed', 'polar bear', 'oil filter']","[0.18, 0.1399999999999999, 0.1399999999999999, 0.06, 0.06]",-0.1111111111111095,0.2,0.714,0.2,0.0,0.457,279,64
+grey fox,9,"['kit fox', 'wallaby', 'red wolf or maned wolf', 'red fox', 'coyote']","[0.1199999999999999, 0.0799999999999999, 0.0799999999999999, 0.0799999999999999, 0.0599999999999999]",0.8675276172357084,0.4999999999999999,0.694,0.5,0.001,0.597,280,147
+tabby cat,7,"['siamese cat', 'lynx', 'hook', 'oil filter', 'bouvier des flandres dog']","[0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",-0.2715454178836389,0.6999999999999998,0.361,0.7,0.002,0.53,281,168
+tiger cat,11,"['tabby cat', 'tiger', 'lynx', 'golden retriever', 'hook']","[0.4599999999999999, 0.22, 0.08, 0.04, 0.04]",0.9789569578656864,0.0,0.0,0.0,0.0,0.0,282,0
+persian cat,15,"['siamese cat', 'hook', 'tabby cat', 'border collie', 'pomeranian']","[0.5000000000000001, 0.12, 0.08, 0.04, 0.04]",1.3954856926005348,0.0,0.0,0.0,0.0,0.0,283,0
+siamese cat,1,['tabby cat'],[0.02],0.0,0.98,0.336,0.98,0.003,0.658,284,1058
+egyptian mau,17,"['tabby cat', 'siamese cat', 'oil filter', 'lynx', 'cheetah']","[0.36, 0.2, 0.1, 0.04, 0.04]",0.7934151711577602,0.0,0.0,0.0,0.0,0.0,285,0
+cougar,11,"['lion', 'oil filter', 'siamese cat', 'lynx', 'tailed frog']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",-0.3436215967445467,0.6599999999999999,0.733,0.66,0.001,0.696,286,593
+lynx,11,"['tabby cat', 'cougar', 'leopard', 'snow leopard', 'fox squirrel']","[0.1, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.62,0.633,0.62,0.001,0.626,287,387
+leopard,2,"['cheetah', 'snow leopard']","[0.26, 0.1]",7.11345045367739e-16,0.64,0.395,0.64,0.002,0.518,288,774
+snow leopard,4,"['american alligator', 'tabby cat', 'tiger', 'cheetah']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.807,0.92,0.001,0.864,289,226
+jaguar,5,"['leopard', 'snow leopard', 'cheetah', 'oil filter', 'howler monkey']","[0.7799999999999999, 0.08, 0.08, 0.04, 0.02]",1.4760068079309785,0.0,0.0,0.0,0.0,0.0,290,56
+lion,6,"['cougar', 'tiger', 'german shorthaired pointer', 'bighorn sheep', 'white headed capuchin']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.8399999999999999,0.667,0.84,0.001,0.754,291,1300
+tiger,2,"['leopard', 'oil filter']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.727,0.96,0.001,0.843,292,1177
+cheetah,3,"['leopard', 'hyena', 'oil filter']","[0.06, 0.02, 0.02]",0.7071067811865476,0.8999999999999999,0.652,0.9,0.001,0.776,293,640
+brown bear,5,"['cocker spaniel', 'american black bear', 'rhinoceros beetle', 'bison', 'oil filter']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.446,0.9,0.002,0.673,294,530
+american black bear,6,"['brown bear', 'sloth bear', 'wombat', 'sea lion', 'gorilla']","[0.1, 0.08, 0.02, 0.02, 0.02]",0.5071295169770311,0.74,0.521,0.74,0.001,0.631,295,338
+polar bear,5,"['oil filter', 'husky', 'brown bear', 'bison', 'umbrella']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000002,0.8599999999999999,0.566,0.86,0.002,0.713,296,574
+sloth bear,13,"['american black bear', 'brown bear', 'scottish deerhound', 'chesapeake bay retriever', 'bernese mountain dog']","[0.3, 0.06, 0.02, 0.02, 0.02]",1.4286267334338285,0.4200000000000001,0.808,0.42,0.001,0.614,297,94
+mongoose,22,"['meerkat', 'weasel', 'ring tailed lemur', 'hook', 'american robin']","[0.08, 0.06, 0.04, 0.04, 0.02]",0.2715454178836398,0.42,0.389,0.42,0.001,0.404,298,409
+meerkat,6,"['mongoose', 'oil filter', 'shih tzu', 'brown bear', 'three toed sloth']","[0.38, 0.04, 0.02, 0.02, 0.02]",1.4890947815302156,0.5,0.806,0.5,0.001,0.653,299,350
+tiger beetle,8,"['ground beetle', 'longhorn beetle', 'fly', 'leaf beetle', 'ant']","[0.1, 0.06, 0.06, 0.04, 0.04]",0.9128709291752772,0.6200000000000001,0.816,0.62,0.001,0.718,300,43
+ladybug,4,"['leaf beetle', 'bee', 'ant', 'oil filter']","[0.12, 0.02, 0.02, 0.02]",1.1547005383792512,0.8199999999999998,0.506,0.82,0.002,0.663,301,648
+ground beetle,13,"['dung beetle', 'ant', 'cockroach', 'tiger beetle', 'fly']","[0.1399999999999999, 0.08, 0.08, 0.06, 0.06]",1.1642636431747186,0.34,0.586,0.34,0.001,0.463,302,89
+longhorn beetle,16,"['grasshopper', 'bee', 'weevil', 'ant', 'oil filter']","[0.1199999999999999, 0.0999999999999999, 0.0799999999999999, 0.0799999999999999, 0.0799999999999999]",0.8437499999999981,0.2199999999999999,0.407,0.22,0.001,0.314,303,100
+leaf beetle,12,"['ladybug', 'alligator lizard', 'sidewinder rattlesnake', 'snail', 'tiger beetle']","[0.2799999999999999, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.5,0.556,0.5,0.001,0.528,304,138
+dung beetle,17,"['ant', 'ground beetle', 'amphibious vehicle', 'oil filter', 'earth star fungus']","[0.08, 0.06, 0.04, 0.04, 0.04]",0.8437499999999998,0.5,0.625,0.5,0.001,0.562,305,107
+rhinoceros beetle,8,"['oil filter', 'dung beetle', 'ground beetle', 'tick', 'american lobster']","[0.08, 0.06, 0.04, 0.02, 0.02]",0.3631734744194302,0.7200000000000001,0.692,0.72,0.001,0.706,306,115
+weevil,12,"['tick', 'fly', 'leafhopper', 'tree frog', 'carolina anole']","[0.06, 0.06, 0.06, 0.02, 0.02]",-0.4082482904638634,0.64,0.696,0.64,0.001,0.668,307,144
+fly,6,"['bee', 'dragonfly', 'rhinoceros beetle', 'ant', 'cicada']","[0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.150049335661531,0.7999999999999998,0.506,0.8,0.002,0.653,308,491
+bee,7,"['honeycomb', 'oil filter', 'tick', 'spiny lobster', 'ladybug']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.7999999999999998,0.43,0.8,0.002,0.615,309,3688
+ant,12,"['tick', 'oil filter', 'hermit crab', 'leaf beetle', 'fly']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7200000000000001,0.293,0.72,0.002,0.506,310,473
+grasshopper,9,"['cricket insect', 'ant', 'praying mantis', 'cliff', 'green iguana']","[0.32, 0.04, 0.04, 0.04, 0.02]",1.4823920963083284,0.4599999999999999,0.221,0.46,0.002,0.34,311,366
+cricket insect,14,"['grasshopper', 'ant', 'cockroach', 'garter snake', 'saharan horned viper']","[0.3399999999999999, 0.0799999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",1.3635661327611226,0.2999999999999999,0.405,0.3,0.001,0.353,312,156
+stick insect,22,"['praying mantis', 'grasshopper', 'dragonfly', 'carolina anole', 'ant']","[0.2, 0.16, 0.12, 0.08, 0.06]",0.2056922717557255,0.0,0.0,0.0,0.0,0.0,313,168
+cockroach,20,"['oil filter', 'ant', 'centipede', 'fiddler crab', 'leaf beetle']","[0.1, 0.06, 0.04, 0.04, 0.04]",1.1500493356615311,0.42,0.525,0.42,0.001,0.473,314,116
+praying mantis,15,"['grasshopper', 'carolina anole', 'oil filter', 'goldfish', 'chameleon']","[0.18, 0.04, 0.04, 0.02, 0.02]",1.4191014536126718,0.5,0.532,0.5,0.001,0.516,315,296
+cicada,19,"['fly', 'cockroach', 'tick', 'dung beetle', 'bee']","[0.18, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4286267334338287,0.3399999999999999,0.85,0.34,0.0,0.595,316,40
+leafhopper,11,"['praying mantis', 'goldfish', 'saharan horned viper', 'isopod', 'ground beetle']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.7599999999999999,0.623,0.76,0.001,0.692,317,148
+lacewing,18,"['grasshopper', 'leafhopper', 'dragonfly', 'ant', 'oil filter']","[0.2199999999999999, 0.2199999999999999, 0.1399999999999999, 0.0599999999999999, 0.0599999999999999]",-8.120624681127674e-16,0.0,0.0,0.0,0.0,0.0,318,0
+dragonfly,6,"['damselfly', 'fly', 'bee', 'ant', 'oil filter']","[0.2, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.7,0.407,0.7,0.002,0.554,319,1581
+damselfly,4,"['dragonfly', 'fly', 'leafhopper', 'daisy']","[0.06, 0.02, 0.02, 0.02]",1.1547005383792517,0.88,0.759,0.88,0.001,0.82,320,383
+red admiral butterfly,12,"['airplane wing', 'bee', 'monarch butterfly', 'ladybug', 'longhorn beetle']","[0.4599999999999999, 0.1, 0.1, 0.08, 0.06]",1.4632860942818222,0.0,0.0,0.0,0.0,0.0,321,220
+ringlet butterfly,7,"['gossamer winged butterfly', 'cardoon', 'bee', 'grasshopper', 'small white butterfly']","[0.0799999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.5929270612815712,0.7599999999999999,0.717,0.76,0.001,0.738,322,41
+monarch butterfly,1,['oil filter'],[0.04],0.0,0.96,0.814,0.96,0.001,0.887,323,455
+small white butterfly,3,"['gossamer winged butterfly', 'airplane wing', 'cardoon']","[0.02, 0.02, 0.02]",0.0,0.94,0.627,0.94,0.002,0.784,324,181
+sulphur butterfly,13,"['small white butterfly', 'oil filter', 'bee', 'ringlet butterfly', 'airplane wing']","[0.52, 0.12, 0.06, 0.06, 0.04]",1.4222868665276276,0.0,0.0,0.0,0.0,0.0,325,0
+gossamer winged butterfly,11,"['ringlet butterfly', 'leaf beetle', 'fly', 'leafhopper', 'banded gecko']","[0.12, 0.04, 0.04, 0.04, 0.02]",1.304047329369509,0.62,0.795,0.62,0.001,0.708,326,57
+starfish,7,"['coral reef', 'hermit crab', 'pig', 'backpack', 'jeans']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.84,0.467,0.84,0.002,0.654,327,522
+sea urchin,10,"['sea anemone', 'oil filter', 'coral reef', 'brain coral', 'hermit crab']","[0.12, 0.08, 0.04, 0.02, 0.02]",0.6122692078855394,0.62,0.795,0.62,0.001,0.708,328,143
+sea cucumber,21,"['oil filter', 'coral reef', 'centipede', 'sea anemone', 'sea slug']","[0.1, 0.06, 0.04, 0.04, 0.04]",1.1500493356615311,0.38,0.543,0.38,0.001,0.462,329,91
+cottontail rabbit,8,"['hare', 'loggerhead sea turtle', 'norwegian elkhound', 'cocker spaniel', 'coyote']","[0.3, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.5599999999999999,0.609,0.56,0.001,0.584,330,384
+hare,5,"['cottontail rabbit', 'oil filter', 'german shorthaired pointer', 'fox squirrel', 'mushroom']","[0.2799999999999999, 0.04, 0.02, 0.02, 0.02]",1.4791014495985362,0.62,0.554,0.62,0.001,0.587,331,418
+angora rabbit,13,"['guinea pig', 'hamster', 'siamese cat', 'mousetrap', 'shih tzu']","[0.1599999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",1.1701586322559538,0.3999999999999999,0.87,0.4,0.0,0.635,332,56
+hamster,3,"['guinea pig', 'yorkshire terrier', 'baboon']","[0.2199999999999999, 0.0199999999999999, 0.0199999999999999]",0.7071067811865477,0.7399999999999999,0.457,0.74,0.002,0.598,333,630
+porcupine,7,"['oil filter', 'brown bear', 'echidna', 'beaver', 'three toed sloth']","[0.08, 0.06, 0.04, 0.04, 0.02]",0.2715454178836398,0.7200000000000002,0.545,0.72,0.001,0.633,334,480
+fox squirrel,9,"['marmot', 'groenendael dog', 'husky', 'tiger', 'mongoose']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.7999999999999998,0.656,0.8,0.001,0.728,335,361
+marmot,10,"['beaver', 'otter', 'nile crocodile', 'wombat', 'brown bear']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7600000000000002,0.731,0.76,0.001,0.746,336,247
+beaver,10,"['otter', 'marmot', 'brown bear', 'porcupine', 'wombat']","[0.26, 0.12, 0.1, 0.06, 0.04]",1.0228381632575263,0.3,0.429,0.3,0.001,0.364,337,113
+guinea pig,11,"['hamster', 'beaver', 'computer mouse', 'oil filter', 'wombat']","[0.12, 0.04, 0.04, 0.04, 0.02]",1.304047329369509,0.6200000000000001,0.525,0.62,0.001,0.572,338,220
+common sorrel horse,18,"['oil filter', 'split rail fence', 'cowboy hat', 'muzzle', 'ox']","[0.2799999999999999, 0.1199999999999999, 0.0999999999999999, 0.0999999999999999, 0.0799999999999999]",1.388908743857885,0.0,0.0,0.0,0.0,0.0,339,71
+zebra,1,['oil filter'],[0.04],0.0,0.96,0.906,0.96,0.001,0.933,340,744
+pig,14,"['wild boar', 'oil filter', 'brown bear', 'yorkshire terrier', 'golden retriever']","[0.24, 0.1, 0.04, 0.02, 0.02]",1.1029293035190202,0.4,0.303,0.4,0.001,0.352,341,1543
+wild boar,11,"['coyote', 'brown bear', 'pig', 'warthog', 'bison']","[0.04, 0.04, 0.04, 0.04, 0.04]",0.0,0.66,0.485,0.66,0.001,0.572,342,211
+warthog,6,"['wild boar', 'pig', 'water buffalo', 'komodo dragon', 'hippopotamus']","[0.2799999999999999, 0.04, 0.04, 0.02, 0.02]",1.470320908308182,0.58,0.806,0.58,0.001,0.693,343,170
+hippopotamus,4,"['oil filter', 'tusker', 'macaw', 'swimming cap']","[0.06, 0.04, 0.02, 0.02]",0.4933822002181591,0.86,0.705,0.86,0.001,0.782,344,504
+ox,16,"['oil filter', 'water buffalo', 'bullock cart', 'pig', 'bison']","[0.12, 0.1, 0.1, 0.06, 0.06]",-0.1111111111111122,0.2999999999999999,0.375,0.3,0.001,0.338,345,262
+water buffalo,11,"['ox', 'pig', 'hippopotamus', 'bison', 'nile crocodile']","[0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",0.2715454178836398,0.6399999999999999,0.681,0.64,0.001,0.661,346,227
+bison,7,"['water buffalo', 'dobermann', 'brown bear', 'american black bear', 'pig']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.84,0.656,0.84,0.001,0.748,347,363
+ram adult male sheep,15,"['bighorn sheep', 'oil filter', 'llama', 'pig', 'border collie']","[0.5999999999999999, 0.08, 0.06, 0.04, 0.02]",1.469350632493334,0.0,0.0,0.0,0.0,0.0,348,54
+bighorn sheep,2,"['oil filter', 'ostrich']","[0.0999999999999999, 0.0199999999999999]",1.873501354054943e-16,0.8799999999999999,0.396,0.88,0.002,0.638,349,295
+alpine ibex,15,"['bighorn sheep', 'oil filter', 'impala antelope', 'gazelle', 'sea lion']","[0.5, 0.12, 0.06, 0.06, 0.04]",1.4152871533054618,0.0,0.0,0.0,0.0,0.0,350,0
+hartebeest,9,"['impala antelope', 'gazelle', 'bullmastiff', 'irish setter', 'warthog']","[0.1, 0.1, 0.04, 0.02, 0.02]",0.2961528510345608,0.64,0.821,0.64,0.001,0.73,351,73
+impala antelope,8,"['gazelle', 'hartebeest', 'lion', 'pig', 'bighorn sheep']","[0.2, 0.06, 0.02, 0.02, 0.02]",1.3323469675936743,0.6200000000000002,0.508,0.62,0.001,0.564,352,232
+gazelle,8,"['impala antelope', 'oil filter', 'crane bird', 'sea lion', 'husky']","[0.2799999999999999, 0.06, 0.02, 0.02, 0.02]",1.4174662558762552,0.54,0.562,0.54,0.001,0.551,353,188
+arabian camel,6,"['llama', 'oil filter', 'tusker', 'weimaraner', 'german shorthaired pointer']","[0.06, 0.06, 0.02, 0.02, 0.02]",0.4082482904638627,0.8,0.755,0.8,0.001,0.778,354,407
+llama,10,"['wallaby', 'oil filter', 'chain link fence', 'muzzle', 'tailed frog']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",-0.3436215967445467,0.6799999999999999,0.5,0.68,0.001,0.59,355,374
+weasel,19,"['black footed ferret', 'otter', 'skunk', 'badger', 'beaver']","[0.12, 0.08, 0.06, 0.06, 0.04]",0.7500308204401281,0.34,0.333,0.34,0.001,0.336,356,263
+mink,22,"['otter', 'oil filter', 'beaver', 'mousetrap', 'weasel']","[0.16, 0.12, 0.08, 0.08, 0.06]",0.6288941186718154,0.08,0.5,0.08,0.0,0.29,357,100
+european polecat,21,"['black footed ferret', 'weasel', 'skunk', 'hamster', 'hook']","[0.2999999999999999, 0.18, 0.1, 0.06, 0.04]",0.7292677273916439,0.0,0.0,0.0,0.0,0.0,358,0
+black footed ferret,12,"['hamster', 'weasel', 'siamese cat', 'skunk', 'computer mouse']","[0.2, 0.18, 0.04, 0.04, 0.04]",0.4306707618458614,0.36,0.439,0.36,0.001,0.399,359,241
+otter,11,"['sea lion', 'weasel', 'oil filter', 'teddy bear', 'american dipper']","[0.12, 0.08, 0.04, 0.04, 0.02]",0.6288941186718158,0.5800000000000001,0.367,0.58,0.002,0.474,360,653
+skunk,10,"['oil filter', 'siamese cat', 'hook', 'shih tzu', 'yorkshire terrier']","[0.1399999999999999, 0.06, 0.04, 0.02, 0.02]",1.1210847078122883,0.6200000000000001,0.674,0.62,0.001,0.647,361,178
+badger,16,"['mongoose', 'skunk', 'porcupine', 'oil filter', 'chickadee']","[0.06, 0.06, 0.04, 0.04, 0.02]",-0.3436215967445465,0.56,0.824,0.56,0.001,0.692,362,75
+armadillo,14,"['oil filter', 'snail', 'slug', 'komodo dragon', 'american alligator']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.64,0.78,0.64,0.001,0.71,363,78
+three toed sloth,7,"['geoffroys spider monkey', 'oil filter', 'jaguar', 'fox squirrel', 'otter']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8200000000000001,0.661,0.82,0.001,0.74,364,108
+orangutan,10,"['chimpanzee', 'geoffroys spider monkey', 'red panda', 'koala', 'dingo']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.74,0.755,0.74,0.001,0.748,365,306
+gorilla,9,"['chimpanzee', 'american black bear', 'sea lion', 'schipperke', 'baboon']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.74,0.536,0.74,0.001,0.638,366,867
+chimpanzee,13,"['gorilla', 'hen', 'vulture', 'echidna', 'boston terrier']","[0.2199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5,0.5399999999999999,0.5,0.54,0.001,0.52,367,259
+gibbon,13,"['langur', 'llama', 'red panda', 'indri', 'chain link fence']","[0.08, 0.06, 0.06, 0.04, 0.04]",0.3436215967445477,0.5599999999999999,0.757,0.56,0.001,0.659,368,136
+siamang,21,"['chimpanzee', 'gorilla', 'geoffroys spider monkey', 'ostrich', 'flat coated retriever']","[0.22, 0.2, 0.06, 0.04, 0.04]",0.4026563426231829,0.08,0.667,0.08,0.0,0.374,369,48
+guenon,11,"['baboon', 'langur', 'geoffroys spider monkey', 'hook', 'oil filter']","[0.12, 0.08, 0.08, 0.04, 0.04]",0.3436215967445453,0.52,0.703,0.52,0.001,0.611,370,85
+patas monkey,19,"['baboon', 'macaque', 'proboscis monkey', 'langur', 'wallaby']","[0.12, 0.08, 0.08, 0.06, 0.04]",0.3700366501636191,0.32,0.889,0.32,0.0,0.604,371,43
+baboon,8,"['macaque', 'oil filter', 'jay', 'wallaby', 'brown bear']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8000000000000002,0.606,0.8,0.001,0.703,372,279
+macaque,12,"['baboon', 'siamese cat', 'langur', 'american black bear', 'otter']","[0.12, 0.04, 0.04, 0.02, 0.02]",1.2864700617061366,0.62,0.525,0.62,0.001,0.572,373,588
+langur,22,"['macaque', 'titi monkey', 'guenon', 'geoffroys spider monkey', 'ring tailed lemur']","[0.0999999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.5929270612815715,0.36,0.45,0.36,0.001,0.405,374,224
+black and white colobus,12,"['guenon', 'ostrich', 'chickadee', 'flat coated retriever', 'mexican hairless dog xoloitzcuintli']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7400000000000001,0.86,0.74,0.001,0.8,375,110
+proboscis monkey,6,"['langur', 'common squirrel monkey', 'hornbill', 'koala', 'treeing walker coonhound']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.8199999999999998,0.854,0.82,0.001,0.837,376,57
+marmoset,16,"['macaque', 'common squirrel monkey', 'hamster', 'fox squirrel', 'oil filter']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.54,0.818,0.54,0.001,0.679,377,107
+white headed capuchin,15,"['chimpanzee', 'toucan', 'cocker spaniel', 'american black bear', 'three toed sloth']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.6600000000000001,0.589,0.66,0.001,0.624,378,160
+howler monkey,9,"['geoffroys spider monkey', 'gorilla', 'three toed sloth', 'american black bear', 'black and white colobus']","[0.2, 0.1, 0.08, 0.04, 0.02]",0.7946382935984533,0.48,0.686,0.48,0.001,0.583,379,66
+titi monkey,15,"['common squirrel monkey', 'howler monkey', 'white headed capuchin', 'orangutan', 'geoffroys spider monkey']","[0.18, 0.1, 0.06, 0.04, 0.04]",0.9593861448050256,0.34,0.34,0.34,0.001,0.34,380,120
+geoffroys spider monkey,20,"['white headed capuchin', 'common squirrel monkey', 'titi monkey', 'chimpanzee', 'orangutan']","[0.12, 0.1, 0.08, 0.06, 0.04]",-3.679904200040098e-16,0.24,0.261,0.24,0.001,0.25,381,190
+common squirrel monkey,8,"['titi monkey', 'geoffroys spider monkey', 'macaque', 'shih tzu', 'marmoset']","[0.3999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.462398859260052,0.3999999999999999,0.465,0.4,0.001,0.432,382,191
+ring tailed lemur,10,"['oil filter', 'bald eagle', 'wallaby', 'koala', 'tabby cat']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7800000000000001,0.75,0.78,0.001,0.765,383,278
+indri,11,"['koala', 'ring tailed lemur', 'langur', 'howler monkey', 'oil filter']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.4082482904638625,0.6399999999999999,0.762,0.64,0.001,0.701,384,73
+asian elephant,14,"['african bush elephant', 'tusker', 'triceratops', 'bloodhound', 'weimaraner']","[0.16, 0.1399999999999999, 0.02, 0.02, 0.02]",0.4379882812500004,0.4599999999999999,0.434,0.46,0.001,0.447,385,706
+african bush elephant,7,"['tusker', 'asian elephant', 'pig', 'orangutan', 'macaque']","[0.16, 0.08, 0.02, 0.02, 0.02]",0.9736654935686996,0.66,0.55,0.66,0.001,0.605,386,432
+red panda,4,"['giant panda', 'husky', 'mongoose', 'prison']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.9,0.726,0.9,0.001,0.813,387,362
+giant panda,1,['siamese cat'],[0.02],0.0,0.98,0.742,0.98,0.001,0.861,388,720
+snoek fish,13,"['oil filter', 'tench', 'silver salmon', 'fishing casting reel', 'garter snake']","[0.48, 0.1399999999999999, 0.1399999999999999, 0.04, 0.02]",1.1729354279402175,0.02,0.2,0.02,0.0,0.11,389,8
+eel,18,"['coral reef', 'oil filter', 'banded gecko', 'water snake', 'brain coral']","[0.12, 0.08, 0.04, 0.04, 0.04]",0.8437499999999996,0.4,0.37,0.4,0.001,0.385,390,158
+silver salmon,14,"['oil filter', 'fishing casting reel', 'goldfish', 'eel', 'electric ray']","[0.3, 0.08, 0.04, 0.04, 0.02]",1.3743239611920848,0.3400000000000001,0.548,0.34,0.001,0.444,391,20
+rock beauty fish,7,"['coral reef', 'brain coral', 'sea slug', 'bee', 'eel']","[0.12, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.7600000000000001,0.974,0.76,0.001,0.867,392,14
+clownfish,6,"['sea anemone', 'coral reef', 'tailed frog', 'candy store', 'oxygen mask']","[0.3, 0.06, 0.02, 0.02, 0.02]",1.4286267334338285,0.5599999999999999,0.824,0.56,0.001,0.692,393,605
+sturgeon,14,"['oil filter', 'dugong', 'coral reef', 'tiger shark', 'stingray']","[0.1999999999999999, 0.0999999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.9438510039004184,0.4399999999999999,0.688,0.44,0.001,0.564,394,75
+gar fish,18,"['oil filter', 'sturgeon', 'stingray', 'centipede', 'goldfish']","[0.2999999999999999, 0.08, 0.06, 0.04, 0.02]",1.3577270894181968,0.24,0.75,0.24,0.0,0.495,395,181
+lionfish,5,"['sea urchin', 'zebra', 'oil filter', 'window shade', 'coral reef']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.9,0.789,0.9,0.001,0.844,396,234
+pufferfish,15,"['eel', 'coral reef', 'goldfish', 'loggerhead sea turtle', 'brain coral']","[0.1, 0.08, 0.04, 0.04, 0.04]",0.5929270612815714,0.48,0.667,0.48,0.001,0.574,397,265
+abacus,7,"['oil filter', 'pill bottle', 'high speed train', 'diaper', 'letter opener']","[0.22, 0.04, 0.02, 0.02, 0.02]",1.4647502140275708,0.64,0.8,0.64,0.001,0.72,398,57
+abaya,14,"['oil filter', 'cloak', 'sweatshirt', 'balaclava ski mask', 'scarf']","[0.24, 0.12, 0.08, 0.04, 0.04]",0.9704949588309452,0.26,0.52,0.26,0.001,0.39,399,241
+academic gown,7,"['oil filter', 'graduation cap', 'cloak', 'library', 'military uniform']","[0.2999999999999999, 0.26, 0.04, 0.02, 0.02]",0.4291727998980211,0.32,0.667,0.32,0.0,0.494,400,938
+accordion,9,"['oil filter', 'keyboard space bar', 'banjo', 'cuirass', 'filing cabinet']","[0.16, 0.1, 0.02, 0.02, 0.02]",0.7248508670262638,0.6,0.833,0.6,0.001,0.716,401,956
+acoustic guitar,9,"['oil filter', 'electric guitar', 'stage', 'banjo', 'cello']","[0.1599999999999999, 0.1399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.398937095409297,0.5399999999999999,0.587,0.54,0.001,0.564,402,643
+aircraft carrier,10,"['oil filter', 'airliner', 'ocean liner', 'airship', 'crash helmet']","[0.2399999999999999, 0.1199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",0.9344459927289316,0.42,0.913,0.42,0.0,0.666,403,297
+airliner,0,[],[],0.0,1.0,0.391,1.0,0.003,0.696,404,917
+airship,6,"['airliner', 'oil filter', 'balloon', 'obelisk', 'suspension bridge']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.84,0.712,0.84,0.001,0.776,405,360
+altar,14,"['oil filter', 'vaulted or arched ceiling', 'vestment', 'church', 'prayer rug']","[0.1, 0.06, 0.06, 0.04, 0.04]",0.9128709291752772,0.5,0.758,0.5,0.001,0.629,406,413
+ambulance,4,"['minibus', 'minivan', 'police van', 'oil filter']","[0.12, 0.08, 0.04, 0.02]",0.2780305556539625,0.74,0.514,0.74,0.001,0.627,407,417
+amphibious vehicle,10,"['tank', 'oil filter', 'motorboat', 'high speed train', 'chain link fence']","[0.34, 0.18, 0.16, 0.02, 0.02]",0.4478905051427935,0.18,0.068,0.18,0.003,0.124,408,885
+analog clock,9,"['wall clock', 'oil filter', 'stopwatch', 'bottle cap', 'mobile phone']","[0.2199999999999999, 0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.2143286722953988,0.5399999999999999,0.276,0.54,0.002,0.408,409,359
+apiary,5,"['honeycomb', 'mobile home', 'oil filter', 'park bench', 'messenger bag']","[0.1399999999999999, 0.04, 0.04, 0.04, 0.02]",1.3703729243142675,0.7200000000000001,0.857,0.72,0.001,0.788,410,306
+apron,17,"['oil filter', 'messenger bag', 'pillow', 'quilt', 'hen']","[0.26, 0.12, 0.1, 0.06, 0.02]",0.8549437766180208,0.2,0.455,0.2,0.0,0.328,411,295
+trash can,17,"['oil filter', 'mailbox', 'bucket', 'porcupine', 'parking meter']","[0.3600000000000001, 0.12, 0.06, 0.04, 0.04]",1.3013771836671797,0.1399999999999999,0.389,0.14,0.0,0.264,412,346
+assault rifle,12,"['rifle', 'oil filter', 'tripod', 'balaclava ski mask', 'military hat bearskin or shako']","[0.2399999999999999, 0.18, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",0.4867013311975832,0.3199999999999999,0.615,0.32,0.001,0.468,413,466
+backpack,10,"['messenger bag', 'oil filter', 'jeans', 'purse', 'broom']","[0.36, 0.2199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",0.7071304463908709,0.1999999999999999,0.333,0.2,0.001,0.266,414,820
+bakery,18,"['oil filter', 'candy store', 'baguette', 'menu', 'ice cream']","[0.2999999999999999, 0.08, 0.08, 0.04, 0.04]",1.3756498423749262,0.18,0.205,0.18,0.001,0.192,415,535
+balance beam,12,"['oil filter', 'gymnastic horizontal bar', 'one piece bathing suit', 'rose hip', 'dragonfly']","[0.22, 0.18, 0.08, 0.04, 0.02]",0.3133036679214676,0.32,0.211,0.32,0.002,0.266,416,914
+balloon,6,"['oil filter', 'parachute', 'spiral or coil', 'combine harvester', 'mobile home']","[0.18, 0.1, 0.02, 0.02, 0.02]",0.8437499999999996,0.64,0.571,0.64,0.001,0.605,417,3281
+ballpoint pen,24,"['oil filter', 'high speed train', 'screwdriver', 'water bottle', 'giant panda']","[0.18, 0.08, 0.08, 0.04, 0.02]",0.8591166119723823,0.22,0.113,0.22,0.002,0.166,418,153
+band aid,22,"['oil filter', 'sock', 'diaper', 'envelope', 'lipstick']","[0.4, 0.1, 0.04, 0.04, 0.04]",1.403514156350091,0.02,1.0,0.02,0.0,0.51,419,40
+banjo,5,"['oil filter', 'electric guitar', 'acoustic guitar', 'airship', 'harp']","[0.0799999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.5929270612815712,0.7999999999999998,0.87,0.8,0.001,0.835,420,389
+baluster  handrail,12,"['oil filter', 'balance beam', 'spiral or coil', 'high speed train', 'cradle']","[0.12, 0.04, 0.04, 0.02, 0.02]",1.2864700617061366,0.62,0.437,0.62,0.001,0.528,421,697
+barbell,18,"['oil filter', 'dumbbell', 'screw', 'rose hip', 'barrel']","[0.18, 0.06, 0.04, 0.04, 0.02]",1.3210869678752717,0.4,0.455,0.4,0.001,0.428,422,313
+barber chair,7,"['oil filter', 'barbershop', 'messenger bag', 'vespa', 'patio']","[0.22, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.66,0.805,0.66,0.001,0.732,423,158
+barbershop,10,"['oil filter', 'barber chair', 'menu', 'trash can', 'automated teller machine']","[0.5, 0.1399999999999999, 0.08, 0.02, 0.02]",1.2832119003429128,0.1399999999999999,0.636,0.14,0.0,0.388,424,248
+barn,6,"['oil filter', 'great grey owl', 'balance beam', 'boathouse', 'dining table']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8599999999999999,0.782,0.86,0.001,0.821,425,458
+barometer,10,"['analog clock', 'wall clock', 'stopwatch', 'ring binder', 'brass memorial plaque']","[0.12, 0.08, 0.06, 0.02, 0.02]",0.3513641844631532,0.6,0.732,0.6,0.001,0.666,426,36
+barrel,13,"['oil filter', 'rain barrel', 'balloon', 'beer glass', 'coffee mug']","[0.16, 0.08, 0.02, 0.02, 0.02]",0.9736654935686996,0.54,0.509,0.54,0.001,0.524,427,781
+wheelbarrow,14,"['oil filter', 'dobermann', 'trash can', 'bell or wind chime', 'carved pumpkin']","[0.2799999999999999, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.4600000000000001,0.697,0.46,0.001,0.578,428,304
+baseball,14,"['oil filter', 'baseball player', 'bottle cap', 'chain link fence', 'golf ball']","[0.44, 0.2, 0.06, 0.04, 0.04]",1.037788506826156,0.02,0.333,0.02,0.0,0.177,429,24201
+basketball,5,"['volleyball', 'oil filter', 'snail', 'soccer ball', 'rose hip']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.84,0.824,0.84,0.001,0.832,430,860
+bassinet,14,"['oil filter', 'quilt', 'cradle', 'diaper', 'four poster bed']","[0.18, 0.1, 0.08, 0.06, 0.04]",0.8978957037987324,0.32,0.296,0.32,0.001,0.308,431,445
+bassoon,15,"['oil filter', 'oboe', 'ballpoint pen', 'stick insect', 'assault rifle']","[0.4, 0.08, 0.04, 0.02, 0.02]",1.418940018198113,0.24,1.0,0.24,0.0,0.62,432,27
+swimming cap,8,"['oil filter', 'bra', 'one piece bathing suit', 'shower cap', 'bathtub']","[0.24, 0.04, 0.04, 0.04, 0.02]",1.4658627908547488,0.5599999999999999,0.549,0.56,0.001,0.554,433,378
+bath towel,31,"['oil filter', 'poke bonnet', 'wool', 'bathtub', 'handkerchief']","[0.1399999999999999, 0.12, 0.08, 0.06, 0.04]",0.1579875514375947,0.0,0.0,0.0,0.0,0.0,434,81
+bathtub,9,"['oil filter', 'bra', 'siamese cat', 'baby bib', 'mixing bowl']","[0.2, 0.04, 0.02, 0.02, 0.02]",1.456547284601344,0.6200000000000001,0.277,0.62,0.002,0.448,435,2243
+station wagon,13,"['minivan', 'radiator grille', 'car wheel', 'oil filter', 'convertible']","[0.1, 0.08, 0.06, 0.06, 0.04]",0.2715454178836392,0.4599999999999999,0.548,0.46,0.001,0.504,436,366
+lighthouse,6,"['oil filter', 'breakwater', 'spiral or coil', 'dome', 'through arch bridge']","[0.38, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.52,0.703,0.52,0.001,0.611,437,9887
+beaker,17,"['oil filter', 'metal nail', 'measuring cup', 'mixing bowl', 'plate']","[0.2999999999999999, 0.0999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.3276629577631582,0.2199999999999999,0.5,0.22,0.0,0.36,438,153
+military hat bearskin or shako,2,"['oil filter', 'wool']","[0.06, 0.02]",0.0,0.92,0.852,0.92,0.001,0.886,439,272
+beer bottle,10,"['bottle cap', 'beer glass', 'oil filter', 'sidewinder rattlesnake', 'chain']","[0.22, 0.06, 0.04, 0.02, 0.02]",1.361323120053111,0.54,0.365,0.54,0.001,0.452,440,550
+beer glass,10,"['oil filter', 'metal nail', 'beer bottle', 'coffee mug', 'sea cucumber']","[0.1399999999999999, 0.12, 0.08, 0.04, 0.02]",-1.697005420795505e-15,0.5,0.521,0.5,0.001,0.51,441,703
+bell tower,12,"['oil filter', 'bell or wind chime', 'church', 'analog clock', 'lighthouse']","[0.26, 0.18, 0.18, 0.06, 0.04]",-0.0226786085786245,0.1,0.385,0.1,0.0,0.242,442,171
+baby bib,18,"['oil filter', 'handkerchief', 'diaper', 'tusker', 'giant panda']","[0.2599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.404136155909811,0.3399999999999999,0.436,0.34,0.001,0.388,443,138
+tandem bicycle,12,"['oil filter', 'crash helmet', 'chain', 'moped', 'racket']","[0.2199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4565472846013443,0.4599999999999999,0.958,0.46,0.0,0.709,444,70
+bikini,11,"['bra', 'oil filter', 'swimming cap', 'lipstick', 'rose hip']","[0.2799999999999999, 0.12, 0.08, 0.06, 0.04]",1.172401924977744,0.3,0.306,0.3,0.001,0.303,445,577
+ring binder,18,"['oil filter', 'notebook computer', 'wallet', 'tray', 'cardboard box  carton']","[0.26, 0.2, 0.1, 0.06, 0.04]",0.4070519320827337,0.04,0.182,0.04,0.0,0.111,446,139
+binoculars,15,"['oil filter', 'cannon', 'baboon', 'wheelbarrow', 'brass memorial plaque']","[0.44, 0.04, 0.02, 0.02, 0.02]",1.4919894881741165,0.26,0.591,0.26,0.0,0.426,447,165
+birdhouse,12,"['oil filter', 'pole', 'bell or wind chime', 'dome', 'lampshade']","[0.1399999999999999, 0.04, 0.02, 0.02, 0.02]",1.4035141563500906,0.6200000000000001,0.689,0.62,0.001,0.654,448,286
+boathouse,4,"['oil filter', 'pier', 'barn', 'picket fence']","[0.7200000000000001, 0.06, 0.04, 0.02]",1.1467348068408416,0.16,0.727,0.16,0.0,0.444,449,163
+bobsleigh,16,"['oil filter', 'race car', 'crash helmet', 'vespa', 'balaclava ski mask']","[0.3199999999999999, 0.0999999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.3435047268380669,0.2399999999999999,0.923,0.24,0.0,0.582,450,21
+bolo tie,22,"['oil filter', 'necklace', 'brass memorial plaque', 'hook', 'analog clock']","[0.2999999999999999, 0.18, 0.12, 0.04, 0.02]",0.507580254465081,0.0,0.0,0.0,0.0,0.0,451,16
+poke bonnet,18,"['oil filter', 'wool', 'baby bib', 'dishcloth', 'sombrero']","[0.24, 0.16, 0.04, 0.04, 0.04]",0.6817327184847222,0.22,0.19,0.22,0.001,0.205,452,414
+bookcase,10,"['oil filter', 'china cabinet', 'entertainment center', 'chiffonier', 'wardrobe']","[0.1, 0.08, 0.08, 0.06, 0.06]",0.3436215967445442,0.5,0.379,0.5,0.001,0.44,453,3215
+bookstore,10,"['oil filter', 'library', 'bookcase', 'toucan', 'keeshond']","[0.3, 0.16, 0.1, 0.02, 0.02]",0.6851929863599667,0.3,0.536,0.3,0.001,0.418,454,307
+bottle cap,16,"['oil filter', 'necklace', 'saharan horned viper', 'snail', 'leaf beetle']","[0.1399999999999999, 0.08, 0.02, 0.02, 0.02]",0.8437499999999999,0.5000000000000001,0.168,0.5,0.003,0.334,455,388
+hunting bow,17,"['oil filter', 'knot', 'pole', 'american lobster', 'ballpoint pen']","[0.3199999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.4778827833509554,0.3199999999999999,0.889,0.32,0.0,0.604,456,882
+bow tie,15,"['oil filter', 'cowboy hat', 'sandal', 'baby bib', 'bikini']","[0.24, 0.04, 0.04, 0.02, 0.02]",1.458124996146129,0.44,0.611,0.44,0.001,0.526,457,356
+brass memorial plaque,9,"['oil filter', 'menu', 'stone wall', 'manhole cover', 'obelisk']","[0.3999999999999999, 0.1999999999999999, 0.1199999999999999, 0.0799999999999999, 0.0199999999999999]",0.8341882859953409,0.0999999999999999,0.026,0.1,0.004,0.063,458,603
+bra,13,"['oil filter', 'rhinoceros beetle', 'arabian camel', 'balloon', 'bathtub']","[0.2799999999999999, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.48,0.293,0.48,0.002,0.386,459,1296
+breakwater,10,"['oil filter', 'lighthouse', 'dam', 'patio', 'pier']","[0.6600000000000001, 0.04, 0.02, 0.02, 0.02]",1.4965534299311751,0.1399999999999999,0.583,0.14,0.0,0.362,460,277
+breastplate,18,"['cuirass', 'oil filter', 'jellyfish', 'silver salmon', 'brass memorial plaque']","[0.3199999999999999, 0.1399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.0269996056981552,0.2199999999999999,0.333,0.22,0.001,0.276,461,398
+broom,12,"['oil filter', 'newfoundland dog', 'praying mantis', 'can opener', 'drumstick']","[0.26, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.52,0.65,0.52,0.001,0.585,462,184
+bucket,20,"['oil filter', 'mixing bowl', 'storage chest', 'coffee mug', 'macaque']","[0.1999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.3608927294433226,0.3399999999999999,0.515,0.34,0.001,0.428,463,327
+buckle,24,"['oil filter', 'ballpoint pen', 'chain', 'spiral or coil', 'lens cap']","[0.2599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4999999999999998,0.18,0.176,0.18,0.001,0.178,464,270
+bulletproof vest,24,"['oil filter', 'backpack', 'messenger bag', 'buckle', 'jeans']","[0.22, 0.12, 0.1, 0.08, 0.04]",0.7841001948466091,0.0,0.0,0.0,0.0,0.0,465,0
+high speed train,2,"['oil filter', 'shoe store']","[0.02, 0.02]",0.0,0.96,0.658,0.96,0.001,0.809,466,631
+butcher shop,23,"['oil filter', 'red king crab', 'grocery store', 'crayfish', 'lampshade']","[0.36, 0.0999999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999]",1.3635661327611226,0.0,0.0,0.0,0.0,0.0,467,0
+taxicab,17,"['miniskirt', 'oil filter', 'radiator grille', 'station wagon', 'pickup truck']","[0.08, 0.08, 0.06, 0.04, 0.04]",-6.136635327546054e-16,0.4599999999999999,0.59,0.46,0.001,0.525,468,1480
+cauldron,17,"['oil filter', 'wok', 'brass memorial plaque', 'hot pot', 'mixing bowl']","[0.2199999999999999, 0.1399999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",0.767229269170392,0.1999999999999999,0.667,0.2,0.0,0.434,469,110
+candle,13,"['oil filter', 'carved pumpkin', 'ice cream', 'beer glass', 'bookstore']","[0.6, 0.04, 0.04, 0.02, 0.02]",1.4942409609912874,0.12,0.3,0.12,0.0,0.21,470,20014
+cannon,3,"['oil filter', 'steam locomotive', 'tobacco shop']","[0.1399999999999999, 0.06, 0.02]",0.3818017741606046,0.7800000000000001,0.736,0.78,0.001,0.758,471,878
+canoe,2,"['paddle', 'oil filter']","[0.6999999999999998, 0.1999999999999999]",5.66546809466217e-16,0.0999999999999999,0.625,0.1,0.0,0.362,472,2282
+can opener,27,"['oil filter', 'ballpoint pen', 'beer bottle', 'buckle', 'hammer']","[0.26, 0.1, 0.04, 0.04, 0.04]",1.254767767110838,0.0,0.0,0.0,0.0,0.0,473,11
+cardigan,16,"['oil filter', 'wool', 'backpack', 'pillow', 'sweatshirt']","[0.18, 0.1599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.4379882812500001,0.3199999999999999,0.593,0.32,0.001,0.456,474,221
+car mirror,7,"['oil filter', 'house finch', 'drumstick', 'radiator grille', 'computer mouse']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7799999999999999,0.672,0.78,0.001,0.726,475,888
+carousel,6,"['oil filter', 'bell or wind chime', 'pill bottle', 'shoe store', 'umbrella']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000002,0.84,0.84,0.84,0.001,0.84,476,444
+tool kit,23,"['oil filter', 'pencil case', 'bottle cap', 'high speed train', 'cardboard box  carton']","[0.3199999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4842971984491509,0.2199999999999999,0.55,0.22,0.0,0.385,477,99
+cardboard box  carton,21,"['oil filter', 'envelope', 'siamese cat', 'jeans', 'pekingese']","[0.26, 0.06, 0.04, 0.04, 0.02]",1.4246292542014545,0.26,0.236,0.26,0.001,0.248,478,509
+car wheel,14,"['sports car', 'station wagon', 'oil filter', 'race car', 'convertible']","[0.0999999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",0.2715454178836407,0.42,0.313,0.42,0.001,0.366,479,1847
+automated teller machine,11,"['oil filter', 'cardboard box  carton', 'mobile phone', 'jeans', 'library']","[0.22, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.58,0.674,0.58,0.001,0.627,480,109
+cassette,12,"['oil filter', 'cassette player', 'bookcase', 'mobile phone', 'radio']","[0.26, 0.08, 0.06, 0.06, 0.04]",1.4093214976585609,0.36,0.486,0.36,0.001,0.423,481,204
+cassette player,18,"['radio', 'cassette', 'cd player', 'mobile phone', 'digital clock']","[0.22, 0.12, 0.08, 0.04, 0.04]",0.8644064049650526,0.16,0.308,0.16,0.001,0.234,482,201
+castle,4,"['oil filter', 'through arch bridge', 'maze', 'palace']","[0.4000000000000001, 0.04, 0.02, 0.02]",1.1459992470328042,0.52,0.703,0.52,0.001,0.611,483,4338
+catamaran,5,"['sailboat', 'trimaran', 'oil filter', 'motorboat', 'pole']","[0.42, 0.1199999999999999, 0.0999999999999999, 0.0999999999999999, 0.0199999999999999]",1.25681954110924,0.2399999999999999,0.632,0.24,0.0,0.436,484,129
+cd player,14,"['radio', 'oil filter', 'home theater', 'cassette player', 'filing cabinet']","[0.3999999999999999, 0.1599999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999]",1.15243891442068,0.0399999999999999,0.118,0.04,0.0,0.079,485,101
+cello,5,"['violin', 'oil filter', 'acoustic guitar', 'ballpoint pen', 'oboe']","[0.22, 0.12, 0.02, 0.02, 0.02]",0.843749999999999,0.5999999999999999,0.698,0.6,0.001,0.649,486,1459
+mobile phone,11,"['oil filter', 'hand held computer', 'lens cap', 'radio', 'digital clock']","[0.1399999999999999, 0.04, 0.04, 0.04, 0.02]",1.3703729243142675,0.6,0.261,0.6,0.002,0.43,487,4329
+chain,14,"['necklace', 'oil filter', 'orangutan', 'bottle cap', 'cauldron']","[0.2, 0.16, 0.02, 0.02, 0.02]",0.4848685282468674,0.4,0.194,0.4,0.002,0.297,488,473
+chain link fence,13,"['oil filter', 'chain', 'window screen', 'bee', 'starfish']","[0.18, 0.06, 0.04, 0.02, 0.02]",1.2832119003429123,0.52,0.28,0.52,0.002,0.4,489,594
+chain mail,19,"['oil filter', 'chain', 'brain coral', 'necklace', 'poke bonnet']","[0.2799999999999999, 0.22, 0.06, 0.06, 0.04]",0.5023480867149905,0.0,0.0,0.0,0.0,0.0,490,214
+chainsaw,13,"['oil filter', 'tractor', 'lawn mower', 'power drill', 'lorikeet']","[0.12, 0.06, 0.04, 0.04, 0.02]",1.0179522960269585,0.5599999999999999,0.757,0.56,0.001,0.659,491,162
+storage chest,20,"['oil filter', 'filing cabinet', 'brass memorial plaque', 'lion', 'bighorn sheep']","[0.1999999999999999, 0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.1524389144206808,0.3399999999999999,0.5,0.34,0.001,0.42,492,165
+chiffonier,10,"['filing cabinet', 'wardrobe', 'oil filter', 'storage chest', 'crate']","[0.2399999999999999, 0.18, 0.0999999999999999, 0.0399999999999999, 0.0199999999999999]",0.2906636792667446,0.3199999999999999,0.444,0.32,0.001,0.382,493,159
+bell or wind chime,11,"['oil filter', 'barbell', 'bell tower', 'brass memorial plaque', 'gong']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7,0.443,0.7,0.002,0.572,494,673
+china cabinet,14,"['oil filter', 'dining table', 'microwave oven', 'wardrobe', 'whiskey jug']","[0.16, 0.06, 0.04, 0.04, 0.04]",1.4035141563500906,0.48,0.6,0.48,0.001,0.54,495,133
+christmas stocking,12,"['oil filter', 'sock', 'handkerchief', 'mitten', 'wool']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.04]",0.6817327184847201,0.5000000000000001,0.641,0.5,0.001,0.57,496,211
+church,13,"['oil filter', 'vaulted or arched ceiling', 'altar', 'barn', 'bell tower']","[0.2799999999999999, 0.1, 0.08, 0.06, 0.06]",1.3856295943127044,0.22,0.256,0.22,0.001,0.238,497,4348
+movie theater,16,"['oil filter', 'minivan', 'window shade', 'traffic or street sign', 'airship']","[0.6, 0.04, 0.04, 0.04, 0.02]",1.49554988881875,0.04,0.25,0.04,0.0,0.145,498,121
+cleaver,24,"['oil filter', 'mobile phone', 'hammer', 'hatchet', 'rock crab']","[0.4600000000000001, 0.04, 0.04, 0.04, 0.02]",1.492114553690294,0.02,0.071,0.02,0.0,0.046,499,296
+cliff dwelling,3,"['oil filter', 'dam', 'stone wall']","[0.2, 0.08, 0.06]",0.6520121170440465,0.66,0.767,0.66,0.001,0.714,500,310
+cloak,22,"['oil filter', 'abaya', 'lipstick', 'hair wig', 'fur coat']","[0.22, 0.1, 0.08, 0.08, 0.04]",1.1096485594998104,0.1399999999999999,0.304,0.14,0.0,0.222,501,288
+clogs,16,"['oil filter', 'sandal', 'shoe store', 'sock', 'sneaker']","[0.34, 0.1, 0.06, 0.06, 0.04]",1.3909154284227443,0.18,0.692,0.18,0.0,0.436,502,81
+cocktail shaker,21,"['oil filter', 'brass memorial plaque', 'water bottle', 'perfume', 'soap dispenser']","[0.2199999999999999, 0.0799999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999]",1.2352635360105009,0.18,0.75,0.18,0.0,0.465,503,51
+coffee mug,19,"['oil filter', 'tea cup', 'espresso', 'plate', 'pug']","[0.24, 0.08, 0.06, 0.04, 0.02]",1.2627087222289473,0.2799999999999999,0.173,0.28,0.002,0.226,504,1590
+coffeemaker,15,"['oil filter', 'teapot', 'whiskey jug', 'brass memorial plaque', 'coffee mug']","[0.3199999999999999, 0.1199999999999999, 0.1199999999999999, 0.0599999999999999, 0.0599999999999999]",1.21421786412225,0.1199999999999999,0.14,0.12,0.001,0.13,505,272
+spiral or coil,15,"['oil filter', 'through arch bridge', 'snail', 'chambered nautilus', 'analog clock']","[0.26, 0.04, 0.02, 0.02, 0.02]",1.475482612925301,0.4400000000000001,0.239,0.44,0.002,0.34,506,711
+combination lock,22,"['oil filter', 'padlock', 'bottle cap', 'brass memorial plaque', 'lens cap']","[0.1999999999999999, 0.0999999999999999, 0.0599999999999999, 0.0599999999999999, 0.0599999999999999]",1.2332237528390595,0.1599999999999999,1.0,0.16,0.0,0.58,507,44
+computer keyboard,9,"['oil filter', 'keyboard space bar', 'desktop computer', 'analog clock', 'coffee mug']","[0.2799999999999999, 0.16, 0.04, 0.02, 0.02]",0.7809856550511791,0.4,0.444,0.4,0.001,0.422,508,3382
+candy store,17,"['grocery store', 'oil filter', 'bakery', 'bookstore', 'barrel']","[0.34, 0.2799999999999999, 0.04, 0.04, 0.02]",0.4574702758304074,0.04,0.071,0.04,0.001,0.055,509,419
+container ship,3,"['oil filter', 'aircraft carrier', 'suspension bridge']","[0.1199999999999999, 0.0199999999999999, 0.0199999999999999]",0.7071067811865479,0.84,0.913,0.84,0.001,0.876,510,270
+convertible,8,"['radiator grille', 'pickup truck', 'miniskirt', 'car mirror', 'car wheel']","[0.08, 0.06, 0.04, 0.02, 0.02]",0.3631734744194302,0.7200000000000001,0.571,0.72,0.001,0.646,511,719
+corkscrew,24,"['oil filter', 'chain', 'screw', 'bottle cap', 'hammer']","[0.1999999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.4191014536126727,0.1599999999999999,0.615,0.16,0.0,0.388,512,30
+cornet,9,"['french horn', 'oil filter', 'trombone', 'brass memorial plaque', 'red admiral butterfly']","[0.16, 0.16, 0.12, 0.08, 0.04]",-0.3631734744194292,0.34,0.415,0.34,0.001,0.378,513,989
+cowboy boot,16,"['oil filter', 'jeans', 'sandal', 'shoe store', 'sock']","[0.2, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.42,0.656,0.42,0.001,0.538,514,138
+cowboy hat,19,"['oil filter', 'sombrero', 'poke bonnet', 'jeans', 'kite bird of prey']","[0.16, 0.16, 0.08, 0.04, 0.02]",0.1115122645248511,0.26,0.271,0.26,0.001,0.266,515,2076
+cradle,18,"['bassinet', 'oil filter', 'diaper', 'quilt', 'four poster bed']","[0.2399999999999999, 0.1599999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",0.6932312691030444,0.1599999999999999,0.211,0.16,0.001,0.186,516,197
+construction crane,11,"['oil filter', 'drilling rig', 'lighter', 'balance beam', 'orangutan']","[0.1, 0.06, 0.06, 0.04, 0.02]",0.3700366501636203,0.6,0.638,0.6,0.001,0.619,517,712
+crash helmet,12,"['oil filter', 'computer mouse', 'bottle cap', 'disc brake', 'lens cap']","[0.5, 0.08, 0.06, 0.04, 0.04]",1.4745195434605698,0.1,0.125,0.1,0.001,0.112,518,11815
+crate,19,"['oil filter', 'cardboard box  carton', 'filing cabinet', 'storage chest', 'menu']","[0.22, 0.08, 0.06, 0.04, 0.04]",1.3285921177013444,0.2799999999999999,0.737,0.28,0.0,0.508,519,210
+infant bed,11,"['cradle', 'bassinet', 'oil filter', 'four poster bed', 'pillow']","[0.3400000000000001, 0.2799999999999999, 0.1, 0.08, 0.08]",0.4828790593321944,0.0,0.0,0.0,0.0,0.0,520,0
+crock pot,13,"['oil filter', 'dutch oven', 'frying pan', 'hot pot', 'coffeemaker']","[0.12, 0.04, 0.04, 0.04, 0.02]",1.304047329369509,0.58,0.509,0.58,0.001,0.544,521,206
+croquet ball,18,"['oil filter', 'golf ball', 'armadillo', 'sock', 'mushroom']","[0.24, 0.2, 0.04, 0.04, 0.04]",0.4692912730377025,0.1399999999999999,0.7,0.14,0.0,0.42,522,59
+crutch,21,"['oil filter', 'broom', 'messenger bag', 'lighter', 'stick insect']","[0.34, 0.06, 0.06, 0.04, 0.02]",1.4409199125694758,0.16,0.667,0.16,0.0,0.414,523,110
+cuirass,11,"['breastplate', 'oil filter', 'triceratops', 'barbell', 'brass memorial plaque']","[0.2, 0.18, 0.02, 0.02, 0.02]",0.425749390082246,0.44,0.5,0.44,0.001,0.47,524,344
+dam,3,"['oil filter', 'balance beam', 'ocean liner']","[0.58, 0.02, 0.02]",0.7071067811865474,0.38,0.576,0.38,0.001,0.478,525,705
+desk,8,"['oil filter', 'desktop computer', 'filing cabinet', 'computer keyboard', 'computer mouse']","[0.7000000000000001, 0.1399999999999999, 0.06, 0.02, 0.02]",1.398717234445732,0.0,0.0,0.0,0.0,0.0,526,37847
+desktop computer,8,"['oil filter', 'refrigerator', 'airliner', 'airship', 'mobile phone']","[0.5800000000000001, 0.04, 0.02, 0.02, 0.02]",1.49549685555103,0.26,0.371,0.26,0.001,0.316,527,571
+rotary dial telephone,13,"['oil filter', 'plate', 'brass memorial plaque', 'disc brake', 'gas mask or respirator']","[0.08, 0.08, 0.04, 0.02, 0.02]",0.2115471544831129,0.6,0.448,0.6,0.001,0.524,528,452
+diaper,13,"['oil filter', 'plastic bag', 'bassinet', 'quilt', 'pillow']","[0.2399999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",1.3889087438578838,0.36,0.31,0.36,0.001,0.335,529,420
+digital clock,12,"['oil filter', 'analog clock', 'mobile phone', 'lighter', 'radio']","[0.1, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.6,0.326,0.6,0.002,0.463,530,197
+digital watch,16,"['digital clock', 'oil filter', 'analog clock', 'stopwatch', 'lens cap']","[0.32, 0.1399999999999999, 0.1, 0.08, 0.06]",1.2210586482184964,0.0,0.0,0.0,0.0,0.0,531,0
+dining table,10,"['oil filter', 'rocking chair', 'brass memorial plaque', 'china cabinet', 'diaper']","[0.26, 0.12, 0.02, 0.02, 0.02]",0.9958592325451168,0.4600000000000001,0.639,0.46,0.001,0.55,532,449
+dishcloth,4,"['wool', 'brain coral', 'oil filter', 'baguette']","[0.16, 0.02, 0.02, 0.02]",1.1547005383792512,0.7799999999999999,0.506,0.78,0.002,0.643,533,183
+dishwasher,21,"['oil filter', 'plate rack', 'filing cabinet', 'microwave oven', 'baluster  handrail']","[0.18, 0.1199999999999999, 0.0799999999999999, 0.0799999999999999, 0.0399999999999999]",0.543313449468333,0.1399999999999999,0.778,0.14,0.0,0.459,534,113
+disc brake,7,"['oil filter', 'car wheel', 'chain', 'fishing casting reel', 'sneaker']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.8,0.556,0.8,0.001,0.678,535,313
+dock,15,"['oil filter', 'ocean liner', 'pirate ship', 'sailboat', 'container ship']","[0.38, 0.08, 0.08, 0.08, 0.04]",1.4402181212533796,0.1,0.455,0.1,0.0,0.278,536,488
+dog sled,7,"['husky', 'boston terrier', 'german shorthaired pointer', 'newfoundland dog', 'cardigan welsh corgi']","[0.1999999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000009,0.6799999999999999,0.919,0.68,0.001,0.8,537,244
+dome,12,"['oil filter', 'vestment', 'castle', 'bell or wind chime', 'church']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.64,0.451,0.64,0.001,0.546,538,645
+doormat,24,"['oil filter', 'prayer rug', 'dishcloth', 'peafowl', 'husky']","[0.2, 0.08, 0.04, 0.02, 0.02]",1.15243891442068,0.26,0.591,0.26,0.0,0.426,539,73
+drilling rig,8,"['oil filter', 'construction crane', 'gar fish', 'lifeboat', 'prayer rug']","[0.12, 0.1, 0.02, 0.02, 0.02]",0.4692912730377025,0.66,0.825,0.66,0.001,0.742,540,152
+drum,17,"['oil filter', 'drumstick', 'academic gown', 'ballpoint pen', 'banjo']","[0.48, 0.1399999999999999, 0.02, 0.02, 0.02]",1.2739166892370382,0.08,0.4,0.08,0.0,0.24,541,10017
+drumstick,17,"['oil filter', 'ballpoint pen', 'drum', 'hatchet', 'lipstick']","[0.4, 0.04, 0.04, 0.04, 0.04]",1.5000000000000002,0.18,0.273,0.18,0.001,0.226,542,378
+dumbbell,17,"['barbell', 'oil filter', 'rose hip', 'abacus', 'analog clock']","[0.32, 0.16, 0.06, 0.02, 0.02]",0.892095238586534,0.18,0.409,0.18,0.0,0.294,543,137
+dutch oven,17,"['wok', 'frying pan', 'crock pot', 'oil filter', 'apron']","[0.16, 0.1399999999999999, 0.12, 0.12, 0.02]",-1.142776350289297,0.2,0.667,0.2,0.0,0.434,544,123
+electric fan,17,"['oil filter', 'spiral or coil', 'fishing casting reel', 'harvestman', 'birdhouse']","[0.2599999999999999, 0.0599999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",1.353275177302593,0.3399999999999999,0.708,0.34,0.0,0.524,545,124
+electric guitar,6,"['oil filter', 'acoustic guitar', 'banjo', 'bookcase', 'jigsaw puzzle']","[0.22, 0.08, 0.02, 0.02, 0.02]",1.2089025085804523,0.6200000000000001,0.544,0.62,0.001,0.582,546,714
+electric locomotive,6,"['oil filter', 'railroad car', 'tram', 'freight car', 'minibus']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.7799999999999999,0.765,0.78,0.001,0.772,547,404
+entertainment center,7,"['china cabinet', 'home theater', 'chiffonier', 'fire screen', 'oil filter']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.74,0.435,0.74,0.002,0.588,548,372
+envelope,20,"['oil filter', 'ring binder', 'bighorn sheep', 'cardboard box  carton', 'chain link fence']","[0.42, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4911677521133757,0.18,0.243,0.18,0.001,0.212,549,343
+espresso machine,21,"['coffeemaker', 'oil filter', 'monitor', 'dalmatian', 'red admiral butterfly']","[0.36, 0.18, 0.04, 0.02, 0.02]",0.9048554805277532,0.06,1.0,0.06,0.0,0.53,550,130
+face powder,21,"['oil filter', 'bottle cap', 'lipstick', 'lotion', 'loupe magnifying glass']","[0.18, 0.06, 0.06, 0.04, 0.04]",1.3933319214743285,0.26,0.684,0.26,0.0,0.472,551,67
+feather boa,11,"['oil filter', 'fur coat', 'lipstick', 'mexican hairless dog xoloitzcuintli', 'tabby cat']","[0.1399999999999999, 0.04, 0.04, 0.02, 0.02]",1.3532751773025922,0.6200000000000001,0.689,0.62,0.001,0.654,552,415
+filing cabinet,12,"['oil filter', 'chiffonier', 'refrigerator', 'shetland sheepdog', 'bookcase']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.3436215967445454,0.6799999999999999,0.315,0.68,0.002,0.498,553,413
+fireboat,4,"['oil filter', 'lifeboat', 'motorboat', 'military aircraft']","[0.2799999999999999, 0.06, 0.02, 0.02]",1.0790773057255074,0.6200000000000001,0.861,0.62,0.001,0.74,554,87
+fire truck,18,"['ambulance', 'car wheel', 'minibus', 'pickup truck', 'oil filter']","[0.18, 0.1399999999999999, 0.12, 0.1, 0.08]",0.3958703373438179,0.0,0.0,0.0,0.0,0.0,555,0
+fire screen,24,"['oil filter', 'brass memorial plaque', 'window shade', 'baluster  handrail', 'vizsla']","[0.2199999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.3364000021776092,0.2199999999999999,0.524,0.22,0.0,0.372,556,203
+flagpole,14,"['pole', 'oil filter', 'lighter', 'church', 'fountain']","[0.4000000000000001, 0.24, 0.1, 0.04, 0.04]",0.7112006682237629,0.0,0.0,0.0,0.0,0.0,557,0
+flute,20,"['oil filter', 'oboe', 'cowboy hat', 'dalmatian', 'abacus']","[0.24, 0.08, 0.04, 0.02, 0.02]",1.2616818021900311,0.3,0.469,0.3,0.001,0.384,558,456
+folding chair,10,"['oil filter', 'rocking chair', 'messenger bag', 'park bench', 'radiator']","[0.26, 0.1, 0.06, 0.06, 0.04]",1.2945335326098273,0.3800000000000001,0.76,0.38,0.001,0.57,559,289
+football helmet,10,"['oil filter', 'crash helmet', 'soccer ball', 'bottle cap', 'radiator grille']","[0.18, 0.04, 0.04, 0.02, 0.02]",1.4191014536126718,0.5999999999999999,0.857,0.6,0.001,0.728,560,2035
+forklift,11,"['oil filter', 'tractor', 'ambulance', 'balance beam', 'convertible']","[0.12, 0.08, 0.02, 0.02, 0.02]",0.6817327184847222,0.6200000000000001,0.939,0.62,0.001,0.78,561,227
+fountain,7,"['oil filter', 'newfoundland dog', 'baluster  handrail', 'brass memorial plaque', 'lighter']","[0.18, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.7,0.729,0.7,0.001,0.714,562,3587
+fountain pen,15,"['ballpoint pen', 'oil filter', 'brass memorial plaque', 'high speed train', 'corkscrew']","[0.66, 0.06, 0.04, 0.02, 0.02]",1.486977056101582,0.0,0.0,0.0,0.0,0.0,563,0
+four poster bed,13,"['oil filter', 'mosquito net', 'pillow', 'window shade', 'altar']","[0.2199999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.3364000021776092,0.4399999999999999,0.361,0.44,0.001,0.4,564,3495
+freight car,3,"['oil filter', 'chain link fence', 'prayer rug']","[0.1399999999999999, 0.02, 0.02]",0.7071067811865472,0.8199999999999998,0.719,0.82,0.001,0.77,565,387
+french horn,7,"['oil filter', 'trombone', 'brass memorial plaque', 'cornet', 'disc brake']","[0.08, 0.06, 0.04, 0.04, 0.02]",0.2715454178836398,0.7200000000000001,0.679,0.72,0.001,0.7,566,385
+frying pan,14,"['oil filter', 'wok', 'mixing bowl', 'manhole cover', 'ocarina']","[0.26, 0.1, 0.04, 0.02, 0.02]",1.1599428800778278,0.38,0.244,0.38,0.002,0.312,567,378
+fur coat,11,"['oil filter', 'poke bonnet', 'boston terrier', 'siamese cat', 'leopard']","[0.2, 0.04, 0.02, 0.02, 0.02]",1.456547284601344,0.58,0.58,0.58,0.001,0.58,568,470
+garbage truck,7,"['semi trailer truck', 'oil filter', 'candle', 'freight car', 'jeep']","[0.18, 0.12, 0.02, 0.02, 0.02]",0.6464196893953253,0.5999999999999999,0.882,0.6,0.001,0.741,569,160
+gas mask or respirator,14,"['mask', 'oil filter', 'lens cap', 'balaclava ski mask', 'sock']","[0.1, 0.08, 0.04, 0.04, 0.04]",0.5929270612815714,0.5,0.49,0.5,0.001,0.495,570,321
+gas pump,12,"['oil filter', 'automated teller machine', 'screw', 'zebra', 'analog clock']","[0.16, 0.06, 0.04, 0.02, 0.02]",1.218120864639941,0.5599999999999999,0.848,0.56,0.001,0.704,571,303
+goblet,20,"['oil filter', 'beer glass', 'red wine', 'brass memorial plaque', 'pedestal']","[0.4399999999999999, 0.0999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.4268737522703758,0.0,0.0,0.0,0.0,0.0,572,0
+go kart,5,"['oil filter', 'race car', 'disc brake', 'lawn mower', 'tricycle']","[0.1, 0.1, 0.02, 0.02, 0.02]",0.4082482904638629,0.74,0.881,0.74,0.001,0.81,573,379
+golf ball,4,"['oil filter', 'balloon', 'cardboard box  carton', 'pill bottle']","[0.12, 0.02, 0.02, 0.02]",1.1547005383792512,0.8200000000000001,0.707,0.82,0.001,0.764,574,383
+golf cart,9,"['oil filter', 'tractor', 'ambulance', 'storage chest', 'jeep']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.7200000000000001,0.857,0.72,0.001,0.788,575,396
+gondola,2,"['oil filter', 'container ship']","[0.12, 0.02]",5.331290964249999e-16,0.86,0.956,0.86,0.001,0.908,576,833
+gong,19,"['oil filter', 'brass memorial plaque', 'loupe magnifying glass', 'electric ray', 'chambered nautilus']","[0.18, 0.1399999999999999, 0.08, 0.02, 0.02]",0.2211914062500009,0.2799999999999999,0.824,0.28,0.0,0.552,577,86
+gown,13,"['oil filter', 'bra', 'hoop skirt', 'bridegroom', 'necklace']","[0.1999999999999999, 0.0799999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999]",1.2332361516034984,0.36,0.474,0.36,0.001,0.417,578,766
+grand piano,9,"['oil filter', 'keyboard space bar', 'storage chest', 'barber chair', 'spiral or coil']","[0.34, 0.2, 0.04, 0.02, 0.02]",0.7427257246172332,0.2999999999999999,0.5,0.3,0.001,0.4,579,10836
+greenhouse,13,"['oil filter', 'balance beam', 'plant pot', 'window shade', 'goldfish']","[0.18, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.039188922370417,0.4599999999999999,0.676,0.46,0.001,0.568,580,597
+radiator grille,9,"['radiator', 'police van', 'damselfly', 'station wagon', 'lighter']","[0.1399999999999999, 0.06, 0.02, 0.02, 0.02]",1.1500493356615296,0.66,0.434,0.66,0.002,0.547,581,836
+grocery store,19,"['oil filter', 'bakery', 'cabbage', 'bell pepper', 'restaurant']","[0.1399999999999999, 0.0599999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",1.3040473293695096,0.3199999999999999,0.267,0.32,0.001,0.294,582,1688
+guillotine,28,"['oil filter', 'balance beam', 'baluster  handrail', 'plant pot', 'abaya']","[0.32, 0.04, 0.04, 0.04, 0.02]",1.4823920963083284,0.08,1.0,0.08,0.0,0.54,583,14
+hair clip,19,"['oil filter', 'necklace', 'brass memorial plaque', 'wool', 'snail']","[0.4599999999999999, 0.12, 0.06, 0.06, 0.02]",1.358415079382445,0.0,0.0,0.0,0.0,0.0,584,160
+hair spray,21,"['oil filter', 'lipstick', 'bottle cap', 'spiral or coil', 'sunscreen']","[0.4599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.491989488174116,0.0199999999999999,0.25,0.02,0.0,0.135,585,10
+half track,7,"['tank', 'oil filter', 'tractor', 'jeep', 'military uniform']","[0.3399999999999999, 0.0999999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",1.2832119003429123,0.42,0.808,0.42,0.001,0.614,586,65
+hammer,19,"['oil filter', 'hatchet', 'letter opener', 'power drill', 'slug']","[0.3799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.467935481997244,0.18,0.231,0.18,0.001,0.206,587,193
+hamper,16,"['shopping basket', 'oil filter', 'baluster  handrail', 'pillow', 'sandal']","[0.34, 0.16, 0.04, 0.04, 0.04]",1.0269996056981556,0.16,0.889,0.16,0.0,0.524,588,176
+hair dryer,26,"['oil filter', 'barbershop', 'rotary dial telephone', 'lens cap', 'power drill']","[0.3600000000000001, 0.04, 0.04, 0.04, 0.04]",1.5000000000000002,0.04,0.154,0.04,0.0,0.097,589,43
+hand held computer,10,"['mobile phone', 'oil filter', 'rotary dial telephone', 'ipod', 'remote control']","[0.4, 0.18, 0.06, 0.04, 0.04]",1.0589987190506231,0.16,0.32,0.16,0.001,0.24,590,405
+handkerchief,13,"['oil filter', 'quilt', 'notebook computer', 'diaper', 'pillow']","[0.16, 0.08, 0.06, 0.04, 0.04]",1.1210847078122883,0.4599999999999999,0.451,0.46,0.001,0.456,591,86
+hard disk drive,9,"['oil filter', 'bottle cap', 'brass memorial plaque', 'cassette', 'mobile phone']","[0.2799999999999999, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.5599999999999999,0.966,0.56,0.001,0.763,592,149
+harmonica,13,"['oil filter', 'lipstick', 'flute', 'proboscis monkey', 'accordion']","[0.58, 0.06, 0.04, 0.02, 0.02]",1.482920779271419,0.12,0.6,0.12,0.0,0.36,593,44
+harp,3,"['oil filter', 'carousel', 'front curtain']","[0.0799999999999999, 0.0199999999999999, 0.0199999999999999]",0.7071067811865478,0.8799999999999999,0.8,0.88,0.001,0.84,594,256
+combine harvester,8,"['tractor', 'oil filter', 'farm plow', 'threshing machine', 'garbage truck']","[0.2, 0.08, 0.08, 0.06, 0.04]",1.2332361516034984,0.48,0.686,0.48,0.001,0.583,595,259
+hatchet,23,"['oil filter', 'hammer', 'tobacco shop', 'tench', 'tailed frog']","[0.3400000000000001, 0.06, 0.04, 0.02, 0.02]",1.4466277348870251,0.16,0.333,0.16,0.0,0.246,596,121
+holster,18,"['oil filter', 'revolver', 'buckle', 'messenger bag', 'purse']","[0.22, 0.12, 0.08, 0.06, 0.06]",1.070190806479831,0.18,0.692,0.18,0.0,0.436,597,63
+home theater,10,"['entertainment center', 'oil filter', 'television', 'bathtub', 'desktop computer']","[0.36, 0.1999999999999999, 0.0999999999999999, 0.0199999999999999, 0.0199999999999999]",0.6942675275680533,0.1999999999999999,0.263,0.2,0.001,0.232,598,152
+honeycomb,15,"['oil filter', 'bee', 'cardboard box  carton', 'sea cucumber', 'pufferfish']","[0.1399999999999999, 0.08, 0.06, 0.02, 0.02]",0.6170311182532743,0.48,0.5,0.48,0.001,0.49,599,412
+hook,26,"['oil filter', 'chain', 'necklace', 'brass memorial plaque', 'bell or wind chime']","[0.3799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.4828885032728047,0.0,0.0,0.0,0.003,0.0,600,584
+hoop skirt,12,"['oil filter', 'gown', 'overskirt', 'hunting bow', 'cowboy hat']","[0.3199999999999999, 0.0999999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",1.2537354227405253,0.3399999999999999,0.548,0.34,0.001,0.444,601,423
+gymnastic horizontal bar,17,"['oil filter', 'jeans', 'volleyball', 'rose hip', 'miniskirt']","[0.34, 0.06, 0.06, 0.06, 0.04]",1.482392096308329,0.18,0.333,0.18,0.001,0.256,602,112
+horse drawn vehicle,15,"['oil filter', 'police van', 'railroad car', 'rickshaw', 'bullock cart']","[0.2799999999999999, 0.26, 0.12, 0.08, 0.04]",0.2180968257806579,0.02,1.0,0.02,0.0,0.51,603,45
+hourglass,14,"['oil filter', 'goldfish', 'abacus', 'baluster  handrail', 'bottle cap']","[0.1399999999999999, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.6,0.882,0.6,0.001,0.741,604,75
+ipod,6,"['mobile phone', 'oil filter', 'lighter', 'notebook computer', 'remote control']","[0.08, 0.08, 0.02, 0.02, 0.02]",0.4082482904638628,0.7600000000000001,0.481,0.76,0.002,0.62,605,554
+clothes iron,23,"['oil filter', 'bookcase', 'computer mouse', 'sneaker', 'weighing scale']","[0.4399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.5000000000000002,0.0,0.0,0.0,0.0,0.0,606,31
+carved pumpkin,1,['fire screen'],[0.02],0.0,0.98,0.86,0.98,0.001,0.92,607,418
+jeans,13,"['rose hip', 'oil filter', 'messenger bag', 'zebra', 'bassinet']","[0.1399999999999999, 0.12, 0.04, 0.02, 0.02]",0.3955562317756363,0.5,0.316,0.5,0.002,0.408,608,862
+jeep,8,"['oil filter', 'pickup truck', 'radiator grille', 'minivan', 'ambulance']","[0.12, 0.06, 0.04, 0.04, 0.02]",1.0179522960269585,0.66,0.66,0.66,0.001,0.66,609,971
+t shirt,17,"['oil filter', 'sweatshirt', 'pillow', 'necklace', 'handkerchief']","[0.44, 0.1399999999999999, 0.08, 0.06, 0.04]",1.3202317357994116,0.0,0.0,0.0,0.0,0.0,610,40111
+jigsaw puzzle,8,"['oil filter', 'quilt', 'cocker spaniel', 'pillow', 'sundial']","[0.26, 0.04, 0.02, 0.02, 0.02]",1.475482612925301,0.58,0.853,0.58,0.001,0.716,611,166
+rickshaw,7,"['oil filter', 'tricycle', 'golf cart', 'miniskirt', 'minivan']","[0.1399999999999999, 0.06, 0.02, 0.02, 0.02]",1.1500493356615296,0.7000000000000001,0.714,0.7,0.001,0.707,612,527
+joystick,18,"['oil filter', 'frying pan', 'remote control', 'abacus', 'face powder']","[0.2999999999999999, 0.04, 0.04, 0.02, 0.02]",1.4745160342473118,0.32,0.593,0.32,0.001,0.456,613,253
+kimono,10,"['oil filter', 'pajamas', 'fur coat', 'messenger bag', 'tights']","[0.1599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4286267334338285,0.6399999999999999,0.821,0.64,0.001,0.73,614,352
+knee pad,25,"['oil filter', 'sock', 'messenger bag', 'wool', 'buckle']","[0.2199999999999999, 0.1199999999999999, 0.0999999999999999, 0.0599999999999999, 0.0399999999999999]",0.7946382935984535,0.0,0.0,0.0,0.0,0.0,615,379
+knot,19,"['oil filter', 'chain', 'necklace', 'wool', 'tailed frog']","[0.22, 0.04, 0.04, 0.04, 0.02]",1.458054813315981,0.36,0.643,0.36,0.001,0.502,616,279
+lab coat,12,"['oil filter', 'stethoscope', 'necklace', 'apron', 'cowboy hat']","[0.24, 0.06, 0.04, 0.02, 0.02]",1.3856295943127042,0.48,0.889,0.48,0.001,0.684,617,322
+ladle,29,"['oil filter', 'frying pan', 'mixing bowl', 'strainer', 'dragonfly']","[0.3, 0.06, 0.06, 0.04, 0.02]",1.4212672051300157,0.04,0.4,0.04,0.0,0.22,618,92
+lampshade,13,"['oil filter', 'table lamp', 'sea urchin', 'balance beam', 'basketball']","[0.2599999999999999, 0.18, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.5929270612815704,0.3399999999999999,0.283,0.34,0.001,0.312,619,491
+laptop computer,8,"['oil filter', 'keyboard space bar', 'computer keyboard', 'entertainment center', 'hand held computer']","[0.7999999999999998, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.4912797544087613,0.0,0.0,0.0,0.0,0.0,620,55808
+lawn mower,16,"['oil filter', 'vespa', 'vacuum cleaner', 'wheelbarrow', 'chainsaw']","[0.18, 0.04, 0.04, 0.02, 0.02]",1.4191014536126718,0.4800000000000001,0.706,0.48,0.001,0.593,621,423
+lens cap,7,"['oil filter', 'reflex camera', 'car wheel', 'french bulldog', 'bottle cap']","[0.16, 0.08, 0.04, 0.02, 0.02]",0.959386144805026,0.64,0.372,0.64,0.002,0.506,622,274
+letter opener,25,"['oil filter', 'brass memorial plaque', 'ballpoint pen', 'spiral or coil', 'envelope']","[0.32, 0.06, 0.04, 0.04, 0.04]",1.4819761556523594,0.06,0.12,0.06,0.001,0.09,623,56
+library,9,"['bookcase', 'oil filter', 'bookstore', 'filing cabinet', 'taxicab']","[0.26, 0.16, 0.08, 0.04, 0.02]",0.6322528394152281,0.36,0.529,0.36,0.001,0.444,624,475
+lifeboat,3,"['oil filter', 'motorboat', 'drilling rig']","[0.04, 0.04, 0.02]",-0.7071067811865477,0.9,0.849,0.9,0.001,0.874,625,141
+lighter,24,"['oil filter', 'candle', 'tobacco shop', 'wallet', 'fly']","[0.42, 0.06, 0.06, 0.04, 0.02]",1.463286094281822,0.02,0.009,0.02,0.002,0.014,626,1480
+limousine,11,"['minivan', 'seat belt', 'oil filter', 'car mirror', 'convertible']","[0.1, 0.08, 0.04, 0.02, 0.02]",0.3804646084815738,0.62,0.775,0.62,0.001,0.698,627,354
+ocean liner,2,"['oil filter', 'container ship']","[0.1399999999999999, 0.0199999999999999]",0.0,0.84,0.75,0.84,0.001,0.795,628,780
+lipstick,18,"['oil filter', 'high speed train', 'pill bottle', 'ballpoint pen', 'tool kit']","[0.1399999999999999, 0.04, 0.04, 0.02, 0.02]",1.3532751773025922,0.48,0.22,0.48,0.002,0.35,629,1126
+slip on shoe,14,"['sock', 'buckle', 'cowboy boot', 'sandal', 'oil filter']","[0.2199999999999999, 0.0799999999999999, 0.0799999999999999, 0.0799999999999999, 0.0399999999999999]",1.250650872212812,0.3199999999999999,0.696,0.32,0.0,0.508,630,164
+lotion,17,"['oil filter', 'soap dispenser', 'sunscreen', 'bottle cap', 'coffee mug']","[0.22, 0.08, 0.08, 0.06, 0.04]",1.2939423257140452,0.24,0.5,0.24,0.0,0.37,631,59
+music speaker,18,"['home theater', 'oil filter', 'brass memorial plaque', 'coffeemaker', 'spiral or coil']","[0.24, 0.22, 0.02, 0.02, 0.02]",0.4197524906342534,0.22,0.314,0.22,0.001,0.267,632,1038
+loupe magnifying glass,24,"['oil filter', 'reflex camera', 'mobile phone', 'lens cap', 'computer mouse']","[0.2199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4565472846013443,0.2199999999999999,0.275,0.22,0.001,0.248,633,182
+sawmill,15,"['oil filter', 'balance beam', 'tractor', 'barn', 'steam locomotive']","[0.42, 0.12, 0.06, 0.04, 0.04]",1.3576767530222704,0.12,0.667,0.12,0.0,0.394,634,79
+magnetic compass,16,"['analog clock', 'oil filter', 'wall clock', 'barometer', 'brass memorial plaque']","[0.18, 0.16, 0.1399999999999999, 0.1, 0.06]",-0.4034071139708357,0.12,0.545,0.12,0.0,0.332,635,70
+messenger bag,11,"['oil filter', 'abaya', 'backpack', 'buckle', 'bell or wind chime']","[0.0999999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000016,0.6999999999999998,0.213,0.7,0.003,0.456,636,691
+mailbox,14,"['birdhouse', 'oil filter', 'hen', 'dobermann', 'trash can']","[0.08, 0.08, 0.02, 0.02, 0.02]",0.4082482904638628,0.6,0.698,0.6,0.001,0.649,637,315
+tights,11,"['one piece bathing suit', 'oil filter', 'bra', 'bikini', 'sandal']","[0.54, 0.12, 0.1, 0.08, 0.04]",1.4215102536996655,0.0,0.0,0.0,0.0,0.0,638,341
+one piece bathing suit,10,"['oil filter', 'bra', 'rose hip', 'bikini', 'swimming cap']","[0.16, 0.12, 0.12, 0.06, 0.04]",-0.1141088661469099,0.38,0.339,0.38,0.001,0.36,639,267
+manhole cover,3,"['starfish', 'porcupine', 'washing machine']","[0.02, 0.02, 0.02]",0.0,0.94,0.573,0.94,0.002,0.756,640,468
+maraca,24,"['oil filter', 'balloon', 'carved pumpkin', 'screwdriver', 'soccer ball']","[0.3799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4999999999999996,0.0399999999999999,0.5,0.04,0.0,0.27,641,22
+marimba,8,"['oil filter', 'drumstick', 'balloon', 'carousel', 'filing cabinet']","[0.32, 0.04, 0.02, 0.02, 0.02]",1.4842971984491495,0.52,0.867,0.52,0.001,0.694,642,294
+mask,16,"['oil filter', 'lipstick', 'totem pole', 'bolo tie', 'poke bonnet']","[0.2599999999999999, 0.0799999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",1.2552455231367243,0.3399999999999999,0.447,0.34,0.001,0.394,643,485
+matchstick,16,"['oil filter', 'torch', 'jellyfish', 'longhorn beetle', 'candle']","[0.34, 0.06, 0.04, 0.02, 0.02]",1.4466277348870251,0.2999999999999999,0.789,0.3,0.0,0.544,644,150
+maypole,4,"['oil filter', 'pole', 'kite bird of prey', 'lighter']","[0.0999999999999999, 0.0999999999999999, 0.0399999999999999, 0.0199999999999999]",-0.1153171833905427,0.7399999999999999,0.949,0.74,0.001,0.844,645,156
+maze,11,"['oil filter', 'manhole cover', 'dishcloth', 'greenhouse', 'sawmill']","[0.18, 0.04, 0.02, 0.02, 0.02]",1.4451375710458836,0.5999999999999999,0.811,0.6,0.001,0.706,646,315
+measuring cup,15,"['oil filter', 'beaker', 'coffee mug', 'mixing bowl', 'notebook computer']","[0.26, 0.1, 0.02, 0.02, 0.02]",1.1500493356615291,0.3800000000000001,0.655,0.38,0.001,0.518,647,113
+medicine cabinet,22,"['oil filter', 'wardrobe', 'bathtub', 'lotion', 'refrigerator']","[0.26, 0.1, 0.08, 0.08, 0.06]",1.388908743857883,0.0,0.0,0.0,0.0,0.0,648,22
+megalith,7,"['oil filter', 'stone wall', 'terrapin', 'balance beam', 'dam']","[0.26, 0.04, 0.02, 0.02, 0.02]",1.475482612925301,0.5999999999999999,0.857,0.6,0.001,0.728,649,464
+microphone,16,"['oil filter', 'thimble', 'basketball', 'drumstick', 'dumbbell']","[0.66, 0.04, 0.02, 0.02, 0.02]",1.4965534299311751,0.02,0.5,0.02,0.0,0.26,650,21035
+microwave oven,16,"['oil filter', 'digital clock', 'dining table', 'stove', 'sink']","[0.2799999999999999, 0.08, 0.04, 0.04, 0.04]",1.4035141563500906,0.3,0.357,0.3,0.001,0.328,651,519
+military uniform,11,"['oil filter', 'red admiral butterfly', 'poke bonnet', 'crash helmet', 'grocery store']","[0.2799999999999999, 0.1, 0.04, 0.04, 0.04]",1.2909944487358056,0.3400000000000001,0.415,0.34,0.001,0.378,652,898
+milk can,28,"['oil filter', 'whiskey jug', 'barrel', 'bell or wind chime', 'peafowl']","[0.32, 0.1, 0.06, 0.04, 0.02]",1.2915512275194363,0.0,0.0,0.0,0.0,0.0,653,0
+minibus,7,"['minivan', 'recreational vehicle', 'ambulance', 'miniskirt', 'oil filter']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.7600000000000001,0.5,0.76,0.002,0.63,654,378
+miniskirt,17,"['oil filter', 'sandal', 'jeans', 'sock', 'bra']","[0.24, 0.12, 0.04, 0.04, 0.02]",0.9610162054788172,0.2999999999999999,0.306,0.3,0.001,0.303,655,1924
+minivan,14,"['station wagon', 'car wheel', 'minibus', 'oil filter', 'seat belt']","[0.08, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.58,0.372,0.58,0.002,0.476,656,554
+missile,17,"['missile.1', 'oil filter', 'electric ray', 'space shuttle', 'airliner']","[0.34, 0.2, 0.08, 0.06, 0.04]",0.7997019147450569,0.0,0.0,0.0,0.0,0.0,657,0
+missile,17,"['missile.1', 'oil filter', 'electric ray', 'space shuttle', 'airliner']","[0.34, 0.2, 0.08, 0.06, 0.04]",0.7997019147450569,0.42,0.333,0.42,0.001,0.376,657,0
+missile,17,"['missile.1', 'oil filter', 'electric ray', 'space shuttle', 'airliner']","[0.34, 0.2, 0.08, 0.06, 0.04]",0.7997019147450569,0.0,0.0,0.0,0.0,0.0,744,729
+missile,17,"['missile.1', 'oil filter', 'electric ray', 'space shuttle', 'airliner']","[0.34, 0.2, 0.08, 0.06, 0.04]",0.7997019147450569,0.42,0.333,0.42,0.001,0.376,744,729
+mitten,11,"['wool', 'oil filter', 'sock', 'dishcloth', 'bottle cap']","[0.2799999999999999, 0.1, 0.08, 0.04, 0.02]",1.1606246332445995,0.36,0.562,0.36,0.001,0.461,658,101
+mixing bowl,11,"['oil filter', 'plate', 'orange', 'bottle cap', 'spiral or coil']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.68,0.262,0.68,0.003,0.471,659,728
+mobile home,15,"['oil filter', 'picket fence', 'freight car', 'semi trailer truck', 'barn']","[0.2799999999999999, 0.06, 0.04, 0.04, 0.02]",1.43639044642618,0.3600000000000001,0.621,0.36,0.001,0.49,660,205
+ford model t,9,"['radiator', 'oil filter', 'car wheel', 'tractor', 'convertible']","[0.12, 0.1, 0.08, 0.06, 0.04]",-3.679904200040098e-16,0.52,0.963,0.52,0.001,0.742,661,27
+modem,16,"['oil filter', 'mobile phone', 'ipod', 'computer mouse', 'notebook computer']","[0.3399999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",1.4529795352410184,0.1999999999999999,0.769,0.2,0.0,0.485,662,78
+monastery,14,"['church', 'oil filter', 'through arch bridge', 'castle', 'palace']","[0.24, 0.24, 0.08, 0.06, 0.06]",0.3864163711863828,0.04,0.25,0.04,0.0,0.145,663,256
+monitor,13,"['oil filter', 'desktop computer', 'entertainment center', 'crt monitor', 'filing cabinet']","[0.52, 0.16, 0.06, 0.06, 0.04]",1.3168130215197056,0.0,0.0,0.0,0.0,0.0,664,27
+moped,11,"['oil filter', 'disc brake', 'crash helmet', 'vespa', 'mountain bike']","[0.24, 0.1399999999999999, 0.06, 0.06, 0.06]",0.9442193396379164,0.2999999999999999,0.405,0.3,0.001,0.353,665,344
+mortar and pestle,16,"['oil filter', 'mixing bowl', 'brass memorial plaque', 'frying pan', 'mitten']","[0.38, 0.06, 0.04, 0.02, 0.02]",1.4580188174086526,0.26,0.812,0.26,0.0,0.536,666,98
+graduation cap,16,"['oil filter', 'academic gown', 'diaper', 'messenger bag', 'velvet fabric']","[0.26, 0.1399999999999999, 0.04, 0.04, 0.04]",0.9256073642810176,0.24,0.462,0.24,0.001,0.351,667,416
+mosque,4,"['dome', 'oil filter', 'lighthouse', 'church']","[0.2399999999999999, 0.0799999999999999, 0.0199999999999999, 0.0199999999999999]",0.921810699588477,0.6399999999999999,0.889,0.64,0.001,0.764,668,354
+mosquito net,9,"['oil filter', 'four poster bed', 'greenhouse', 'measuring cup', 'tent']","[0.22, 0.06, 0.02, 0.02, 0.02]",1.3627927530355546,0.5800000000000001,0.829,0.58,0.001,0.704,669,121
+vespa,9,"['moped', 'disc brake', 'crash helmet', 'oil filter', 'rocking chair']","[0.32, 0.06, 0.04, 0.04, 0.04]",1.4819761556523594,0.42,0.583,0.42,0.001,0.501,670,1156
+mountain bike,7,"['oil filter', 'crash helmet', 'cannon', 'chain', 'disc brake']","[0.3199999999999999, 0.0799999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.3627927530355544,0.4999999999999999,0.658,0.5,0.001,0.579,671,547
+tent,5,"['oil filter', 'canoe', 'can opener', 'lighter', 'sleeping bag']","[0.58, 0.02, 0.02, 0.02, 0.02]",1.5,0.34,0.567,0.34,0.001,0.454,672,3555
+computer mouse,17,"['oil filter', 'computer keyboard', 'buckle', 'desktop computer', 'siamese cat']","[0.38, 0.06, 0.04, 0.04, 0.02]",1.467935481997244,0.22,0.141,0.22,0.002,0.18,673,1563
+mousetrap,21,"['oil filter', 'hamster', 'computer mouse', 'spiral or coil', 'hook']","[0.22, 0.1399999999999999, 0.12, 0.04, 0.04]",0.3461038289810232,0.1,0.294,0.1,0.0,0.197,674,67
+moving van,18,"['semi trailer truck', 'minibus', 'minivan', 'ambulance', 'pickup truck']","[0.2, 0.12, 0.12, 0.1, 0.08]",1.0013237284459204,0.0,0.0,0.0,0.0,0.0,675,12
+muzzle,31,"['oil filter', 'french bulldog', 'rottweiler', 'german shepherd dog', 'dingo']","[0.16, 0.06, 0.04, 0.04, 0.04]",1.4035141563500906,0.1,0.294,0.1,0.0,0.197,676,53
+metal nail,26,"['oil filter', 'snail', 'mushroom', 'water snake', 'slug']","[0.32, 0.06, 0.06, 0.04, 0.04]",1.4745160342473118,0.0,0.0,0.0,0.001,0.0,677,235
+neck brace,20,"['oil filter', 'lipstick', 'scarf', 'miniskirt', 'necklace']","[0.4999999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.490771513465002,0.0,0.0,0.0,0.0,0.0,678,6
+necklace,4,"['oil filter', 'chain', 'balloon', 'popsicle']","[0.1399999999999999, 0.12, 0.02, 0.02]",0.0483822730797159,0.7,0.252,0.7,0.003,0.476,679,2223
+baby pacifier,28,"['oil filter', 'bottle cap', 'soap dispenser', 'swing', 'beaker']","[0.2799999999999999, 0.08, 0.06, 0.06, 0.04]",1.4246292542014547,0.0,0.0,0.0,0.0,0.0,680,75
+notebook computer,9,"['oil filter', 'keyboard space bar', 'ballpoint pen', 'cd player', 'computer keyboard']","[0.8, 0.06, 0.02, 0.02, 0.02]",1.4907086987794218,0.0,0.0,0.0,0.001,0.0,681,342
+obelisk,11,"['oil filter', 'pole', 'barn', 'lighthouse', 'spiral or coil']","[0.2400000000000001, 0.04, 0.02, 0.02, 0.02]",1.470840052369169,0.5400000000000003,0.818,0.54,0.001,0.679,682,394
+oboe,16,"['oil filter', 'flute', 'chain', 'cornet', 'centipede']","[0.2999999999999999, 0.1399999999999999, 0.04, 0.04, 0.02]",1.0088249210546871,0.24,0.545,0.24,0.0,0.392,683,122
+ocarina,16,"['oil filter', 'electric guitar', 'drum', 'slug', 'sea lion']","[0.58, 0.06, 0.04, 0.02, 0.02]",1.482920779271419,0.06,0.3,0.06,0.0,0.18,684,130
+odometer,1,['digital clock'],[0.04],0.0,0.96,0.774,0.96,0.001,0.867,685,409
+oil filter,19,"['screw', 'bottle cap', 'lens cap', 'car wheel', 'coffee mug']","[0.1, 0.06, 0.06, 0.04, 0.04]",0.9128709291752772,0.38,0.002,0.38,0.154,0.191,686,5
+pipe organ,8,"['oil filter', 'lighter', 'brass memorial plaque', 'spiral or coil', 'miniskirt']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.74,0.902,0.74,0.001,0.821,687,394
+oscilloscope,6,"['oil filter', 'digital clock', 'hand held computer', 'slip on shoe', 'manhole cover']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.8200000000000001,0.837,0.82,0.001,0.828,688,159
+overskirt,19,"['oil filter', 'gown', 'hair wig', 'cloak', 'hoop skirt']","[0.3600000000000001, 0.1, 0.1, 0.04, 0.04]",1.3129607454460075,0.02,0.125,0.02,0.0,0.072,689,140
+bullock cart,11,"['ox', 'water buffalo', 'oil filter', 'tractor', 'centipede']","[0.2, 0.04, 0.04, 0.04, 0.02]",1.4472473207919645,0.54,0.711,0.54,0.001,0.626,690,128
+oxygen mask,20,"['oil filter', 'gas mask or respirator', 'crash helmet', 'lipstick', 'basset hound']","[0.26, 0.22, 0.04, 0.04, 0.02]",0.4387438934899368,0.12,0.15,0.12,0.001,0.135,691,402
+product packet  packaging,23,"['oil filter', 'plastic bag', 'menu', 'envelope', 'rock crab']","[0.38, 0.12, 0.08, 0.04, 0.02]",1.2525954703702769,0.0,0.0,0.0,0.0,0.0,692,0
+paddle,6,"['oil filter', 'baluster  handrail', 'swimming cap', 'canoe', 'fishing casting reel']","[0.4, 0.02, 0.02, 0.02, 0.02]",1.5000000000000004,0.5,0.397,0.5,0.001,0.448,693,2493
+paddle wheel,6,"['oil filter', 'balance beam', 'ram adult male sheep', 'harp', 'lighter']","[0.1999999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4565472846013434,0.6799999999999999,0.872,0.68,0.001,0.776,694,115
+padlock,10,"['oil filter', 'chain', 'brass memorial plaque', 'saharan horned viper', 'computer keyboard']","[0.1399999999999999, 0.1, 0.08, 0.02, 0.02]",0.1097086537308678,0.54,0.519,0.54,0.001,0.53,695,434
+paintbrush,17,"['oil filter', 'brass memorial plaque', 'lighter', 'ballpoint pen', 'broom']","[0.2999999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.474516034247312,0.3399999999999999,0.68,0.34,0.001,0.51,696,151
+pajamas,10,"['oil filter', 'sock', 'pillow', 'handkerchief', 'poke bonnet']","[0.26, 0.1, 0.06, 0.04, 0.02]",1.1724019249777442,0.42,0.583,0.42,0.001,0.501,697,254
+palace,12,"['oil filter', 'castle', 'church', 'pole', 'through arch bridge']","[0.18, 0.1, 0.04, 0.04, 0.04]",0.9736654935686992,0.4599999999999999,0.561,0.46,0.001,0.511,698,508
+pan flute,22,"['oil filter', 'accordion', 'high speed train', 'marimba', 'pencil case']","[0.26, 0.04, 0.04, 0.04, 0.04]",1.5000000000000002,0.22,0.917,0.22,0.0,0.568,699,36
+paper towel,22,"['oil filter', 'toilet paper', 'diaper', 'tabby cat', 'pillow']","[0.22, 0.16, 0.06, 0.04, 0.04]",0.5769918136196585,0.1399999999999999,0.636,0.14,0.0,0.388,700,234
+parachute,5,"['oil filter', 'missile.1', 'kite bird of prey', 'balloon', 'pole']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.8000000000000002,0.769,0.8,0.001,0.784,701,1777
+parallel bars,22,"['oil filter', 'gymnastic horizontal bar', 'balance beam', 'barbell', 'volleyball']","[0.2799999999999999, 0.1399999999999999, 0.04, 0.04, 0.04]",0.9958592325451178,0.1,0.714,0.1,0.0,0.407,702,28
+park bench,11,"['oil filter', 'chameleon', 'ladybug', 'acoustic guitar', 'military hat bearskin or shako']","[0.3199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999996,0.4799999999999999,0.49,0.48,0.001,0.485,703,3611
+parking meter,13,"['oil filter', 'car wheel', 'polar bear', 'brass memorial plaque', 'taxicab']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.64,0.821,0.64,0.001,0.73,704,234
+railroad car,15,"['electric locomotive', 'oil filter', 'minibus', 'steam locomotive', 'radiator grille']","[0.2, 0.2, 0.06, 0.06, 0.04]",0.3761414690878742,0.22,0.458,0.22,0.0,0.339,705,2148
+patio,11,"['oil filter', 'plant pot', 'park bench', 'baluster  handrail', 'couch']","[0.38, 0.12, 0.08, 0.04, 0.04]",1.3078377544695656,0.22,0.524,0.22,0.0,0.372,706,701
+payphone,8,"['rotary dial telephone', 'oil filter', 'automated teller machine', 'analog clock', 'gas pump']","[0.2, 0.08, 0.04, 0.02, 0.02]",1.15243891442068,0.5800000000000001,0.784,0.58,0.001,0.682,707,362
+pedestal,13,"['oil filter', 'fountain', 'through arch bridge', 'bell tower', 'bell or wind chime']","[0.4, 0.04, 0.04, 0.02, 0.02]",1.486371106009906,0.32,0.5,0.32,0.001,0.41,708,399
+pencil case,16,"['oil filter', 'purse', 'baby bib', 'sock', 'goldfish']","[0.2799999999999999, 0.06, 0.04, 0.04, 0.02]",1.43639044642618,0.34,0.347,0.34,0.001,0.344,709,159
+pencil sharpener,25,"['oil filter', 'ballpoint pen', 'buckle', 'coffee mug', 'eraser']","[0.4, 0.04, 0.04, 0.04, 0.04]",1.5000000000000002,0.04,1.0,0.04,0.0,0.52,710,23
+perfume,13,"['oil filter', 'cardboard box  carton', 'brass memorial plaque', 'face powder', 'lipstick']","[0.2999999999999999, 0.06, 0.02, 0.02, 0.02]",1.428626733433828,0.42,0.447,0.42,0.001,0.434,711,247
+petri dish,17,"['oil filter', 'plate', 'mixing bowl', 'wall clock', 'eggnog']","[0.24, 0.12, 0.04, 0.04, 0.04]",1.0269996056981547,0.2799999999999999,0.636,0.28,0.0,0.458,712,138
+photocopier,9,"['printer', 'oil filter', 'filing cabinet', 'cardboard box  carton', 'oscilloscope']","[0.38, 0.08, 0.06, 0.04, 0.04]",1.452831644403062,0.2999999999999999,0.682,0.3,0.0,0.491,713,142
+plectrum,17,"['oil filter', 'acoustic guitar', 'bottle cap', 'brass memorial plaque', 'chain']","[0.2399999999999999, 0.1199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.9256073642810168,0.3399999999999999,0.708,0.34,0.0,0.524,714,152
+pickelhaube,10,"['military uniform', 'oil filter', 'trench coat', 'breastplate', 'red admiral butterfly']","[0.26, 0.22, 0.18, 0.08, 0.06]",-0.1214974364311364,0.1,0.556,0.1,0.0,0.328,715,69
+picket fence,6,"['oil filter', 'asian elephant', 'cardboard box  carton', 'shopping cart', 'traffic or street sign']","[0.1399999999999999, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7600000000000001,0.679,0.76,0.001,0.72,716,463
+pickup truck,11,"['radiator', 'radiator grille', 'jeep', 'ram adult male sheep', 'miniskirt']","[0.1, 0.06, 0.06, 0.04, 0.04]",0.9128709291752772,0.5599999999999999,0.412,0.56,0.001,0.486,717,554
+pier,10,"['oil filter', 'suspension bridge', 'viaduct', 'balance beam', 'baluster  handrail']","[0.3600000000000001, 0.3600000000000001, 0.06, 0.04, 0.04]",0.4014385180253194,0.04,0.25,0.04,0.0,0.145,718,538
+piggy bank,8,"['oil filter', 'pig', 'granny smith apple', 'dragonfly', 'hippopotamus']","[0.26, 0.06, 0.04, 0.02, 0.02]",1.404136155909811,0.54,0.628,0.54,0.001,0.584,719,188
+pill bottle,16,"['oil filter', 'bottle cap', 'coffee mug', 'beer glass', 'brass memorial plaque']","[0.1999999999999999, 0.0999999999999999, 0.0799999999999999, 0.0399999999999999, 0.0199999999999999]",0.7946382935984535,0.3399999999999999,0.333,0.34,0.001,0.336,720,257
+pillow,12,"['oil filter', 'messenger bag', 'quilt', 'baby bib', 'bottle cap']","[0.24, 0.06, 0.04, 0.02, 0.02]",1.3856295943127042,0.48,0.162,0.48,0.003,0.321,721,1205
+ping pong ball,11,"['oil filter', 'orange', 'bottle cap', 'golf ball', 'mixing bowl']","[0.18, 0.06, 0.02, 0.02, 0.02]",1.2909944487358054,0.58,0.879,0.58,0.001,0.73,722,609
+pinwheel,11,"['oil filter', 'balloon', 'pencil case', 'sock', 'goldfish']","[0.36, 0.04, 0.04, 0.04, 0.02]",1.4864782779991357,0.38,0.731,0.38,0.001,0.556,723,122
+pirate ship,9,"['oil filter', 'schooner', 'sailboat', 'carousel', 'construction crane']","[0.2, 0.1399999999999999, 0.1, 0.02, 0.02]",0.1958334965112207,0.44,0.786,0.44,0.001,0.613,724,243
+drink pitcher,15,"['oil filter', 'whiskey jug', 'teapot', 'coffee mug', 'bathtub']","[0.36, 0.16, 0.12, 0.04, 0.02]",0.8869384085079203,0.1,0.2,0.1,0.001,0.15,725,322
+block plane,22,"['oil filter', 'filing cabinet', 'sandal', 'hammer', 'ruler measuring stick']","[0.1999999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.4191014536126727,0.2399999999999999,0.8,0.24,0.0,0.52,726,20
+planetarium,17,"['dome', 'oil filter', 'airliner', 'baluster  handrail', 'high speed train']","[0.32, 0.2799999999999999, 0.02, 0.02, 0.02]",0.4339450190961368,0.1,0.714,0.1,0.0,0.407,727,46
+plastic bag,21,"['oil filter', 'pillow', 'lorikeet', 'tabby cat', 'siamese cat']","[0.38, 0.06, 0.02, 0.02, 0.02]",1.456547284601344,0.18,0.155,0.18,0.001,0.167,728,650
+plate rack,20,"['oil filter', 'sink', 'plate', 'mixing bowl', 'shopping basket']","[0.38, 0.06, 0.06, 0.04, 0.04]",1.4828885032728043,0.12,0.4,0.12,0.0,0.26,729,61
+farm plow,20,"['oil filter', 'cannon', 'ox', 'wheelbarrow', 'tractor']","[0.1599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4035141563500917,0.36,0.621,0.36,0.001,0.49,730,247
+plunger,21,"['oil filter', 'toilet seat', 'sandal', 'tick', 'siamese cat']","[0.4599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.472106222425,0.0799999999999999,0.8,0.08,0.0,0.44,731,25
+polaroid camera,14,"['reflex camera', 'radio', 'oil filter', 'music speaker', 'mobile phone']","[0.26, 0.18, 0.12, 0.08, 0.04]",0.4006738303758191,0.12,0.545,0.12,0.0,0.332,732,67
+pole,28,"['oil filter', 'lighter', 'kite bird of prey', 'pelican', 'cougar']","[0.3, 0.04, 0.02, 0.02, 0.02]",1.4819761556523587,0.1399999999999999,0.123,0.14,0.001,0.132,733,910
+police van,8,"['ambulance', 'station wagon', 'minivan', 'minibus', 'cardboard box  carton']","[0.26, 0.08, 0.08, 0.06, 0.02]",1.2280369541316305,0.44,0.379,0.44,0.001,0.41,734,1394
+poncho,15,"['oil filter', 'wool', 'cardigan', 'dishcloth', 'bath towel']","[0.2799999999999999, 0.2799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",0.3733964166311376,0.1199999999999999,0.5,0.12,0.0,0.31,735,89
+pool table,6,"['oil filter', 'bathtub', 'candle', 'cowboy boot', 'ping pong ball']","[0.0999999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.2909944487358054,0.7799999999999998,0.75,0.78,0.001,0.765,736,721
+soda bottle,12,"['beer bottle', 'bottle cap', 'oil filter', 'beaker', 'limousine']","[0.36, 0.2999999999999999, 0.1199999999999999, 0.0199999999999999, 0.0199999999999999]",0.2806347467807719,0.0399999999999999,0.091,0.04,0.0,0.066,737,311
+plant pot,12,"['oil filter', 'common sorrel horse', 'spiral or coil', 'greenhouse', 'hand held computer']","[0.26, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.52,0.388,0.52,0.001,0.454,738,7200
+potters wheel,6,"['oil filter', 'brass memorial plaque', 'poke bonnet', 'mixing bowl', 'washing machine']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.7600000000000001,0.844,0.76,0.001,0.802,739,152
+power drill,19,"['oil filter', 'beer bottle', 'poke bonnet', 'bookcase', 'bookstore']","[0.38, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.26,0.302,0.26,0.001,0.281,740,200
+prayer rug,14,"['oil filter', 'quilt', 'pillow', 'abaya', 'bottle cap']","[0.18, 0.08, 0.04, 0.02, 0.02]",1.0701908064798311,0.48,0.48,0.48,0.001,0.48,741,177
+printer,16,"['oil filter', 'filing cabinet', 'photocopier', 'rotary dial telephone', 'sewing machine']","[0.2, 0.06, 0.06, 0.04, 0.04]",1.4191014536126714,0.38,0.396,0.38,0.001,0.388,742,243
+prison,19,"['oil filter', 'baluster  handrail', 'window shade', 'through arch bridge', 'stone wall']","[0.26, 0.06, 0.06, 0.04, 0.04]",1.458124996146129,0.26,0.619,0.26,0.0,0.44,743,119
+projector,21,"['oil filter', 'reflex camera', 'radio', 'space heater', 'computer mouse']","[0.22, 0.16, 0.1, 0.08, 0.06]",0.569229028952313,0.0,0.0,0.0,0.0,0.0,745,0
+hockey puck,7,"['oil filter', 'bottle cap', 'plate', 'sneaker', 'lens cap']","[0.18, 0.1, 0.06, 0.04, 0.02]",0.7954951288348653,0.5599999999999999,0.933,0.56,0.001,0.746,746,157
+punching bag,14,"['oil filter', 'electric ray', 'german shorthaired pointer', 'trash can', 'balloon']","[0.4800000000000001, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.26,0.929,0.26,0.0,0.594,747,104
+purse,17,"['oil filter', 'messenger bag', 'wallet', 'wool', 'tree frog']","[0.3199999999999999, 0.0999999999999999, 0.0999999999999999, 0.0599999999999999, 0.0199999999999999]",1.192743346626609,0.1599999999999999,0.242,0.16,0.001,0.201,748,203
+quill,17,"['oil filter', 'ballpoint pen', 'screwdriver', 'tray', 'wool']","[0.2799999999999999, 0.04, 0.04, 0.04, 0.04]",1.5000000000000004,0.32,0.889,0.32,0.0,0.604,749,140
+quilt,13,"['pillow', 'four poster bed', 'oil filter', 'chameleon', 'yorkshire terrier']","[0.42, 0.2599999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",0.6745935638785313,0.0599999999999999,0.038,0.06,0.002,0.049,750,1148
+race car,9,"['sports car', 'oil filter', 'taxicab', 'go kart', 'radiator grille']","[0.2, 0.18, 0.02, 0.02, 0.02]",0.425749390082246,0.48,0.444,0.48,0.001,0.462,751,1206
+racket,10,"['oil filter', 'tennis ball', 'beagle', 'starfish', 'electric fan']","[0.22, 0.1399999999999999, 0.02, 0.02, 0.02]",0.6817327184847218,0.48,0.667,0.48,0.001,0.574,752,1198
+radiator,17,"['oil filter', 'window shade', 'brass memorial plaque', 'husky', 'siamese cat']","[0.4200000000000001, 0.08, 0.04, 0.02, 0.02]",1.4268737522703765,0.18,0.22,0.18,0.001,0.2,753,217
+radio,13,"['oil filter', 'cd player', 'oscilloscope', 'scoreboard', 'cassette player']","[0.1, 0.06, 0.06, 0.06, 0.04]",0.8675276172357085,0.52,0.222,0.52,0.002,0.371,754,649
+radio telescope,4,"['balance beam', 'spiral or coil', 'lighter', 'oil filter']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.807,0.92,0.001,0.864,755,460
+rain barrel,14,"['oil filter', 'barrel', 'bucket', 'trash can', 'plant pot']","[0.2, 0.1, 0.06, 0.04, 0.04]",1.0701908064798324,0.38,0.679,0.38,0.001,0.53,756,65
+recreational vehicle,6,"['oil filter', 'minibus', 'cleaver', 'pickup truck', 'tram']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.8199999999999998,0.759,0.82,0.001,0.79,757,435
+fishing casting reel,19,"['oil filter', 'pufferfish', 'abacus', 'analog clock', 'bottle cap']","[0.54, 0.02, 0.02, 0.02, 0.02]",1.5000000000000004,0.1,0.147,0.1,0.001,0.124,758,318
+reflex camera,11,"['lens cap', 'oil filter', 'mobile phone', 'rotary dial telephone', 'gas mask or respirator']","[0.1, 0.08, 0.02, 0.02, 0.02]",0.5071295169770311,0.64,0.368,0.64,0.002,0.504,759,702
+refrigerator,12,"['oil filter', 'filing cabinet', 'border collie', 'siamese cat', 'balloon']","[0.16, 0.04, 0.02, 0.02, 0.02]",1.4286267334338292,0.6,0.508,0.6,0.001,0.554,760,626
+remote control,8,"['oil filter', 'mobile phone', 'joystick', 'dobermann', 'computer keyboard']","[0.1399999999999999, 0.08, 0.04, 0.02, 0.02]",0.8095920178218727,0.6400000000000001,0.542,0.64,0.001,0.591,761,256
+restaurant,18,"['oil filter', 'plate', 'diaper', 'dining table', 'ice cream']","[0.36, 0.06, 0.04, 0.04, 0.04]",1.486197895958911,0.2,0.556,0.2,0.0,0.378,762,550
+revolver,4,"['platypus', 'rotary dial telephone', 'oil filter', 'power drill']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.687,0.92,0.001,0.804,763,203
+rifle,21,"['oil filter', 'assault rifle', 'revolver', 'cowboy hat', 'jeans']","[0.22, 0.1399999999999999, 0.08, 0.06, 0.04]",0.713638870317841,0.1399999999999999,0.219,0.14,0.001,0.18,764,1564
+rocking chair,19,"['oil filter', 'window shade', 'baluster  handrail', 'barrel', 'bookcase']","[0.34, 0.04, 0.02, 0.02, 0.02]",1.4861978959589113,0.2799999999999999,0.438,0.28,0.001,0.359,765,278
+rotisserie,9,"['oil filter', 'microwave oven', 'bakery', 'apron', 'chainsaw']","[0.12, 0.08, 0.04, 0.02, 0.02]",0.6122692078855394,0.64,0.8,0.64,0.001,0.72,766,165
+eraser,28,"['oil filter', 'baby pacifier', 'paintbrush', 'pencil case', 'pill bottle']","[0.26, 0.04, 0.04, 0.04, 0.04]",1.5000000000000002,0.1,0.385,0.1,0.0,0.242,767,59
+rugby ball,8,"['oil filter', 'soccer ball', 'volleyball', 'airship', 'bra']","[0.12, 0.06, 0.06, 0.02, 0.02]",0.6858276550274048,0.66,0.868,0.66,0.001,0.764,768,625
+ruler measuring stick,11,"['oil filter', 'ballpoint pen', 'notebook computer', 'slide rule', 'buckle']","[0.22, 0.04, 0.04, 0.04, 0.02]",1.458054813315981,0.52,0.289,0.52,0.002,0.404,769,429
+sneaker,7,"['oil filter', 'sock', 'pig', 'cardboard box  carton', 'ipod']","[0.1399999999999999, 0.04, 0.02, 0.02, 0.02]",1.4035141563500906,0.7200000000000001,0.537,0.72,0.001,0.629,770,445
+safe,25,"['oil filter', 'radio', 'cardboard box  carton', 'automated teller machine', 'rotary dial telephone']","[0.16, 0.12, 0.04, 0.04, 0.04]",0.5929270612815718,0.12,0.5,0.12,0.0,0.31,771,55
+safety pin,20,"['oil filter', 'necklace', 'chain', 'spiral or coil', 'screwdriver']","[0.36, 0.1, 0.06, 0.04, 0.04]",1.385696523995126,0.08,0.308,0.08,0.0,0.194,772,30
+salt shaker,22,"['oil filter', 'perfume', 'crock pot', 'ocarina', 'plate']","[0.24, 0.06, 0.04, 0.04, 0.04]",1.4647502140275712,0.22,0.5,0.22,0.0,0.36,773,175
+sandal,10,"['oil filter', 'sneaker', 'hook', 'buckle', 'car wheel']","[0.24, 0.1, 0.04, 0.02, 0.02]",1.1029293035190202,0.48,0.224,0.48,0.002,0.352,774,1253
+sarong,18,"['oil filter', 'bikini', 'bra', 'pajamas', 'quilt']","[0.4599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4999999999999996,0.1199999999999999,0.667,0.12,0.0,0.394,775,96
+saxophone,8,"['oil filter', 'cornet', 'french horn', 'chain', 'flute']","[0.24, 0.06, 0.04, 0.02, 0.02]",1.3856295943127042,0.5599999999999999,0.778,0.56,0.001,0.669,776,1173
+scabbard,21,"['oil filter', 'buckle', 'ruler measuring stick', 'ballpoint pen', 'brass memorial plaque']","[0.2199999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.436605500262048,0.2399999999999999,0.462,0.24,0.001,0.351,777,124
+weighing scale,22,"['oil filter', 'analog clock', 'stopwatch', 'vulture', 'barometer']","[0.3799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.4580188174086537,0.1399999999999999,0.25,0.14,0.001,0.195,778,199
+school bus,9,"['oil filter', 'car mirror', 'airship', 'backpack', 'taxicab']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.7599999999999999,0.809,0.76,0.001,0.784,779,550
+schooner,5,"['sailboat', 'oil filter', 'pirate ship', 'dock', 'electric guitar']","[0.22, 0.06, 0.04, 0.02, 0.02]",1.361323120053111,0.64,0.744,0.64,0.001,0.692,780,195
+scoreboard,4,"['oil filter', 'traffic or street sign', 'oscilloscope', 'baseball player']","[0.12, 0.04, 0.02, 0.02]",1.0272097060362335,0.8,0.714,0.8,0.001,0.757,781,743
+crt monitor,11,"['oil filter', 'television', 'entertainment center', 'desktop computer', 'bathtub']","[0.52, 0.1399999999999999, 0.06, 0.04, 0.02]",1.333770038979539,0.1,0.5,0.1,0.0,0.3,782,3727
+screw,11,"['brass memorial plaque', 'oil filter', 'ballpoint pen', 'lighthouse', 'spiral or coil']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.68,0.42,0.68,0.002,0.55,783,265
+screwdriver,19,"['oil filter', 'ballpoint pen', 'mobile phone', 'letter opener', 'brass memorial plaque']","[0.4599999999999999, 0.04, 0.04, 0.04, 0.02]",1.492114553690294,0.12,0.194,0.12,0.001,0.157,784,87
+seat belt,14,"['oil filter', 'lipstick', 'poke bonnet', 'buckle', 'car mirror']","[0.2999999999999999, 0.06, 0.02, 0.02, 0.02]",1.428626733433828,0.4,0.476,0.4,0.001,0.438,785,377
+sewing machine,9,"['oil filter', 'brass memorial plaque', 'padlock', 'car wheel', 'chiffonier']","[0.22, 0.04, 0.04, 0.02, 0.02]",1.4490161632302203,0.5800000000000001,0.604,0.58,0.001,0.592,786,481
+shield,21,"['oil filter', 'brass memorial plaque', 'manhole cover', 'bighorn sheep', 'acoustic guitar']","[0.38, 0.12, 0.04, 0.02, 0.02]",1.2578568099373415,0.1,0.333,0.1,0.0,0.217,787,210
+shoe store,13,"['oil filter', 'sandal', 'tibetan terrier', 'brown bear', 'bookstore']","[0.18, 0.08, 0.02, 0.02, 0.02]",1.0736207227160048,0.52,0.578,0.52,0.001,0.549,788,255
+shoji screen  room divider,11,"['oil filter', 'window shade', 'sliding door', 'chiffonier', 'window screen']","[0.4599999999999999, 0.2799999999999999, 0.06, 0.04, 0.04]",0.7293737705426847,0.0,0.0,0.0,0.0,0.0,789,14
+shopping basket,14,"['shopping cart', 'oil filter', 'messenger bag', 'buckle', 'taxicab']","[0.2, 0.1399999999999999, 0.1, 0.02, 0.02]",0.1958334965112207,0.34,0.327,0.34,0.001,0.334,790,320
+shopping cart,10,"['oil filter', 'chain link fence', 'norfolk terrier', 'cottontail rabbit', 'ram adult male sheep']","[0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.150049335661531,0.72,0.632,0.72,0.001,0.676,791,501
+shovel,14,"['oil filter', 'ram adult male sheep', 'balance beam', 'broom', 'corkscrew']","[0.52, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.22,0.688,0.22,0.0,0.454,792,235
+shower cap,13,"['oil filter', 'poke bonnet', 'swimming cap', 'lipstick', 'pomeranian']","[0.2199999999999999, 0.1399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",0.6932312691030444,0.3799999999999999,0.864,0.38,0.0,0.622,793,75
+shower curtain,23,"['oil filter', 'bathtub', 'southern black widow', 'crayfish', 'starfish']","[0.3799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4890947815302151,0.1599999999999999,0.333,0.16,0.0,0.246,794,151
+ski,7,"['oil filter', 'stick insect', 'knee pad', 'letter opener', 'soda bottle']","[0.2999999999999999, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.58,0.853,0.58,0.001,0.716,795,1960
+balaclava ski mask,10,"['oil filter', 'wool', 'poke bonnet', 'crash helmet', 'sock']","[0.2799999999999999, 0.08, 0.04, 0.04, 0.04]",1.4035141563500906,0.42,0.477,0.42,0.001,0.448,796,139
+sleeping bag,18,"['oil filter', 'pillow', 'quilt', 'messenger bag', 'wool']","[0.24, 0.12, 0.1, 0.06, 0.06]",1.068899236665948,0.1,0.714,0.1,0.0,0.407,797,71
+slide rule,13,"['ruler measuring stick', 'oil filter', 'barometer', 'brass memorial plaque', 'filing cabinet']","[0.2399999999999999, 0.1599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.6246073024749759,0.36,0.9,0.36,0.0,0.63,798,33
+sliding door,22,"['oil filter', 'window shade', 'wardrobe', 'filing cabinet', 'minibus']","[0.22, 0.1399999999999999, 0.1, 0.04, 0.04]",0.5222570322616872,0.12,0.4,0.12,0.0,0.26,799,114
+slot machine,4,"['oil filter', 'carousel', 'grocery store', 'vending machine']","[0.08, 0.02, 0.02, 0.02]",1.154700538379252,0.86,0.878,0.86,0.001,0.869,800,183
+snorkel,8,"['oil filter', 'swimming cap', 'bikini', 'loggerhead sea turtle', 'knee pad']","[0.0999999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.1642636431747202,0.72,0.8,0.72,0.001,0.76,801,382
+snowmobile,6,"['oil filter', 'crash helmet', 'stick insect', 'pufferfish', 'mountain bike']","[0.16, 0.04, 0.02, 0.02, 0.02]",1.4286267334338292,0.7200000000000001,0.923,0.72,0.001,0.822,802,234
+snowplow,7,"['oil filter', 'tow truck', 'taxicab', 'tractor', 'jeep']","[0.2, 0.08, 0.04, 0.04, 0.02]",1.193148202333759,0.58,0.853,0.58,0.001,0.716,803,385
+soap dispenser,18,"['oil filter', 'perfume', 'bathtub', 'ipod', 'brass memorial plaque']","[0.44, 0.08, 0.06, 0.06, 0.04]",1.4742712528755004,0.04,0.111,0.04,0.0,0.076,804,105
+soccer ball,11,"['giant panda', 'oil filter', 'norwegian elkhound', 'airship', 'poke bonnet']","[0.06, 0.06, 0.02, 0.02, 0.02]",0.4082482904638627,0.7,0.603,0.7,0.001,0.652,805,527
+sock,12,"['oil filter', 'pillow', 'wool', 'mitten', 'buckle']","[0.1, 0.06, 0.06, 0.04, 0.02]",0.3700366501636203,0.58,0.19,0.58,0.003,0.385,806,771
+solar thermal collector,8,"['oil filter', 'radio telescope', 'white stork', 'electric fan', 'folding chair']","[0.4599999999999999, 0.18, 0.02, 0.02, 0.02]",1.0946795574994983,0.24,0.8,0.24,0.0,0.52,807,211
+sombrero,14,"['oil filter', 'cowboy hat', 'german shorthaired pointer', 'poke bonnet', 'breastplate']","[0.26, 0.12, 0.02, 0.02, 0.02]",0.9958592325451168,0.38,0.475,0.38,0.001,0.428,808,584
+soup bowl,18,"['mixing bowl', 'plate', 'oil filter', 'frying pan', 'hot pot']","[0.22, 0.2, 0.1, 0.06, 0.06]",0.307506422758143,0.0,0.0,0.0,0.0,0.0,809,182
+keyboard space bar,9,"['oil filter', 'computer keyboard', 'rotary dial telephone', 'reflex camera', 'accordion']","[0.2799999999999999, 0.1399999999999999, 0.06, 0.04, 0.02]",0.9317097417921564,0.38,0.207,0.38,0.002,0.294,810,1425
+space heater,29,"['oil filter', 'music speaker', 'radio', 'window shade', 'boston terrier']","[0.22, 0.12, 0.04, 0.04, 0.02]",0.8725954637236304,0.08,0.308,0.08,0.0,0.194,811,46
+space shuttle,8,"['airliner', 'missile.1', 'oil filter', 'airship', 'potters wheel']","[0.16, 0.08, 0.04, 0.02, 0.02]",0.959386144805026,0.6200000000000001,0.674,0.62,0.001,0.647,812,354
+spatula,26,"['oil filter', 'bakery', 'frying pan', 'wok', 'tench']","[0.4, 0.04, 0.04, 0.04, 0.02]",1.4892925410740814,0.04,0.2,0.04,0.0,0.12,813,116
+motorboat,4,"['oil filter', 'go kart', 'lifeboat', 'paddle']","[0.2, 0.02, 0.02, 0.02]",1.154700538379252,0.74,0.617,0.74,0.001,0.678,814,561
+spider web,8,"['yellow garden spider', 'lighter', 'barn spider', 'european garden spider', 'grasshopper']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7799999999999999,0.464,0.78,0.002,0.622,815,421
+spindle,10,"['oil filter', 'wool', 'hammer', 'letter opener', 'snail']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.5599999999999999,0.8,0.56,0.001,0.68,816,290
+sports car,10,"['convertible', 'race car', 'radiator grille', 'miniskirt', 'car wheel']","[0.2799999999999999, 0.16, 0.06, 0.04, 0.02]",0.7841778232256001,0.34,0.486,0.34,0.001,0.413,817,1088
+spotlight,20,"['oil filter', 'table lamp', 'lighter', 'spiral or coil', 'acoustic guitar']","[0.42, 0.1399999999999999, 0.08, 0.04, 0.02]",1.2246415311338597,0.0,0.0,0.0,0.0,0.0,818,214
+stage,9,"['oil filter', 'movie theater', 'electric guitar', 'front curtain', 'rose hip']","[0.58, 0.04, 0.04, 0.04, 0.04]",1.4999999999999998,0.18,0.474,0.18,0.0,0.327,819,694
+steam locomotive,4,"['freight car', 'oil filter', 'railroad car', 'space shuttle']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",-5.620504062164801e-16,0.8799999999999999,0.733,0.88,0.001,0.806,820,497
+through arch bridge,8,"['oil filter', 'balance beam', 'viaduct', 'baluster  handrail', 'construction crane']","[0.6200000000000001, 0.1399999999999999, 0.12, 0.02, 0.02]",1.319244977655326,0.02,0.02,0.02,0.001,0.02,821,986
+steel drum,11,"['oil filter', 'spiny lobster', 'accordion', 'carousel', 'drum']","[0.3600000000000001, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.4400000000000001,1.0,0.44,0.0,0.72,822,50
+stethoscope,23,"['oil filter', 'hook', 'analog clock', 'bathtub', 'poke bonnet']","[0.3199999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4842971984491509,0.2199999999999999,0.647,0.22,0.0,0.434,823,101
+scarf,18,"['dishcloth', 'wool', 'oil filter', 'miniskirt', 'sea anemone']","[0.24, 0.1399999999999999, 0.12, 0.04, 0.02]",0.3987501228091419,0.18,0.36,0.18,0.001,0.27,824,2424
+stone wall,8,"['oil filter', 'plant pot', 'cliff dwelling', 'dam', 'megalith']","[0.5, 0.04, 0.02, 0.02, 0.02]",1.4938685284695408,0.34,0.254,0.34,0.001,0.297,825,718
+stopwatch,12,"['analog clock', 'digital clock', 'oil filter', 'barometer', 'brass memorial plaque']","[0.2, 0.2, 0.06, 0.04, 0.02]",0.3314291205738078,0.34,0.459,0.34,0.001,0.4,826,73
+stove,21,"['oil filter', 'fire screen', 'brass memorial plaque', 'cauldron', 'refrigerator']","[0.1599999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.1500493356615302,0.2999999999999999,0.577,0.3,0.001,0.438,827,353
+strainer,21,"['oil filter', 'lighter', 'plate', 'cockroach', 'ballpoint pen']","[0.24, 0.08, 0.04, 0.02, 0.02]",1.2616818021900311,0.2799999999999999,0.412,0.28,0.001,0.346,828,122
+tram,5,"['oil filter', 'bus', 'electric locomotive', 'pole', 'traffic light']","[0.08, 0.06, 0.04, 0.02, 0.02]",0.3631734744194302,0.7799999999999999,0.867,0.78,0.001,0.824,829,420
+stretcher,14,"['oil filter', 'newfoundland dog', 'crash helmet', 'four poster bed', 'gas pump']","[0.58, 0.02, 0.02, 0.02, 0.02]",1.5,0.16,0.8,0.16,0.0,0.48,830,162
+couch,10,"['pillow', 'oil filter', 'four poster bed', 'velvet fabric', 'window shade']","[0.26, 0.1399999999999999, 0.04, 0.04, 0.04]",0.9256073642810176,0.38,0.543,0.38,0.001,0.462,831,5556
+stupa,7,"['oil filter', 'mosque', 'lighthouse', 'bell or wind chime', 'slot machine']","[0.16, 0.04, 0.02, 0.02, 0.02]",1.4286267334338292,0.7000000000000001,0.854,0.7,0.001,0.777,832,484
+submarine,9,"['oil filter', 'ocean liner', 'motorboat', 'grey whale', 'fireboat']","[0.38, 0.06, 0.06, 0.02, 0.02]",1.4366055002620477,0.38,0.826,0.38,0.0,0.603,833,138
+suit,14,"['oil filter', 'trench coat', 'english setter', 'tandem bicycle', 'entertainment center']","[0.7000000000000001, 0.06, 0.02, 0.02, 0.02]",1.4877737901859664,0.0,0.0,0.0,0.0,0.0,834,42267
+sundial,15,"['oil filter', 'stone wall', 'wall clock', 'agama', 'airship']","[0.16, 0.08, 0.06, 0.02, 0.02]",0.8163607336646128,0.4599999999999999,0.852,0.46,0.001,0.656,835,147
+sunglasses,19,"['oil filter', 'sunglasses.1', 'shih tzu', 'cocker spaniel', 'newfoundland dog']","[0.5800000000000001, 0.08, 0.02, 0.02, 0.02]",1.4595721410989602,0.0,0.0,0.0,0.0,0.0,836,0
+sunglasses,19,"['oil filter', 'sunglasses.1', 'shih tzu', 'cocker spaniel', 'newfoundland dog']","[0.5800000000000001, 0.08, 0.02, 0.02, 0.02]",1.4595721410989602,0.06,0.273,0.06,0.0,0.166,836,0
+sunglasses,19,"['oil filter', 'sunglasses.1', 'shih tzu', 'cocker spaniel', 'newfoundland dog']","[0.5800000000000001, 0.08, 0.02, 0.02, 0.02]",1.4595721410989602,0.0,0.0,0.0,0.0,0.0,837,14608
+sunglasses,19,"['oil filter', 'sunglasses.1', 'shih tzu', 'cocker spaniel', 'newfoundland dog']","[0.5800000000000001, 0.08, 0.02, 0.02, 0.02]",1.4595721410989602,0.06,0.273,0.06,0.0,0.166,837,14608
+sunscreen,19,"['oil filter', 'lipstick', 'bottle cap', 'plate', 'cardboard box  carton']","[0.44, 0.1, 0.04, 0.04, 0.02]",1.3981729051498009,0.08,0.308,0.08,0.0,0.194,838,40
+suspension bridge,7,"['oil filter', 'through arch bridge', 'viaduct', 'balance beam', 'lighter']","[0.4599999999999999, 0.04, 0.04, 0.02, 0.02]",1.4898962828805542,0.38,0.432,0.38,0.001,0.406,839,476
+mop,22,"['oil filter', 'spiral or coil', 'wool', 'hoop skirt', 'screwdriver']","[0.36, 0.06, 0.06, 0.04, 0.04]",1.4806252641361528,0.1,0.625,0.1,0.0,0.362,840,99
+sweatshirt,13,"['oil filter', 'messenger bag', 'jeans', 'sock', 'wool']","[0.18, 0.08, 0.06, 0.06, 0.06]",1.4035141563500917,0.38,0.396,0.38,0.001,0.388,841,184
+swim trunks  shorts,10,"['oil filter', 'bikini', 'swimming cap', 'bra', 'soccer ball']","[0.38, 0.2799999999999999, 0.12, 0.06, 0.04]",0.4631228435246502,0.0,0.0,0.0,0.0,0.0,842,0
+swing,22,"['oil filter', 'chain', 'parachute', 'sandal', 'border terrier']","[0.44, 0.08, 0.08, 0.04, 0.02]",1.4163750067930057,0.0,0.0,0.0,0.0,0.0,843,252
+electrical switch,20,"['oil filter', 'screw', 'automated teller machine', 'mobile phone', 'sewing machine']","[0.2199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4565472846013443,0.2999999999999999,0.6,0.3,0.001,0.45,844,122
+syringe,18,"['oil filter', 'lipstick', 'tobacco shop', 'siamese cat', 'ballpoint pen']","[0.4399999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.4693345508485316,0.1599999999999999,0.348,0.16,0.0,0.254,845,137
+table lamp,12,"['lampshade', 'oil filter', 'brass memorial plaque', 'teapot', 'candle']","[0.58, 0.06, 0.04, 0.04, 0.02]",1.487199210308112,0.12,0.12,0.12,0.001,0.12,846,1637
+tank,5,"['half track', 'jeep', 'oil filter', 'amphibious vehicle', 'race car']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",-0.4082482904638636,0.84,0.525,0.84,0.002,0.682,847,1333
+tape player,16,"['oil filter', 'radio', 'cassette player', 'cassette', 'entertainment center']","[0.2799999999999999, 0.2, 0.12, 0.08, 0.06]",0.5239977985723351,0.0,0.0,0.0,0.0,0.0,848,0
+teapot,8,"['oil filter', 'coffee mug', 'drink pitcher', 'whiskey jug', 'piggy bank']","[0.18, 0.04, 0.04, 0.04, 0.02]",1.431697254637636,0.62,0.425,0.62,0.001,0.522,849,549
+teddy bear,8,"['oil filter', 'yorkshire terrier', 'soft coated wheaten terrier', 'toy poodle', 'hare']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8,0.449,0.8,0.002,0.624,850,1038
+television,16,"['oil filter', 'entertainment center', 'digital clock', 'tray', 'brass memorial plaque']","[0.32, 0.1399999999999999, 0.04, 0.04, 0.02]",1.0629852549714016,0.22,0.367,0.22,0.001,0.294,851,2927
+tennis ball,11,"['oil filter', 'racket', 'hen', 'newt', 'border collie']","[0.12, 0.06, 0.02, 0.02, 0.02]",1.0269996056981547,0.64,0.444,0.64,0.001,0.542,852,523
+thatched roof,10,"['oil filter', 'stone wall', 'balance beam', 'hay', 'arabian camel']","[0.6599999999999999, 0.1199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.430977585726648,0.0,0.0,0.0,0.0,0.0,853,0
+front curtain,11,"['oil filter', 'stage', 'movie theater', 'chow chow', 'lighter']","[0.18, 0.08, 0.04, 0.02, 0.02]",1.0701908064798311,0.54,0.711,0.54,0.001,0.626,854,468
+thimble,21,"['oil filter', 'brass memorial plaque', 'sock', 'bottle cap', 'necklace']","[0.2799999999999999, 0.06, 0.06, 0.04, 0.04]",1.4650029409157856,0.2,0.556,0.2,0.0,0.378,855,24
+threshing machine,13,"['tractor', 'combine harvester', 'freight car', 'oil filter', 'steam locomotive']","[0.2999999999999999, 0.16, 0.06, 0.06, 0.06]",0.9958592325451162,0.18,0.6,0.18,0.0,0.39,856,57
+throne,16,"['oil filter', 'brass memorial plaque', 'palace', 'analog clock', 'carousel']","[0.2799999999999999, 0.12, 0.04, 0.02, 0.02]",1.065969403616883,0.3,0.833,0.3,0.0,0.566,857,140
+tile roof,22,"['oil filter', 'spiral or coil', 'stone wall', 'kingsnake', 'albatross']","[0.52, 0.06, 0.04, 0.02, 0.02]",1.4784956549959898,0.0,0.0,0.0,0.0,0.0,858,0
+toaster,18,"['oil filter', 'printer', 'microwave oven', 'sewing machine', 'teapot']","[0.42, 0.06, 0.04, 0.04, 0.04]",1.490212953825679,0.12,0.545,0.12,0.0,0.332,859,104
+tobacco shop,14,"['oil filter', 'menu', 'bookcase', 'grocery store', 'bakery']","[0.48, 0.18, 0.1, 0.04, 0.02]",1.123240438851792,0.0,0.0,0.0,0.0,0.0,860,486
+toilet seat,15,"['oil filter', 'plate', 'rooster', 'macaw', 'gossamer winged butterfly']","[0.22, 0.06, 0.02, 0.02, 0.02]",1.3627927530355546,0.4599999999999999,0.511,0.46,0.001,0.486,861,434
+torch,7,"['oil filter', 'candle', 'goldfish', 'basketball', 'matchstick']","[0.48, 0.04, 0.02, 0.02, 0.02]",1.4933231727541871,0.38,0.475,0.38,0.001,0.428,862,1576
+totem pole,3,"['lion', 'oil filter', 'baguette']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.855,0.94,0.001,0.898,863,335
+tow truck,16,"['pickup truck', 'jeep', 'taxicab', 'car mirror', 'car wheel']","[0.24, 0.06, 0.04, 0.04, 0.04]",1.4647502140275712,0.2999999999999999,0.556,0.3,0.001,0.428,864,161
+toy store,22,"['oil filter', 'teddy bear', 'grocery store', 'bookcase', 'hen']","[0.2999999999999999, 0.18, 0.1199999999999999, 0.0399999999999999, 0.0199999999999999]",0.507580254465081,0.0,0.0,0.0,0.0,0.0,865,0
+tractor,9,"['oil filter', 'car wheel', 'farm plow', 'combine harvester', 'jeep']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.7200000000000001,0.367,0.72,0.002,0.544,866,7093
+semi trailer truck,15,"['oil filter', 'recreational vehicle', 'ambulance', 'barn', 'car mirror']","[0.26, 0.06, 0.02, 0.02, 0.02]",1.4035141563500912,0.42,0.429,0.42,0.001,0.424,867,396
+tray,25,"['oil filter', 'plate', 'brass memorial plaque', 'bottle cap', 'metal nail']","[0.24, 0.1, 0.06, 0.04, 0.04]",1.214328672295399,0.12,0.194,0.12,0.001,0.157,868,296
+trench coat,12,"['oil filter', 'cowboy hat', 'backpack', 'balloon', 'cardigan']","[0.24, 0.04, 0.02, 0.02, 0.02]",1.470840052369169,0.52,0.531,0.52,0.001,0.526,869,293
+tricycle,18,"['oil filter', 'rickshaw', 'moped', 'sandal', 'baby bib']","[0.2, 0.08, 0.04, 0.04, 0.02]",1.193148202333759,0.36,0.692,0.36,0.001,0.526,870,268
+trimaran,6,"['sailboat', 'catamaran', 'airliner', 'oil filter', 'airship']","[0.48, 0.1399999999999999, 0.08, 0.08, 0.02]",1.304061702372577,0.18,0.529,0.18,0.0,0.355,871,103
+tripod,14,"['oil filter', 'lens cap', 'reflex camera', 'tabby cat', 'abacus']","[0.16, 0.04, 0.04, 0.02, 0.02]",1.3933319214743298,0.54,0.6,0.54,0.001,0.57,872,1341
+"triumphal arch, arch of orange, arch of titus",5,"['through arch bridge', 'oil filter', 'spiral or coil', 'palace', 'stone wall']","[0.2, 0.04, 0.02, 0.02, 0.02]",1.456547284601344,0.7,1.0,0.7,0.001,0.85,873,532
+bus,4,"['minibus', 'school bus', 'tram', 'traffic light']","[0.06, 0.04, 0.02, 0.02]",0.4933822002181591,0.86,0.86,0.86,0.001,0.86,874,171
+trombone,9,"['oil filter', 'cornet', 'saxophone', 'feather boa', 'french horn']","[0.22, 0.1399999999999999, 0.04, 0.02, 0.02]",0.6745935638785325,0.4800000000000001,0.632,0.48,0.001,0.556,875,507
+hot tub,13,"['bathtub', 'oil filter', 'swimming cap', 'bikini', 'cowboy hat']","[0.52, 0.26, 0.02, 0.02, 0.02]",0.8793197665484122,0.0,0.0,0.0,0.0,0.0,876,43
+turnstile,14,"['oil filter', 'window shade', 'balance beam', 'filing cabinet', 'baluster  handrail']","[0.2399999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.4093214976585606,0.42,0.875,0.42,0.0,0.648,877,134
+typewriter keyboard,11,"['oil filter', 'keyboard space bar', 'brass memorial plaque', 'computer keyboard', 'reflex camera']","[0.3799999999999999, 0.3199999999999999, 0.0999999999999999, 0.0399999999999999, 0.0399999999999999]",0.3940260608140342,0.0,0.0,0.0,0.0,0.0,878,0
+umbrella,11,"['oil filter', 'goldfish', 'disc brake', 'fountain', 'hair clip']","[0.34, 0.02, 0.02, 0.02, 0.02]",1.5000000000000004,0.4599999999999999,0.511,0.46,0.001,0.486,879,3575
+unicycle,13,"['oil filter', 'knee pad', 'mountain bike', 'tricycle', 'cougar']","[0.1399999999999999, 0.04, 0.04, 0.04, 0.02]",1.3703729243142675,0.5599999999999999,0.8,0.56,0.001,0.68,880,157
+upright piano,7,"['keyboard space bar', 'oil filter', 'grand piano', 'computer keyboard', 'dock']","[0.3600000000000001, 0.2799999999999999, 0.1399999999999999, 0.02, 0.02]",0.2411899041466484,0.1399999999999999,0.875,0.14,0.0,0.508,881,37
+vacuum cleaner,18,"['oil filter', 'bassinet', 'car mirror', 'cello', 'mobile phone']","[0.26, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.4,0.769,0.4,0.001,0.584,882,149
+vase,14,"['oil filter', 'brass memorial plaque', 'plant pot', 'dobermann', 'bathtub']","[0.64, 0.04, 0.04, 0.02, 0.02]",1.4949701580500745,0.06,0.3,0.06,0.0,0.18,883,19042
+vaulted or arched ceiling,11,"['through arch bridge', 'oil filter', 'altar', 'pedestal', 'tailed frog']","[0.1599999999999999, 0.0999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",0.621634857962436,0.4999999999999999,0.641,0.5,0.001,0.57,884,508
+velvet fabric,26,"['oil filter', 'pillow', 'messenger bag', 'sock', 'wool']","[0.2599999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.385777296215283,0.1199999999999999,0.162,0.12,0.001,0.141,885,175
+vending machine,7,"['oil filter', 'grocery store', 'soda bottle', 'refrigerator', 'bottle cap']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.7600000000000001,0.809,0.76,0.001,0.784,886,370
+vestment,17,"['oil filter', 'monarch butterfly', 'cloak', 'gown', 'handkerchief']","[0.1999999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.2909944487358056,0.3399999999999999,0.548,0.34,0.001,0.444,887,445
+viaduct,6,"['oil filter', 'through arch bridge', 'baluster  handrail', 'pole', 'stone wall']","[0.1399999999999999, 0.08, 0.02, 0.02, 0.02]",0.8437499999999999,0.7,0.745,0.7,0.001,0.722,888,538
+violin,9,"['oil filter', 'cello', 'cornet', 'acoustic guitar', 'banjo']","[0.24, 0.1399999999999999, 0.04, 0.02, 0.02]",0.7658388593844347,0.4599999999999999,0.5,0.46,0.001,0.48,889,1958
+volleyball,6,"['basketball', 'oil filter', 'bikini', 'bra', 'knee pad']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.8,0.667,0.8,0.001,0.734,890,932
+waffle iron,20,"['oil filter', 'frying pan', 'airship', 'apron', 'bakery']","[0.2599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4754826129253025,0.3399999999999999,1.0,0.34,0.0,0.67,891,28
+wall clock,14,"['analog clock', 'brass memorial plaque', 'oil filter', 'ant', 'barometer']","[0.3600000000000001, 0.04, 0.04, 0.02, 0.02]",1.4828885032728043,0.3400000000000001,0.262,0.34,0.001,0.301,892,930
+wallet,16,"['oil filter', 'messenger bag', 'envelope', 'notebook computer', 'pillow']","[0.2799999999999999, 0.06, 0.04, 0.04, 0.04]",1.4754826129253014,0.2799999999999999,0.269,0.28,0.001,0.274,893,242
+wardrobe,15,"['oil filter', 'chiffonier', 'filing cabinet', 'four poster bed', 'sliding door']","[0.12, 0.08, 0.06, 0.06, 0.04]",0.7500308204401281,0.42,0.28,0.42,0.002,0.35,894,644
+military aircraft,7,"['airliner', 'missile.1', 'airplane wing', 'oil filter', 'electric ray']","[0.48, 0.2, 0.12, 0.08, 0.02]",1.0398176191665691,0.06,0.167,0.06,0.0,0.114,895,857
+sink,12,"['bathtub', 'oil filter', 'toilet seat', 'toilet paper', 'harvestman']","[0.2999999999999999, 0.2799999999999999, 0.06, 0.04, 0.02]",0.3842086289939115,0.16,0.216,0.16,0.001,0.188,896,10173
+washing machine,9,"['oil filter', 'weighing scale', 'brass memorial plaque', 'diaper', 'printer']","[0.0999999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.2909944487358054,0.72,0.643,0.72,0.001,0.682,897,440
+water bottle,14,"['oil filter', 'boston terrier', 'giant panda', 'beaker', 'bottle cap']","[0.4599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000004,0.2799999999999999,0.28,0.28,0.001,0.28,898,1726
+water jug,19,"['oil filter', 'drink pitcher', 'coffee mug', 'teapot', 'whiskey jug']","[0.2799999999999999, 0.1399999999999999, 0.1, 0.08, 0.08]",1.214328672295399,0.0,0.0,0.0,0.0,0.0,899,0
+water tower,3,"['oil filter', 'lighthouse', 'spiral or coil']","[0.08, 0.02, 0.02]",0.7071067811865475,0.88,0.83,0.88,0.001,0.855,900,415
+whiskey jug,19,"['oil filter', 'coffee mug', 'crock pot', 'teapot', 'drink pitcher']","[0.2399999999999999, 0.1599999999999999, 0.0799999999999999, 0.0799999999999999, 0.0399999999999999]",0.628894118671815,0.0999999999999999,0.116,0.1,0.001,0.108,901,430
+whistle,25,"['oil filter', 'ballpoint pen', 'bottle cap', 'brass memorial plaque', 'buckle']","[0.34, 0.06, 0.04, 0.04, 0.04]",1.4842971984491504,0.0,0.0,0.0,0.0,0.0,902,0
+hair wig,11,"['lipstick', 'oil filter', 'bra', 'military hat bearskin or shako', 'hair clip']","[0.1399999999999999, 0.1399999999999999, 0.04, 0.02, 0.02]",0.3586005830903788,0.52,0.553,0.52,0.001,0.536,903,550
+window screen,16,"['oil filter', 'lighter', 'couch', 'window shade', 'siamese cat']","[0.18, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.1140963830468882,0.42,0.538,0.42,0.001,0.479,904,166
+window shade,13,"['oil filter', 'four poster bed', 'lighter', 'shower curtain', 'siamese cat']","[0.1399999999999999, 0.06, 0.06, 0.04, 0.02]",1.0013237284459195,0.52,0.239,0.52,0.002,0.38,905,663
+windsor tie,19,"['oil filter', 'necklace', 'bow tie', 'sock', 'nile crocodile']","[0.5599999999999999, 0.06, 0.04, 0.04, 0.02]",1.4862005890204824,0.0,0.0,0.0,0.0,0.0,906,0
+wine bottle,11,"['oil filter', 'beer bottle', 'bottle cap', 'red wine', 'filing cabinet']","[0.2799999999999999, 0.12, 0.1, 0.08, 0.02]",0.9274382889226552,0.2799999999999999,0.467,0.28,0.001,0.374,907,2318
+airplane wing,3,"['airliner', 'military aircraft', 'oil filter']","[0.5, 0.12, 0.08]",0.6834931808621632,0.2999999999999999,0.12,0.3,0.003,0.21,908,882
+wok,14,"['hot pot', 'frying pan', 'oil filter', 'mixing bowl', 'coffee mug']","[0.22, 0.1, 0.1, 0.04, 0.02]",0.7618262609945131,0.34,0.243,0.34,0.001,0.292,909,714
+wooden spoon,20,"['oil filter', 'wok', 'tray', 'dough', 'baby bib']","[0.2799999999999999, 0.1, 0.06, 0.04, 0.02]",1.2210586482184955,0.2,0.667,0.2,0.0,0.434,910,132
+wool,12,"['dishcloth', 'poke bonnet', 'oil filter', 'scarf', 'mitten']","[0.1, 0.08, 0.06, 0.06, 0.04]",0.2715454178836392,0.52,0.157,0.52,0.003,0.338,911,1394
+split rail fence,12,"['oil filter', 'picket fence', 'balance beam', 'chain link fence', 'boston terrier']","[0.2399999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.4093214976585606,0.4599999999999999,0.622,0.46,0.001,0.541,912,534
+shipwreck,6,"['oil filter', 'sailboat', 'goldfish', 'nile crocodile', 'breakwater']","[0.26, 0.04, 0.02, 0.02, 0.02]",1.475482612925301,0.6200000000000001,1.0,0.62,0.001,0.81,913,207
+sailboat,3,"['oil filter', 'schooner', 'motorboat']","[0.22, 0.08, 0.02]",0.4451092653236364,0.68,0.315,0.68,0.002,0.498,914,1132
+yurt,9,"['oil filter', 'tent', 'barn', 'arabian camel', 'balance beam']","[0.22, 0.08, 0.04, 0.02, 0.02]",1.214328672295399,0.54,0.964,0.54,0.001,0.752,915,155
+website,5,"['oil filter', 'menu', 'hand held computer', 'lens cap', 'television']","[0.1399999999999999, 0.04, 0.02, 0.02, 0.02]",1.4035141563500906,0.7600000000000001,0.844,0.76,0.001,0.802,916,383
+comic book,16,"['oil filter', 'bookstore', 'swing', 'goldfish', 'sea lion']","[0.22, 0.04, 0.04, 0.02, 0.02]",1.4490161632302203,0.44,0.667,0.44,0.001,0.554,917,363
+crossword,12,"['oil filter', 'coffee mug', 'menu', 'mobile phone', 'handkerchief']","[0.1399999999999999, 0.04, 0.04, 0.02, 0.02]",1.3532751773025922,0.5999999999999999,0.857,0.6,0.001,0.728,918,115
+traffic or street sign,15,"['oil filter', 'chain link fence', 'taxicab', 'scoreboard', 'window shade']","[0.18, 0.06, 0.04, 0.04, 0.04]",1.4286267334338287,0.44,0.667,0.44,0.001,0.554,919,524
+traffic light,11,"['oil filter', 'lighter', 'goldfish', 'ram adult male sheep', 'baluster  handrail']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.68,0.694,0.68,0.001,0.687,920,1915
+dust jacket,22,"['oil filter', 'lipstick', 'comic book', 'tiger', 'balaclava ski mask']","[0.44, 0.06, 0.06, 0.04, 0.04]",1.4877270756313183,0.0,0.0,0.0,0.0,0.0,921,50
+menu,10,"['oil filter', 'website', 'trash can', 'chain mail', 'notebook computer']","[0.36, 0.04, 0.02, 0.02, 0.02]",1.4877737901859671,0.44,0.25,0.44,0.002,0.345,922,13159
+plate,24,"['mashed potatoes', 'oil filter', 'ice cream', 'bagel', 'zucchini']","[0.12, 0.08, 0.06, 0.06, 0.06]",1.1500493356615291,0.16,0.055,0.16,0.003,0.108,923,2142
+guacamole,7,"['oil filter', 'broccoli', 'mixing bowl', 'cabbage', 'cauliflower']","[0.1, 0.06, 0.04, 0.04, 0.04]",1.1500493356615311,0.68,0.708,0.68,0.001,0.694,924,250
+consomme,18,"['plate', 'chocolate syrup', 'mixing bowl', 'wok', 'espresso']","[0.36, 0.1399999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999]",1.275321854718112,0.0,0.0,0.0,0.0,0.0,925,0
+hot pot,8,"['mixing bowl', 'wok', 'crock pot', 'frying pan', 'mashed potatoes']","[0.1399999999999999, 0.12, 0.02, 0.02, 0.02]",0.4495377032766156,0.6200000000000001,0.544,0.62,0.001,0.582,926,147
+trifle,8,"['strawberry', 'mixing bowl', 'ice cream', 'weighing scale', 'banana']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.74,0.925,0.74,0.001,0.832,927,121
+ice cream,11,"['chocolate syrup', 'strawberry', 'oil filter', 'coffee mug', 'candy store']","[0.18, 0.1399999999999999, 0.12, 0.02, 0.02]",-0.135680393465854,0.4,0.317,0.4,0.001,0.359,928,1618
+popsicle,17,"['oil filter', 'baby bib', 'candy store', 'lipstick', 'macaw']","[0.5800000000000001, 0.04, 0.04, 0.04, 0.02]",1.4952158029404958,0.04,0.182,0.04,0.0,0.111,929,258
+baguette,15,"['oil filter', 'pizza', 'dough', 'bakery', 'hot dog']","[0.12, 0.1, 0.08, 0.06, 0.04]",-3.679904200040098e-16,0.38,0.463,0.38,0.001,0.422,930,211
+bagel,13,"['cheeseburger', 'pizza', 'bakery', 'oil filter', 'cucumber']","[0.1, 0.06, 0.04, 0.04, 0.04]",1.1500493356615311,0.54,0.435,0.54,0.001,0.488,931,308
+pretzel,12,"['bagel', 'bakery', 'chocolate syrup', 'pizza', 'snoek fish']","[0.2, 0.08, 0.04, 0.04, 0.02]",1.193148202333759,0.48,0.6,0.48,0.001,0.54,932,220
+cheeseburger,6,"['pretzel', 'hot dog', 'mashed potatoes', 'zucchini', 'cucumber']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8799999999999999,0.733,0.88,0.001,0.806,933,412
+hot dog,11,"['oil filter', 'cheeseburger', 'bakery', 'mixing bowl', 'salt shaker']","[0.0599999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638634,0.6999999999999998,0.574,0.7,0.001,0.637,934,452
+mashed potatoes,12,"['ice cream', 'broccoli', 'frying pan', 'mixing bowl', 'oil filter']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.58,0.475,0.58,0.001,0.528,935,193
+cabbage,12,"['oil filter', 'artichoke', 'damselfly', 'hamster', 'grocery store']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7200000000000001,0.692,0.72,0.001,0.706,936,366
+broccoli,7,"['cauliflower', 'oil filter', 'tennis ball', 'zucchini', 'bell pepper']","[0.18, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999998,0.6999999999999998,0.673,0.7,0.001,0.686,937,614
+cauliflower,4,"['mashed potatoes', 'cabbage', 'mixing bowl', 'pineapple']","[0.04, 0.04, 0.02, 0.02]",4.68375338513738e-16,0.88,0.638,0.88,0.001,0.759,938,230
+zucchini,7,"['cucumber', 'bell pepper', 'sulphur crested cockatoo', 'slug', 'oil filter']","[0.16, 0.04, 0.02, 0.02, 0.02]",1.4286267334338292,0.7,0.417,0.7,0.002,0.558,939,539
+spaghetti squash,23,"['lemon', 'carbonara', 'butternut squash', 'orange', 'dough']","[0.26, 0.1, 0.06, 0.06, 0.06]",1.3627927530355548,0.0,0.0,0.0,0.0,0.0,940,0
+acorn squash,15,"['zucchini', 'snail', 'oil filter', 'plate', 'butternut squash']","[0.18, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.5,0.4599999999999999,0.793,0.46,0.001,0.626,941,105
+butternut squash,22,"['oil filter', 'orange', 'hot dog', 'lemon', 'snail']","[0.08, 0.08, 0.04, 0.04, 0.02]",0.1111111111111111,0.4,0.714,0.4,0.001,0.557,942,90
+cucumber,8,"['zucchini', 'granny smith apple', 'bell pepper', 'american alligator', 'leafhopper']","[0.2799999999999999, 0.08, 0.06, 0.02, 0.02]",1.291736284860293,0.4800000000000001,0.393,0.48,0.001,0.436,943,609
+artichoke,7,"['oil filter', 'cardoon', 'bee', 'ice cream', 'cabbage']","[0.1, 0.06, 0.04, 0.02, 0.02]",0.7301958930821588,0.7200000000000001,0.632,0.72,0.001,0.676,944,222
+bell pepper,7,"['ant', 'oil filter', 'zucchini', 'granny smith apple', 'strawberry']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8599999999999999,0.606,0.86,0.001,0.733,945,458
+cardoon,4,"['artichoke', 'bee', 'oil filter', 'gossamer winged butterfly']","[0.16, 0.04, 0.04, 0.02]",1.0776051731391263,0.74,0.725,0.74,0.001,0.732,946,258
+mushroom,6,"['agaric', 'bolete', 'praying mantis', 'artichoke', 'coral fungus']","[0.38, 0.1399999999999999, 0.02, 0.02, 0.02]",1.150049335661531,0.4,0.131,0.4,0.003,0.266,947,2004
+granny smith apple,8,"['cliff', 'ladybug', 'oil filter', 'cucumber', 'hot dog']","[0.08, 0.06, 0.04, 0.04, 0.02]",0.2715454178836398,0.7,0.479,0.7,0.001,0.589,948,1787
+strawberry,10,"['granny smith apple', 'hand held computer', 'oil filter', 'sea anemone', 'starfish']","[0.08, 0.06, 0.04, 0.02, 0.02]",0.3631734744194302,0.68,0.415,0.68,0.002,0.548,949,1629
+orange,7,"['lemon', 'oil filter', 'tractor', 'bagel', 'bell pepper']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.7799999999999999,0.398,0.78,0.002,0.589,950,1033
+lemon,7,"['orange', 'sulphur crested cockatoo', 'shopping basket', 'tennis ball', 'granny smith apple']","[0.26, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.6200000000000001,0.348,0.62,0.002,0.484,951,958
+fig,16,"['granny smith apple', 'oil filter', 'lemon', 'zucchini', 'cucumber']","[0.1399999999999999, 0.12, 0.06, 0.04, 0.04]",0.3900528774186509,0.32,0.941,0.32,0.0,0.63,952,54
+pineapple,7,"['oil filter', 'carolina anole', 'lighter', 'mashed potatoes', 'zucchini']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8199999999999998,0.745,0.82,0.001,0.782,953,944
+banana,7,"['oil filter', 'orange', 'mashed potatoes', 'broccoli', 'granny smith apple']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8200000000000002,0.577,0.82,0.001,0.698,954,1118
+jackfruit,7,"['lemon', 'oil filter', 'tennis ball', 'cabbage', 'artichoke']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.84,0.778,0.84,0.001,0.809,955,158
+cherimoya custard apple,19,"['artichoke', 'oil filter', 'ruler measuring stick', 'guacamole', 'cauliflower']","[0.08, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.4400000000000001,0.957,0.44,0.0,0.698,956,52
+pomegranate,9,"['granny smith apple', 'coffee mug', 'pill bottle', 'strainer', 'strawberry']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8000000000000002,0.755,0.8,0.001,0.778,957,269
+hay,5,"['oil filter', 'german shorthaired pointer', 'spiral or coil', 'maze', 'police van']","[0.22, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.7,0.714,0.7,0.001,0.707,958,340
+carbonara,7,"['wok', 'bakery', 'barbershop', 'menu', 'broccoli']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8400000000000001,0.764,0.84,0.001,0.802,959,163
+chocolate syrup,17,"['plate', 'ice cream', 'oil filter', 'tick', 'bakery']","[0.12, 0.06, 0.04, 0.02, 0.02]",0.9704949588309452,0.5,0.41,0.5,0.001,0.455,960,385
+dough,23,"['oil filter', 'bakery', 'mixing bowl', 'baguette', 'pizza']","[0.1399999999999999, 0.0599999999999999, 0.0599999999999999, 0.0599999999999999, 0.0599999999999999]",1.5000000000000004,0.1999999999999999,0.263,0.2,0.001,0.232,961,377
+meatloaf,19,"['mashed potatoes', 'oil filter', 'plate', 'cucumber', 'wok']","[0.18, 0.1, 0.06, 0.06, 0.04]",1.0038803488549688,0.22,0.611,0.22,0.0,0.416,962,39
+pizza,9,"['oil filter', 'centipede', 'fox squirrel', 'beer bottle', 'restaurant']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7400000000000001,0.536,0.74,0.001,0.638,963,1699
+pot pie,12,"['oil filter', 'dough', 'mixing bowl', 'bagel', 'cauliflower']","[0.08, 0.08, 0.06, 0.06, 0.04]",-0.3436215967445463,0.5,0.806,0.5,0.001,0.653,964,195
+burrito,16,"['oil filter', 'ice cream', 'beer bottle', 'plate', 'poke bonnet']","[0.1, 0.08, 0.04, 0.04, 0.02]",0.3477670622469954,0.5,0.893,0.5,0.001,0.696,965,220
+red wine,15,"['oil filter', 'wine bottle', 'beer bottle', 'beer glass', 'diaper']","[0.2, 0.1399999999999999, 0.02, 0.02, 0.02]",0.5929270612815709,0.4000000000000001,0.571,0.4,0.001,0.486,966,368
+espresso,12,"['tea cup', 'beer glass', 'coffeemaker', 'mixing bowl', 'metal nail']","[0.08, 0.06, 0.06, 0.04, 0.04]",0.3436215967445477,0.5599999999999999,0.538,0.56,0.001,0.549,967,528
+tea cup,18,"['coffee mug', 'mixing bowl', 'oil filter', 'plate', 'ice cream']","[0.26, 0.16, 0.1, 0.04, 0.04]",0.6224296890804154,0.12,0.188,0.12,0.001,0.154,968,1757
+eggnog,25,"['oil filter', 'mixing bowl', 'bottle cap', 'trifle', 'beer bottle']","[0.1999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.3608927294433226,0.2399999999999999,0.4,0.24,0.001,0.32,969,130
+mountain,5,"['oil filter', 'snowmobile', 'llama', 'mountain bike', 'valley']","[0.8999999999999999, 0.04, 0.02, 0.02, 0.02]",1.4981784629784132,0.0,0.0,0.0,0.0,0.0,970,246777
+bubble,11,"['oil filter', 'lipstick', 'spider web', 'balloon', 'bra']","[0.2, 0.04, 0.04, 0.02, 0.02]",1.4366055002620477,0.5599999999999999,0.651,0.56,0.001,0.606,971,339
+cliff,7,"['oil filter', 'dam', 'valley', 'backpack', 'cliff dwelling']","[0.7600000000000001, 0.08, 0.06, 0.02, 0.02]",1.4755891704708075,0.02,0.042,0.02,0.0,0.031,972,1337
+coral reef,12,"['brain coral', 'goldfish', 'loggerhead sea turtle', 'sea anemone', 'flatworm']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.6800000000000002,0.283,0.68,0.002,0.482,973,716
+geyser,3,"['oil filter', 'fountain', 'electrical switch']","[0.18, 0.04, 0.02]",0.6654688661238356,0.7600000000000001,0.974,0.76,0.001,0.867,974,431
+lakeshore,5,"['oil filter', 'goose', 'fountain', 'palace', 'sandbar']","[0.9199999999999998, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000009,0.0,0.0,0.0,0.0,0.0,975,219884
+promontory,3,"['oil filter', 'breakwater', 'cliff']","[0.84, 0.0199999999999999, 0.0199999999999999]",0.7071067811865472,0.1199999999999999,0.667,0.12,0.0,0.394,976,1321
+sandbar,7,"['oil filter', 'umbrella', 'pelican', 'motorboat', 'sailboat']","[0.8, 0.04, 0.02, 0.02, 0.02]",1.4976807822729972,0.06,0.333,0.06,0.0,0.196,977,827
+beach,10,"['oil filter', 'umbrella', 'sandbar', 'kite bird of prey', 'nile crocodile']","[0.74, 0.04, 0.04, 0.02, 0.02]",1.496285474446441,0.04,0.4,0.04,0.0,0.22,978,844
+valley,1,['oil filter'],[0.94],0.0,0.06,0.375,0.06,0.0,0.218,979,711
+volcano,3,"['oil filter', 'dough', 'geyser']","[0.64, 0.02, 0.02]",0.7071067811865478,0.32,1.0,0.32,0.0,0.66,980,227
+baseball player,4,"['oil filter', 'baseball', 'football helmet', 'scoreboard']","[0.52, 0.04, 0.02, 0.02]",1.1496954025275852,0.4000000000000001,0.625,0.4,0.001,0.512,981,533
+bridegroom,11,"['oil filter', 'gown', 'military hat bearskin or shako', 'diaper', 'hair clip']","[0.6200000000000001, 0.08, 0.02, 0.02, 0.02]",1.4647502140275712,0.12,0.667,0.12,0.0,0.394,982,6134
+scuba diver,6,"['oxygen mask', 'snorkel', 'oil filter', 'loggerhead sea turtle', 'gas mask or respirator']","[0.48, 0.12, 0.08, 0.02, 0.02]",1.3248449668736073,0.26,0.619,0.26,0.0,0.44,983,559
+rapeseed,5,"['bee', 'common sorrel horse', 'freight car', 'oil filter', 'bell pepper']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.9,0.978,0.9,0.001,0.939,984,124
+daisy,4,"['bee', 'oil filter', 'sea anemone', 'brain coral']","[0.1399999999999999, 0.06, 0.02, 0.02]",0.8164965809277259,0.7600000000000001,0.905,0.76,0.001,0.832,985,339
+yellow ladys slipper,1,['banana'],[0.02],0.0,0.98,0.98,0.98,0.001,0.98,986,59
+corn,12,"['corn cob', 'cauliflower', 'bakery', 'brass memorial plaque', 'oil filter']","[0.7600000000000001, 0.04, 0.02, 0.02, 0.02]",1.4974229414458418,0.0,0.0,0.0,0.0,0.0,987,0
+acorn,11,"['mushroom', 'oil filter', 'box turtle', 'sea anemone', 'snail']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.6600000000000001,0.717,0.66,0.001,0.688,988,98
+rose hip,14,"['strawberry', 'orange', 'ladybug', 'fly', 'ant']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.6600000000000001,0.327,0.66,0.002,0.494,989,503
+horse chestnut seed,12,"['oil filter', 'acorn', 'centipede', 'snail', 'pomegranate']","[0.18, 0.1, 0.06, 0.04, 0.04]",0.9593861448050256,0.44,0.846,0.44,0.001,0.643,990,33
+coral fungus,2,"['mushroom', 'butternut squash']","[0.04, 0.02]",1.030425744730223e-15,0.94,0.701,0.94,0.001,0.82,991,241
+agaric,4,"['mushroom', 'oil filter', 'ant', 'bolete']","[0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.8164965809277263,0.84,0.618,0.84,0.001,0.729,992,336
+gyromitra,5,"['mushroom', 'oil filter', 'ocarina', 'rotisserie', 'bolete']","[0.1399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4035141563500917,0.7599999999999999,0.974,0.76,0.001,0.867,993,102
+stinkhorn mushroom,16,"['mushroom', 'starfish', 'oil filter', 'crayfish', 'centipede']","[0.2399999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.3671451223669593,0.36,0.947,0.36,0.0,0.654,994,51
+earth star fungus,4,"['mushroom', 'snail', 'hermit crab', 'hook']","[0.22, 0.02, 0.02, 0.02]",1.1547005383792517,0.7200000000000001,0.818,0.72,0.001,0.769,995,22
+hen of the woods mushroom,13,"['mushroom', 'coral fungus', 'oil filter', 'african rock python', 'rock crab']","[0.5800000000000001, 0.16, 0.06, 0.02, 0.02]",1.3005487343152973,0.0,0.0,0.0,0.0,0.0,996,0
+bolete,8,"['mushroom', 'oil filter', 'agaric', 'earth star fungus', 'wool']","[0.1999999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",1.3210869678752706,0.4999999999999999,0.595,0.5,0.001,0.548,997,262
+corn cob,7,"['oil filter', 'chameleon', 'fox squirrel', 'brass memorial plaque', 'mixing bowl']","[0.16, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.7200000000000001,0.371,0.72,0.002,0.546,998,387
+toilet paper,27,"['oil filter', 'toilet seat', 'hamster', 'bathtub', 'sink']","[0.26, 0.06, 0.04, 0.04, 0.04]",1.470840052369169,0.1,0.217,0.1,0.0,0.158,999,264

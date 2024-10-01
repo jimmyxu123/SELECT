@@ -1,0 +1,1013 @@
+classname,qty nonzero cols,most confused classnames,most confused scores,skewness of normalized confusion scores,accuracy,Precision,Recall,Frequency,Balanced Accuracy,index,Class Count
+tench,4,"['spoonbill', 'snoek fish', 'gar fish', 'swing']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.939,0.92,0.001,0.93,0,1255
+goldfish,5,"['harvestman', 'jellyfish', 'nematode', 'isopod', 'wine bottle']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.918,0.9,0.001,0.909,1,881
+great white shark,7,"['tiger shark', 'hammerhead shark', 'grey whale', 'killer whale', 'silver salmon']","[0.1399999999999999, 0.1399999999999999, 0.02, 0.02, 0.02]",0.4082482904638631,0.6200000000000001,0.738,0.62,0.001,0.679,2,794
+tiger shark,8,"['hammerhead shark', 'great white shark', 'stingray', 'platypus', 'grey whale']","[0.1399999999999999, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7200000000000002,0.61,0.72,0.001,0.665,3,843
+hammerhead shark,7,"['tiger shark', 'stingray', 'stage', 'dugong', 'silver salmon']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.7800000000000001,0.542,0.78,0.001,0.661,4,860
+electric ray,9,"['stingray', 'tiger shark', 'trilobite', 'platypus', 'brain coral']","[0.1199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999991,0.72,0.562,0.72,0.001,0.641,5,1201
+stingray,12,"['electric ray', 'tiger shark', 'hammerhead shark', 'box turtle', 'sea cucumber']","[0.2, 0.04, 0.02, 0.02, 0.02]",1.456547284601344,0.5599999999999999,0.509,0.56,0.001,0.534,6,1076
+rooster,7,"['hen', 'black grouse', 'flamingo', 'komondor', 'brass memorial plaque']","[0.3, 0.04, 0.02, 0.02, 0.02]",1.4819761556523587,0.5599999999999999,0.824,0.56,0.001,0.692,7,876
+hen,8,"['rooster', 'house finch', 'black grouse', 'american coot', 'beaver']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000002,0.7999999999999998,0.667,0.8,0.001,0.734,8,890
+ostrich,2,"['bustard', 'quill']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.923,0.96,0.001,0.942,9,940
+brambling,7,"['junco', 'house finch', 'american dipper', 'worm snake', 'quail']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7800000000000001,0.812,0.78,0.001,0.796,10,1110
+goldfinch,2,"['sulphur butterfly', 'vase']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.98,0.96,0.001,0.97,11,883
+house finch,3,"['brambling', 'junco', 'american robin']","[0.04, 0.02, 0.02]",0.7071067811865479,0.92,0.868,0.92,0.001,0.894,12,1015
+junco,2,"['chickadee', 'house finch']","[0.04, 0.02]",1.030425744730223e-15,0.94,0.839,0.94,0.001,0.89,13,1065
+indigo bunting,6,"['house finch', 'bald eagle', 'alligator lizard', 'coucal', 'park bench']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.88,0.917,0.88,0.001,0.899,14,921
+american robin,5,"['brambling', 'bulbul', 'quail', 'hummingbird', 'bouvier des flandres dog']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.882,0.9,0.001,0.891,15,923
+bulbul,4,"['coucal', 'brambling', 'bald eagle', 'lorikeet']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.8999999999999999,0.789,0.9,0.001,0.844,16,1096
+jay,6,"['magpie', 'bulbul', 'indigo bunting', 'brambling', 'little blue heron']","[0.08, 0.06, 0.04, 0.02, 0.02]",0.3631734744194302,0.7600000000000001,1.0,0.76,0.001,0.88,17,910
+magpie,9,"['bulbul', 'brambling', 'kite bird of prey', 'peafowl', 'limpkin']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8,0.833,0.8,0.001,0.816,18,1117
+chickadee,3,"['bulbul', 'junco', 'magpie']","[0.04, 0.02, 0.02]",0.7071067811865479,0.92,0.958,0.92,0.001,0.939,19,874
+american dipper,9,"['ruddy turnstone', 'brambling', 'house finch', 'bulbul', 'magpie']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8,0.87,0.8,0.001,0.835,20,1197
+kite bird of prey,11,"['bald eagle', 'vulture', 'hen', 'house finch', 'great grey owl']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.74,0.74,0.74,0.001,0.74,21,949
+bald eagle,3,"['kite bird of prey', 'vulture', 'black swan']","[0.02, 0.02, 0.02]",0.0,0.94,0.887,0.94,0.001,0.914,22,818
+vulture,5,"['ostrich', 'kite bird of prey', 'coucal', 'llama', 'patas monkey']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.9,0.763,0.9,0.001,0.832,23,925
+great grey owl,3,"['bald eagle', 'ruffed grouse', 'snowplow']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.922,0.94,0.001,0.931,24,847
+fire salamander,3,"['spotted salamander', 'fig', 'coral reef']","[0.06, 0.02, 0.02]",0.7071067811865476,0.9,0.918,0.9,0.001,0.909,25,834
+smooth newt,13,"['newt', 'spotted salamander', 'fire salamander', 'tailed frog', 'banded gecko']","[0.12, 0.12, 0.04, 0.02, 0.02]",0.3365218792190072,0.52,0.433,0.52,0.001,0.477,26,1071
+newt,6,"['smooth newt', 'slug', 'cockroach', 'porcupine', 'bottle cap']","[0.2999999999999999, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.5999999999999999,0.811,0.6,0.001,0.706,27,1002
+spotted salamander,9,"['electric ray', 'smooth newt', 'fire salamander', 'mud turtle', 'terrapin']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7799999999999999,0.765,0.78,0.001,0.772,28,932
+axolotl,6,"['smooth newt', 'gila monster', 'saharan horned viper', 'scorpion', 'platypus']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.88,0.917,0.88,0.001,0.899,29,1043
+american bullfrog,12,"['tailed frog', 'water snake', 'mud turtle', 'terrapin', 'box turtle']","[0.1399999999999999, 0.04, 0.02, 0.02, 0.02]",1.4035141563500906,0.6200000000000001,0.738,0.62,0.001,0.679,30,858
+tree frog,8,"['tailed frog', 'american bullfrog', 'goldfish', 'banded gecko', 'carolina anole']","[0.3399999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4451375710458838,0.4799999999999999,0.774,0.48,0.001,0.627,31,783
+tailed frog,14,"['american bullfrog', 'smooth newt', 'tree frog', 'spotted salamander', 'terrapin']","[0.12, 0.1, 0.1, 0.02, 0.02]",-0.3169627324056572,0.4599999999999999,0.451,0.46,0.001,0.456,32,888
+loggerhead sea turtle,14,"['terrapin', 'leatherback sea turtle', 'scuba diver', 'great white shark', 'stingray']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.64,0.653,0.64,0.001,0.647,33,896
+leatherback sea turtle,22,"['loggerhead sea turtle', 'great white shark', 'electric ray', 'mud turtle', 'terrapin']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.48,0.774,0.48,0.001,0.627,34,960
+mud turtle,10,"['box turtle', 'terrapin', 'water snake', 'tree frog', 'chameleon']","[0.2199999999999999, 0.18, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.4520320786012496,0.42,0.538,0.42,0.001,0.479,35,907
+terrapin,7,"['box turtle', 'mud turtle', 'loggerhead sea turtle', 'green iguana', 'dungeness crab']","[0.3399999999999999, 0.2399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.5687970690006102,0.3199999999999999,0.41,0.32,0.001,0.365,36,942
+box turtle,3,"['terrapin', 'mud turtle', 'spiral or coil']","[0.06, 0.04, 0.02]",-3.4418417623860006e-16,0.88,0.537,0.88,0.002,0.708,37,903
+banded gecko,8,"['smooth newt', 'agama', 'saharan horned viper', 'eastern diamondback rattlesnake', 'alligator lizard']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",-1.4999999999999998,0.7599999999999999,0.776,0.76,0.001,0.768,38,1034
+green iguana,8,"['european green lizard', 'carolina anole', 'chameleon', 'komodo dragon', 'fiddler crab']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8000000000000002,0.755,0.8,0.001,0.778,39,923
+carolina anole,6,"['european green lizard', 'smooth newt', 'frilled necked lizard', 'vine snake', 'longhorn beetle']","[0.3400000000000001, 0.02, 0.02, 0.02, 0.02]",1.5000000000000004,0.5599999999999999,0.609,0.56,0.001,0.584,40,936
+desert grassland whiptail lizard,7,"['alligator lizard', 'agama', 'frilled necked lizard', 'european green lizard', 'komodo dragon']","[0.2799999999999999, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.5999999999999999,0.732,0.6,0.001,0.666,41,921
+agama,8,"['alligator lizard', 'frilled necked lizard', 'european green lizard', 'kite bird of prey', 'spotted salamander']","[0.16, 0.08, 0.04, 0.02, 0.02]",0.959386144805026,0.62,0.756,0.62,0.001,0.688,42,1008
+frilled necked lizard,12,"['tailed frog', 'banded gecko', 'green iguana', 'agama', 'chameleon']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7600000000000001,0.704,0.76,0.001,0.732,43,951
+alligator lizard,19,"['desert grassland whiptail lizard', 'carolina anole', 'eastern hog nosed snake', 'smooth newt', 'box turtle']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.3436215967445454,0.5399999999999999,0.422,0.54,0.001,0.481,44,1044
+gila monster,14,"['komodo dragon', 'eastern hog nosed snake', 'trilobite', 'agama', 'frilled necked lizard']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.62,0.886,0.62,0.001,0.753,45,1009
+european green lizard,12,"['carolina anole', 'green iguana', 'chameleon', 'frilled necked lizard', 'alligator lizard']","[0.22, 0.08, 0.08, 0.04, 0.04]",1.2352635360105009,0.4,0.385,0.4,0.001,0.392,46,945
+chameleon,11,"['agama', 'green iguana', 'swing', 'frilled necked lizard', 'alligator lizard']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.7000000000000001,0.761,0.7,0.001,0.73,47,936
+komodo dragon,5,"['frilled necked lizard', 'green iguana', 'hippopotamus', 'mop', 'swing']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.88,0.772,0.88,0.001,0.826,48,874
+nile crocodile,13,"['american alligator', 'loggerhead sea turtle', 'lakeshore', 'hammerhead shark', 'kite bird of prey']","[0.2, 0.04, 0.04, 0.02, 0.02]",1.4366055002620477,0.52,0.812,0.52,0.001,0.666,49,793
+american alligator,12,"['nile crocodile', 'frilled necked lizard', 'axolotl', 'terrapin', 'alligator lizard']","[0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.150049335661531,0.6799999999999999,0.68,0.68,0.001,0.68,50,818
+triceratops,7,"['swing', 'trilobite', 'snail', 'warthog', 'boathouse']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8200000000000001,0.837,0.82,0.001,0.828,51,972
+worm snake,12,"['ring necked snake', 'alligator lizard', 'smooth newt', 'eastern hog nosed snake', 'water snake']","[0.18, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.2832119003429132,0.5399999999999999,0.5,0.54,0.001,0.52,52,1002
+ring necked snake,12,"['water snake', 'worm snake', 'sea snake', 'smooth newt', 'eastern hog nosed snake']","[0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.3631734744194304,0.6399999999999999,0.464,0.64,0.001,0.552,53,994
+eastern hog nosed snake,12,"['saharan horned viper', 'kingsnake', 'ring necked snake', 'garter snake', 'night snake']","[0.1, 0.08, 0.06, 0.06, 0.04]",0.2715454178836392,0.4600000000000001,0.365,0.46,0.001,0.412,54,927
+smooth green snake,5,"['vine snake', 'green mamba', 'european green lizard', 'water snake', 'mushroom']","[0.2, 0.18, 0.04, 0.02, 0.02]",0.4026563426231833,0.54,0.6,0.54,0.001,0.57,55,944
+kingsnake,12,"['sea snake', 'ring necked snake', 'eastern hog nosed snake', 'smooth newt', 'alligator lizard']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.6600000000000001,0.75,0.66,0.001,0.705,56,909
+garter snake,8,"['ring necked snake', 'water snake', 'gila monster', 'eastern hog nosed snake', 'african rock python']","[0.1, 0.06, 0.04, 0.04, 0.04]",1.1500493356615311,0.66,0.846,0.66,0.001,0.753,57,830
+water snake,17,"['worm snake', 'ring necked snake', 'eastern hog nosed snake', 'night snake', 'terrapin']","[0.12, 0.1, 0.06, 0.04, 0.02]",0.1579875514375953,0.42,0.389,0.42,0.001,0.404,58,1094
+vine snake,14,"['smooth green snake', 'green mamba', 'worm snake', 'water snake', 'junco']","[0.08, 0.06, 0.04, 0.04, 0.02]",0.2715454178836398,0.5800000000000001,0.569,0.58,0.001,0.574,59,1039
+night snake,21,"['ring necked snake', 'eastern hog nosed snake', 'african rock python', 'boa constrictor', 'saharan horned viper']","[0.0999999999999999, 0.0999999999999999, 0.0999999999999999, 0.0799999999999999, 0.0799999999999999]",-0.4082482904638669,0.0599999999999999,0.214,0.06,0.0,0.137,60,900
+boa constrictor,14,"['african rock python', 'loggerhead sea turtle', 'european green lizard', 'worm snake', 'smooth green snake']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7,0.574,0.7,0.001,0.637,61,947
+african rock python,14,"['boa constrictor', 'eastern diamondback rattlesnake', 'eastern hog nosed snake', 'indian cobra', 'sidewinder rattlesnake']","[0.32, 0.12, 0.04, 0.04, 0.04]",1.2332237528390588,0.26,0.52,0.26,0.001,0.39,62,779
+indian cobra,11,"['ring necked snake', 'eastern hog nosed snake', 'water snake', 'kingsnake', 'green mamba']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.7200000000000001,0.72,0.72,0.001,0.72,63,811
+green mamba,9,"['smooth green snake', 'vine snake', 'indian cobra', 'marmoset', 'howler monkey']","[0.18, 0.12, 0.04, 0.02, 0.02]",0.6269617454490731,0.54,0.643,0.54,0.001,0.592,64,935
+sea snake,14,"['ring necked snake', 'coral reef', 'eastern hog nosed snake', 'smooth green snake', 'kingsnake']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.6600000000000003,0.524,0.66,0.001,0.592,65,1203
+saharan horned viper,11,"['sidewinder rattlesnake', 'eastern hog nosed snake', 'night snake', 'sea snake', 'barn spider']","[0.12, 0.1, 0.02, 0.02, 0.02]",0.4692912730377025,0.6,0.405,0.6,0.001,0.502,66,1130
+eastern diamondback rattlesnake,12,"['eastern hog nosed snake', 'sidewinder rattlesnake', 'water snake', 'saharan horned viper', 'american dipper']","[0.16, 0.08, 0.04, 0.04, 0.02]",1.0038803488549692,0.52,0.565,0.52,0.001,0.542,67,902
+sidewinder rattlesnake,12,"['saharan horned viper', 'eastern diamondback rattlesnake', 'worm snake', 'eastern hog nosed snake', 'komodo dragon']","[0.4799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.4807643990172143,0.2199999999999999,0.379,0.22,0.001,0.3,68,1064
+trilobite,5,"['box turtle', 'centipede', 'brain coral', 'cliff dwelling', 'baguette']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.6,0.9,0.002,0.75,69,953
+harvestman,8,"['window screen', 'centipede', 'stick insect', 'scorpion', 'bee eater']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.3436215967445454,0.7599999999999999,0.704,0.76,0.001,0.732,70,967
+scorpion,6,"['trilobite', 'harvestman', 'longhorn beetle', 'ant', 'hair clip']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8600000000000001,0.741,0.86,0.001,0.8,71,599
+yellow garden spider,2,"['european garden spider', 'harvestman']","[0.16, 0.02]",2.35962852755609e-16,0.8199999999999998,0.732,0.82,0.001,0.776,72,819
+barn spider,11,"['european garden spider', 'tarantula', 'spider web', 'harvestman', 'tick']","[0.24, 0.1, 0.06, 0.04, 0.04]",1.214328672295399,0.4000000000000001,0.417,0.4,0.001,0.408,73,848
+european garden spider,8,"['yellow garden spider', 'barn spider', 'southern black widow', 'spider web', 'leafhopper']","[0.2199999999999999, 0.1599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",0.5508474735462825,0.4599999999999999,0.434,0.46,0.001,0.447,74,815
+southern black widow,9,"['harvestman', 'barn spider', 'longhorn beetle', 'ant', 'scorpion']","[0.06, 0.06, 0.06, 0.04, 0.02]",-0.8437500000000006,0.6800000000000002,0.829,0.68,0.001,0.754,75,693
+tarantula,3,"['southern black widow', 'fiddler crab', 'pajamas']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.723,0.94,0.001,0.831,76,754
+wolf spider,11,"['barn spider', 'tarantula', 'harvestman', 'european garden spider', 'stick insect']","[0.22, 0.18, 0.06, 0.06, 0.06]",0.5071295169770312,0.2799999999999999,0.737,0.28,0.0,0.508,77,705
+tick,12,"['scorpion', 'yellow garden spider', 'ground beetle', 'southern black widow', 'chambered nautilus']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.68,0.739,0.68,0.001,0.71,78,721
+centipede,14,"['isopod', 'water snake', 'sea cucumber', 'lionfish', 'banded gecko']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.62,0.66,0.62,0.001,0.64,79,803
+black grouse,5,"['ruffed grouse', 'rooster', 'hen', 'vulture', 'ptarmigan']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.88,0.917,0.88,0.001,0.899,80,1192
+ptarmigan,13,"['ruffed grouse', 'trilobite', 'prairie grouse', 'quail', 'partridge']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7200000000000001,0.837,0.72,0.001,0.778,81,1134
+ruffed grouse,10,"['quail', 'partridge', 'brambling', 'american robin', 'kite bird of prey']","[0.0599999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638634,0.72,0.706,0.72,0.001,0.713,82,1378
+prairie grouse,4,"['bustard', 'ptarmigan', 'crane bird', 'hare']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.8999999999999999,0.9,0.9,0.001,0.9,83,1107
+peafowl,7,"['vulture', 'sulphur crested cockatoo', 'bee eater', 'common gallinule', 'cougar']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8599999999999999,0.896,0.86,0.001,0.878,84,876
+quail,4,"['partridge', 'ruffed grouse', 'snail', 'brittany dog']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.9,0.763,0.9,0.001,0.832,85,1208
+partridge,6,"['ruffed grouse', 'ptarmigan', 'quail', 'american dipper', 'vulture']","[0.1, 0.08, 0.06, 0.02, 0.02]",0.0351562500000011,0.7000000000000001,0.854,0.7,0.001,0.777,86,1361
+african grey parrot,4,"['honeycomb', 'paintbrush', 'paper towel', 'swing']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.821,0.92,0.001,0.87,87,1084
+macaw,5,"['kite bird of prey', 'sea anemone', 'fountain', 'swing', 'wool']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.9,0.978,0.9,0.001,0.939,88,874
+sulphur crested cockatoo,7,"['magpie', 'african grey parrot', 'toucan', 'wallaby', 'pelican']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.86,0.896,0.86,0.001,0.878,89,962
+lorikeet,1,['macaw'],[0.02],0.0,0.98,0.907,0.98,0.001,0.944,90,815
+coucal,7,"['american robin', 'sulphur crested cockatoo', 'hornbill', 'jacamar', 'common gallinule']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8599999999999999,0.827,0.86,0.001,0.843,91,1217
+bee eater,2,"['lorikeet', 'jacamar']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.96,0.96,0.001,0.96,92,963
+hornbill,7,"['toucan', 'vulture', 'coucal', 'jellyfish', 'black stork']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8399999999999999,0.875,0.84,0.001,0.857,93,978
+hummingbird,4,"['jacamar', 'indigo bunting', 'prairie grouse', 'unicycle']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.8999999999999999,0.865,0.9,0.001,0.883,94,879
+jacamar,4,"['bulbul', 'hummingbird', 'goldfinch', 'house finch']","[0.0599999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",3.330669073875446e-16,0.84,0.894,0.84,0.001,0.867,95,885
+toucan,4,"['hornbill', 'jigsaw puzzle', 'rifle', 'window screen']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.9,0.918,0.9,0.001,0.909,96,905
+duck,9,"['prairie grouse', 'african grey parrot', 'red breasted merganser', 'spoonbill', 'common gallinule']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8200000000000001,0.837,0.82,0.001,0.828,97,829
+red breasted merganser,7,"['duck', 'american coot', 'nile crocodile', 'goose', 'black stork']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.7999999999999998,0.851,0.8,0.001,0.826,98,1027
+goose,19,"['american coot', 'albatross', 'black swan', 'spoonbill', 'crane bird']","[0.08, 0.06, 0.04, 0.04, 0.04]",0.8437499999999998,0.44,0.88,0.44,0.001,0.66,99,789
+black swan,1,['pelican'],[0.02],0.0,0.98,0.875,0.98,0.001,0.928,100,900
+tusker,6,"['asian elephant', 'african bush elephant', 'chain mail', 'limpkin', 'boxer']","[0.62, 0.26, 0.04, 0.02, 0.02]",1.0359766514544078,0.02,1.0,0.02,0.0,0.51,101,812
+echidna,1,['red fox'],[0.02],0.0,0.98,0.942,0.98,0.001,0.961,102,960
+platypus,22,"['otter', 'water snake', 'beaver', 'electric ray', 'stingray']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.3436215967445454,0.4799999999999999,0.511,0.48,0.001,0.496,103,1256
+wallaby,11,"['vulture', 'indian cobra', 'wombat', 'king penguin', 'newfoundland dog']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7799999999999999,0.684,0.78,0.001,0.732,104,1021
+koala,9,"['porcupine', 'gibbon', 'macaque', 'mongoose', 'marmoset']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",-0.4082482904638636,0.7599999999999999,0.864,0.76,0.001,0.812,105,815
+wombat,11,"['koala', 'wallaby', 'prairie grouse', 'australian kelpie', 'mongoose']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.72,0.72,0.72,0.001,0.72,106,1072
+jellyfish,8,"['sea cucumber', 'nematode', 'chiton', 'beer glass', 'spiral or coil']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8200000000000001,0.788,0.82,0.001,0.804,107,967
+sea anemone,12,"['sea cucumber', 'clownfish', 'coral reef', 'jellyfish', 'brain coral']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.6600000000000001,0.673,0.66,0.001,0.667,108,1008
+brain coral,8,"['pufferfish', 'sea anemone', 'sea slug', 'sea urchin', 'handkerchief']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8199999999999998,0.621,0.82,0.001,0.72,109,1101
+flatworm,11,"['sea slug', 'sea cucumber', 'electric ray', 'worm snake', 'vine snake']","[0.22, 0.04, 0.02, 0.02, 0.02]",1.4647502140275708,0.5599999999999999,0.718,0.56,0.001,0.639,110,1129
+nematode,6,"['centipede', 'sea anemone', 'car mirror', 'scabbard', 'bubble']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8799999999999999,0.759,0.88,0.001,0.82,111,1118
+conch,16,"['chiton', 'terrapin', 'triceratops', 'trilobite', 'jellyfish']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.66,0.6,0.66,0.001,0.63,112,1135
+snail,7,"['slug', 'conch', 'rose hip', 'ladybug', 'sea cucumber']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.74,0.74,0.74,0.001,0.74,113,974
+slug,22,"['desert grassland whiptail lizard', 'centipede', 'sea lion', 'spotted salamander', 'banded gecko']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.5000000000000001,0.581,0.5,0.001,0.54,114,1090
+sea slug,8,"['flatworm', 'sea cucumber', 'brain coral', 'coral reef', 'chiton']","[0.1399999999999999, 0.12, 0.04, 0.04, 0.02]",0.3877276902767251,0.5800000000000001,0.592,0.58,0.001,0.586,115,1026
+chiton,12,"['meatloaf', 'trilobite', 'isopod', 'starfish', 'sea cucumber']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.62,0.689,0.62,0.001,0.654,116,1379
+chambered nautilus,9,"['african rock python', 'sea urchin', 'pufferfish', 'hair dryer', 'lampshade']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8200000000000001,0.891,0.82,0.001,0.855,117,1110
+dungeness crab,11,"['red king crab', 'rock crab', 'american alligator', 'fiddler crab', 'american lobster']","[0.1, 0.06, 0.02, 0.02, 0.02]",0.84375,0.6600000000000001,0.702,0.66,0.001,0.681,118,1009
+rock crab,18,"['fiddler crab', 'crayfish', 'red king crab', 'hermit crab', 'green iguana']","[0.16, 0.06, 0.04, 0.04, 0.02]",1.2621071358631282,0.42,0.477,0.42,0.001,0.448,119,964
+fiddler crab,4,"['rock crab', 'dungeness crab', 'smooth newt', 'hair clip']","[0.16, 0.06, 0.02, 0.02]",0.9003820431239707,0.74,0.597,0.74,0.001,0.668,120,1086
+red king crab,8,"['pizza', 'dungeness crab', 'american lobster', 'crayfish', 'sea cucumber']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8199999999999997,0.695,0.82,0.001,0.758,121,1007
+american lobster,10,"['crayfish', 'dungeness crab', 'spiny lobster', 'rock crab', 'longhorn beetle']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.7,0.795,0.7,0.001,0.748,122,929
+spiny lobster,12,"['red king crab', 'crayfish', 'sea cucumber', 'electric ray', 'brain coral']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.7,0.761,0.7,0.001,0.73,123,957
+crayfish,16,"['spiny lobster', 'dungeness crab', 'rock crab', 'american lobster', 'isopod']","[0.12, 0.06, 0.06, 0.06, 0.06]",1.5000000000000009,0.4,0.465,0.4,0.001,0.432,124,1050
+hermit crab,18,"['conch', 'rock crab', 'fiddler crab', 'snail', 'crayfish']","[0.1, 0.1, 0.08, 0.04, 0.04]",-0.2115471544831132,0.38,0.731,0.38,0.001,0.556,125,1037
+isopod,19,"['scorpion', 'jellyfish', 'fire salamander', 'chameleon', 'wolf spider']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.58,0.558,0.58,0.001,0.569,126,1140
+white stork,7,"['black stork', 'american robin', 'kite bird of prey', 'bald eagle', 'oystercatcher']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8200000000000001,0.953,0.82,0.001,0.886,127,985
+black stork,9,"['kite bird of prey', 'vulture', 'american alligator', 'black swan', 'spoonbill']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8199999999999998,0.82,0.82,0.001,0.82,128,1197
+spoonbill,1,['great egret'],[0.02],0.0,0.98,0.754,0.98,0.001,0.867,129,970
+flamingo,1,['spoonbill'],[0.06],0.0,0.94,0.979,0.94,0.001,0.96,130,757
+little blue heron,8,"['crane bird', 'limpkin', 'quail', 'hornbill', 'black stork']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8,0.8,0.8,0.001,0.8,131,916
+great egret,3,"['little blue heron', 'spoonbill', 'crane bird']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",9.17824469969593e-16,0.8799999999999999,0.772,0.88,0.001,0.826,132,856
+bittern bird,9,"['hen', 'quail', 'coucal', 'conch', 'black stork']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8200000000000001,0.837,0.82,0.001,0.828,133,1189
+crane bird,10,"['great egret', 'spoonbill', 'bustard', 'kite bird of prey', 'sulphur crested cockatoo']","[0.1, 0.06, 0.04, 0.02, 0.02]",0.7301958930821588,0.66,0.767,0.66,0.001,0.714,134,995
+limpkin,3,"['black stork', 'spoonbill', 'bittern bird']","[0.02, 0.02, 0.02]",0.0,0.94,0.839,0.94,0.001,0.89,135,1101
+common gallinule,0,[],[],0.0,1.0,0.926,1.0,0.001,0.963,136,1231
+american coot,7,"['red breasted merganser', 'vulture', 'black grouse', 'duck', 'goose']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.84,0.824,0.84,0.001,0.832,137,1038
+bustard,4,"['echidna', 'bittern bird', 'crane bird', 'gazelle']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.807,0.92,0.001,0.864,138,1129
+ruddy turnstone,1,['red panda'],[0.02],0.0,0.98,0.831,0.98,0.001,0.906,139,1066
+dunlin,7,"['ruddy turnstone', 'dowitcher', 'stingray', 'rock crab', 'common redshank']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.7600000000000001,0.809,0.76,0.001,0.784,140,991
+common redshank,6,"['ruddy turnstone', 'dunlin', 'dowitcher', 'porcupine', 'tile roof']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8799999999999999,0.898,0.88,0.001,0.889,141,1119
+dowitcher,4,"['dunlin', 'common redshank', 'duck', 'ruddy turnstone']","[0.1599999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",0.9003820431239704,0.7399999999999999,0.841,0.74,0.001,0.79,142,943
+oystercatcher,7,"['dowitcher', 'american robin', 'kite bird of prey', 'red breasted merganser', 'black stork']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8400000000000001,0.875,0.84,0.001,0.857,143,1102
+pelican,4,"['great white shark', 'vulture', 'little blue heron', 'great egret']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.821,0.92,0.001,0.87,144,911
+king penguin,5,"['swing', 'hammerhead shark', 'scabbard', 'sandbar', 'scuba diver']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8799999999999999,0.898,0.88,0.001,0.889,145,845
+albatross,2,"['great white shark', 'great egret']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.842,0.96,0.001,0.901,146,868
+grey whale,8,"['triceratops', 'killer whale', 'sea lion', 'brain coral', 'dugong']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.7800000000000001,0.848,0.78,0.001,0.814,147,741
+killer whale,5,"['grey whale', 'dugong', 'hammerhead shark', 'platypus', 'albatross']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8600000000000001,0.782,0.86,0.001,0.821,148,859
+dugong,8,"['stingray', 'great white shark', 'hammerhead shark', 'electric ray', 'killer whale']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8199999999999997,0.804,0.82,0.001,0.812,149,1229
+sea lion,9,"['hammerhead shark', 'loggerhead sea turtle', 'killer whale', 'dugong', 'hippopotamus']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8200000000000002,0.707,0.82,0.001,0.764,150,974
+chihuahua,19,"['miniature pinscher', 'papillon', 'boston terrier', 'schipperke', 'french bulldog']","[0.1399999999999999, 0.0999999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.6817327184847221,0.3399999999999999,0.347,0.34,0.001,0.344,151,1128
+japanese chin,6,"['papillon', 'pekingese', 'king charles spaniel', 'shih tzu', 'english setter']","[0.12, 0.08, 0.08, 0.02, 0.02]",0.0460847790881587,0.66,0.846,0.66,0.001,0.753,152,614
+maltese,12,"['west highland white terrier', 'samoyed', 'toy poodle', 'miniature poodle', 'shih tzu']","[0.22, 0.04, 0.04, 0.04, 0.02]",1.458054813315981,0.5,0.51,0.5,0.001,0.505,153,1047
+pekingese,13,"['japanese chin', 'papillon', 'great pyrenees dog', 'chihuahua', 'irish terrier']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",-0.4082482904638636,0.6799999999999999,0.596,0.68,0.001,0.638,154,1095
+shih tzu,18,"['lhasa apso', 'pekingese', 'tibetan terrier', 'japanese chin', 'maltese']","[0.22, 0.1, 0.04, 0.02, 0.02]",1.0321322918605116,0.34,0.405,0.34,0.001,0.373,155,1129
+king charles spaniel,9,"['welsh springer spaniel', 'papillon', 'airedale terrier', 'brittany dog', 'clumber spaniel']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8,0.625,0.8,0.001,0.712,156,1029
+papillon,9,"['brittany dog', 'japanese chin', 'shih tzu', 'borzoi', 'norfolk terrier']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8,0.667,0.8,0.001,0.734,157,1051
+toy terrier,16,"['miniature pinscher', 'chihuahua', 'basenji', 'italian greyhound', 'ibizan hound']","[0.22, 0.1399999999999999, 0.08, 0.06, 0.04]",0.713638870317841,0.18,0.643,0.18,0.0,0.412,158,695
+rhodesian ridgeback,13,"['vizsla', 'redbone coonhound', 'bullmastiff', 'staffordshire bull terrier', 'chesapeake bay retriever']","[0.1399999999999999, 0.08, 0.08, 0.04, 0.04]",0.6858276550274035,0.44,0.333,0.44,0.001,0.386,159,1166
+afghan hound,14,"['saluki', 'briard', 'otterhound', 'rhodesian ridgeback', 'scottish deerhound']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.62,0.596,0.62,0.001,0.608,160,1231
+basset hound,13,"['beagle', 'bloodhound', 'treeing walker coonhound', 'vizsla', 'welsh springer spaniel']","[0.12, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.5599999999999999,0.519,0.56,0.001,0.54,161,1213
+beagle,11,"['basset hound', 'bluetick coonhound', 'treeing walker coonhound', 'english foxhound', 'redbone coonhound']","[0.1, 0.06, 0.04, 0.04, 0.02]",0.7500308204401289,0.62,0.419,0.62,0.001,0.52,162,1097
+bloodhound,22,"['basset hound', 'rhodesian ridgeback', 'chesapeake bay retriever', 'treeing walker coonhound', 'golden retriever']","[0.1199999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.1642636431747202,0.2399999999999999,0.375,0.24,0.001,0.308,163,1231
+bluetick coonhound,13,"['greater swiss mountain dog', 'black and tan coonhound', 'english foxhound', 'beagle', 'treeing walker coonhound']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.66,0.423,0.66,0.002,0.542,164,1026
+black and tan coonhound,17,"['dobermann', 'rottweiler', 'bluetick coonhound', 'bloodhound', 'australian kelpie']","[0.32, 0.16, 0.1, 0.04, 0.04]",0.9025944469731452,0.1,0.455,0.1,0.0,0.278,165,651
+treeing walker coonhound,12,"['beagle', 'basset hound', 'bluetick coonhound', 'redbone coonhound', 'ibizan hound']","[0.2999999999999999, 0.1399999999999999, 0.04, 0.04, 0.04]",1.0557230778614994,0.2999999999999999,0.469,0.3,0.001,0.384,166,862
+english foxhound,18,"['beagle', 'treeing walker coonhound', 'bluetick coonhound', 'brittany dog', 'redbone coonhound']","[0.1999999999999999, 0.1399999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",0.6450461152784874,0.1999999999999999,0.625,0.2,0.0,0.412,167,655
+redbone coonhound,15,"['rhodesian ridgeback', 'vizsla', 'bloodhound', 'weimaraner', 'chesapeake bay retriever']","[0.22, 0.16, 0.06, 0.04, 0.04]",0.5769918136196585,0.2799999999999999,0.326,0.28,0.001,0.303,168,1189
+borzoi,10,"['saluki', 'english setter', 'brittany dog', 'welsh springer spaniel', 'kuvasz']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.74,0.638,0.74,0.001,0.689,169,1235
+irish wolfhound,21,"['scottish deerhound', 'kuvasz', 'borzoi', 'otterhound', 'saluki']","[0.48, 0.06, 0.04, 0.04, 0.04]",1.4927017631099104,0.0,0.0,0.0,0.0,0.0,170,1144
+italian greyhound,18,"['whippet', 'redbone coonhound', 'miniature pinscher', 'basenji', 'chihuahua']","[0.1, 0.04, 0.04, 0.04, 0.02]",1.1731251294063554,0.5,0.5,0.5,0.001,0.5,171,1295
+whippet,8,"['italian greyhound', 'ibizan hound', 'saluki', 'entlebucher sennenhund', 'basenji']","[0.06, 0.06, 0.06, 0.06, 0.06]",0.0,0.64,0.552,0.64,0.001,0.596,172,1191
+ibizan hound,18,"['saluki', 'whippet', 'borzoi', 'weimaraner', 'basenji']","[0.12, 0.1, 0.04, 0.04, 0.04]",0.5071295169770306,0.38,0.373,0.38,0.001,0.376,173,1256
+norwegian elkhound,14,"['german shepherd dog', 'siberian husky', 'keeshond', 'grey wolf', 'hyena']","[0.1, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.54,0.574,0.54,0.001,0.557,174,1174
+otterhound,16,"['irish terrier', 'briard', 'giant schnauzer', 'norfolk terrier', 'airedale terrier']","[0.1, 0.1, 0.08, 0.06, 0.06]",-9.697399036122157e-16,0.32,0.471,0.32,0.001,0.395,175,630
+saluki,14,"['borzoi', 'whippet', 'ibizan hound', 'golden retriever', 'great dane']","[0.1, 0.08, 0.06, 0.04, 0.04]",0.3631734744194304,0.5,0.455,0.5,0.001,0.478,176,1243
+scottish deerhound,8,"['afghan hound', 'saluki', 'gordon setter', 'german shepherd dog', 'entlebucher sennenhund']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.84,0.519,0.84,0.002,0.68,177,1247
+weimaraner,10,"['great dane', 'rhodesian ridgeback', 'black and tan coonhound', 'italian greyhound', 'american staffordshire terrier']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7800000000000001,0.639,0.78,0.001,0.71,178,1198
+staffordshire bull terrier,16,"['american staffordshire terrier', 'bullmastiff', 'labrador retriever', 'dobermann', 'french bulldog']","[0.1, 0.1, 0.04, 0.04, 0.04]",0.4082482904638626,0.4599999999999999,0.46,0.46,0.001,0.46,179,1165
+american staffordshire terrier,18,"['staffordshire bull terrier', 'bullmastiff', 'chihuahua', 'rhodesian ridgeback', 'ibizan hound']","[0.1399999999999999, 0.1399999999999999, 0.04, 0.04, 0.04]",0.4082482904638628,0.3,0.405,0.3,0.001,0.353,180,1086
+bedlington terrier,13,"['old english sheepdog', 'standard poodle', 'miniature poodle', 'polar bear', 'maltese']","[0.06, 0.06, 0.04, 0.04, 0.02]",-0.3436215967445465,0.62,0.534,0.62,0.001,0.577,181,1190
+border terrier,19,"['cairn terrier', 'irish terrier', 'lakeland terrier', 'norfolk terrier', 'brussels griffon']","[0.26, 0.1, 0.08, 0.06, 0.04]",1.262708722228948,0.18,0.6,0.18,0.0,0.39,182,1078
+kerry blue terrier,11,"['giant schnauzer', 'bouvier des flandres dog', 'scottish terrier', 'curly coated retriever', 'toy poodle']","[0.16, 0.16, 0.04, 0.04, 0.04]",0.4082482904638628,0.44,0.579,0.44,0.001,0.509,183,1105
+irish terrier,22,"['border terrier', 'norfolk terrier', 'norwich terrier', 'giant schnauzer', 'old english sheepdog']","[0.04, 0.04, 0.04, 0.04, 0.04]",0.0,0.4599999999999999,0.277,0.46,0.002,0.369,184,1257
+norfolk terrier,14,"['norwich terrier', 'cairn terrier', 'lakeland terrier', 'irish terrier', 'australian terrier']","[0.3199999999999999, 0.1199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.2440555087532084,0.1999999999999999,0.182,0.2,0.001,0.191,185,1117
+norwich terrier,9,"['cairn terrier', 'australian terrier', 'norfolk terrier', 'west highland white terrier', 'golden retriever']","[0.12, 0.1, 0.08, 0.06, 0.04]",-3.679904200040098e-16,0.52,0.277,0.52,0.002,0.398,186,1190
+yorkshire terrier,19,"['australian silky terrier', 'norwich terrier', 'australian terrier', 'cairn terrier', 'miniature schnauzer']","[0.3, 0.12, 0.1, 0.08, 0.06]",1.3026417982052974,0.02,1.0,0.02,0.0,0.51,187,913
+wire fox terrier,11,"['lakeland terrier', 'bedlington terrier', 'airedale terrier', 'sealyham terrier', 'standard poodle']","[0.22, 0.06, 0.06, 0.04, 0.04]",1.436605500262049,0.4600000000000001,0.657,0.46,0.001,0.558,188,841
+lakeland terrier,21,"['irish terrier', 'airedale terrier', 'kerry blue terrier', 'wire fox terrier', 'cairn terrier']","[0.1399999999999999, 0.1399999999999999, 0.06, 0.04, 0.04]",0.3365218792190069,0.24,0.203,0.24,0.001,0.222,189,1246
+sealyham terrier,10,"['west highland white terrier', 'lakeland terrier', 'maltese', 'borzoi', 'norfolk terrier']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.74,0.74,0.74,0.001,0.74,190,867
+airedale terrier,13,"['irish terrier', 'lakeland terrier', 'bedlington terrier', 'norfolk terrier', 'english setter']","[0.12, 0.12, 0.02, 0.02, 0.02]",0.4082482904638629,0.54,0.5,0.54,0.001,0.52,191,1162
+cairn terrier,17,"['norwich terrier', 'irish terrier', 'scottish terrier', 'bouvier des flandres dog', 'irish wolfhound']","[0.2999999999999999, 0.04, 0.04, 0.04, 0.02]",1.4796187537579817,0.32,0.193,0.32,0.002,0.256,192,1161
+australian terrier,15,"['norwich terrier', 'norfolk terrier', 'irish terrier', 'cairn terrier', 'giant schnauzer']","[0.2, 0.1, 0.08, 0.08, 0.04]",0.9938079899999076,0.26,0.371,0.26,0.001,0.316,193,1128
+dandie dinmont terrier,20,"['norfolk terrier', 'sealyham terrier', 'tibetan terrier', 'maltese', 'otterhound']","[0.1399999999999999, 0.1399999999999999, 0.1, 0.08, 0.06]",-0.0351562500000014,0.02,1.0,0.02,0.0,0.51,194,891
+boston terrier,7,"['french bulldog', 'staffordshire bull terrier', 'appenzeller sennenhund', 'chihuahua', 'american staffordshire terrier']","[0.1199999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.286470061706138,0.72,0.632,0.72,0.001,0.676,195,1095
+miniature schnauzer,13,"['standard schnauzer', 'giant schnauzer', 'wire fox terrier', 'cairn terrier', 'shih tzu']","[0.42, 0.06, 0.04, 0.04, 0.02]",1.4742712528755009,0.26,0.371,0.26,0.001,0.316,196,1091
+giant schnauzer,17,"['scottish terrier', 'bouvier des flandres dog', 'swing', 'cairn terrier', 'bloodhound']","[0.1199999999999999, 0.0999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",0.1579875514375951,0.42,0.276,0.42,0.002,0.348,197,1171
+standard schnauzer,11,"['miniature schnauzer', 'giant schnauzer', 'west highland white terrier', 'scottish deerhound', 'irish terrier']","[0.2, 0.1, 0.06, 0.04, 0.02]",0.9293262751691944,0.4599999999999999,0.397,0.46,0.001,0.428,198,1104
+scottish terrier,15,"['giant schnauzer', 'west highland white terrier', 'cairn terrier', 'miniature schnauzer', 'schipperke']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.04]",0.6817327184847201,0.38,0.5,0.38,0.001,0.44,199,1133
+tibetan terrier,15,"['briard', 'lhasa apso', 'old english sheepdog', 'cairn terrier', 'shih tzu']","[0.16, 0.12, 0.1, 0.08, 0.06]",0.3958703373438167,0.26,0.302,0.26,0.001,0.281,200,1051
+australian silky terrier,18,"['norwich terrier', 'australian terrier', 'norfolk terrier', 'cairn terrier', 'tibetan terrier']","[0.1199999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",0.7500308204401287,0.3799999999999999,0.388,0.38,0.001,0.384,201,1079
+soft coated wheaten terrier,23,"['irish terrier', 'lakeland terrier', 'briard', 'norfolk terrier', 'norwich terrier']","[0.1399999999999999, 0.1399999999999999, 0.1399999999999999, 0.06, 0.06]",-0.4082482904638628,0.02,0.333,0.02,0.0,0.177,202,1151
+west highland white terrier,13,"['cairn terrier', 'norfolk terrier', 'lakeland terrier', 'samoyed', 'angora rabbit']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.6200000000000001,0.443,0.62,0.001,0.532,203,1206
+lhasa apso,15,"['shih tzu', 'maltese', 'tibetan terrier', 'pekingese', 'lakeland terrier']","[0.24, 0.16, 0.06, 0.04, 0.02]",0.6052175239526755,0.2799999999999999,0.318,0.28,0.001,0.299,204,1084
+flat coated retriever,15,"['gordon setter', 'curly coated retriever', 'chesapeake bay retriever', 'schipperke', 'afghan hound']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.5999999999999999,0.545,0.6,0.001,0.572,205,1071
+curly coated retriever,16,"['flat coated retriever', 'miniature poodle', 'standard poodle', 'black swan', 'kerry blue terrier']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.5999999999999999,0.423,0.6,0.001,0.511,206,1124
+golden retriever,10,"['kuvasz', 'brittany dog', 'great pyrenees dog', 'pomeranian', 'papillon']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.3714193236627636e-15,0.6999999999999998,0.547,0.7,0.001,0.624,207,1020
+labrador retriever,15,"['flat coated retriever', 'chesapeake bay retriever', 'great pyrenees dog', 'basset hound', 'bluetick coonhound']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.5999999999999999,0.6,0.6,0.001,0.6,208,1085
+chesapeake bay retriever,18,"['curly coated retriever', 'vizsla', 'rhodesian ridgeback', 'weimaraner', 'irish terrier']","[0.1, 0.06, 0.04, 0.04, 0.04]",1.1500493356615311,0.42,0.35,0.42,0.001,0.385,209,1193
+german shorthaired pointer,15,"['bluetick coonhound', 'chesapeake bay retriever', 'english setter', 'weimaraner', 'great dane']","[0.26, 0.1, 0.1, 0.08, 0.08]",1.4366055002620486,0.08,0.8,0.08,0.0,0.44,210,991
+vizsla,12,"['rhodesian ridgeback', 'weimaraner', 'redbone coonhound', 'ibizan hound', 'chesapeake bay retriever']","[0.1599999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.121084707812288,0.4599999999999999,0.397,0.46,0.001,0.428,211,1182
+english setter,15,"['brittany dog', 'english springer spaniel', 'borzoi', 'clumber spaniel', 'bluetick coonhound']","[0.1, 0.08, 0.06, 0.06, 0.04]",0.2715454178836392,0.4599999999999999,0.434,0.46,0.001,0.447,212,1199
+irish setter,14,"['welsh springer spaniel', 'golden retriever', 'sussex spaniel', 'rhodesian ridgeback', 'bloodhound']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.64,0.525,0.64,0.001,0.582,213,1101
+gordon setter,14,"['rottweiler', 'flat coated retriever', 'bernese mountain dog', 'bluetick coonhound', 'miniature schnauzer']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.6400000000000001,0.64,0.64,0.001,0.64,214,1123
+brittany dog,16,"['english setter', 'irish setter', 'welsh springer spaniel', 'clumber spaniel', 'english springer spaniel']","[0.08, 0.08, 0.06, 0.04, 0.04]",-6.136635327546054e-16,0.4600000000000001,0.291,0.46,0.002,0.376,215,1126
+clumber spaniel,10,"['brittany dog', 'sealyham terrier', 'english setter', 'kuvasz', 'papillon']","[0.1, 0.04, 0.04, 0.04, 0.02]",1.1731251294063554,0.66,0.635,0.66,0.001,0.648,216,1241
+english springer spaniel,12,"['welsh springer spaniel', 'brittany dog', 'english setter', 'papillon', 'borzoi']","[0.1, 0.06, 0.04, 0.02, 0.02]",0.7301958930821588,0.62,0.689,0.62,0.001,0.654,217,1171
+welsh springer spaniel,9,"['brittany dog', 'clumber spaniel', 'king charles spaniel', 'irish setter', 'irish terrier']","[0.2799999999999999, 0.08, 0.06, 0.04, 0.02]",1.3334753269415835,0.44,0.458,0.44,0.001,0.449,218,1122
+cocker spaniel,18,"['irish setter', 'brittany dog', 'welsh springer spaniel', 'king charles spaniel', 'english setter']","[0.08, 0.08, 0.08, 0.06, 0.06]",-0.4082482904638637,0.34,0.63,0.34,0.001,0.485,219,1134
+sussex spaniel,15,"['irish setter', 'afghan hound', 'curly coated retriever', 'cocker spaniel', 'king charles spaniel']","[0.12, 0.04, 0.04, 0.04, 0.02]",1.304047329369509,0.54,0.692,0.54,0.001,0.616,220,1126
+irish water spaniel,12,"['curly coated retriever', 'standard poodle', 'afghan hound', 'wallaby', 'tibetan terrier']","[0.4, 0.2, 0.04, 0.02, 0.02]",0.8992209441367689,0.18,0.818,0.18,0.0,0.499,221,789
+kuvasz,10,"['great pyrenees dog', 'samoyed', 'golden retriever', 'alaskan tundra wolf', 'ibizan hound']","[0.18, 0.0999999999999999, 0.0799999999999999, 0.0399999999999999, 0.0199999999999999]",0.626177940402688,0.4799999999999999,0.414,0.48,0.001,0.447,222,1145
+schipperke,15,"['french bulldog', 'whippet', 'norwegian elkhound', 'staffordshire bull terrier', 'cairn terrier']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.68,0.321,0.68,0.002,0.501,223,1234
+groenendael dog,20,"['schipperke', 'flat coated retriever', 'papillon', 'afghan hound', 'bluetick coonhound']","[0.4999999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.49386852846954,0.0999999999999999,0.417,0.1,0.0,0.258,224,1029
+malinois,21,"['german shepherd dog', 'redbone coonhound', 'dhole', 'siamese cat', 'rhodesian ridgeback']","[0.36, 0.04, 0.04, 0.04, 0.02]",1.4864782779991357,0.18,0.9,0.18,0.0,0.54,225,1056
+briard,22,"['afghan hound', 'shetland sheepdog', 'otterhound', 'scottish terrier', 'tibetan terrier']","[0.08, 0.06, 0.04, 0.04, 0.04]",0.8437499999999998,0.38,0.288,0.38,0.001,0.334,226,1177
+australian kelpie,17,"['schipperke', 'ibizan hound', 'flat coated retriever', 'appenzeller sennenhund', 'shetland sheepdog']","[0.08, 0.06, 0.06, 0.06, 0.04]",-8.678512907553492e-16,0.4599999999999999,0.418,0.46,0.001,0.439,227,1187
+komondor,8,"['old english sheepdog', 'bedlington terrier', 'airedale terrier', 'soft coated wheaten terrier', 'west highland white terrier']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7799999999999999,0.886,0.78,0.001,0.833,228,1202
+old english sheepdog,13,"['tibetan terrier', 'otterhound', 'sealyham terrier', 'west highland white terrier', 'brittany dog']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.72,0.545,0.72,0.001,0.633,229,1172
+shetland sheepdog,14,"['papillon', 'saluki', 'irish setter', 'brittany dog', 'old english sheepdog']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7200000000000001,0.333,0.72,0.002,0.526,230,1146
+collie,8,"['shetland sheepdog', 'border collie', 'borzoi', 'english setter', 'briard']","[0.72, 0.1399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.398082892326481,0.0199999999999999,0.333,0.02,0.0,0.177,231,1027
+border collie,13,"['shetland sheepdog', 'australian kelpie', 'old english sheepdog', 'cardigan welsh corgi', 'japanese chin']","[0.12, 0.04, 0.04, 0.04, 0.02]",1.304047329369509,0.58,0.592,0.58,0.001,0.586,232,1086
+bouvier des flandres dog,17,"['giant schnauzer', 'standard poodle', 'scottish deerhound', 'kerry blue terrier', 'lakeland terrier']","[0.16, 0.06, 0.04, 0.04, 0.04]",1.4035141563500906,0.36,0.333,0.36,0.001,0.347,233,1225
+rottweiler,14,"['dobermann', 'flat coated retriever', 'appenzeller sennenhund', 'bloodhound', 'bluetick coonhound']","[0.1399999999999999, 0.04, 0.04, 0.02, 0.02]",1.3532751773025922,0.5599999999999999,0.509,0.56,0.001,0.534,234,1037
+german shepherd dog,11,"['norwegian elkhound', 'australian kelpie', 'american staffordshire terrier', 'irish terrier', 'schipperke']","[0.1, 0.06, 0.02, 0.02, 0.02]",0.84375,0.66,0.458,0.66,0.001,0.559,235,1036
+dobermann,18,"['rottweiler', 'redbone coonhound', 'australian kelpie', 'miniature pinscher', 'bluetick coonhound']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.54,0.422,0.54,0.001,0.481,236,1102
+miniature pinscher,16,"['chihuahua', 'dobermann', 'basenji', 'bloodhound', 'redbone coonhound']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.58,0.439,0.58,0.001,0.509,237,1160
+greater swiss mountain dog,17,"['entlebucher sennenhund', 'bernese mountain dog', 'appenzeller sennenhund', 'basset hound', 'rottweiler']","[0.2199999999999999, 0.1399999999999999, 0.1399999999999999, 0.0399999999999999, 0.0399999999999999]",0.1702026400476156,0.1599999999999999,0.2,0.16,0.001,0.18,238,1179
+bernese mountain dog,9,"['appenzeller sennenhund', 'greater swiss mountain dog', 'papillon', 'english springer spaniel', 'border collie']","[0.0799999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.5929270612815712,0.72,0.621,0.72,0.001,0.67,239,1063
+appenzeller sennenhund,8,"['entlebucher sennenhund', 'greater swiss mountain dog', 'bernese mountain dog', 'swing', 'bloodhound']","[0.22, 0.18, 0.08, 0.04, 0.02]",0.3133036679214676,0.4,0.339,0.4,0.001,0.37,240,1176
+entlebucher sennenhund,8,"['appenzeller sennenhund', 'greater swiss mountain dog', 'bluetick coonhound', 'border collie', 'basenji']","[0.32, 0.2, 0.02, 0.02, 0.02]",0.6817327184847216,0.36,0.333,0.36,0.001,0.347,241,1189
+boxer,13,"['bullmastiff', 'staffordshire bull terrier', 'rhodesian ridgeback', 'american staffordshire terrier', 'boston terrier']","[0.1999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4451375710458831,0.4399999999999999,0.611,0.44,0.001,0.526,242,1090
+bullmastiff,10,"['rhodesian ridgeback', 'french bulldog', 'great dane', 'pekingese', 'staffordshire bull terrier']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",-3.636524638545784e-16,0.6999999999999998,0.455,0.7,0.002,0.578,243,1096
+tibetan mastiff,8,"['newfoundland dog', 'chihuahua', 'giant schnauzer', 'australian kelpie', 'shetland sheepdog']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.7799999999999999,0.765,0.78,0.001,0.772,244,1066
+french bulldog,9,"['boston terrier', 'staffordshire bull terrier', 'toy terrier', 'beagle', 'italian greyhound']","[0.0999999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.2909944487358054,0.72,0.48,0.72,0.002,0.6,245,1133
+great dane,21,"['dalmatian', 'whippet', 'bullmastiff', 'redbone coonhound', 'borzoi']","[0.0999999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",0.9128709291752763,0.3399999999999999,0.425,0.34,0.001,0.382,246,1183
+st  bernard,10,"['brittany dog', 'chihuahua', 'king charles spaniel', 'basset hound', 'tibetan terrier']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7799999999999999,0.765,0.78,0.001,0.772,247,1073
+husky,11,"['siberian husky', 'alaskan malamute', 'kuvasz', 'alaskan tundra wolf', 'swing']","[0.44, 0.24, 0.04, 0.04, 0.04]",0.843749999999999,0.08,0.286,0.08,0.0,0.183,248,956
+alaskan malamute,10,"['siberian husky', 'kuvasz', 'shetland sheepdog', 'border collie', 'great dane']","[0.3799999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000002,0.4399999999999999,0.367,0.44,0.001,0.403,249,1135
+siberian husky,10,"['alaskan malamute', 'husky', 'norwegian elkhound', 'wallaby', 'golden retriever']","[0.26, 0.08, 0.04, 0.02, 0.02]",1.2985290029050784,0.4800000000000001,0.308,0.48,0.002,0.394,250,1120
+dalmatian,4,"['english setter', 'snow leopard', 'soccer ball', 'swing']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.754,0.92,0.001,0.837,251,1206
+affenpinscher,15,"['giant schnauzer', 'briard', 'newfoundland dog', 'pekingese', 'shih tzu']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.6200000000000001,0.795,0.62,0.001,0.708,252,751
+basenji,10,"['ibizan hound', 'pembroke welsh corgi', 'chihuahua', 'beagle', 'bluetick coonhound']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.7,0.547,0.7,0.001,0.624,253,1200
+pug,18,"['brussels griffon', 'french bulldog', 'siamese cat', 'bow tie', 'pekingese']","[0.26, 0.18, 0.06, 0.06, 0.02]",0.5557336935004378,0.16,1.0,0.16,0.0,0.58,254,1049
+leonberger,6,"['tibetan mastiff', 'st  bernard', 'flat coated retriever', 'groenendael dog', 'briard']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.84,0.764,0.84,0.001,0.802,255,1171
+newfoundland dog,16,"['tibetan mastiff', 'border collie', 'wombat', 'king penguin', 'afghan hound']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.5999999999999999,0.517,0.6,0.001,0.558,256,1108
+great pyrenees dog,13,"['kuvasz', 'husky', 'samoyed', 'tibetan terrier', 'golden retriever']","[0.18, 0.04, 0.04, 0.02, 0.02]",1.4191014536126718,0.54,0.45,0.54,0.001,0.495,257,1186
+samoyed,6,"['alaskan tundra wolf', 'schipperke', 'alaskan malamute', 'great pyrenees dog', 'chow chow']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.642,0.86,0.001,0.751,258,1170
+pomeranian,8,"['keeshond', 'pekingese', 'golden retriever', 'schipperke', 'siberian husky']","[0.12, 0.06, 0.04, 0.02, 0.02]",0.9704949588309452,0.68,0.694,0.68,0.001,0.687,259,1030
+chow chow,10,"['samoyed', 'pomeranian', 'schipperke', 'briard', 'tibetan mastiff']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7600000000000001,0.884,0.76,0.001,0.822,260,1093
+keeshond,9,"['norwegian elkhound', 'schipperke', 'bouvier des flandres dog', 'german shepherd dog', 'newfoundland dog']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.7999999999999998,0.645,0.8,0.001,0.722,261,1142
+brussels griffon,17,"['german shepherd dog', 'bullmastiff', 'chihuahua', 'norfolk terrier', 'affenpinscher']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.52,0.531,0.52,0.001,0.526,262,914
+pembroke welsh corgi,15,"['cardigan welsh corgi', 'basenji', 'chow chow', 'king charles spaniel', 'wire fox terrier']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.62,0.508,0.62,0.001,0.564,263,1233
+cardigan welsh corgi,16,"['pembroke welsh corgi', 'border collie', 'loggerhead sea turtle', 'basset hound', 'irish terrier']","[0.3199999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4842971984491509,0.36,0.462,0.36,0.001,0.411,264,1241
+toy poodle,19,"['miniature poodle', 'bedlington terrier', 'maltese', 'standard poodle', 'swing']","[0.18, 0.08, 0.04, 0.04, 0.04]",1.2332237528390575,0.34,0.327,0.34,0.001,0.334,265,1152
+miniature poodle,13,"['toy poodle', 'standard poodle', 'bedlington terrier', 'maltese', 'shih tzu']","[0.32, 0.16, 0.06, 0.02, 0.02]",0.892095238586534,0.26,0.295,0.26,0.001,0.277,266,1107
+standard poodle,12,"['bedlington terrier', 'miniature poodle', 'llama', 'siamang', 'afghan hound']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.66,0.458,0.66,0.001,0.559,267,1182
+mexican hairless dog xoloitzcuintli,12,"['italian greyhound', 'hammerhead shark', 'chihuahua', 'redbone coonhound', 'saluki']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.74,0.881,0.74,0.001,0.81,268,685
+grey wolf,8,"['alaskan tundra wolf', 'african wild dog', 'wallaby', 'norwegian elkhound', 'groenendael dog']","[0.0999999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.2909944487358054,0.7399999999999999,0.561,0.74,0.001,0.651,269,933
+alaskan tundra wolf,6,"['grey wolf', 'polar bear', 'kuvasz', 'siberian husky', 'snow leopard']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.84,0.583,0.84,0.001,0.712,270,919
+red wolf or maned wolf,11,"['grey wolf', 'grey fox', 'dhole', 'red fox', 'coyote']","[0.2, 0.08, 0.06, 0.06, 0.04]",1.321086967875272,0.44,0.688,0.44,0.001,0.564,271,1034
+coyote,14,"['grey fox', 'grey wolf', 'red wolf or maned wolf', 'red fox', 'ibizan hound']","[0.3799999999999999, 0.0999999999999999, 0.0599999999999999, 0.0599999999999999, 0.0199999999999999]",1.360892729443322,0.1999999999999999,0.769,0.2,0.0,0.485,272,828
+dingo,19,"['australian kelpie', 'dhole', 'basenji', 'wombat', 'slug']","[0.08, 0.08, 0.04, 0.02, 0.02]",0.2115471544831129,0.48,0.857,0.48,0.001,0.668,273,1074
+dhole,5,"['red wolf or maned wolf', 'norwegian elkhound', 'standard poodle', 'grey wolf', 'lion']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.754,0.86,0.001,0.807,274,1153
+african wild dog,3,"['irish terrier', 'hyena', 'badger']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.959,0.94,0.001,0.95,275,1028
+hyena,9,"['magpie', 'kuvasz', 'briard', 'grey wolf', 'alaskan tundra wolf']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8199999999999998,0.82,0.82,0.001,0.82,276,980
+red fox,7,"['kit fox', 'grey fox', 'red panda', 'wallaby', 'irish setter']","[0.32, 0.06, 0.04, 0.02, 0.02]",1.4391254127020792,0.5000000000000001,0.463,0.5,0.001,0.482,277,966
+kit fox,7,"['red fox', 'grey fox', 'dhole', 'hen', 'chow chow']","[0.36, 0.06, 0.04, 0.02, 0.02]",1.452831644403062,0.4599999999999999,0.523,0.46,0.001,0.492,278,989
+arctic fox,10,"['alaskan tundra wolf', 'samoyed', 'polar bear', 'keeshond', 'kuvasz']","[0.18, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.039188922370417,0.5199999999999999,0.929,0.52,0.001,0.724,279,898
+grey fox,11,"['grey wolf', 'kit fox', 'quail', 'great pyrenees dog', 'red wolf or maned wolf']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.7399999999999999,0.521,0.74,0.001,0.631,280,1056
+tabby cat,10,"['tiger cat', 'persian cat', 'wombat', 'siamese cat', 'lynx']","[0.18, 0.06, 0.02, 0.02, 0.02]",1.2909944487358054,0.6,0.39,0.6,0.002,0.495,281,980
+tiger cat,10,"['tabby cat', 'persian cat', 'siamese cat', 'lynx', 'maltese']","[0.2999999999999999, 0.04, 0.04, 0.04, 0.02]",1.4796187537579817,0.4599999999999999,0.242,0.46,0.002,0.351,282,891
+persian cat,5,"['maltese', 'keeshond', 'tabby cat', 'tiger cat', 'angora rabbit']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.682,0.9,0.001,0.791,283,963
+siamese cat,4,"['king charles spaniel', 'tabby cat', 'persian cat', 'paper towel']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.639,0.92,0.001,0.78,284,1104
+egyptian mau,19,"['tabby cat', 'tiger cat', 'siamese cat', 'wallaby', 'chihuahua']","[0.32, 0.16, 0.1399999999999999, 0.02, 0.02]",0.5685753569536365,0.06,0.429,0.06,0.0,0.244,285,934
+cougar,9,"['koala', 'rhodesian ridgeback', 'siberian husky', 'red wolf or maned wolf', 'tiger cat']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8199999999999998,0.759,0.82,0.001,0.79,286,945
+lynx,13,"['tiger cat', 'jaguar', 'grey wolf', 'alaskan tundra wolf', 'hyena']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.66,0.805,0.66,0.001,0.732,287,970
+leopard,2,"['jaguar', 'cheetah']","[0.16, 0.06]",0.0,0.7799999999999999,0.796,0.78,0.001,0.788,288,859
+snow leopard,5,"['lynx', 'cougar', 'leopard', 'lion', 'gorilla']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8799999999999999,0.898,0.88,0.001,0.889,289,920
+jaguar,5,"['leopard', 'snow leopard', 'cheetah', 'american black bear', 'sloth bear']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.7800000000000001,0.75,0.78,0.001,0.765,290,824
+lion,4,"['grey wolf', 'hyena', 'tiger', 'polar bear']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.807,0.92,0.001,0.864,291,842
+tiger,4,"['tiger cat', 'loggerhead sea turtle', 'leopard', 'pillow']","[0.8999999999999999, 0.02, 0.02, 0.02]",1.154700538379251,0.04,0.667,0.04,0.0,0.354,292,804
+cheetah,5,"['jaguar', 'lion', 'hyena', 'leopard', 'mongoose']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.86,0.843,0.86,0.001,0.851,293,907
+brown bear,4,"['american black bear', 'polar bear', 'sloth bear', 'patas monkey']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.836,0.92,0.001,0.878,294,862
+american black bear,5,"['sloth bear', 'brown bear', 'groenendael dog', 'hyena', 'badger']","[0.1199999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.0269996056981556,0.7599999999999999,0.776,0.76,0.001,0.768,295,857
+polar bear,8,"['spoonbill', 'great pyrenees dog', 'cougar', 'mink', 'candle']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.84,0.646,0.84,0.001,0.743,296,764
+sloth bear,14,"['american black bear', 'brown bear', 'red breasted merganser', 'black and tan coonhound', 'scottish terrier']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.62,0.689,0.62,0.001,0.654,297,1034
+mongoose,12,"['meerkat', 'grey fox', 'marmoset', 'indri', 'wallaby']","[0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",0.8675276172357087,0.6399999999999999,0.627,0.64,0.001,0.634,298,1070
+meerkat,5,"['mongoose', 'bedlington terrier', 'keeshond', 'cheetah', 'three toed sloth']","[0.12, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.8,0.833,0.8,0.001,0.816,299,892
+tiger beetle,6,"['longhorn beetle', 'ground beetle', 'leaf beetle', 'weevil', 'fly']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.796,0.86,0.001,0.828,300,1073
+ladybug,5,"['horse chestnut seed', 'leaf beetle', 'bee', 'dragonfly', 'strainer']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8799999999999999,0.759,0.88,0.001,0.82,301,862
+ground beetle,8,"['tiger beetle', 'longhorn beetle', 'dung beetle', 'rhinoceros beetle', 'fly']","[0.12, 0.06, 0.06, 0.06, 0.04]",1.1731251294063558,0.6,0.638,0.6,0.001,0.619,302,914
+longhorn beetle,11,"['weevil', 'leaf beetle', 'coucal', 'tiger beetle', 'ground beetle']","[0.1399999999999999, 0.04, 0.02, 0.02, 0.02]",1.4035141563500906,0.64,0.525,0.64,0.001,0.582,303,1021
+leaf beetle,9,"['ladybug', 'tiger beetle', 'longhorn beetle', 'leafhopper', 'ground beetle']","[0.22, 0.04, 0.04, 0.04, 0.02]",1.458054813315981,0.5599999999999999,0.7,0.56,0.001,0.63,304,943
+dung beetle,9,"['ground beetle', 'american bullfrog', 'southern black widow', 'leaf beetle', 'rhinoceros beetle']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8000000000000002,0.784,0.8,0.001,0.792,305,1110
+rhinoceros beetle,8,"['dung beetle', 'ground beetle', 'longhorn beetle', 'desert grassland whiptail lizard', 'crayfish']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.7400000000000001,0.804,0.74,0.001,0.772,306,818
+weevil,5,"['longhorn beetle', 'ground beetle', 'dung beetle', 'cicada', 'poke bonnet']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.672,0.86,0.001,0.766,307,979
+fly,13,"['longhorn beetle', 'tick', 'fiddler crab', 'weevil', 'bee']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7000000000000001,0.729,0.7,0.001,0.714,308,855
+bee,8,"['apiary', 'honeycomb', 'fly', 'cicada', 'leafhopper']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8000000000000002,0.87,0.8,0.001,0.835,309,831
+ant,16,"['cockroach', 'tick', 'longhorn beetle', 'cricket insect', 'buckle']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.5599999999999999,0.622,0.56,0.001,0.591,310,989
+grasshopper,13,"['cricket insect', 'longhorn beetle', 'praying mantis', 'stick insect', 'leafhopper']","[0.26, 0.06, 0.06, 0.04, 0.04]",1.458124996146129,0.36,0.545,0.36,0.001,0.452,311,848
+cricket insect,14,"['grasshopper', 'cockroach', 'leafhopper', 'swing', 'harvestman']","[0.18, 0.06, 0.04, 0.04, 0.02]",1.3210869678752717,0.48,0.522,0.48,0.001,0.501,312,862
+stick insect,15,"['praying mantis', 'newt', 'desert grassland whiptail lizard', 'european green lizard', 'vine snake']","[0.0799999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.499999999999999,0.6399999999999999,0.525,0.64,0.001,0.582,313,1116
+cockroach,29,"['centipede', 'ground beetle', 'ant', 'isopod', 'cricket insect']","[0.06, 0.06, 0.06, 0.04, 0.04]",-0.4082482904638644,0.26,0.5,0.26,0.001,0.38,314,520
+praying mantis,16,"['stick insect', 'leafhopper', 'grasshopper', 'hammerhead shark', 'european green lizard']","[0.1399999999999999, 0.06, 0.04, 0.02, 0.02]",1.1210847078122883,0.5,0.676,0.5,0.001,0.588,315,896
+cicada,8,"['fiddler crab', 'hermit crab', 'ground beetle', 'fly', 'bee']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.84,0.764,0.84,0.001,0.802,316,917
+leafhopper,5,"['cicada', 'crayfish', 'isopod', 'praying mantis', 'lacewing']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.88,0.698,0.88,0.001,0.789,317,1103
+lacewing,5,"['fly', 'cockroach', 'dragonfly', 'ant', 'stick insect']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.8400000000000001,0.764,0.84,0.001,0.802,318,1108
+dragonfly,6,"['damselfly', 'tarantula', 'fly', 'ant', 'stick insect']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000002,0.84,0.525,0.84,0.002,0.682,319,867
+damselfly,3,"['dragonfly', 'lacewing', 'daisy']","[0.68, 0.02, 0.02]",0.7071067811865477,0.2799999999999999,0.7,0.28,0.0,0.49,320,771
+red admiral butterfly,3,"['ringlet butterfly', 'stinkhorn mushroom', 'earth star fungus']","[0.02, 0.02, 0.02]",0.0,0.94,0.904,0.94,0.001,0.922,321,807
+ringlet butterfly,6,"['gossamer winged butterfly', 'cardoon', 'great grey owl', 'red admiral butterfly', 'plant pot']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.84,0.857,0.84,0.001,0.848,322,832
+monarch butterfly,6,"['red admiral butterfly', 'european green lizard', 'ringlet butterfly', 'wheelbarrow', 'soap dispenser']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,1.0,0.86,0.001,0.93,323,737
+small white butterfly,5,"['sulphur butterfly', 'ringlet butterfly', 'praying mantis', 'cardoon', 'acorn']","[0.8200000000000001, 0.04, 0.02, 0.02, 0.02]",1.4977954314515842,0.08,1.0,0.08,0.0,0.54,324,762
+sulphur butterfly,3,"['hummingbird', 'rose hip', 'coral fungus']","[0.02, 0.02, 0.02]",0.0,0.94,0.522,0.94,0.002,0.731,325,894
+gossamer winged butterfly,4,"['ringlet butterfly', 'barn spider', 'red admiral butterfly', 'sulphur butterfly']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.1547005383792512,0.8799999999999999,0.936,0.88,0.001,0.908,326,942
+starfish,7,"['stingray', 'leatherback sea turtle', 'sea snake', 'sea cucumber', 'silver salmon']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.86,0.811,0.86,0.001,0.836,327,961
+sea urchin,9,"['brain coral', 'chiton', 'sea anemone', 'sea slug', 'sea cucumber']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7600000000000001,0.76,0.76,0.001,0.76,328,1185
+sea cucumber,16,"['slug', 'coral reef', 'flatworm', 'sea slug', 'swing']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.54,0.355,0.54,0.002,0.448,329,1342
+cottontail rabbit,6,"['hare', 'angora rabbit', 'german shepherd dog', 'fox squirrel', 'marmot']","[0.26, 0.04, 0.02, 0.02, 0.02]",1.475482612925301,0.62,0.816,0.62,0.001,0.718,330,917
+hare,1,['cottontail rabbit'],[0.1],0.0,0.9,0.75,0.9,0.001,0.825,331,930
+angora rabbit,6,"['lhasa apso', 'persian cat', 'guinea pig', 'llama', 'patas monkey']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8799999999999999,0.647,0.88,0.001,0.764,332,982
+hamster,3,"['angora rabbit', 'miniature schnauzer', 'guinea pig']","[0.04, 0.02, 0.02]",0.7071067811865479,0.92,0.687,0.92,0.001,0.804,333,1045
+porcupine,6,"['marmoset', 'echidna', 'mongoose', 'guenon', 'howler monkey']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8599999999999999,0.652,0.86,0.001,0.756,334,1006
+fox squirrel,14,"['marmot', 'brambling', 'wombat', 'schipperke', 'cougar']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.68,0.919,0.68,0.001,0.8,335,850
+marmot,4,"['wallaby', 'limpkin', 'bighorn sheep', 'dutch oven']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.754,0.92,0.001,0.837,336,960
+beaver,7,"['marmot', 'porcupine', 'wombat', 'limpkin', 'hamster']","[0.1399999999999999, 0.06, 0.02, 0.02, 0.02]",1.1500493356615296,0.7,0.745,0.7,0.001,0.722,337,970
+guinea pig,8,"['angora rabbit', 'hamster', 'wombat', 'whippet', 'great dane']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7799999999999999,0.709,0.78,0.001,0.744,338,1114
+common sorrel horse,5,"['saluki', 'orangutan', 'barrel', 'cowboy hat', 'horse drawn vehicle']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.957,0.9,0.001,0.928,339,876
+zebra,3,"['ostrich', 'swing', 'sandbar']","[0.02, 0.02, 0.02]",0.0,0.94,0.979,0.94,0.001,0.96,340,846
+pig,21,"['wild boar', 'warthog', 'stingray', 'rhodesian ridgeback', 'otterhound']","[0.2, 0.04, 0.02, 0.02, 0.02]",1.456547284601344,0.38,0.655,0.38,0.001,0.518,341,991
+wild boar,7,"['warthog', 'pig', 'bittern bird', 'guinea pig', 'hippopotamus']","[0.1599999999999999, 0.0799999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.9736654935686996,0.6599999999999999,0.66,0.66,0.001,0.66,342,988
+warthog,5,"['wild boar', 'komodo dragon', 'sea lion', 'water buffalo', 'armadillo']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8600000000000001,0.729,0.86,0.001,0.794,343,960
+hippopotamus,9,"['cougar', 'warthog', 'water buffalo', 'orangutan', 'langur']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8200000000000001,0.837,0.82,0.001,0.828,344,883
+ox,15,"['bullock cart', 'horse drawn vehicle', 'triceratops', 'peafowl', 'great pyrenees dog']","[0.26, 0.08, 0.02, 0.02, 0.02]",1.2909944487358047,0.4,0.455,0.4,0.001,0.428,345,1192
+water buffalo,7,"['ox', 'bullock cart', 'hippopotamus', 'quail', 'warthog']","[0.2999999999999999, 0.06, 0.04, 0.02, 0.02]",1.4299393715804496,0.52,0.703,0.52,0.001,0.611,346,977
+bison,9,"['ox', 'brown bear', 'american black bear', 'polar bear', 'wild boar']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8,0.976,0.8,0.001,0.888,347,875
+ram adult male sheep,11,"['bighorn sheep', 'llama', 'bedlington terrier', 'kuvasz', 'komondor']","[0.34, 0.04, 0.02, 0.02, 0.02]",1.4861978959589113,0.44,0.512,0.44,0.001,0.476,348,888
+bighorn sheep,3,"['ram adult male sheep', 'alpine ibex', 'ostrich']","[0.24, 0.04, 0.02]",0.6856675374889226,0.7,0.648,0.7,0.001,0.674,349,1021
+alpine ibex,4,"['ram adult male sheep', 'gazelle', 'agama', 'king penguin']","[0.04, 0.04, 0.02, 0.02]",4.68375338513738e-16,0.8800000000000002,0.917,0.88,0.001,0.899,350,1041
+hartebeest,4,"['impala antelope', 'gazelle', 'hyena', 'water buffalo']","[0.1, 0.04, 0.02, 0.02]",0.957549162553564,0.8199999999999998,0.872,0.82,0.001,0.846,351,932
+impala antelope,3,"['gazelle', 'hartebeest', 'swing']","[0.1999999999999999, 0.0799999999999999, 0.0199999999999999]",0.3818017741606062,0.6999999999999998,0.66,0.7,0.001,0.68,352,875
+gazelle,5,"['impala antelope', 'ostrich', 'dingo', 'warthog', 'siamang']","[0.2399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000002,0.6799999999999999,0.642,0.68,0.001,0.661,353,1016
+arabian camel,7,"['australian kelpie', 'llama', 'macaque', 'dog sled', 'horse drawn vehicle']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8599999999999999,0.86,0.86,0.001,0.86,354,983
+llama,11,"['muzzle', 'wallaby', 'king penguin', 'curly coated retriever', 'kuvasz']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.7599999999999999,0.667,0.76,0.001,0.714,355,963
+weasel,8,"['european polecat', 'mink', 'black footed ferret', 'badger', 'otter']","[0.1199999999999999, 0.0799999999999999, 0.0799999999999999, 0.0799999999999999, 0.0599999999999999]",0.8675276172357084,0.5199999999999999,0.578,0.52,0.001,0.549,356,1120
+mink,21,"['weasel', 'schipperke', 'porcupine', 'otter', 'marmoset']","[0.08, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.44,0.579,0.44,0.001,0.509,357,1091
+european polecat,11,"['black footed ferret', 'weasel', 'mink', 'bullmastiff', 'mongoose']","[0.34, 0.1, 0.1, 0.02, 0.02]",1.1642636431747202,0.2999999999999999,0.429,0.3,0.001,0.364,358,1041
+black footed ferret,13,"['european polecat', 'weasel', 'badger', 'platypus', 'schipperke']","[0.2, 0.04, 0.04, 0.02, 0.02]",1.4366055002620477,0.52,0.481,0.52,0.001,0.5,359,1071
+otter,12,"['sea lion', 'beaver', 'polar bear', 'mink', 'american dipper']","[0.12, 0.06, 0.04, 0.04, 0.02]",1.0179522960269585,0.58,0.69,0.58,0.001,0.635,360,997
+skunk,9,"['badger', 'swing', 'chihuahua', 'schipperke', 'siberian husky']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7800000000000001,0.848,0.78,0.001,0.814,361,674
+badger,10,"['skunk', 'wombat', 'electric ray', 'kuvasz', 'red fox']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.74,0.627,0.74,0.001,0.684,362,956
+armadillo,9,"['triceratops', 'slug', 'mongoose', 'guinea pig', 'wild boar']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8199999999999998,0.872,0.82,0.001,0.846,363,1088
+three toed sloth,6,"['goldfish', 'beaver', 'llama', 'marmoset', 'titi monkey']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.88,0.88,0.88,0.001,0.88,364,863
+orangutan,9,"['langur', 'howler monkey', 'boa constrictor', 'mexican hairless dog xoloitzcuintli', 'three toed sloth']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7800000000000001,0.812,0.78,0.001,0.796,365,921
+gorilla,6,"['siamang', 'geoffroys spider monkey', 'wombat', 'three toed sloth', 'patas monkey']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.84,0.618,0.84,0.001,0.729,366,836
+chimpanzee,15,"['gorilla', 'siamang', 'geoffroys spider monkey', 'howler monkey', 'sloth bear']","[0.26, 0.22, 0.22, 0.04, 0.02]",-0.3538805660798884,0.04,1.0,0.04,0.0,0.52,367,824
+gibbon,13,"['siamang', 'geoffroys spider monkey', 'chesapeake bay retriever', 'german shepherd dog', 'basenji']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7,0.515,0.7,0.001,0.607,368,1115
+siamang,8,"['gibbon', 'geoffroys spider monkey', 'gorilla', 'howler monkey', 'baboon']","[0.24, 0.18, 0.1, 0.08, 0.04]",0.3883737119850402,0.2999999999999999,0.385,0.3,0.001,0.342,369,1087
+guenon,10,"['patas monkey', 'geoffroys spider monkey', 'rhodesian ridgeback', 'meerkat', 'siamang']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.74,0.712,0.74,0.001,0.726,370,1070
+patas monkey,12,"['proboscis monkey', 'guenon', 'baboon', 'macaque', 'langur']","[0.08, 0.06, 0.06, 0.04, 0.04]",0.3436215967445477,0.5599999999999999,0.538,0.56,0.001,0.549,371,1099
+baboon,7,"['guenon', 'langur', 'common gallinule', 'sloth bear', 'hartebeest']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8200000000000001,0.837,0.82,0.001,0.828,372,1012
+macaque,11,"['patas monkey', 'langur', 'three toed sloth', 'gorilla', 'siamang']","[0.12, 0.06, 0.02, 0.02, 0.02]",1.0269996056981547,0.6400000000000001,0.593,0.64,0.001,0.616,373,958
+langur,16,"['patas monkey', 'guenon', 'macaque', 'black and white colobus', 'gibbon']","[0.1, 0.08, 0.08, 0.08, 0.06]",1.3714193236627737e-15,0.3800000000000001,0.514,0.38,0.001,0.447,374,1043
+black and white colobus,6,"['guenon', 'great grey owl', 'siamang', 'indri', 'swing']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.754,0.86,0.001,0.807,375,1021
+proboscis monkey,3,"['gibbon', 'macaque', 'black and white colobus']","[0.02, 0.02, 0.02]",0.0,0.94,0.855,0.94,0.001,0.898,376,932
+marmoset,12,"['titi monkey', 'macaque', 'common squirrel monkey', 'tarantula', 'ruffed grouse']","[0.1, 0.06, 0.06, 0.02, 0.02]",0.3436215967445455,0.6,0.556,0.6,0.001,0.578,377,1094
+white headed capuchin,10,"['macaque', 'geoffroys spider monkey', 'brown bear', 'mink', 'gorilla']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7600000000000001,0.731,0.76,0.001,0.746,378,953
+howler monkey,11,"['geoffroys spider monkey', 'rottweiler', 'american black bear', 'sloth bear', 'orangutan']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.7599999999999999,0.667,0.76,0.001,0.714,379,956
+titi monkey,10,"['common squirrel monkey', 'marmoset', 'gibbon', 'white headed capuchin', 'three toed sloth']","[0.18, 0.0999999999999999, 0.0799999999999999, 0.0399999999999999, 0.0199999999999999]",0.626177940402688,0.4799999999999999,0.571,0.48,0.001,0.526,380,1079
+geoffroys spider monkey,12,"['common squirrel monkey', 'white headed capuchin', 'howler monkey', 'gibbon', 'siamang']","[0.18, 0.08, 0.08, 0.04, 0.04]",1.062743404071246,0.42,0.35,0.42,0.001,0.385,381,1096
+common squirrel monkey,6,"['titi monkey', 'brussels griffon', 'gibbon', 'guenon', 'macaque']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.642,0.86,0.001,0.751,382,1031
+ring tailed lemur,16,"['indri', 'wallaby', 'gibbon', 'black and white colobus', 'koala']","[0.4599999999999999, 0.04, 0.04, 0.04, 0.02]",1.492114553690294,0.18,1.0,0.18,0.0,0.59,383,681
+indri,8,"['titi monkey', 'giant panda', 'vulture', 'koala', 'schipperke']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.7999999999999998,0.571,0.8,0.001,0.686,384,902
+asian elephant,8,"['african bush elephant', 'bullock cart', 'rhodesian ridgeback', 'otterhound', 'fountain']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.74,0.416,0.74,0.002,0.578,385,887
+african bush elephant,2,"['asian elephant', 'swing']","[0.26, 0.04]",0.0,0.7,0.66,0.7,0.001,0.68,386,851
+red panda,4,"['giant panda', 'polar bear', 'meerkat', 'geoffroys spider monkey']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.9,0.865,0.9,0.001,0.883,387,897
+giant panda,4,"['polar bear', 'badger', 'teddy bear', 'scuba diver']","[0.02, 0.02, 0.02, 0.02]",0.0,0.9200000000000002,0.885,0.92,0.001,0.903,388,851
+snoek fish,6,"['silver salmon', 'tiger shark', 'great white shark', 'lionfish', 'swing']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.8200000000000001,0.423,0.82,0.002,0.621,389,1250
+eel,21,"['sea snake', 'pufferfish', 'sea cucumber', 'snoek fish', 'electric ray']","[0.2599999999999999, 0.1199999999999999, 0.0799999999999999, 0.0799999999999999, 0.0599999999999999]",1.2510951876435907,0.0199999999999999,0.5,0.02,0.0,0.26,390,898
+silver salmon,7,"['hammerhead shark', 'snoek fish', 'tench', 'tiger shark', 'electric ray']","[0.08, 0.06, 0.04, 0.02, 0.02]",0.3631734744194302,0.74,0.725,0.74,0.001,0.732,391,1090
+rock beauty fish,4,"['pufferfish', 'jellyfish', 'brain coral', 'clownfish']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.9,0.957,0.9,0.001,0.928,392,703
+clownfish,5,"['sea anemone', 'brain coral', 'rock beauty fish', 'coral reef', 'scuba diver']","[0.12, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.8,0.87,0.8,0.001,0.835,393,819
+sturgeon,13,"['snoek fish', 'tiger shark', 'platypus', 'silver salmon', 'electric ray']","[0.52, 0.08, 0.08, 0.06, 0.04]",1.47501950615135,0.02,0.5,0.02,0.0,0.26,394,1162
+gar fish,19,"['snoek fish', 'platypus', 'tiger shark', 'hammerhead shark', 'stingray']","[0.3799999999999999, 0.1199999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.3133169871413957,0.0999999999999999,0.385,0.1,0.0,0.242,395,1106
+lionfish,4,"['nematode', 'sea urchin', 'zebra', 'spiral or coil']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.836,0.92,0.001,0.878,396,835
+pufferfish,7,"['electric ray', 'snorkel', 'hammerhead shark', 'sea snake', 'lionfish']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.8,0.625,0.8,0.001,0.712,397,990
+abacus,14,"['chain', 'chain link fence', 'dining table', 'maraca', 'matchstick']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.72,0.72,0.72,0.001,0.72,398,1175
+abaya,17,"['academic gown', 'trench coat', 'cloak', 'schipperke', 'backpack']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.5599999999999999,0.737,0.56,0.001,0.649,399,838
+academic gown,10,"['graduation cap', 'barber chair', 'bow tie', 'car mirror', 'cloak']","[0.22, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.6,0.638,0.6,0.001,0.619,400,1263
+accordion,8,"['grand piano', 'binoculars', 'computer keyboard', 'crate', 'lipstick']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8199999999999998,0.651,0.82,0.001,0.736,401,1239
+acoustic guitar,8,"['stage', 'electric guitar', 'banjo', 'microphone', 'cassette']","[0.2, 0.16, 0.1, 0.04, 0.02]",0.1273544229726919,0.42,0.538,0.42,0.001,0.479,402,963
+aircraft carrier,6,"['military aircraft', 'dock', 'drilling rig', 'fireboat', 'ocean liner']","[0.12, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.7799999999999999,0.907,0.78,0.001,0.844,403,988
+airliner,2,"['airplane wing', 'military aircraft']","[0.1399999999999999, 0.04]",2.428057754855222e-16,0.8200000000000001,0.788,0.82,0.001,0.804,404,1018
+airship,10,"['pier', 'dome', 'fireboat', 'ocean liner', 'obelisk']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7799999999999999,0.672,0.78,0.001,0.726,405,1093
+altar,9,"['throne', 'vaulted or arched ceiling', 'marimba', 'monastery', 'mosque']","[0.12, 0.06, 0.02, 0.02, 0.02]",1.0269996056981547,0.68,0.531,0.68,0.001,0.606,406,1045
+ambulance,2,"['police van', 'ford model t']","[0.04, 0.02]",1.030425744730223e-15,0.94,0.783,0.94,0.001,0.861,407,1024
+amphibious vehicle,9,"['tank', 'half track', 'motorboat', 'cassette player', 'military uniform']","[0.16, 0.06, 0.06, 0.02, 0.02]",1.0627434040712462,0.6,0.857,0.6,0.001,0.728,408,1185
+analog clock,11,"['wall clock', 'barometer', 'bell tower', 'magnetic compass', 'nematode']","[0.2, 0.06, 0.04, 0.04, 0.02]",1.3608927294433224,0.52,0.4,0.52,0.001,0.46,409,1109
+apiary,8,"['honeycomb', 'swing', 'trash can', 'storage chest', 'lawn mower']","[0.06, 0.06, 0.02, 0.02, 0.02]",0.4082482904638627,0.7600000000000001,0.691,0.76,0.001,0.726,410,921
+apron,18,"['baby bib', 'pillow', 'christmas stocking', 'overskirt', 'purse']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.5,0.362,0.5,0.001,0.431,411,1209
+trash can,27,"['mailbox', 'bucket', 'rain barrel', 'swing', 'porcupine']","[0.1, 0.08, 0.04, 0.04, 0.02]",0.3477670622469954,0.2799999999999999,0.412,0.28,0.001,0.346,412,764
+assault rifle,17,"['rifle', 'military uniform', 'projector', 'swing', 'leatherback sea turtle']","[0.2799999999999999, 0.12, 0.04, 0.04, 0.02]",1.0953412428984666,0.26,0.684,0.26,0.0,0.472,413,615
+backpack,23,"['messenger bag', 'swing', 'barber chair', 'buckle', 'can opener']","[0.1199999999999999, 0.0999999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4692912730377022,0.36,0.409,0.36,0.001,0.384,414,1110
+bakery,25,"['restaurant', 'chocolate syrup', 'meatloaf', 'barbershop', 'tobacco shop']","[0.0599999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",-0.4082482904638629,0.3199999999999999,0.308,0.32,0.001,0.314,415,1138
+balance beam,7,"['parallel bars', 'gymnastic horizontal bar', 'swing', 'basketball', 'lighter']","[0.1399999999999999, 0.1, 0.04, 0.02, 0.02]",0.5451388888888884,0.64,0.711,0.64,0.001,0.676,416,691
+balloon,7,"['parachute', 'swing', 'spiral or coil', 'drumstick', 'freight car']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8200000000000001,0.837,0.82,0.001,0.828,417,1076
+ballpoint pen,22,"['fountain pen', 'eraser', 'screwdriver', 'bassoon', 'beer bottle']","[0.2, 0.06, 0.04, 0.02, 0.02]",1.3285921177013442,0.32,0.34,0.32,0.001,0.33,418,1094
+band aid,30,"['envelope', 'thimble', 'cardboard box  carton', 'feather boa', 'lipstick']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.2,0.312,0.2,0.001,0.256,419,828
+banjo,4,"['acoustic guitar', 'slip on shoe', 'trench coat', 'trombone']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.9,0.634,0.9,0.001,0.767,420,1213
+baluster  handrail,17,"['park bench', 'swing', 'turnstile', 'bucket', 'spiral or coil']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.6,0.441,0.6,0.001,0.52,421,1055
+barbell,10,"['dumbbell', 'spindle', 'vacuum cleaner', 'afghan hound', 'cello']","[0.22, 0.04, 0.04, 0.02, 0.02]",1.4490161632302203,0.5599999999999999,0.467,0.56,0.001,0.514,422,1063
+barber chair,11,"['barbershop', 'folding chair', 'bow tie', 'cliff dwelling', 'forklift']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.66,0.702,0.66,0.001,0.681,423,1060
+barbershop,20,"['barber chair', 'traffic or street sign', 'dust jacket', 'bakery', 'wheelbarrow']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.48,0.414,0.48,0.001,0.447,424,1256
+barn,4,"['tile roof', 'porcupine', 'dining table', 'solar thermal collector']","[0.04, 0.02, 0.02, 0.02]",1.1547005383792517,0.8999999999999999,0.776,0.9,0.001,0.838,425,935
+barometer,5,"['analog clock', 'parking meter', 'scabbard', 'weighing scale', 'stopwatch']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.672,0.86,0.001,0.766,426,1150
+barrel,16,"['rain barrel', 'bucket', 'lotion', 'airship', 'trash can']","[0.18, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.4191014536126716,0.4799999999999999,0.571,0.48,0.001,0.526,427,973
+wheelbarrow,20,"['swing', 'lawn mower', 'rottweiler', 'barrel', 'hunting bow']","[0.1399999999999999, 0.06, 0.02, 0.02, 0.02]",1.1500493356615296,0.44,0.386,0.44,0.001,0.413,428,1133
+baseball,7,"['baseball player', 'swing', 'chain link fence', 'crutch', 'holster']","[0.22, 0.06, 0.02, 0.02, 0.02]",1.3627927530355546,0.6200000000000001,0.674,0.62,0.001,0.647,429,1008
+basketball,6,"['volleyball', 'ping pong ball', 'racket', 'sarong', 'spindle']","[0.16, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.74,0.725,0.74,0.001,0.732,430,1331
+bassinet,11,"['diaper', 'swing', 'cradle', 'backpack', 'hamper']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.68,0.436,0.68,0.002,0.558,431,1054
+bassoon,9,"['oboe', 'acoustic guitar', 'banjo', 'flute', 'letter opener']","[0.1399999999999999, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7000000000000001,0.556,0.7,0.001,0.628,432,1257
+swimming cap,17,"['shower cap', 'swing', 'hot tub', 'snorkel', 'popsicle']","[0.06, 0.06, 0.06, 0.04, 0.04]",-0.4082482904638644,0.5,0.543,0.5,0.001,0.522,433,985
+bath towel,22,"['pillow', 'cardigan', 'handkerchief', 'purse', 'swing']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.4400000000000001,0.579,0.44,0.001,0.509,434,1108
+bathtub,22,"['hot tub', 'bucket', 'storage chest', 'sunglasses.1', 'swing']","[0.2799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.5,0.1999999999999999,0.333,0.2,0.001,0.266,435,884
+station wagon,10,"['radiator grille', 'minivan', 'african grey parrot', 'ox', 'car mirror']","[0.08, 0.08, 0.02, 0.02, 0.02]",0.4082482904638628,0.6800000000000002,0.466,0.68,0.001,0.573,436,1066
+lighthouse,9,"['breakwater', 'bell tower', 'promontory', 'spiral or coil', 'dome']","[0.16, 0.04, 0.04, 0.02, 0.02]",1.3933319214743298,0.64,0.78,0.64,0.001,0.71,437,982
+beaker,21,"['measuring cup', 'beer glass', 'perfume', 'drink pitcher', 'bow tie']","[0.0999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",0.7500308204401287,0.42,0.438,0.42,0.001,0.429,438,1113
+military hat bearskin or shako,5,"['abaya', 'tibetan mastiff', 'cowboy hat', 'pedestal', 'shopping cart']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.88,0.863,0.88,0.001,0.871,439,972
+beer bottle,12,"['soda bottle', 'wine bottle', 'barometer', 'beaker', 'tandem bicycle']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7,0.417,0.7,0.002,0.558,440,1143
+beer glass,14,"['beer bottle', 'cocktail shaker', 'bucket', 'cardboard box  carton', 'feather boa']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.5999999999999999,0.435,0.6,0.001,0.518,441,1124
+bell tower,10,"['church', 'castle', 'bell or wind chime', 'stupa', 'analog clock']","[0.18, 0.06, 0.04, 0.04, 0.02]",1.3210869678752717,0.5599999999999999,0.596,0.56,0.001,0.578,442,1051
+baby bib,22,"['apron', 'bassinet', 'bath towel', 'seat belt', 'swing']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.44,0.407,0.44,0.001,0.424,443,1293
+tandem bicycle,8,"['mountain bike', 'lawn mower', 'swing', 'tricycle', 'unicycle']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.5000000000000016,0.72,0.72,0.72,0.001,0.72,444,1235
+bikini,25,"['swim trunks  shorts', 'sarong', 'swing', 'swimming cap', 'gown']","[0.12, 0.08, 0.08, 0.04, 0.04]",0.3436215967445453,0.16,0.444,0.16,0.0,0.302,445,230
+ring binder,25,"['envelope', 'wallet', 'fountain pen', 'messenger bag', 'dust jacket']","[0.0799999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.4082482904638624,0.3199999999999999,0.471,0.32,0.001,0.395,446,1217
+binoculars,28,"['fishing casting reel', 'swing', 'killer whale', 'macaque', 'silver salmon']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.4000000000000001,0.465,0.4,0.001,0.432,447,1111
+birdhouse,15,"['storage chest', 'junco', 'rhinoceros beetle', 'abacus', 'baseball']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.6799999999999999,0.756,0.68,0.001,0.718,448,1149
+boathouse,6,"['dock', 'picket fence', 'birdhouse', 'dam', 'pier']","[0.06, 0.06, 0.02, 0.02, 0.02]",0.4082482904638627,0.8,0.702,0.8,0.001,0.751,449,1138
+bobsleigh,8,"['high speed train', 'power drill', 'missile.1', 'ski', 'snowplow']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.84,0.857,0.84,0.001,0.848,450,1245
+bolo tie,18,"['buckle', 'bottle cap', 'cardigan', 'cuirass', 'fountain pen']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.5800000000000001,0.707,0.58,0.001,0.644,451,1316
+poke bonnet,18,"['dishcloth', 'sombrero', 'mitten', 'pillow', 'spindle']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.4599999999999999,0.451,0.46,0.001,0.456,452,1238
+bookcase,14,"['china cabinet', 'bookstore', 'entertainment center', 'library', 'crate']","[0.08, 0.06, 0.06, 0.04, 0.02]",-0.2715454178836395,0.5599999999999999,0.596,0.56,0.001,0.578,453,1067
+bookstore,13,"['library', 'movie theater', 'toy store', 'traffic or street sign', 'accordion']","[0.1399999999999999, 0.06, 0.04, 0.04, 0.02]",1.1701586322559543,0.54,0.45,0.54,0.001,0.495,454,1128
+bottle cap,16,"['necklace', 'beer bottle', 'chiton', 'sea cucumber', 'bolo tie']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.6,0.492,0.6,0.001,0.546,455,1260
+hunting bow,18,"['swing', 'shovel', 'torch', 'ballpoint pen', 'knot']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.52,0.703,0.52,0.001,0.611,456,1107
+bow tie,26,"['hair clip', 'band aid', 'bolo tie', 'high speed train', 'coffee mug']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.4599999999999999,0.28,0.46,0.002,0.37,457,1227
+brass memorial plaque,6,"['manhole cover', 'doormat', 'odometer', 'shield', 'shopping basket']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.632,0.86,0.001,0.746,458,1339
+bra,26,"['feather boa', 'tights', 'sombrero', 'swim trunks  shorts', 'swing']","[0.04, 0.04, 0.04, 0.04, 0.04]",0.0,0.38,0.826,0.38,0.0,0.603,459,454
+breakwater,16,"['lighthouse', 'pier', 'promontory', 'sandbar', 'beach']","[0.08, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.54,0.38,0.54,0.001,0.46,460,1175
+breastplate,11,"['cuirass', 'shield', 'chain mail', 'holster', 'knee pad']","[0.22, 0.06, 0.04, 0.04, 0.04]",1.4565472846013432,0.4599999999999999,0.511,0.46,0.001,0.486,461,1036
+broom,18,"['swing', 'box turtle', 'pekingese', 'black and tan coonhound', 'praying mantis']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.6,0.682,0.6,0.001,0.641,462,1174
+bucket,26,"['rain barrel', 'mop', 'cauldron', 'swim trunks  shorts', 'macaque']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",-0.3436215967445467,0.36,0.367,0.36,0.001,0.364,463,1163
+buckle,30,"['revolver', 'wallet', 'accordion', 'backpack', 'bakery']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.3600000000000001,0.281,0.36,0.001,0.32,464,1201
+bulletproof vest,17,"['military uniform', 'backpack', 'assault rifle', 'oxygen mask', 'swing']","[0.1, 0.06, 0.04, 0.04, 0.04]",1.1500493356615311,0.48,0.774,0.48,0.001,0.627,465,785
+high speed train,5,"['baluster  handrail', 'movie theater', 'freight car', 'mosque', 'vaulted or arched ceiling']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.865,0.9,0.001,0.883,466,808
+butcher shop,15,"['bakery', 'grocery store', 'rotisserie', 'swing', 'african grey parrot']","[0.04, 0.04, 0.04, 0.04, 0.02]",-1.4999999999999991,0.6200000000000001,0.861,0.62,0.001,0.74,467,741
+taxicab,19,"['minivan', 'station wagon', 'convertible', 'radiator grille', 'pickup truck']","[0.1, 0.08, 0.08, 0.06, 0.06]",0.3436215967445442,0.2999999999999999,0.714,0.3,0.0,0.507,468,982
+cauldron,18,"['wok', 'hot pot', 'wheelbarrow', 'ladle', 'swing']","[0.1199999999999999, 0.1199999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.4082482904638634,0.36,0.529,0.36,0.001,0.444,469,1201
+candle,18,"['swing', 'altar', 'balance beam', 'beer glass', 'bookstore']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.62,0.492,0.62,0.001,0.556,470,1150
+cannon,10,"['paddle wheel', 'threshing machine', 'aircraft carrier', 'canoe', 'mobile phone']","[0.0599999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638634,0.72,0.837,0.72,0.001,0.778,471,960
+canoe,3,"['paddle', 'motorboat', 'sandbar']","[0.08, 0.02, 0.02]",0.7071067811865475,0.88,0.62,0.88,0.001,0.75,472,1175
+can opener,22,"['fountain pen', 'tripod', 'trash can', 'ring binder', 'tool kit']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.4599999999999999,0.442,0.46,0.001,0.451,473,1192
+cardigan,11,"['swing', 'wool', 'shetland sheepdog', 'apron', 'backpack']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.7000000000000001,0.473,0.7,0.001,0.586,474,978
+car mirror,3,"['radiator grille', 'laptop computer', 'chocolate syrup']","[0.04, 0.02, 0.02]",0.7071067811865479,0.92,0.754,0.92,0.001,0.837,475,1103
+carousel,5,"['cowboy hat', 'ladle', 'shovel', 'swing', 'throne']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.9,0.865,0.9,0.001,0.883,476,1085
+tool kit,21,"['holster', 'hook', 'polaroid camera', 'screwdriver', 'accordion']","[0.04, 0.04, 0.04, 0.04, 0.02]",-1.4999999999999991,0.5,0.463,0.5,0.001,0.482,477,1087
+cardboard box  carton,24,"['storage chest', 'envelope', 'crate', 'pekingese', 'siamese cat']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.42,0.375,0.42,0.001,0.397,478,1184
+car wheel,16,"['radiator grille', 'race car', 'minivan', 'pickup truck', 'sports car']","[0.12, 0.08, 0.06, 0.06, 0.06]",1.1500493356615291,0.34,0.586,0.34,0.001,0.463,479,936
+automated teller machine,22,"['crt monitor', 'turnstile', 'ballpoint pen', 'candy store', 'gas pump']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.52,0.578,0.52,0.001,0.549,480,975
+cassette,18,"['tape player', 'cassette player', 'bookstore', 'analog clock', 'cardboard box  carton']","[0.12, 0.08, 0.06, 0.02, 0.02]",0.3513641844631532,0.44,0.564,0.44,0.001,0.502,481,963
+cassette player,14,"['tape player', 'cd player', 'cassette', 'laptop computer', 'radio']","[0.2799999999999999, 0.16, 0.04, 0.04, 0.04]",0.8437500000000003,0.26,0.295,0.26,0.001,0.277,482,1204
+castle,10,"['boathouse', 'monastery', 'palace', 'vaulted or arched ceiling', 'church']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",-1.4999999999999998,0.72,0.706,0.72,0.001,0.713,483,883
+catamaran,7,"['trimaran', 'motorboat', 'canoe', 'fireboat', 'ocean liner']","[0.24, 0.06, 0.02, 0.02, 0.02]",1.3857772962152823,0.6,0.588,0.6,0.001,0.594,484,1101
+cd player,20,"['tape player', 'cassette player', 'digital clock', 'radio', 'hard disk drive']","[0.08, 0.06, 0.06, 0.06, 0.04]",-8.678512907553492e-16,0.4,0.267,0.4,0.002,0.334,485,1128
+cello,8,"['violin', 'bassoon', 'stage', 'drum', 'pan flute']","[0.12, 0.06, 0.04, 0.02, 0.02]",0.9704949588309452,0.68,0.791,0.68,0.001,0.736,486,1081
+mobile phone,16,"['ipod', 'hand held computer', 'crt monitor', 'bow tie', 'digital clock']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.6,0.526,0.6,0.001,0.563,487,847
+chain,22,"['necklace', 'swing', 'hook', 'chain mail', 'worm snake']","[0.2599999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.302641798205298,0.1999999999999999,0.333,0.2,0.001,0.266,488,922
+chain link fence,23,"['swing', 'knot', 'tile roof', 'dungeness crab', 'cougar']","[0.1399999999999999, 0.04, 0.04, 0.02, 0.02]",1.3532751773025922,0.3800000000000001,0.413,0.38,0.001,0.396,489,766
+chain mail,8,"['necklace', 'cardigan', 'chain', 'hair clip', 'poncho']","[0.18, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.68,0.531,0.68,0.001,0.606,490,1084
+chainsaw,10,"['lorikeet', 'irish terrier', 'bulletproof vest', 'lawn mower', 'neck brace']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8,0.69,0.8,0.001,0.745,491,924
+storage chest,18,"['crate', 'purse', 'wallet', 'trilobite', 'ram adult male sheep']","[0.12, 0.04, 0.04, 0.02, 0.02]",1.2864700617061366,0.5000000000000001,0.446,0.5,0.001,0.473,492,1165
+chiffonier,16,"['wardrobe', 'filing cabinet', 'china cabinet', 'safe', 'sliding door']","[0.18, 0.1399999999999999, 0.06, 0.04, 0.04]",0.505300545316349,0.32,0.615,0.32,0.001,0.468,493,937
+bell or wind chime,19,"['gong', 'bell tower', 'swing', 'hummingbird', 'beer bottle']","[0.1399999999999999, 0.06, 0.06, 0.02, 0.02]",0.912870929175276,0.42,0.636,0.42,0.001,0.528,494,1306
+china cabinet,11,"['dining table', 'medicine cabinet', 'sliding door', 'wardrobe', 'beer bottle']","[0.04, 0.04, 0.04, 0.04, 0.02]",-1.4999999999999991,0.7,0.556,0.7,0.001,0.628,495,1003
+christmas stocking,9,"['mitten', 'sock', 'baby bib', 'diaper', 'dishcloth']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.7599999999999999,0.576,0.76,0.001,0.668,496,1143
+church,10,"['altar', 'vaulted or arched ceiling', 'bell tower', 'dome', 'drilling rig']","[0.1399999999999999, 0.06, 0.04, 0.04, 0.02]",1.1701586322559543,0.6,0.536,0.6,0.001,0.568,497,935
+movie theater,15,"['front curtain', 'traffic or street sign', 'barbershop', 'bell tower', 'cardboard box  carton']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.6,0.556,0.6,0.001,0.578,498,1185
+cleaver,37,"['tool kit', 'baluster  handrail', 'swing', 'trilobite', 'rock crab']","[0.0999999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.1642636431747202,0.1399999999999999,0.389,0.14,0.0,0.264,499,533
+cliff dwelling,3,"['cliff', 'stone wall', 'water bottle']","[0.06, 0.02, 0.02]",0.7071067811865476,0.9,0.692,0.9,0.001,0.796,500,946
+cloak,29,"['abaya', 'swing', 'hair wig', 'kimono', 'sea slug']","[0.08, 0.08, 0.06, 0.04, 0.02]",-0.3631734744194292,0.24,0.343,0.24,0.001,0.292,501,876
+clogs,19,"['sandal', 'slip on shoe', 'cowboy boot', 'trilobite', 'persian cat']","[0.1599999999999999, 0.0799999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",0.8163607336646128,0.3799999999999999,0.442,0.38,0.001,0.411,502,1104
+cocktail shaker,24,"['coffeemaker', 'milk can', 'barbershop', 'barrel', 'beaker']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.4600000000000001,0.451,0.46,0.001,0.456,503,1094
+coffee mug,23,"['measuring cup', 'drink pitcher', 'teapot', 'wolf spider', 'beer bottle']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",-0.4082482904638636,0.4799999999999999,0.247,0.48,0.002,0.364,504,1168
+coffeemaker,10,"['teapot', 'drink pitcher', 'water jug', 'swing', 'bassoon']","[0.12, 0.06, 0.06, 0.04, 0.02]",0.7683612488578242,0.5999999999999999,0.536,0.6,0.001,0.568,505,1093
+spiral or coil,18,"['baluster  handrail', 'dome', 'conch', 'chambered nautilus', 'bottle cap']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.5999999999999999,0.508,0.6,0.001,0.554,506,969
+combination lock,22,"['padlock', 'buckle', 'abacus', 'can opener', 'chain']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.44,0.564,0.44,0.001,0.502,507,985
+computer keyboard,15,"['notebook computer', 'typewriter keyboard', 'analog clock', 'band aid', 'ring binder']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.6,0.411,0.6,0.001,0.505,508,907
+candy store,20,"['product packet  packaging', 'barbershop', 'bookstore', 'cardboard box  carton', 'toy store']","[0.08, 0.06, 0.04, 0.04, 0.04]",0.8437499999999998,0.44,0.458,0.44,0.001,0.449,509,1237
+container ship,2,"['ocean liner', 'construction crane']","[0.04, 0.02]",1.030425744730223e-15,0.94,0.855,0.94,0.001,0.898,510,908
+convertible,7,"['sports car', 'radiator grille', 'station wagon', 'cd player', 'limousine']","[0.12, 0.08, 0.02, 0.02, 0.02]",0.6817327184847222,0.7,0.603,0.7,0.001,0.652,511,1015
+corkscrew,13,"['can opener', 'scabbard', 'flute', 'hair clip', 'hair dryer']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.64,0.762,0.64,0.001,0.701,512,1196
+cornet,17,"['trombone', 'french horn', 'swing', 'acoustic guitar', 'beaker']","[0.2999999999999999, 0.06, 0.04, 0.02, 0.02]",1.4299393715804496,0.32,0.457,0.32,0.001,0.388,513,1103
+cowboy boot,11,"['swing', 'shoe store', 'backpack', 'baby bib', 'bikini']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.6600000000000001,0.611,0.66,0.001,0.636,514,998
+cowboy hat,25,"['sombrero', 'bow tie', 'frilled necked lizard', 'cardigan welsh corgi', 'academic gown']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.4000000000000001,0.408,0.4,0.001,0.404,515,1221
+cradle,16,"['bassinet', 'diaper', 'mosquito net', 'apron', 'infant bed']","[0.3399999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.4391254127020787,0.18,0.333,0.18,0.001,0.256,516,1130
+construction crane,11,"['dock', 'through arch bridge', 'airship', 'breakwater', 'container ship']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.74,0.607,0.74,0.001,0.674,517,1153
+crash helmet,13,"['football helmet', 'computer mouse', 'car mirror', 'crock pot', 'hair dryer']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7,0.714,0.7,0.001,0.707,518,1062
+crate,17,"['cardboard box  carton', 'apiary', 'storage chest', 'product packet  packaging', 'soda bottle']","[0.08, 0.06, 0.04, 0.04, 0.04]",0.8437499999999998,0.5000000000000001,0.431,0.5,0.001,0.466,519,1162
+infant bed,14,"['bassinet', 'cradle', 'quilt', 'baluster  handrail', 'baby bib']","[0.22, 0.18, 0.04, 0.02, 0.02]",0.4520320786012498,0.34,0.773,0.34,0.0,0.556,520,891
+crock pot,14,"['dutch oven', 'hot pot', 'can opener', 'coffeemaker', 'frying pan']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.66,0.717,0.66,0.001,0.688,521,1102
+croquet ball,13,"['swing', 'bedlington terrier', 'broom', 'golf ball', 'maraca']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.68,0.68,0.68,0.001,0.68,522,1272
+crutch,26,"['swing', 'hammer', 'broom', 'drumstick', 'jeans']","[0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.8437499999999997,0.2799999999999999,0.341,0.28,0.001,0.31,523,1113
+cuirass,11,"['breastplate', 'chain mail', 'shield', 'cauldron', 'bell or wind chime']","[0.24, 0.08, 0.08, 0.02, 0.02]",1.100887377554458,0.44,0.5,0.44,0.001,0.47,524,970
+dam,14,"['breakwater', 'swing', 'lakeshore', 'leatherback sea turtle', 'cocker spaniel']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.3436215967445454,0.6399999999999999,0.865,0.64,0.001,0.752,525,900
+desk,13,"['desktop computer', 'laptop computer', 'dining table', 'filing cabinet', 'computer mouse']","[0.2399999999999999, 0.1199999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.026999605698154,0.3199999999999999,0.348,0.32,0.001,0.334,526,1053
+desktop computer,14,"['monitor', 'crt monitor', 'desk', 'computer mouse', 'laptop computer']","[0.18, 0.12, 0.1, 0.08, 0.06]",0.6927284074925387,0.24,0.182,0.24,0.001,0.211,527,1055
+rotary dial telephone,10,"['wall clock', 'storage chest', 'china cabinet', 'milk can', 'weighing scale']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7799999999999999,0.765,0.78,0.001,0.772,528,901
+diaper,15,"['swing', 'bassinet', 'pajamas', 'potters wheel', 'king charles spaniel']","[0.1599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.262107135863128,0.4799999999999999,0.436,0.48,0.001,0.458,529,1171
+digital clock,12,"['digital watch', 'radio', 'window screen', 'analog clock', 'desktop computer']","[0.16, 0.06, 0.04, 0.02, 0.02]",1.218120864639941,0.5599999999999999,0.483,0.56,0.001,0.522,530,1175
+digital watch,15,"['stopwatch', 'digital clock', 'mobile phone', 'analog clock', 'tool kit']","[0.1599999999999999, 0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.9593861448050256,0.4799999999999999,0.533,0.48,0.001,0.506,531,796
+dining table,10,"['restaurant', 'rocking chair', 'barbershop', 'cowboy hat', 'desk']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7600000000000001,0.559,0.76,0.001,0.66,532,1007
+dishcloth,5,"['trilobite', 'doormat', 'mitten', 'scarf', 'wool']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.726,0.9,0.001,0.813,533,946
+dishwasher,29,"['microwave oven', 'radio', 'shopping cart', 'trash can', 'bathtub']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.34,0.739,0.34,0.0,0.54,534,883
+disc brake,2,"['chain', 'projector']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.828,0.96,0.001,0.894,535,941
+dock,16,"['ocean liner', 'pirate ship', 'construction crane', 'paddle wheel', 'trimaran']","[0.1399999999999999, 0.1, 0.06, 0.06, 0.06]",0.8437499999999978,0.2799999999999999,0.286,0.28,0.001,0.283,536,1023
+dog sled,6,"['siberian husky', 'boston terrier', 'husky', 'railroad car', 'steel drum']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.935,0.86,0.001,0.898,537,959
+dome,8,"['church', 'monastery', 'palace', 'mosque', 'planetarium']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.7200000000000001,0.387,0.72,0.002,0.554,538,1012
+doormat,25,"['prayer rug', 'sliding door', 'wallet', 'siberian husky', 'tabby cat']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.4000000000000001,0.444,0.4,0.001,0.422,539,1114
+drilling rig,9,"['construction crane', 'ocean liner', 'pelican', 'catamaran', 'container ship']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7800000000000001,0.848,0.78,0.001,0.814,540,858
+drum,21,"['drumstick', 'swing', 'maraca', 'saxophone', 'stage']","[0.16, 0.06, 0.04, 0.04, 0.04]",1.4035141563500906,0.34,0.486,0.34,0.001,0.413,541,1119
+drumstick,28,"['drum', 'eraser', 'ring binder', 'hunting bow', 'tool kit']","[0.06, 0.06, 0.02, 0.02, 0.02]",0.4082482904638627,0.36,0.353,0.36,0.001,0.356,542,1221
+dumbbell,21,"['barbell', 'abacus', 'beaker', 'binoculars', 'chain mail']","[0.3800000000000001, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.22,0.306,0.22,0.001,0.263,543,1027
+dutch oven,13,"['crock pot', 'wok', 'howler monkey', 'can opener', 'frying pan']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.68,0.507,0.68,0.001,0.594,544,1259
+electric fan,13,"['birdhouse', 'spiral or coil', 'crash helmet', 'disc brake', 'fountain pen']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.74,0.649,0.74,0.001,0.694,545,1073
+electric guitar,10,"['stage', 'acoustic guitar', 'banjo', 'cornet', 'maraca']","[0.1399999999999999, 0.08, 0.04, 0.04, 0.04]",1.026999605698155,0.5599999999999999,0.538,0.56,0.001,0.549,546,1060
+electric locomotive,5,"['railroad car', 'freight car', 'through arch bridge', 'tank', 'bus']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.7800000000000001,0.75,0.78,0.001,0.765,547,920
+entertainment center,6,"['home theater', 'television', 'bookcase', 'desk', 'monitor']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.8199999999999998,0.745,0.82,0.001,0.782,548,1006
+envelope,21,"['handkerchief', 'oil filter', 'eraser', 'swing', 'toy poodle']","[0.04, 0.04, 0.04, 0.04, 0.02]",-1.4999999999999991,0.5,0.298,0.5,0.002,0.399,549,1318
+espresso machine,16,"['coffeemaker', 'beaker', 'hand held computer', 'analog clock', 'cocktail shaker']","[0.1399999999999999, 0.04, 0.04, 0.02, 0.02]",1.3532751773025922,0.52,0.839,0.52,0.001,0.68,550,878
+face powder,15,"['joystick', 'lipstick', 'bucket', 'coffee mug', 'envelope']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.66,0.673,0.66,0.001,0.667,551,1065
+feather boa,18,"['hair wig', 'chihuahua', 'limousine', 'box turtle', 'persian cat']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.5599999999999999,0.364,0.56,0.002,0.462,552,1086
+filing cabinet,9,"['chiffonier', 'bookcase', 'desk', 'safe', 'ring binder']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.7200000000000001,0.621,0.72,0.001,0.67,553,981
+fireboat,2,"['construction crane', 'library']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.727,0.96,0.001,0.843,554,1282
+fire truck,7,"['ambulance', 'construction crane', 'garbage truck', 'minibus', 'school bus']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8599999999999999,0.86,0.86,0.001,0.86,555,1105
+fire screen,29,"['tray', 'shoji screen  room divider', 'window shade', 'baluster  handrail', 'barometer']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.32,0.615,0.32,0.001,0.468,556,1151
+flagpole,16,"['dome', 'church', 'pole', 'airship', 'balloon']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.5599999999999999,0.824,0.56,0.001,0.692,557,1086
+flute,26,"['bassoon', 'pan flute', 'oboe', 'swing', 'violin']","[0.1, 0.06, 0.04, 0.04, 0.04]",1.1500493356615311,0.3,0.349,0.3,0.001,0.324,558,1177
+folding chair,14,"['swing', 'dining table', 'tiger cat', 'car wheel', 'storage chest']","[0.1399999999999999, 0.04, 0.02, 0.02, 0.02]",1.4035141563500906,0.5800000000000001,0.707,0.58,0.001,0.644,559,959
+football helmet,6,"['combine harvester', 'farm plow', 'reflex camera', 'rugby ball', 'swing']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8799999999999999,0.733,0.88,0.001,0.806,560,1220
+forklift,9,"['snowplow', 'barn', 'bookstore', 'radiator grille', 'milk can']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8,0.702,0.8,0.001,0.751,561,1181
+fountain,6,"['swing', 'cowboy hat', 'grand piano', 'mosque', 'strainer']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.662,0.86,0.001,0.761,562,1176
+fountain pen,7,"['ballpoint pen', 'bobsleigh', 'guillotine', 'lipstick', 'screwdriver']","[0.12, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.7600000000000001,0.422,0.76,0.002,0.591,563,1048
+four poster bed,12,"['mosquito net', 'quilt', 'couch', 'wardrobe', 'siamese cat']","[0.08, 0.04, 0.04, 0.04, 0.02]",0.8675276172357083,0.6400000000000001,0.821,0.64,0.001,0.73,564,961
+freight car,9,"['brass memorial plaque', 'mailbox', 'padlock', 'restaurant', 'scoreboard']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7800000000000001,0.696,0.78,0.001,0.738,565,504
+french horn,6,"['trombone', 'bassoon', 'cornet', 'swing', 'electric guitar']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.7800000000000001,0.765,0.78,0.001,0.772,566,1099
+frying pan,25,"['wok', 'dutch oven', 'guacamole', 'cauliflower', 'trash can']","[0.12, 0.08, 0.06, 0.04, 0.02]",0.3958703373438167,0.2799999999999999,0.412,0.28,0.001,0.346,567,984
+fur coat,17,"['scarf', 'swing', 'cardigan', 'gordon setter', 'polar bear']","[0.1, 0.08, 0.04, 0.02, 0.02]",0.3804646084815738,0.5,0.641,0.5,0.001,0.57,568,823
+garbage truck,5,"['moving van', 'tow truck', 'station wagon', 'recreational vehicle', 'snowplow']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.84,0.857,0.84,0.001,0.848,569,993
+gas mask or respirator,30,"['binoculars', 'oxygen mask', 'holster', 'giant panda', 'accordion']","[0.08, 0.08, 0.04, 0.02, 0.02]",0.2115471544831129,0.26,0.684,0.26,0.0,0.472,570,337
+gas pump,11,"['automated teller machine', 'swing', 'sea lion', 'barbershop', 'limousine']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.74,0.725,0.74,0.001,0.732,571,1102
+goblet,18,"['beer glass', 'cocktail shaker', 'coffee mug', 'plectrum', 'drink pitcher']","[0.18, 0.06, 0.04, 0.04, 0.04]",1.4286267334338287,0.36,0.783,0.36,0.0,0.572,572,1008
+go kart,7,"['race car', 'barrel', 'military hat bearskin or shako', 'bobsleigh', 'lawn mower']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8200000000000001,0.932,0.82,0.001,0.876,573,1145
+golf ball,8,"['baseball', 'croquet ball', 'dumbbell', 'envelope', 'lens cap']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.84,0.913,0.84,0.001,0.876,574,1067
+golf cart,17,"['jeep', 'police van', 'race car', 'tricycle', 'ambulance']","[0.04, 0.04, 0.04, 0.04, 0.02]",-1.4999999999999991,0.5800000000000001,0.967,0.58,0.001,0.774,575,1115
+gondola,2,"['cradle', 'ocean liner']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.906,0.96,0.001,0.933,576,884
+gong,12,"['bell or wind chime', 'drum', 'trilobite', 'analog clock', 'binoculars']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7,0.686,0.7,0.001,0.693,577,1333
+gown,17,"['hoop skirt', 'bridegroom', 'overskirt', 'sarong', 'swing']","[0.16, 0.08, 0.06, 0.04, 0.04]",1.1210847078122883,0.36,0.45,0.36,0.001,0.405,578,731
+grand piano,7,"['upright piano', 'banjo', 'breakwater', 'punching bag', 'shopping basket']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8200000000000001,0.41,0.82,0.002,0.615,579,1052
+greenhouse,13,"['vaulted or arched ceiling', 'wheelbarrow', 'chain link fence', 'football helmet', 'mobile home']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7200000000000001,0.61,0.72,0.001,0.665,580,1075
+radiator grille,10,"['station wagon', 'police van', 'trash can', 'convertible', 'measuring cup']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7600000000000001,0.422,0.76,0.002,0.591,581,1091
+grocery store,20,"['bakery', 'dungeness crab', 'crayfish', 'bookstore', 'butcher shop']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.52,0.542,0.52,0.001,0.531,582,1033
+guillotine,33,"['swing', 'crate', 'mobile home', 'throne', 'altar']","[0.18, 0.04, 0.04, 0.04, 0.02]",1.431697254637636,0.12,0.5,0.12,0.0,0.31,583,346
+hair clip,25,"['safety pin', 'quill', 'baby bib', 'bottle cap', 'bow tie']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.44,0.355,0.44,0.001,0.397,584,1309
+hair spray,30,"['lotion', 'swing', 'beer bottle', 'bow tie', 'water bottle']","[0.1, 0.1, 0.04, 0.04, 0.04]",0.4082482904638626,0.16,0.25,0.16,0.001,0.205,585,808
+half track,11,"['tank', 'convertible', 'electric fan', 'lawn mower', 'sawmill']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7,0.7,0.7,0.001,0.7,586,1025
+hammer,30,"['swing', 'ballpoint pen', 'clothes iron', 'power drill', 'salt shaker']","[0.08, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.2,0.244,0.2,0.001,0.222,587,940
+hamper,16,"['indian cobra', 'tabby cat', 'bakery', 'bassinet', 'handkerchief']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.68,0.68,0.68,0.001,0.68,588,1131
+hair dryer,25,"['laptop computer', 'seat belt', 'bouvier des flandres dog', 'greater swiss mountain dog', 'accordion']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.44,0.468,0.44,0.001,0.454,589,1205
+hand held computer,14,"['mobile phone', 'computer keyboard', 'remote control', 'keyboard space bar', 'ballpoint pen']","[0.2399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.4658627908547486,0.4399999999999999,0.71,0.44,0.001,0.575,590,916
+handkerchief,14,"['envelope', 'pillow', 'shower curtain', 'tray', 'apron']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",-1.4999999999999998,0.6399999999999999,0.525,0.64,0.001,0.582,591,1192
+hard disk drive,11,"['harmonica', 'menu', 'cassette', 'combination lock', 'disc brake']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.7399999999999999,0.74,0.74,0.001,0.74,592,970
+harmonica,23,"['flute', 'bow tie', 'microphone', 'seat belt', 'boa constrictor']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.44,0.5,0.44,0.001,0.47,593,1268
+harp,6,"['baluster  handrail', 'bassoon', 'carousel', 'cello', 'grand piano']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8799999999999999,0.8,0.88,0.001,0.84,594,1208
+combine harvester,8,"['threshing machine', 'jigsaw puzzle', 'lawn mower', 'farm plow', 'swing']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.7799999999999999,0.542,0.78,0.001,0.661,595,1052
+hatchet,34,"['swing', 'hammer', 'hook', 'ocarina', 'indigo bunting']","[0.1399999999999999, 0.06, 0.04, 0.04, 0.02]",1.1701586322559543,0.12,0.375,0.12,0.0,0.248,596,493
+holster,12,"['wallet', 'buckle', 'swing', 'bulletproof vest', 'clogs']","[0.08, 0.06, 0.04, 0.02, 0.02]",0.3631734744194302,0.64,0.508,0.64,0.001,0.574,597,893
+home theater,12,"['entertainment center', 'television', 'music speaker', 'desktop computer', 'movie theater']","[0.0999999999999999, 0.0999999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999]",-0.3631734744194304,0.42,0.553,0.42,0.001,0.487,598,978
+honeycomb,16,"['apiary', 'loggerhead sea turtle', 'trilobite', 'harvestman', 'ant']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.6,0.638,0.6,0.001,0.619,599,1028
+hook,38,"['bolo tie', 'chain', 'construction crane', 'necklace', 'spindle']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.0,0.1199999999999999,0.222,0.12,0.001,0.171,600,1110
+hoop skirt,16,"['overskirt', 'swing', 'gown', 'military hat bearskin or shako', 'desk']","[0.1, 0.1, 0.04, 0.02, 0.02]",0.2961528510345608,0.5,0.51,0.5,0.001,0.505,601,1029
+gymnastic horizontal bar,8,"['swing', 'parallel bars', 'balance beam', 'pole', 'diaper']","[0.22, 0.08, 0.06, 0.04, 0.02]",1.2099004414720482,0.52,0.553,0.52,0.001,0.536,602,1016
+horse drawn vehicle,8,"['rickshaw', 'bullock cart', 'pig', 'water buffalo', 'bobsleigh']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8,0.727,0.8,0.001,0.764,603,1146
+hourglass,5,"['abacus', 'beaker', 'cocktail shaker', 'computer mouse', 'whiskey jug']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.882,0.9,0.001,0.891,604,1005
+ipod,12,"['cassette', 'clothes iron', 'notebook computer', 'oscilloscope', 'remote control']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.7599999999999999,0.576,0.76,0.001,0.668,605,1030
+clothes iron,17,"['bookcase', 'analog clock', 'bassinet', 'bucket', 'can opener']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.64,0.653,0.64,0.001,0.647,606,1152
+carved pumpkin,2,"['candle', 'church']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.814,0.96,0.001,0.887,607,899
+jeans,22,"['swing', 'apron', 'sidewinder rattlesnake', 'wheelbarrow', 'bow tie']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.48,0.615,0.48,0.001,0.548,608,880
+jeep,12,"['fire truck', 'mobile home', 'pickup truck', 'amphibious vehicle', 'station wagon']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.7,0.778,0.7,0.001,0.739,609,1180
+t shirt,15,"['sweatshirt', 'baby bib', 'cowboy hat', 'electric guitar', 'handkerchief']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.66,0.569,0.66,0.001,0.614,610,1118
+jigsaw puzzle,7,"['swing', 'nematode', 'bakery', 'pan flute', 'prayer rug']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8400000000000001,0.609,0.84,0.001,0.724,611,1230
+rickshaw,3,"['tandem bicycle', 'swing', 'sandbar']","[0.02, 0.02, 0.02]",0.0,0.94,0.734,0.94,0.001,0.837,612,1245
+joystick,16,"['computer keyboard', 'remote control', 'cassette player', 'cd player', 'rotary dial telephone']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.64,0.593,0.64,0.001,0.616,613,1189
+kimono,7,"['cello', 'gown', 'overskirt', 'swing', 'vestment']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8599999999999999,0.632,0.86,0.001,0.746,614,1082
+knee pad,18,"['cowboy boot', 'baby bib', 'binoculars', 'buckle', 'christmas stocking']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.62,0.674,0.62,0.001,0.647,615,1091
+knot,13,"['chainsaw', 'swing', 'carolina anole', 'trilobite', 'starfish']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7,0.583,0.7,0.001,0.642,616,1042
+lab coat,15,"['stethoscope', 'swing', 'african grey parrot', 'accordion', 'bookstore']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.64,0.525,0.64,0.001,0.582,617,1186
+ladle,36,"['strainer', 'swing', 'crock pot', 'hammer', 'consomme']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.4082482904638625,0.1399999999999999,0.115,0.14,0.001,0.128,618,1021
+lampshade,20,"['table lamp', 'stick insect', 'sea urchin', 'balloon', 'bolo tie']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.52,0.329,0.52,0.002,0.424,619,1130
+laptop computer,15,"['notebook computer', 'desk', 'desktop computer', 'hand held computer', 'triceratops']","[0.4400000000000001, 0.06, 0.06, 0.04, 0.02]",1.466891067350495,0.18,0.164,0.18,0.001,0.172,620,1149
+lawn mower,9,"['swing', 'apron', 'assault rifle', 'crutch', 'reflex camera']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.74,0.569,0.74,0.001,0.654,621,1157
+lens cap,19,"['reflex camera', 'tripod', 'french bulldog', 'backpack', 'barbell']","[0.2, 0.04, 0.02, 0.02, 0.02]",1.456547284601344,0.42,0.447,0.42,0.001,0.434,622,1113
+letter opener,32,"['fountain pen', 'buckle', 'envelope', 'pencil sharpener', 'block plane']","[0.08, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.2,0.333,0.2,0.001,0.266,623,829
+library,14,"['bookstore', 'bookcase', 'accordion', 'altar', 'cloak']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.6,0.536,0.6,0.001,0.568,624,1031
+lifeboat,5,"['motorboat', 'canoe', 'fireboat', 'ocean liner', 'beach']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8799999999999999,1.0,0.88,0.001,0.94,625,996
+lighter,30,"['candle', 'matchstick', 'trash can', 'ballpoint pen', 'swimming cap']","[0.0999999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.2909944487358054,0.2999999999999999,0.405,0.3,0.001,0.353,626,1019
+limousine,11,"['radiator grille', 'ambulance', 'station wagon', 'convertible', 'library']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.74,0.712,0.74,0.001,0.726,627,1076
+ocean liner,6,"['container ship', 'dock', 'analog clock', 'fireboat', 'library']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.84,0.677,0.84,0.001,0.758,628,1056
+lipstick,18,"['face powder', 'candle', 'computer keyboard', 'candy store', 'fountain pen']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.62,0.484,0.62,0.001,0.552,629,1043
+slip on shoe,10,"['clogs', 'cowboy boot', 'park bench', 'storage chest', 'electric fan']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.3436215967445454,0.72,0.632,0.72,0.001,0.676,630,917
+lotion,15,"['perfume', 'beaker', 'beer bottle', 'soda bottle', 'sunscreen']","[0.1, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.52,0.481,0.52,0.001,0.5,631,1305
+music speaker,25,"['cassette player', 'radio', 'swing', 'trash can', 'baluster  handrail']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.44,0.595,0.44,0.001,0.518,632,1047
+loupe magnifying glass,34,"['polaroid camera', 'hammer', 'reflex camera', 'safety pin', 'sea anemone']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.3714193236627636e-15,0.2199999999999999,0.478,0.22,0.0,0.349,633,1247
+sawmill,24,"['crate', 'chainsaw', 'forklift', 'hatchet', 'swing']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.4,0.909,0.4,0.0,0.655,634,1043
+magnetic compass,18,"['barometer', 'stopwatch', 'wall clock', 'odometer', 'sundial']","[0.1, 0.06, 0.06, 0.04, 0.04]",0.9128709291752772,0.4400000000000001,0.667,0.44,0.001,0.554,635,1063
+messenger bag,14,"['purse', 'backpack', 'wallet', 'swing', 'ring binder']","[0.3199999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.4321395510900834,0.3199999999999999,0.4,0.32,0.001,0.36,636,1096
+mailbox,8,"['birdhouse', 'swing', 'wheelbarrow', 'envelope', 'mobile home']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.7999999999999998,0.714,0.8,0.001,0.757,637,1068
+tights,19,"['one piece bathing suit', 'sarong', 'apron', 'bikini', 'swing']","[0.18, 0.12, 0.08, 0.08, 0.08]",1.026999605698155,0.1,0.227,0.1,0.0,0.164,638,373
+one piece bathing suit,25,"['tights', 'sarong', 'swimming cap', 'snorkel', 'swim trunks  shorts']","[0.1, 0.1, 0.08, 0.04, 0.04]",-0.2115471544831132,0.22,0.324,0.22,0.001,0.272,639,430
+manhole cover,6,"['chambered nautilus', 'golf ball', 'mailbox', 'maze', 'space heater']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.88,0.898,0.88,0.001,0.889,640,1181
+maraca,18,"['hair clip', 'screwdriver', 'american lobster', 'barbell', 'beer glass']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.58,0.468,0.58,0.001,0.524,641,1322
+marimba,16,"['drumstick', 'chain mail', 'cowboy hat', 'crate', 'filing cabinet']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.66,0.635,0.66,0.001,0.648,642,1272
+mask,21,"['swing', 'sunglasses.1', 'bow tie', 'feather boa', 'maraca']","[0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.8437499999999997,0.3999999999999999,0.435,0.4,0.001,0.418,643,775
+matchstick,19,"['candle', 'lighter', 'longhorn beetle', 'sea cucumber', 'analog clock']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.54,0.675,0.54,0.001,0.608,644,890
+maypole,3,"['movie theater', 'pan flute', 'umbrella']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.839,0.94,0.001,0.89,645,1356
+maze,13,"['swing', 'baluster  handrail', 'barn', 'can opener', 'dishcloth']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7200000000000001,0.783,0.72,0.001,0.752,646,1192
+measuring cup,18,"['angora rabbit', 'beaker', 'bookstore', 'candle', 'can opener']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.5999999999999999,0.484,0.6,0.001,0.542,647,1212
+medicine cabinet,24,"['pill bottle', 'sliding door', 'wardrobe', 'chiffonier', 'microwave oven']","[0.08, 0.08, 0.08, 0.04, 0.04]",-0.4082482904638626,0.26,0.5,0.26,0.001,0.38,648,931
+megalith,16,"['stone wall', 'cliff dwelling', 'park bench', 'triceratops', 'binoculars']","[0.1, 0.06, 0.04, 0.02, 0.02]",0.7301958930821588,0.54,0.964,0.54,0.001,0.752,649,915
+microphone,29,"['stage', 'harmonica', 'strainer', 'dungeness crab', 'banjo']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.2999999999999999,0.366,0.3,0.001,0.333,650,1059
+microwave oven,23,"['digital clock', 'dining table', 'stove', 'australian silky terrier', 'band aid']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.42,0.568,0.42,0.001,0.494,651,861
+military uniform,18,"['pickelhaube', 'half track', 'academic gown', 'acoustic guitar', 'barber chair']","[0.1199999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.3627927530355546,0.5199999999999999,0.4,0.52,0.001,0.46,652,1196
+milk can,18,"['cauldron', 'beer glass', 'bucket', 'chain', 'chiffonier']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.6200000000000001,0.608,0.62,0.001,0.614,653,1051
+minibus,12,"['ambulance', 'minivan', 'recreational vehicle', 'limousine', 'police van']","[0.12, 0.08, 0.06, 0.04, 0.04]",0.7301958930821596,0.52,0.433,0.52,0.001,0.477,654,1209
+miniskirt,36,"['swing', 'feather boa', 'overskirt', 'pajamas', 'shower cap']","[0.08, 0.06, 0.04, 0.04, 0.04]",0.8437499999999998,0.02,0.062,0.02,0.0,0.041,655,317
+minivan,14,"['station wagon', 'convertible', 'minibus', 'police van', 'race car']","[0.24, 0.06, 0.06, 0.04, 0.04]",1.4490161632302203,0.38,0.373,0.38,0.001,0.376,656,1090
+missile,15,"['missile.1', 'airplane wing', 'airship', 'baluster  handrail', 'car mirror']","[0.32, 0.04, 0.02, 0.02, 0.02]",1.4842971984491495,0.38,0.413,0.38,0.001,0.396,657,1225
+missile,15,"['missile.1', 'airplane wing', 'airship', 'baluster  handrail', 'car mirror']","[0.32, 0.04, 0.02, 0.02, 0.02]",1.4842971984491495,0.38,0.413,0.38,0.001,0.396,657,1225
+missile,15,"['missile.1', 'airplane wing', 'airship', 'baluster  handrail', 'car mirror']","[0.32, 0.04, 0.02, 0.02, 0.02]",1.4842971984491495,0.34,0.447,0.34,0.001,0.394,657,1225
+missile,15,"['missile.1', 'airplane wing', 'airship', 'baluster  handrail', 'car mirror']","[0.32, 0.04, 0.02, 0.02, 0.02]",1.4842971984491495,0.34,0.447,0.34,0.001,0.394,657,1225
+missile,15,"['missile.1', 'airplane wing', 'airship', 'baluster  handrail', 'car mirror']","[0.32, 0.04, 0.02, 0.02, 0.02]",1.4842971984491495,0.38,0.413,0.38,0.001,0.396,744,1197
+missile,15,"['missile.1', 'airplane wing', 'airship', 'baluster  handrail', 'car mirror']","[0.32, 0.04, 0.02, 0.02, 0.02]",1.4842971984491495,0.38,0.413,0.38,0.001,0.396,744,1197
+missile,15,"['missile.1', 'airplane wing', 'airship', 'baluster  handrail', 'car mirror']","[0.32, 0.04, 0.02, 0.02, 0.02]",1.4842971984491495,0.34,0.447,0.34,0.001,0.394,744,1197
+missile,15,"['missile.1', 'airplane wing', 'airship', 'baluster  handrail', 'car mirror']","[0.32, 0.04, 0.02, 0.02, 0.02]",1.4842971984491495,0.34,0.447,0.34,0.001,0.394,744,1197
+mitten,15,"['sock', 'christmas stocking', 'dishcloth', 'scarf', 'wool']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.5800000000000001,0.483,0.58,0.001,0.532,658,999
+mixing bowl,10,"['bottle cap', 'china cabinet', 'ladle', 'pencil sharpener', 'potters wheel']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8,0.667,0.8,0.001,0.734,659,1094
+mobile home,17,"['recreational vehicle', 'wheelbarrow', 'freight car', 'garbage truck', 'picket fence']","[0.08, 0.06, 0.06, 0.04, 0.04]",0.3436215967445477,0.44,0.688,0.44,0.001,0.564,660,911
+ford model t,7,"['pickup truck', 'radiator grille', 'lawn mower', 'car wheel', 'crate']","[0.0999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.7301958930821603,0.72,0.857,0.72,0.001,0.788,661,949
+modem,17,"['cd player', 'automated teller machine', 'joystick', 'notebook computer', 'table lamp']","[0.1, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.5,0.51,0.5,0.001,0.505,662,1074
+monastery,15,"['vaulted or arched ceiling', 'castle', 'palace', 'shield', 'triumphal arch, arch of orange, arch of titus']","[0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.8437499999999997,0.5399999999999999,0.628,0.54,0.001,0.584,663,856
+monitor,20,"['desktop computer', 'crt monitor', 'television', 'computer mouse', 'website']","[0.2399999999999999, 0.0999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.2143286722953983,0.2199999999999999,0.268,0.22,0.001,0.244,664,1227
+moped,13,"['mountain bike', 'vespa', 'tricycle', 'unicycle', 'greater swiss mountain dog']","[0.18, 0.1199999999999999, 0.0999999999999999, 0.0399999999999999, 0.0199999999999999]",0.2009026264510791,0.3799999999999999,0.613,0.38,0.001,0.496,665,1162
+mortar and pestle,18,"['wheelbarrow', 'beaker', 'cauldron', 'coffee mug', 'crutch']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.64,0.582,0.64,0.001,0.611,666,1257
+graduation cap,14,"['academic gown', 'envelope', 'product packet  packaging', 'pencil sharpener', 'pomeranian']","[0.18, 0.04, 0.04, 0.04, 0.02]",1.431697254637636,0.5,0.568,0.5,0.001,0.534,667,1243
+mosque,7,"['dome', 'altar', 'bell tower', 'church', 'movie theater']","[0.3, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.5800000000000001,0.725,0.58,0.001,0.652,668,814
+mosquito net,2,"['swing', 'envelope']","[0.04, 0.02]",1.030425744730223e-15,0.94,0.712,0.94,0.001,0.826,669,1101
+vespa,5,"['moped', 'scuba diver', 'radiator grille', 'race car', 'tricycle']","[0.0999999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.2909944487358054,0.7999999999999998,0.741,0.8,0.001,0.77,670,1124
+mountain bike,10,"['swing', 'unicycle', 'tandem bicycle', 'swimming cap', 'hatchet']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.7,0.593,0.7,0.001,0.646,671,1109
+tent,4,"['sleeping bag', 'pencil case', 'projector', 'window screen']","[0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.1547005383792512,0.8799999999999999,0.917,0.88,0.001,0.899,672,1012
+computer mouse,26,"['desktop computer', 'computer keyboard', 'notebook computer', 'lens cap', 'crt monitor']","[0.1399999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",0.9704949588309456,0.1999999999999999,0.25,0.2,0.001,0.225,673,1063
+mousetrap,34,"['porcupine', 'hamster', 'guinea pig', 'metal nail', 'pencil sharpener']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.18,0.474,0.18,0.0,0.327,674,499
+moving van,16,"['minivan', 'semi trailer truck', 'minibus', 'pickup truck', 'police van']","[0.0999999999999999, 0.0999999999999999, 0.0599999999999999, 0.0599999999999999, 0.0599999999999999]",0.4082482904638634,0.3799999999999999,0.679,0.38,0.001,0.53,675,1094
+muzzle,34,"['norwegian elkhound', 'giant schnauzer', 'rottweiler', 'german shepherd dog', 'holster']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.0,0.1999999999999999,0.667,0.2,0.0,0.434,676,513
+metal nail,26,"['swing', 'screw', 'fountain', 'agama', 'scorpion']","[0.08, 0.06, 0.04, 0.02, 0.02]",0.3631734744194302,0.36,0.486,0.36,0.001,0.423,677,788
+neck brace,28,"['swing', 'seat belt', 'popsicle', 'shower cap', 'king charles spaniel']","[0.1199999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",0.7683612488578252,0.2399999999999999,0.571,0.24,0.0,0.406,678,841
+necklace,7,"['bolo tie', 'chain', 'chain mail', 'hair clip', 'knot']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8399999999999999,0.429,0.84,0.002,0.634,679,1101
+baby pacifier,18,"['hair spray', 'lotion', 'table lamp', 'toy poodle', 'persian cat']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.58,0.69,0.58,0.001,0.635,680,1254
+notebook computer,18,"['computer keyboard', 'laptop computer', 'crt monitor', 'desk', 'desktop computer']","[0.1, 0.1, 0.06, 0.04, 0.04]",0.2115471544831131,0.4000000000000001,0.299,0.4,0.001,0.35,681,1033
+obelisk,8,"['swing', 'fountain', 'airship', 'bell tower', 'mosque']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7800000000000001,0.736,0.78,0.001,0.758,682,1031
+oboe,13,"['flute', 'bassoon', 'stick insect', 'bow tie', 'marimba']","[0.24, 0.1399999999999999, 0.02, 0.02, 0.02]",0.7664004470557854,0.4000000000000001,0.488,0.4,0.001,0.444,683,1134
+ocarina,13,"['conch', 'bottle cap', 'bow tie', 'automated teller machine', 'jeans']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.72,0.562,0.72,0.001,0.641,684,1354
+odometer,2,"['cd player', 'remote control']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.762,0.96,0.001,0.861,685,1003
+oil filter,19,"['accordion', 'strainer', 'beer bottle', 'pill bottle', 'night snake']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",-0.3436215967445467,0.4999999999999999,0.641,0.5,0.001,0.57,686,1087
+pipe organ,6,"['altar', 'jellyfish', 'carousel', 'spiral or coil', 'marimba']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.8200000000000001,0.719,0.82,0.001,0.77,687,900
+oscilloscope,4,"['hand held computer', 'joystick', 'modem', 'menu']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.639,0.92,0.001,0.78,688,1070
+overskirt,22,"['hoop skirt', 'gown', 'apron', 'cloak', 'feather boa']","[0.1199999999999999, 0.0999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",0.3804646084815734,0.2399999999999999,0.429,0.24,0.001,0.334,689,760
+bullock cart,9,"['ox', 'horse drawn vehicle', 'water buffalo', 'wheelbarrow', 'bottle cap']","[0.06, 0.06, 0.02, 0.02, 0.02]",0.4082482904638627,0.7400000000000001,0.617,0.74,0.001,0.678,690,1259
+oxygen mask,26,"['gas mask or respirator', 'binoculars', 'chainsaw', 'snorkel', 'scuba diver']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.36,0.6,0.36,0.001,0.48,691,952
+product packet  packaging,30,"['envelope', 'band aid', 'beer bottle', 'baby bib', 'broom']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.2999999999999999,0.195,0.3,0.002,0.248,692,1269
+paddle,11,"['canoe', 'silver salmon', 'baluster  handrail', 'baseball', 'bikini']","[0.2799999999999999, 0.02, 0.02, 0.02, 0.02]",1.499999999999999,0.52,0.703,0.52,0.001,0.611,693,1126
+paddle wheel,8,"['fireboat', 'barbell', 'spiral or coil', 'forklift', 'table lamp']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8199999999999998,0.683,0.82,0.001,0.752,694,1289
+padlock,16,"['combination lock', 'necklace', 'chain', 'hook', 'apiary']","[0.1, 0.06, 0.04, 0.04, 0.02]",0.7500308204401289,0.52,0.531,0.52,0.001,0.526,695,810
+paintbrush,22,"['eraser', 'asian elephant', 'broom', 'dutch oven', 'face powder']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.54,0.509,0.54,0.001,0.524,696,1081
+pajamas,21,"['swing', 'sleeping bag', 'shower cap', 'banjo', 'bath towel']","[0.1, 0.06, 0.04, 0.02, 0.02]",0.7301958930821588,0.4400000000000001,0.344,0.44,0.001,0.392,697,1024
+palace,14,"['castle', 'dome', 'monastery', 'movie theater', 'bell tower']","[0.08, 0.06, 0.06, 0.04, 0.02]",-0.2715454178836395,0.5599999999999999,0.609,0.56,0.001,0.584,698,898
+pan flute,16,"['drum', 'swing', 'accordion', 'acoustic guitar', 'banjo']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.6400000000000001,0.667,0.64,0.001,0.654,699,1302
+paper towel,24,"['tabby cat', 'swing', 'baby bib', 'car mirror', 'cardboard box  carton']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.4799999999999999,0.533,0.48,0.001,0.506,700,1108
+parachute,3,"['balloon', 'drilling rig', 'shovel']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.887,0.94,0.001,0.914,701,1026
+parallel bars,10,"['gymnastic horizontal bar', 'swing', 'barbell', 'balance beam', 'crutch']","[0.18, 0.1, 0.08, 0.06, 0.02]",0.5936004596374723,0.4599999999999999,0.59,0.46,0.001,0.525,702,1101
+park bench,10,"['swing', 'conch', 'accordion', 'banjo', 'radiator grille']","[0.1399999999999999, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.6800000000000002,0.567,0.68,0.001,0.624,703,1054
+parking meter,16,"['taxicab', 'swing', 'analog clock', 'station wagon', 'car mirror']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.6400000000000001,0.615,0.64,0.001,0.628,704,1125
+railroad car,19,"['electric locomotive', 'freight car', 'minibus', 'swing', 'bus']","[0.1399999999999999, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.42,0.656,0.42,0.001,0.538,705,1090
+patio,25,"['swing', 'restaurant', 'sliding door', 'baluster  handrail', 'dining table']","[0.2199999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",1.436605500262048,0.1199999999999999,0.667,0.12,0.0,0.394,706,886
+payphone,14,"['rotary dial telephone', 'gas pump', 'cassette player', 'analog clock', 'trash can']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.6200000000000001,0.646,0.62,0.001,0.633,707,889
+pedestal,12,"['obelisk', 'brass memorial plaque', 'triumphal arch, arch of orange, arch of titus', 'construction crane', 'crane bird']","[0.1, 0.08, 0.06, 0.04, 0.02]",0.0,0.5599999999999999,0.757,0.56,0.001,0.659,708,1068
+pencil case,20,"['wallet', 'purse', 'handkerchief', 'eraser', 'baby bib']","[0.2199999999999999, 0.1399999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",0.767229269170392,0.1199999999999999,0.261,0.12,0.0,0.19,709,1207
+pencil sharpener,29,"['eraser', 'ballpoint pen', 'fountain pen', 'screw', 'thimble']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.2999999999999999,0.306,0.3,0.001,0.303,710,1230
+perfume,16,"['lotion', 'product packet  packaging', 'red wine', 'analog clock', 'beer glass']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.6,0.588,0.6,0.001,0.594,711,1162
+petri dish,30,"['frying pan', 'strainer', 'nematode', 'abacus', 'beaker']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.22,0.733,0.22,0.0,0.476,712,807
+photocopier,3,"['printer', 'laptop computer', 'oscilloscope']","[0.04, 0.02, 0.02]",0.7071067811865479,0.92,0.742,0.92,0.001,0.831,713,1025
+plectrum,18,"['acoustic guitar', 'bolo tie', 'tick', 'bath towel', 'bottle cap']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.58,0.659,0.58,0.001,0.619,714,1125
+pickelhaube,5,"['military uniform', 'tandem bicycle', 'chain mail', 'fur coat', 'swing']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.717,0.86,0.001,0.788,715,1062
+picket fence,7,"['swing', 'african bush elephant', 'church', 'minivan', 'rocking chair']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.8399999999999999,0.656,0.84,0.001,0.748,716,968
+pickup truck,11,"['station wagon', 'radiator grille', 'tow truck', 'car wheel', 'minibus']","[0.06, 0.06, 0.06, 0.04, 0.04]",-0.4082482904638644,0.62,0.492,0.62,0.001,0.556,717,994
+pier,15,"['dock', 'baluster  handrail', 'through arch bridge', 'viaduct', 'boathouse']","[0.1, 0.06, 0.06, 0.04, 0.02]",0.3700366501636203,0.52,0.456,0.52,0.001,0.488,718,1048
+piggy bank,11,"['tray', 'gar fish', 'chain mail', 'crash helmet', 'pencil sharpener']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7600000000000001,0.717,0.76,0.001,0.738,719,1043
+pill bottle,23,"['beer glass', 'band aid', 'oil filter', 'eraser', 'african grey parrot']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.44,0.5,0.44,0.001,0.47,720,1037
+pillow,20,"['baby bib', 'messenger bag', 'ring binder', 'buckle', 'storage chest']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.5599999999999999,0.394,0.56,0.001,0.477,721,1096
+ping pong ball,13,"['grand piano', 'combine harvester', 'ladle', 'measuring cup', 'plunger']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7400000000000001,0.627,0.74,0.001,0.684,722,1191
+pinwheel,10,"['swing', 'goldfish', 'toucan', 'ant', 'flagpole']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7200000000000001,0.857,0.72,0.001,0.788,723,1081
+pirate ship,9,"['dock', 'schooner', 'altar', 'container ship', 'fireboat']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.7200000000000001,0.72,0.72,0.001,0.72,724,871
+drink pitcher,16,"['teapot', 'water jug', 'cocktail shaker', 'coffee mug', 'tray']","[0.1399999999999999, 0.1399999999999999, 0.04, 0.04, 0.04]",0.4082482904638628,0.38,0.275,0.38,0.001,0.328,725,1103
+block plane,12,"['hammer', 'hamster', 'acoustic guitar', 'apiary', 'guillotine']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7400000000000001,0.685,0.74,0.001,0.712,726,1186
+planetarium,6,"['dome', 'movie theater', 'clothes iron', 'front curtain', 'wool']","[0.12, 0.02, 0.02, 0.02, 0.02]",1.4999999999999991,0.7799999999999999,0.848,0.78,0.001,0.814,727,1262
+plastic bag,38,"['swing', 'apron', 'lorikeet', 'crayfish', 'tabby cat']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.1399999999999999,0.467,0.14,0.0,0.304,728,729
+plate rack,24,"['china cabinet', 'dishwasher', 'tray', 'abacus', 'baluster  handrail']","[0.12, 0.06, 0.04, 0.02, 0.02]",0.9704949588309452,0.36,0.9,0.36,0.0,0.63,729,875
+farm plow,13,"['swing', 'wheelbarrow', 'horse drawn vehicle', 'threshing machine', 'tricycle']","[0.1, 0.06, 0.04, 0.04, 0.04]",1.1500493356615311,0.5599999999999999,0.549,0.56,0.001,0.554,730,1074
+plunger,34,"['swing', 'drumstick', 'shower cap', 'persian cat', 'accordion']","[0.1399999999999999, 0.04, 0.04, 0.02, 0.02]",1.3532751773025922,0.16,0.276,0.16,0.001,0.218,731,959
+polaroid camera,10,"['reflex camera', 'buckle', 'cd player', 'mobile phone', 'coffeemaker']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.74,0.661,0.74,0.001,0.7,732,982
+pole,26,"['swing', 'flagpole', 'traffic light', 'baluster  handrail', 'pelican']","[0.18, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.2332361516034993,0.2199999999999999,0.458,0.22,0.0,0.339,733,998
+police van,6,"['station wagon', 'minibus', 'minivan', 'cd player', 'payphone']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.8200000000000001,0.641,0.82,0.001,0.73,734,1037
+poncho,20,"['cardigan', 'scarf', 'apron', 'sarong', 'swing']","[0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.8437499999999997,0.42,0.42,0.42,0.001,0.42,735,1110
+pool table,10,"['movie theater', 'doormat', 'football helmet', 'hourglass', 'maraca']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8,0.87,0.8,0.001,0.835,736,965
+soda bottle,12,"['beer bottle', 'water bottle', 'barrel', 'beaker', 'movie theater']","[0.1399999999999999, 0.08, 0.02, 0.02, 0.02]",0.8437499999999999,0.5800000000000001,0.492,0.58,0.001,0.536,737,1209
+plant pot,15,"['greenhouse', 'picket fence', 'wheelbarrow', 'cauldron', 'chain link fence']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.62,0.633,0.62,0.001,0.626,738,1040
+potters wheel,6,"['red king crab', 'spiral or coil', 'dutch oven', 'ladle', 'shower cap']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.88,0.8,0.88,0.001,0.84,739,1132
+power drill,29,"['projector', 'swing', 'chainsaw', 'hammer', 'microphone']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.2799999999999999,0.378,0.28,0.001,0.329,740,821
+prayer rug,14,"['swing', 'handkerchief', 'bow tie', 'buckle', 'church']","[0.08, 0.06, 0.02, 0.02, 0.02]",0.5929270612815718,0.6200000000000001,0.564,0.62,0.001,0.592,741,981
+printer,20,"['photocopier', 'envelope', 'binoculars', 'automated teller machine', 'mobile phone']","[0.2, 0.04, 0.02, 0.02, 0.02]",1.456547284601344,0.4,0.606,0.4,0.001,0.503,742,1047
+prison,27,"['shoji screen  room divider', 'sliding door', 'vaulted or arched ceiling', 'turnstile', 'brass memorial plaque']","[0.12, 0.08, 0.08, 0.06, 0.04]",0.3700366501636191,0.12,0.857,0.12,0.0,0.488,743,347
+projector,16,"['reflex camera', 'cd player', 'cowboy boot', 'desktop computer', 'radiator grille']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.62,0.449,0.62,0.001,0.534,745,1169
+hockey puck,9,"['baby bib', 'bottle cap', 'buckle', 'diaper', 'lighter']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8199999999999998,0.707,0.82,0.001,0.764,746,1148
+punching bag,30,"['swing', 'chain link fence', 'apron', 'barbell', 'baseball']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.3399999999999999,0.68,0.34,0.001,0.51,747,1013
+purse,19,"['wallet', 'pencil case', 'backpack', 'bath towel', 'messenger bag']","[0.1599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.4035141563500917,0.3799999999999999,0.247,0.38,0.002,0.314,748,1225
+quill,19,"['ladle', 'menu', 'trilobite', 'peafowl', 'stick insect']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.58,0.592,0.58,0.001,0.586,749,1178
+quilt,17,"['pillow', 'pajamas', 'airedale terrier', 'chesapeake bay retriever', 'siamese cat']","[0.1, 0.06, 0.02, 0.02, 0.02]",0.84375,0.54,0.551,0.54,0.001,0.546,750,940
+race car,10,"['taxicab', 'car wheel', 'go kart', 'radiator grille', 'parking meter']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8000000000000002,0.548,0.8,0.001,0.674,751,1261
+racket,10,"['swing', 'volleyball', 'toy poodle', 'basketball', 'croquet ball']","[0.06, 0.06, 0.02, 0.02, 0.02]",0.4082482904638627,0.7200000000000001,0.6,0.72,0.001,0.66,752,1140
+radiator,17,"['swing', 'space heater', 'stingray', 'marmoset', 'station wagon']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.5999999999999999,0.667,0.6,0.001,0.634,753,978
+radio,15,"['cd player', 'oscilloscope', 'tape player', 'analog clock', 'cassette player']","[0.18, 0.1199999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.6269617454490741,0.42,0.42,0.42,0.001,0.42,754,1085
+radio telescope,11,"['radio', 'solar thermal collector', 'airship', 'baluster  handrail', 'construction crane']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.74,0.974,0.74,0.001,0.857,755,871
+rain barrel,17,"['barrel', 'greenhouse', 'rocking chair', 'trash can', 'bakery']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.5800000000000001,0.475,0.58,0.001,0.528,756,1104
+recreational vehicle,9,"['minibus', 'station wagon', 'bell tower', 'minivan', 'pickup truck']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7600000000000001,0.717,0.76,0.001,0.738,757,1030
+fishing casting reel,25,"['snoek fish', 'power drill', 'swing', 'sea lion', 'schipperke']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.44,0.595,0.44,0.001,0.518,758,1047
+reflex camera,10,"['lens cap', 'polaroid camera', 'projector', 'cloak', 'cornet']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.7,0.507,0.7,0.001,0.603,759,983
+refrigerator,22,"['microwave oven', 'airedale terrier', 'siamese cat', 'barrel', 'beer bottle']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.5,0.694,0.5,0.001,0.597,760,695
+remote control,15,"['computer keyboard', 'french bulldog', 'can opener', 'mobile phone', 'cleaver']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.68,0.68,0.68,0.001,0.68,761,1031
+restaurant,22,"['plate', 'meatloaf', 'dining table', 'turnstile', 'black footed ferret']","[0.1199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.017952296026957,0.3799999999999999,0.404,0.38,0.001,0.392,762,1050
+revolver,11,"['holster', 'tool kit', 'rifle', 'scabbard', 'can opener']","[0.1, 0.04, 0.04, 0.04, 0.02]",1.1731251294063554,0.64,0.865,0.64,0.001,0.752,763,481
+rifle,27,"['military uniform', 'swing', 'assault rifle', 'fountain pen', 'block plane']","[0.1199999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.2909944487358056,0.2599999999999999,0.394,0.26,0.001,0.327,764,656
+rocking chair,15,"['swing', 'folding chair', 'standard schnauzer', 'accordion', 'altar']","[0.12, 0.08, 0.02, 0.02, 0.02]",0.6817327184847222,0.54,0.551,0.54,0.001,0.546,765,1026
+rotisserie,10,"['safe', 'american lobster', 'wheelbarrow', 'butcher shop', 'computer mouse']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7800000000000001,0.672,0.78,0.001,0.726,766,1123
+eraser,26,"['ballpoint pen', 'lipstick', 'envelope', 'paintbrush', 'pan flute']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.4082482904638625,0.3199999999999999,0.25,0.32,0.001,0.285,767,1151
+rugby ball,13,"['basketball', 'football helmet', 'airship', 'baseball', 'bobsleigh']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.68,0.895,0.68,0.001,0.788,768,1249
+ruler measuring stick,13,"['slide rule', 'envelope', 'abacus', 'ring binder', 'candle']","[0.12, 0.06, 0.02, 0.02, 0.02]",1.0269996056981547,0.5999999999999999,0.5,0.6,0.001,0.55,769,1166
+sneaker,17,"['shoe store', 'sandal', 'slip on shoe', 'african rock python', 'backpack']","[0.12, 0.08, 0.04, 0.02, 0.02]",0.6122692078855394,0.48,0.889,0.48,0.001,0.684,770,942
+safe,18,"['abacus', 'bookcase', 'cardboard box  carton', 'cd player', 'combination lock']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.64,0.604,0.64,0.001,0.622,771,897
+safety pin,28,"['necklace', 'thimble', 'hair clip', 'abacus', 'backpack']","[0.1199999999999999, 0.0999999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999]",0.1527442975595468,0.2199999999999999,0.355,0.22,0.001,0.288,772,1211
+salt shaker,20,"['cocktail shaker', 'coffee mug', 'milk can', 'drink pitcher', 'strainer']","[0.04, 0.04, 0.04, 0.04, 0.04]",0.0,0.44,0.415,0.44,0.001,0.428,773,1146
+sandal,15,"['clogs', 'swing', 'bassinet', 'hair clip', 'handkerchief']","[0.06, 0.06, 0.02, 0.02, 0.02]",0.4082482904638627,0.62,0.517,0.62,0.001,0.568,774,757
+sarong,25,"['swing', 'apron', 'gown', 'umbrella', 'king penguin']","[0.16, 0.04, 0.04, 0.04, 0.02]",1.4082017705437315,0.2999999999999999,0.312,0.3,0.001,0.306,775,920
+saxophone,10,"['flute', 'french horn', 'oboe', 'trombone', 'bassoon']","[0.08, 0.04, 0.04, 0.04, 0.02]",0.8675276172357083,0.68,0.773,0.68,0.001,0.726,776,1105
+scabbard,11,"['letter opener', 'buckle', 'fountain pen', 'holster', 'microphone']","[0.1, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.5999999999999999,0.545,0.6,0.001,0.572,777,850
+weighing scale,25,"['swing', 'rooster', 'analog clock', 'barber chair', 'barometer']","[0.0799999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.499999999999999,0.4399999999999999,0.667,0.44,0.001,0.554,778,1171
+school bus,9,"['minibus', 'bus', 'station wagon', 'beer bottle', 'taxicab']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.74,0.822,0.74,0.001,0.781,779,842
+schooner,8,"['sailboat', 'pirate ship', 'dock', 'catamaran', 'coffee mug']","[0.12, 0.08, 0.04, 0.02, 0.02]",0.6122692078855394,0.66,0.66,0.66,0.001,0.66,780,921
+scoreboard,7,"['traffic or street sign', 'spiral or coil', 'digital clock', 'oscilloscope', 'ruler measuring stick']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8400000000000001,0.824,0.84,0.001,0.832,781,1174
+crt monitor,20,"['desktop computer', 'monitor', 'television', 'computer mouse', 'computer keyboard']","[0.16, 0.16, 0.12, 0.06, 0.04]",-0.2278746804149315,0.1399999999999999,0.152,0.14,0.001,0.146,782,1187
+screw,6,"['metal nail', 'spindle', 'dumbbell', 'letter opener', 'safety pin']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.84,0.689,0.84,0.001,0.764,783,1058
+screwdriver,36,"['swing', 'ballpoint pen', 'eraser', 'worm snake', 'platypus']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.16,0.167,0.16,0.001,0.164,784,1211
+seat belt,14,"['abaya', 'bookstore', 'bow tie', 'cowboy hat', 'digital watch']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7200000000000001,0.396,0.72,0.002,0.558,785,1145
+sewing machine,12,"['barbershop', 'desk', 'swing', 'chiffonier', 'kimono']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.7000000000000001,0.714,0.7,0.001,0.707,786,967
+shield,21,"['mask', 'banjo', 'bottle cap', 'brass memorial plaque', 'cuirass']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.44,0.423,0.44,0.001,0.432,787,1144
+shoe store,15,"['toy store', 'clogs', 'swing', 'tobacco shop', 'maltese']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.6000000000000001,0.526,0.6,0.001,0.563,788,1095
+shoji screen  room divider,11,"['baluster  handrail', 'bookstore', 'cleaver', 'dining table', 'fire screen']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7600000000000001,0.655,0.76,0.001,0.708,789,1053
+shopping basket,17,"['hamper', 'hamster', 'apron', 'baluster  handrail', 'candy store']","[0.16, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.52,0.591,0.52,0.001,0.556,790,1180
+shopping cart,12,"['swing', 'shopping basket', 'angora rabbit', 'wheelbarrow', 'carousel']","[0.1, 0.08, 0.02, 0.02, 0.02]",0.5071295169770311,0.62,0.689,0.62,0.001,0.654,791,698
+shovel,28,"['rickshaw', 'ladle', 'screwdriver', 'mop', 'swing']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.0,0.3399999999999999,0.395,0.34,0.001,0.368,792,1047
+shower cap,27,"['swing', 'kimono', 'pajamas', 'st  bernard', 'pomeranian']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.38,0.352,0.38,0.001,0.366,793,1203
+shower curtain,28,"['bathtub', 'front curtain', 'window shade', 'tick', 'lionfish']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.38,0.5,0.38,0.001,0.44,794,1046
+ski,9,"['mountain', 'swing', 'gar fish', 'bobsleigh', 'clothes iron']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7600000000000001,0.76,0.76,0.001,0.76,795,1064
+balaclava ski mask,26,"['mitten', 'poke bonnet', 'mask', 'sunglasses.1', 'swing']","[0.08, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.34,0.85,0.34,0.0,0.595,796,380
+sleeping bag,19,"['backpack', 'baby bib', 'christmas stocking', 'chambered nautilus', 'italian greyhound']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.5599999999999999,0.5,0.56,0.001,0.53,797,1145
+slide rule,9,"['ruler measuring stick', 'swing', 'barometer', 'envelope', 'product packet  packaging']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.7,0.636,0.7,0.001,0.668,798,1114
+sliding door,26,"['wardrobe', 'doormat', 'swing', 'turnstile', 'lighthouse']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.3714193236627636e-15,0.3799999999999999,0.275,0.38,0.001,0.328,799,1079
+slot machine,6,"['automated teller machine', 'oscilloscope', 'shoe store', 'swing', 'tobacco shop']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8799999999999999,0.759,0.88,0.001,0.82,800,1077
+snorkel,11,"['hammerhead shark', 'loggerhead sea turtle', 'red breasted merganser', 'jellyfish', 'sea cucumber']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7799999999999999,0.65,0.78,0.001,0.715,801,1117
+snowmobile,7,"['crash helmet', 'vespa', 'parachute', 'pedestal', 'ski']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.86,0.896,0.86,0.001,0.878,802,1068
+snowplow,9,"['wheelbarrow', 'forklift', 'half track', 'lawn mower', 'mobile home']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8199999999999997,0.774,0.82,0.001,0.797,803,1013
+soap dispenser,28,"['sink', 'coffee mug', 'perfume', 'beaker', 'cocktail shaker']","[0.08, 0.06, 0.06, 0.04, 0.04]",0.3436215967445477,0.22,0.44,0.22,0.001,0.33,804,1175
+soccer ball,6,"['alaskan tundra wolf', 'baseball', 'cowboy hat', 'potters wheel', 'wall clock']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8800000000000002,0.8,0.88,0.001,0.84,805,1135
+sock,11,"['swing', 'christmas stocking', 'knee pad', 'mitten', 'pajamas']","[0.08, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.64,0.593,0.64,0.001,0.616,806,870
+solar thermal collector,14,"['airship', 'container ship', 'drumstick', 'electric fan', 'envelope']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7200000000000001,0.75,0.72,0.001,0.735,807,974
+sombrero,20,"['cowboy hat', 'poke bonnet', 'swing', 'african grey parrot', 'chihuahua']","[0.08, 0.04, 0.04, 0.02, 0.02]",0.9128709291752768,0.5,0.455,0.5,0.001,0.478,808,1193
+soup bowl,18,"['consomme', 'hot pot', 'mixing bowl', 'tray', 'coffee mug']","[0.1999999999999999, 0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999]",1.1384199576606169,0.3399999999999999,0.378,0.34,0.001,0.359,809,1067
+keyboard space bar,9,"['computer keyboard', 'typewriter keyboard', 'desk', 'mobile phone', 'storage chest']","[0.24, 0.24, 0.04, 0.02, 0.02]",0.3937122085148875,0.36,0.581,0.36,0.001,0.47,810,739
+space heater,27,"['radiator', 'cocktail shaker', 'electric fan', 'boston terrier', 'dobermann']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.38,0.5,0.38,0.001,0.44,811,910
+space shuttle,7,"['missile.1', 'aircraft carrier', 'airliner', 'airship', 'drilling rig']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8400000000000001,0.933,0.84,0.001,0.887,812,883
+spatula,36,"['ladle', 'wok', 'bolo tie', 'cleaver', 'spindle']","[0.08, 0.06, 0.04, 0.04, 0.04]",0.8437499999999998,0.1,0.128,0.1,0.001,0.114,813,1140
+motorboat,1,['limousine'],[0.02],0.0,0.98,0.778,0.98,0.001,0.879,814,1156
+spider web,11,"['european garden spider', 'barn spider', 'vine snake', 'yellow garden spider', 'nematode']","[0.1, 0.06, 0.02, 0.02, 0.02]",0.84375,0.66,0.805,0.66,0.001,0.732,815,834
+spindle,6,"['fountain pen', 'mortar and pestle', 'scabbard', 'sock', 'tray']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.86,0.467,0.86,0.002,0.664,816,1194
+sports car,6,"['race car', 'convertible', 'radiator grille', 'car wheel', 'pickup truck']","[0.22, 0.1399999999999999, 0.06, 0.04, 0.02]",0.6516986496800838,0.5,0.658,0.5,0.001,0.579,817,1074
+spotlight,37,"['lampshade', 'electric fan', 'projector', 'stage', 'ladybug']","[0.12, 0.06, 0.04, 0.04, 0.02]",1.0179522960269585,0.08,0.16,0.08,0.001,0.12,818,1107
+stage,14,"['swing', 'front curtain', 'electric guitar', 'banjo', 'bow tie']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.6200000000000001,0.392,0.62,0.002,0.506,819,1293
+steam locomotive,7,"['electric locomotive', 'freight car', 'airship', 'odometer', 'railroad car']","[0.1, 0.06, 0.02, 0.02, 0.02]",0.84375,0.74,0.974,0.74,0.001,0.857,820,822
+through arch bridge,4,"['pier', 'breakwater', 'sailboat', 'traffic or street sign']","[0.06, 0.02, 0.02, 0.02]",1.1547005383792517,0.88,0.71,0.88,0.001,0.795,821,918
+steel drum,12,"['swing', 'drum', 'maraca', 'maypole', 'microphone']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7,0.603,0.7,0.001,0.652,822,1387
+stethoscope,32,"['lab coat', 'swing', 'hair spray', 'pajamas', 'old english sheepdog']","[0.1, 0.06, 0.04, 0.04, 0.02]",0.7500308204401289,0.2,0.476,0.2,0.0,0.338,823,929
+scarf,14,"['poncho', 'cardigan', 'dishcloth', 'mitten', 'apron']","[0.16, 0.12, 0.06, 0.06, 0.02]",0.3202361389503453,0.4,0.385,0.4,0.001,0.392,824,1006
+stone wall,13,"['stupa', 'swing', 'american dipper', 'brass memorial plaque', 'castle']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.6999999999999998,0.603,0.7,0.001,0.652,825,1101
+stopwatch,14,"['digital watch', 'barometer', 'analog clock', 'magnetic compass', 'wall clock']","[0.16, 0.1, 0.06, 0.04, 0.04]",0.8095920178218723,0.42,0.525,0.42,0.001,0.473,826,957
+stove,30,"['dutch oven', 'microwave oven', 'carved pumpkin', 'trash can', 'band aid']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.2999999999999999,0.517,0.3,0.001,0.408,827,906
+strainer,25,"['ladle', 'window screen', 'dough', 'box turtle', 'buckle']","[0.04, 0.04, 0.04, 0.02, 0.02]",-0.4082482904638626,0.44,0.319,0.44,0.001,0.38,828,1175
+tram,9,"['gar fish', 'airship', 'electric locomotive', 'restaurant', 'tow truck']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8200000000000001,0.82,0.82,0.001,0.82,829,1047
+stretcher,26,"['swing', 'military uniform', 'wheelbarrow', 'fire truck', 'little blue heron']","[0.16, 0.06, 0.04, 0.04, 0.02]",1.2621071358631282,0.26,0.419,0.26,0.001,0.34,830,1078
+couch,9,"['quilt', 'table lamp', 'pajamas', 'bookcase', 'dining table']","[0.0999999999999999, 0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",0.7301958930821603,0.6799999999999998,0.667,0.68,0.001,0.674,831,1005
+stupa,8,"['dome', 'cliff', 'castle', 'lampshade', 'mosque']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8,0.833,0.8,0.001,0.816,832,932
+submarine,12,"['paddle wheel', 'great white shark', 'breakwater', 'beaver', 'aircraft carrier']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.68,0.791,0.68,0.001,0.736,833,929
+suit,19,"['bow tie', 'swing', 'tandem bicycle', 'military uniform', 'pajamas']","[0.12, 0.06, 0.04, 0.04, 0.04]",1.2909944487358058,0.38,0.475,0.38,0.001,0.428,834,1066
+sundial,20,"['swing', 'analog clock', 'obelisk', 'tile roof', 'wall clock']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.48,0.585,0.48,0.001,0.532,835,1272
+sunglasses,30,"['sunglasses.1', 'swing', 'feather boa', 'seat belt', 'jellyfish']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.16,0.267,0.16,0.001,0.214,836,1055
+sunglasses,30,"['sunglasses.1', 'swing', 'feather boa', 'seat belt', 'jellyfish']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.16,0.267,0.16,0.001,0.214,836,1055
+sunglasses,30,"['sunglasses.1', 'swing', 'feather boa', 'seat belt', 'jellyfish']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.18,0.225,0.18,0.001,0.202,836,1055
+sunglasses,30,"['sunglasses.1', 'swing', 'feather boa', 'seat belt', 'jellyfish']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.18,0.225,0.18,0.001,0.202,836,1055
+sunglasses,30,"['sunglasses.1', 'swing', 'feather boa', 'seat belt', 'jellyfish']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.16,0.267,0.16,0.001,0.214,837,1111
+sunglasses,30,"['sunglasses.1', 'swing', 'feather boa', 'seat belt', 'jellyfish']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.16,0.267,0.16,0.001,0.214,837,1111
+sunglasses,30,"['sunglasses.1', 'swing', 'feather boa', 'seat belt', 'jellyfish']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.18,0.225,0.18,0.001,0.202,837,1111
+sunglasses,30,"['sunglasses.1', 'swing', 'feather boa', 'seat belt', 'jellyfish']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.18,0.225,0.18,0.001,0.202,837,1111
+sunscreen,21,"['lotion', 'swing', 'product packet  packaging', 'soda bottle', 'african grey parrot']","[0.12, 0.08, 0.04, 0.04, 0.02]",0.6288941186718158,0.38,0.422,0.38,0.001,0.401,838,1166
+suspension bridge,14,"['pier', 'through arch bridge', 'fireboat', 'paddle wheel', 'swing']","[0.2799999999999999, 0.08, 0.04, 0.04, 0.04]",1.4035141563500906,0.32,0.842,0.32,0.0,0.581,839,922
+mop,16,"['broom', 'product packet  packaging', 'spindle', 'swing', 'bucket']","[0.08, 0.04, 0.04, 0.04, 0.02]",0.8675276172357083,0.5599999999999999,0.596,0.56,0.001,0.578,840,1114
+sweatshirt,22,"['cardigan', 't shirt', 'swing', 'wool', 'academic gown']","[0.18, 0.1399999999999999, 0.08, 0.04, 0.02]",0.2543027658961972,0.2,0.435,0.2,0.0,0.318,841,830
+swim trunks  shorts,17,"['swimming cap', 'canoe', 'swing', 'one piece bathing suit', 'racket']","[0.08, 0.06, 0.06, 0.04, 0.04]",0.3436215967445477,0.4599999999999999,0.404,0.46,0.001,0.432,842,888
+swing,12,"['baluster  handrail', 'cardigan', 'chain', 'chain link fence', 'harp']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7600000000000001,0.045,0.76,0.017,0.402,843,1090
+electrical switch,22,"['gas pump', 'automated teller machine', 'clothes iron', 'oscilloscope', 'safe']","[0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.5000000000000016,0.4399999999999999,0.468,0.44,0.001,0.454,844,1033
+syringe,35,"['drumstick', 'lab coat', 'lipstick', 'paintbrush', 'pill bottle']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.0,0.1599999999999999,0.381,0.16,0.0,0.27,845,760
+table lamp,10,"['lampshade', 'window shade', 'dining table', 'goblet', 'microphone']","[0.42, 0.04, 0.02, 0.02, 0.02]",1.4911677521133753,0.38,0.404,0.38,0.001,0.392,846,1128
+tank,7,"['half track', 'amphibious vehicle', 'projector', 'convertible', 'jeep']","[0.16, 0.04, 0.04, 0.02, 0.02]",1.3933319214743298,0.68,0.654,0.68,0.001,0.667,847,880
+tape player,18,"['cassette player', 'cd player', 'photocopier', 'modem', 'projector']","[0.2, 0.18, 0.06, 0.04, 0.04]",0.4011434618784329,0.16,0.182,0.16,0.001,0.171,848,1162
+teapot,10,"['drink pitcher', 'coffeemaker', 'coffee mug', 'water jug', 'ocarina']","[0.1, 0.06, 0.04, 0.04, 0.02]",0.7500308204401289,0.64,0.451,0.64,0.001,0.546,849,1044
+teddy bear,12,"['toy store', 'miniature poodle', 'hammerhead shark', 'hamster', 'poke bonnet']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7000000000000001,0.673,0.7,0.001,0.686,850,1109
+television,23,"['home theater', 'crt monitor', 'analog clock', 'chain mail', 'storage chest']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.4600000000000001,0.479,0.46,0.001,0.47,851,952
+tennis ball,16,"['racket', 'croquet ball', 'sea snake', 'japanese chin', 'shetland sheepdog']","[0.24, 0.04, 0.02, 0.02, 0.02]",1.470840052369169,0.44,0.917,0.44,0.0,0.678,852,985
+thatched roof,12,"['american robin', 'banjo', 'broom', 'chainsaw', 'movie theater']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7600000000000001,0.76,0.76,0.001,0.76,853,1076
+front curtain,11,"['mosquito net', 'window shade', 'birdhouse', 'bow tie', 'spiral or coil']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.74,0.725,0.74,0.001,0.732,854,1002
+thimble,23,"['coffee mug', 'milk can', 'salt shaker', 'trilobite', 'bakery']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",-0.4082482904638636,0.4799999999999999,0.369,0.48,0.001,0.424,855,1360
+threshing machine,11,"['combine harvester', 'farm plow', 'cannon', 'tow truck', 'chainsaw']","[0.26, 0.08, 0.04, 0.04, 0.02]",1.327786963909217,0.44,0.478,0.44,0.001,0.459,856,1144
+throne,11,"['altar', 'four poster bed', 'palace', 'swing', 'folding chair']","[0.1, 0.04, 0.04, 0.04, 0.02]",1.1731251294063554,0.6400000000000001,0.604,0.64,0.001,0.622,857,849
+tile roof,8,"['dome', 'sulphur crested cockatoo', 'movie theater', 'crate', 'parking meter']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8,0.635,0.8,0.001,0.718,858,1015
+toaster,25,"['band aid', 'ring binder', 'cassette', 'cassette player', 'cd player']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.5000000000000001,0.758,0.5,0.001,0.629,859,1091
+tobacco shop,23,"['barbershop', 'bookstore', 'vending machine', 'crate', 'gas pump']","[0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999]",0.3436215967445467,0.3199999999999999,0.421,0.32,0.001,0.37,860,1201
+toilet seat,24,"['spindle', 'tray', 'bucket', 'shield', 'sink']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.4082482904638625,0.3799999999999999,0.655,0.38,0.001,0.518,861,626
+torch,16,"['candle', 'stage', 'accordion', 'balance beam', 'bell or wind chime']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.6200000000000001,0.886,0.62,0.001,0.753,862,1263
+totem pole,4,"['rooster', 'pole', 'dust jacket', 'dough']","[0.02, 0.02, 0.02, 0.02]",0.0,0.92,0.868,0.92,0.001,0.894,863,987
+tow truck,19,"['pickup truck', 'semi trailer truck', 'station wagon', 'limousine', 'minibus']","[0.18, 0.06, 0.04, 0.04, 0.04]",1.4286267334338287,0.34,0.459,0.34,0.001,0.4,864,1075
+toy store,13,"['candy store', 'swing', 'piggy bank', 'teddy bear', 'trash can']","[0.1399999999999999, 0.06, 0.04, 0.04, 0.02]",1.1701586322559543,0.54,0.551,0.54,0.001,0.546,865,1305
+tractor,13,"['combine harvester', 'threshing machine', 'farm plow', 'lawn mower', 'forklift']","[0.2799999999999999, 0.2, 0.12, 0.08, 0.04]",0.4034071139708355,0.1,0.833,0.1,0.0,0.466,866,924
+semi trailer truck,12,"['tow truck', 'airship', 'recreational vehicle', 'traffic or street sign', 'barn']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.6600000000000001,0.623,0.66,0.001,0.642,867,1091
+tray,27,"['jigsaw puzzle', 'storage chest', 'wall clock', 'plate', 'zucchini']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.34,0.236,0.34,0.001,0.288,868,1304
+trench coat,22,"['swing', 'bow tie', 'feather boa', 'backpack', 'tandem bicycle']","[0.18, 0.04, 0.04, 0.02, 0.02]",1.4191014536126718,0.36,0.474,0.36,0.001,0.417,869,704
+tricycle,11,"['swing', 'rickshaw', 'tandem bicycle', 'wheelbarrow', 'golf cart']","[0.1, 0.08, 0.04, 0.02, 0.02]",0.3804646084815738,0.6200000000000001,0.544,0.62,0.001,0.582,870,1177
+trimaran,4,"['catamaran', 'sailboat', 'airship', 'missile.1']","[0.22, 0.06, 0.02, 0.02]",1.027209706036234,0.68,0.586,0.68,0.001,0.633,871,1149
+tripod,16,"['swing', 'crutch', 'reflex camera', 'tiger cat', 'cassette player']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.5599999999999999,0.571,0.56,0.001,0.566,872,1089
+"triumphal arch, arch of orange, arch of titus",6,"['vaulted or arched ceiling', 'monastery', 'palace', 'space heater', 'stone wall']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8600000000000001,0.843,0.86,0.001,0.851,873,925
+bus,2,"['minibus', 'tram']","[0.0199999999999999, 0.0199999999999999]",0.0,0.96,0.828,0.96,0.001,0.894,874,1250
+trombone,18,"['cornet', 'swing', 'accordion', 'tandem bicycle', 'can opener']","[0.1399999999999999, 0.04, 0.02, 0.02, 0.02]",1.4035141563500906,0.5,0.49,0.5,0.001,0.495,875,1154
+hot tub,26,"['bathtub', 'swing', 'tabby cat', 'patio', 'analog clock']","[0.18, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.3210869678752712,0.2399999999999999,0.255,0.24,0.001,0.248,876,957
+turnstile,16,"['swing', 'baluster  handrail', 'apiary', 'trash can', 'barrel']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.6199999999999999,0.544,0.62,0.001,0.582,877,1075
+typewriter keyboard,5,"['keyboard space bar', 'computer keyboard', 'sewing machine', 'candle', 'dumbbell']","[0.16, 0.08, 0.04, 0.02, 0.02]",0.959386144805026,0.68,0.654,0.68,0.001,0.667,878,856
+umbrella,23,"['swing', 'english setter', 'hamster', 'academic gown', 'trash can']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.4599999999999999,0.46,0.46,0.001,0.46,879,1116
+unicycle,12,"['mountain bike', 'croquet ball', 'swing', 'tricycle', 'volleyball']","[0.1, 0.04, 0.04, 0.04, 0.04]",1.4999999999999996,0.5999999999999999,0.5,0.6,0.001,0.55,880,1326
+upright piano,14,"['grand piano', 'accordion', 'marimba', 'ballpoint pen', 'laptop computer']","[0.6399999999999999, 0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.4697839227818317,0.0199999999999999,0.167,0.02,0.0,0.094,881,796
+vacuum cleaner,24,"['swing', 'forklift', 'baluster  handrail', 'bookcase', 'bow tie']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.4600000000000001,0.489,0.46,0.001,0.475,882,1162
+vase,30,"['drink pitcher', 'mitten', 'teapot', 'snail', 'bottle cap']","[0.12, 0.04, 0.04, 0.02, 0.02]",1.2864700617061366,0.26,0.317,0.26,0.001,0.288,883,1084
+vaulted or arched ceiling,10,"['pipe organ', 'altar', 'dome', 'australian silky terrier', 'movie theater']","[0.08, 0.06, 0.06, 0.02, 0.02]",-0.1111111111111108,0.66,0.465,0.66,0.001,0.562,884,1021
+velvet fabric,35,"['hair clip', 'wallet', 'pillow', 'apron', 'jigsaw puzzle']","[0.1, 0.1, 0.06, 0.04, 0.04]",0.2115471544831131,0.04,0.095,0.04,0.0,0.068,885,814
+vending machine,10,"['payphone', 'soda bottle', 'bakery', 'beer bottle', 'bookstore']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7600000000000001,0.809,0.76,0.001,0.784,886,1068
+vestment,21,"['altar', 'baby bib', 'hoop skirt', 'kimono', 'prayer rug']","[0.04, 0.04, 0.04, 0.04, 0.04]",0.0,0.48,0.571,0.48,0.001,0.526,887,1206
+viaduct,10,"['through arch bridge', 'water tower', 'gar fish', 'construction crane', 'jigsaw puzzle']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.74,0.902,0.74,0.001,0.821,888,962
+violin,14,"['bassoon', 'banjo', 'cello', 'grand piano', 'marimba']","[0.08, 0.06, 0.04, 0.04, 0.04]",0.8437499999999998,0.54,0.659,0.54,0.001,0.6,889,1069
+volleyball,6,"['basketball', 'balance beam', 't shirt', 'tights', 'soccer ball']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8400000000000001,0.656,0.84,0.001,0.748,890,1087
+waffle iron,16,"['cd player', 'ladle', 'banjo', 'breastplate', 'crate']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.64,0.727,0.64,0.001,0.684,891,1071
+wall clock,14,"['analog clock', 'sundial', 'bell tower', 'barometer', 'cannon']","[0.12, 0.08, 0.04, 0.02, 0.02]",0.6122692078855394,0.54,0.386,0.54,0.001,0.463,892,1070
+wallet,20,"['purse', 'product packet  packaging', 'ring binder', 'cassette', 'envelope']","[0.1399999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.026999605698156,0.3399999999999999,0.207,0.34,0.002,0.274,893,1210
+wardrobe,17,"['sliding door', 'chiffonier', 'filing cabinet', 'hoop skirt', 'kimono']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.58,0.468,0.58,0.001,0.524,894,995
+military aircraft,8,"['airplane wing', 'airliner', 'airship', 'construction crane', 'missile']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7800000000000001,0.65,0.78,0.001,0.715,895,966
+sink,11,"['bathtub', 'soap dispenser', 'bucket', 'chain mail', 'medicine cabinet']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7200000000000002,0.581,0.72,0.001,0.65,896,877
+washing machine,8,"['cd player', 'sink', 'construction crane', 'crash helmet', 'medicine cabinet']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8,0.727,0.8,0.001,0.764,897,943
+water bottle,26,"['swing', 'pill bottle', 'water jug', 'trilobite', 'boston terrier']","[0.0999999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.1642636431747202,0.36,0.34,0.36,0.001,0.35,898,1241
+water jug,22,"['drink pitcher', 'coffeemaker', 'teapot', 'water bottle', 'beer glass']","[0.2, 0.06, 0.06, 0.06, 0.04]",1.4316972546376363,0.1399999999999999,0.194,0.14,0.001,0.167,899,1200
+water tower,5,"['barn', 'boathouse', 'construction crane', 'dome', 'schooner']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.9,0.818,0.9,0.001,0.859,900,1237
+whiskey jug,12,"['coffee mug', 'china cabinet', 'drink pitcher', 'barrel', 'beer bottle']","[0.1, 0.04, 0.04, 0.02, 0.02]",1.1642636431747195,0.64,0.78,0.64,0.001,0.71,901,1019
+whistle,23,"['ballpoint pen', 'buckle', 'bottle cap', 'electric guitar', 'hair clip']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.42,0.636,0.42,0.001,0.528,902,1222
+hair wig,13,"['feather boa', 'graduation cap', 'king charles spaniel', 'apron', 'poke bonnet']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.6799999999999999,0.531,0.68,0.001,0.606,903,976
+window screen,18,"['sliding door', 'tabby cat', 'swing', 'window shade', 'fly']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.54,0.37,0.54,0.001,0.455,904,1095
+window shade,21,"['window screen', 'shoji screen  room divider', 'radiator', 'shower curtain', 'sliding door']","[0.0799999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",0.8437499999999997,0.42,0.396,0.42,0.001,0.408,905,969
+windsor tie,24,"['suit', 'bow tie', 'feather boa', 'seat belt', 'apron']","[0.18, 0.06, 0.04, 0.04, 0.02]",1.3210869678752717,0.2799999999999999,0.737,0.28,0.0,0.508,906,937
+wine bottle,20,"['beer bottle', 'soda bottle', 'vase', 'barrel', 'beaker']","[0.18, 0.04, 0.04, 0.02, 0.02]",1.4191014536126718,0.4,0.29,0.4,0.001,0.345,907,1126
+airplane wing,6,"['airliner', 'military aircraft', 'airship', 'radiator grille', 'motorboat']","[0.16, 0.16, 0.02, 0.02, 0.02]",0.4082482904638636,0.6,0.652,0.6,0.001,0.626,908,901
+wok,19,"['hot pot', 'frying pan', 'wall clock', 'electric ray', 'american lobster']","[0.2199999999999999, 0.0799999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",1.2143286722953988,0.3399999999999999,0.293,0.34,0.001,0.316,909,1152
+wooden spoon,23,"['spatula', 'wok', 'ladle', 'mortar and pestle', 'coffee mug']","[0.1199999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",0.7500308204401287,0.2199999999999999,0.55,0.22,0.0,0.385,910,1093
+wool,16,"['spindle', 'mitten', 'poke bonnet', 'cardigan', 'scarf']","[0.2, 0.16, 0.1, 0.06, 0.06]",0.3730421772611751,0.16,0.25,0.16,0.001,0.205,911,927
+split rail fence,22,"['park bench', 'rapeseed', 'picket fence', 'swing', 'breakwater']","[0.1, 0.1, 0.06, 0.06, 0.04]",0.1111111111111109,0.24,0.8,0.24,0.0,0.52,912,898
+shipwreck,13,"['swing', 'breakwater', 'dock', 'paddle wheel', 'dugong']","[0.06, 0.04, 0.04, 0.04, 0.02]",3.4285483091569353e-16,0.64,0.762,0.64,0.001,0.701,913,507
+sailboat,8,"['schooner', 'trimaran', 'catamaran', 'dock', 'bittern bird']","[0.1399999999999999, 0.08, 0.04, 0.04, 0.02]",0.8478566294318485,0.6200000000000001,0.738,0.62,0.001,0.679,914,1003
+yurt,7,"['swing', 'barn', 'boathouse', 'carousel', 'dome']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.84,0.955,0.84,0.001,0.898,915,1088
+website,5,"['automated teller machine', 'digital clock', 'computer mouse', 'product packet  packaging', 'comic book']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.616,0.9,0.001,0.758,916,1331
+comic book,13,"['jigsaw puzzle', 'dust jacket', 'tobacco shop', 'kite bird of prey', 'labrador retriever']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.64,0.627,0.64,0.001,0.634,917,913
+crossword,13,"['bassinet', 'menu', 'band aid', 'banjo', 'coffee mug']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.7,0.814,0.7,0.001,0.757,918,1116
+traffic or street sign,12,"['barbershop', 'swing', 'car mirror', 'chain link fence', 'movie theater']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7000000000000001,0.507,0.7,0.001,0.603,919,1258
+traffic light,11,"['traffic or street sign', 'spotlight', 'tandem bicycle', 'chain link fence', 'garbage truck']","[0.1, 0.04, 0.02, 0.02, 0.02]",1.290994448735805,0.6800000000000002,0.723,0.68,0.001,0.702,920,1102
+dust jacket,12,"['comic book', 'menu', 'product packet  packaging', 'bookcase', 'brass memorial plaque']","[0.12, 0.06, 0.04, 0.02, 0.02]",0.9704949588309452,0.5999999999999999,0.435,0.6,0.001,0.518,921,955
+menu,7,"['analog clock', 'bakery', 'brass memorial plaque', 'hard disk drive', 'plastic bag']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.86,0.573,0.86,0.002,0.716,922,1269
+plate,20,"['mashed potatoes', 'consomme', 'soup bowl', 'ice cream', 'chocolate syrup']","[0.1599999999999999, 0.0799999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999]",1.1500493356615302,0.3399999999999999,0.27,0.34,0.001,0.305,923,1204
+guacamole,10,"['plate', 'mortar and pestle', 'menu', 'hot dog', 'mashed potatoes']","[0.06, 0.04, 0.04, 0.04, 0.04]",1.5000000000000022,0.6600000000000001,0.623,0.66,0.001,0.642,924,1010
+consomme,11,"['soup bowl', 'chocolate syrup', 'espresso', 'dutch oven', 'envelope']","[0.12, 0.04, 0.04, 0.02, 0.02]",1.2864700617061366,0.64,0.542,0.64,0.001,0.591,925,1134
+hot pot,16,"['wok', 'consomme', 'american lobster', 'dutch oven', 'frying pan']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.5599999999999999,0.491,0.56,0.001,0.526,926,956
+trifle,2,"['chocolate syrup', 'pizza']","[0.02, 0.02]",0.0,0.96,0.64,0.96,0.002,0.8,927,1141
+ice cream,14,"['chocolate syrup', 'trifle', 'sea cucumber', 'dutch oven', 'hair clip']","[0.1399999999999999, 0.0799999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.5399999999999999,0.491,0.54,0.001,0.516,928,1233
+popsicle,22,"['swing', 'sunglasses.1', 'african grey parrot', 'boston terrier', 'greater swiss mountain dog']","[0.12, 0.04, 0.02, 0.02, 0.02]",1.362792753035554,0.44,0.458,0.44,0.001,0.449,929,1318
+baguette,13,"['bakery', 'bagel', 'dutch oven', 'meatloaf', 'german shepherd dog']","[0.0599999999999999, 0.0599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",-0.3436215967445467,0.6199999999999999,0.608,0.62,0.001,0.614,930,901
+bagel,16,"['pretzel', 'cheeseburger', 'plate', 'baguette', 'mashed potatoes']","[0.06, 0.06, 0.04, 0.04, 0.04]",0.4082482904638629,0.52,0.703,0.52,0.001,0.611,931,1093
+pretzel,17,"['bakery', 'bagel', 'red king crab', 'starfish', 'chain']","[0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.4082482904638635,0.6199999999999999,0.721,0.62,0.001,0.67,932,1103
+cheeseburger,5,"['meatloaf', 'hot dog', 'consomme', 'mashed potatoes', 'coral reef']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.84,0.778,0.84,0.001,0.809,933,957
+hot dog,13,"['guacamole', 'popsicle', 'cheeseburger', 'bakery', 'clogs']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999]",-0.4082482904638636,0.6799999999999999,0.654,0.68,0.001,0.667,934,1155
+mashed potatoes,10,"['meatloaf', 'pot pie', 'chesapeake bay retriever', 'dutch oven', 'measuring cup']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.7200000000000001,0.462,0.72,0.002,0.591,935,1232
+cabbage,11,"['plant pot', 'mud turtle', 'porcupine', 'greenhouse', 'grocery store']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7600000000000001,0.826,0.76,0.001,0.793,936,952
+broccoli,5,"['coffee mug', 'cauliflower', 'zucchini', 'bell pepper', 'coral reef']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.714,0.9,0.001,0.807,937,949
+cauliflower,6,"['guacamole', 'mashed potatoes', 'cabbage', 'broccoli', 'plant pot']","[0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",-1.4999999999999998,0.7999999999999998,0.714,0.8,0.001,0.757,938,955
+zucchini,9,"['cucumber', 'slug', 'tabby cat', 'cloak', 'ladle']","[0.16, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.6800000000000002,0.548,0.68,0.001,0.614,939,908
+spaghetti squash,11,"['acorn squash', 'lemon', 'butternut squash', 'slug', 'hamster']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.6800000000000003,0.739,0.68,0.001,0.71,940,1099
+acorn squash,11,"['spaghetti squash', 'zucchini', 'conch', 'grocery store', 'plate']","[0.1199999999999999, 0.0599999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.0269996056981556,0.6399999999999999,0.681,0.64,0.001,0.661,941,1105
+butternut squash,14,"['acorn squash', 'broccoli', 'pot pie', 'envelope', 'mitten']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.6400000000000001,0.865,0.64,0.001,0.752,942,993
+cucumber,7,"['zucchini', 'bell pepper', 'granny smith apple', 'fig', 'grocery store']","[0.26, 0.06, 0.06, 0.04, 0.02]",1.3900692755356363,0.52,0.52,0.52,0.001,0.52,943,965
+artichoke,5,"['cardoon', 'pineapple', 'bucket', 'butcher shop', 'cherimoya custard apple']","[0.16, 0.04, 0.02, 0.02, 0.02]",1.4286267334338292,0.74,0.86,0.74,0.001,0.8,944,918
+bell pepper,6,"['dutch oven', 'zucchini', 'cucumber', 'granny smith apple', 'pomegranate']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8799999999999999,0.786,0.88,0.001,0.833,945,899
+cardoon,5,"['red admiral butterfly', 'sea urchin', 'trash can', 'greenhouse', 'artichoke']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8999999999999999,0.75,0.9,0.001,0.825,946,813
+mushroom,6,"['agaric', 'bolete', 'coral fungus', 'stinkhorn mushroom', 'earth star fungus']","[0.3799999999999999, 0.18, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",0.9733492740191146,0.3199999999999999,0.444,0.32,0.001,0.382,947,934
+granny smith apple,12,"['cocktail shaker', 'product packet  packaging', 'menu', 'ice cream', 'zucchini']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.7600000000000001,0.717,0.76,0.001,0.738,948,938
+strawberry,14,"['trifle', 'pomegranate', 'sea cucumber', 'bottle cap', 'plant pot']","[0.1399999999999999, 0.04, 0.02, 0.02, 0.02]",1.4035141563500906,0.58,0.744,0.58,0.001,0.662,949,873
+orange,7,"['lemon', 'apron', 'knot', 'trifle', 'ice cream']","[0.18, 0.02, 0.02, 0.02, 0.02]",1.4999999999999998,0.7,0.714,0.7,0.001,0.707,950,907
+lemon,5,"['orange', 'sulphur crested cockatoo', 'grocery store', 'banana', 'cherimoya custard apple']","[0.0999999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.5000000000000016,0.8199999999999997,0.641,0.82,0.001,0.73,951,915
+fig,9,"['lorikeet', 'duck', 'strainer', 'thimble', 'acorn squash']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.8200000000000001,0.759,0.82,0.001,0.79,952,1006
+pineapple,7,"['greenhouse', 'grocery store', 'obelisk', 'swing', 'vase']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.86,0.827,0.86,0.001,0.843,953,932
+banana,9,"['orange', 'pineapple', 'plunger', 'stretcher', 'wine bottle']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7600000000000001,0.717,0.76,0.001,0.738,954,914
+jackfruit,3,"['cicada', 'artichoke', 'corn']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.797,0.94,0.001,0.868,955,1030
+cherimoya custard apple,10,"['cabbage', 'fig', 'jackfruit', 'vine snake', 'greenhouse']","[0.06, 0.04, 0.04, 0.02, 0.02]",0.3436215967445453,0.7200000000000001,0.857,0.72,0.001,0.788,956,1202
+pomegranate,7,"['coffee mug', 'measuring cup', 'strainer', 'hot dog', 'artichoke']","[0.02, 0.02, 0.02, 0.02, 0.02]",0.0,0.86,0.741,0.86,0.001,0.8,957,1003
+hay,9,"['barn', 'swing', 'common sorrel horse', 'hartebeest', 'band aid']","[0.06, 0.04, 0.02, 0.02, 0.02]",0.8437499999999996,0.7600000000000001,0.809,0.76,0.001,0.784,958,899
+carbonara,7,"['plate', 'honeycomb', 'soup bowl', 'spindle', 'wok']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.84,0.913,0.84,0.001,0.876,959,991
+chocolate syrup,17,"['ice cream', 'bakery', 'plate', 'espresso', 'cocktail shaker']","[0.12, 0.06, 0.04, 0.04, 0.02]",1.0179522960269585,0.4800000000000001,0.358,0.48,0.001,0.419,960,1086
+dough,26,"['baguette', 'dutch oven', 'pretzel', 'pizza', 'mixing bowl']","[0.08, 0.06, 0.06, 0.06, 0.04]",-8.678512907553492e-16,0.24,0.316,0.24,0.001,0.278,961,1028
+meatloaf,10,"['mashed potatoes', 'plate', 'cheeseburger', 'cauldron', 'grocery store']","[0.16, 0.1, 0.04, 0.02, 0.02]",0.7001217104245251,0.5599999999999999,0.5,0.56,0.001,0.53,962,1251
+pizza,14,"['pot pie', 'fox squirrel', 'can opener', 'cocktail shaker', 'frying pan']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.7000000000000001,0.729,0.7,0.001,0.714,963,958
+pot pie,15,"['dutch oven', 'baguette', 'hot dog', 'dough', 'bakery']","[0.04, 0.04, 0.04, 0.04, 0.02]",-1.4999999999999991,0.6200000000000001,0.689,0.62,0.001,0.654,964,1046
+burrito,18,"['guacamole', 'plate', 'hot dog', 'mashed potatoes', 'chocolate syrup']","[0.12, 0.04, 0.04, 0.04, 0.04]",1.5000000000000009,0.4599999999999999,0.852,0.46,0.001,0.656,965,1062
+red wine,15,"['wine bottle', 'corkscrew', 'measuring cup', 'swing', 'beer glass']","[0.54, 0.1, 0.04, 0.04, 0.02]",1.4339357255443548,0.06,0.375,0.06,0.0,0.218,966,938
+espresso,11,"['coffee mug', 'beer glass', 'espresso machine', 'bakery', 'microphone']","[0.1, 0.08, 0.04, 0.02, 0.02]",0.3804646084815738,0.6200000000000001,0.633,0.62,0.001,0.626,967,882
+tea cup,20,"['coffee mug', 'mixing bowl', 'drink pitcher', 'espresso', 'beer glass']","[0.2199999999999999, 0.0799999999999999, 0.0599999999999999, 0.0599999999999999, 0.0399999999999999]",1.3608927294433222,0.1199999999999999,0.667,0.12,0.0,0.394,968,953
+eggnog,26,"['coffee mug', 'ice cream', 'bottle cap', 'beer bottle', 'beer glass']","[0.06, 0.06, 0.04, 0.02, 0.02]",-4.848699518061081e-16,0.38,0.613,0.38,0.001,0.496,969,1025
+mountain,16,"['valley', 'ski', 'volcano', 'alpine ibex', 'bell tower']","[0.1399999999999999, 0.08, 0.04, 0.02, 0.02]",0.8095920178218727,0.4800000000000001,0.774,0.48,0.001,0.627,970,876
+bubble,13,"['swing', 'polar bear', 'basketball', 'coffee mug', 'envelope']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.6600000000000001,0.846,0.66,0.001,0.753,971,1134
+cliff,11,"['cliff dwelling', 'promontory', 'swing', 'valley', 'albatross']","[0.1399999999999999, 0.1, 0.04, 0.04, 0.02]",0.5557336935004367,0.54,0.491,0.54,0.001,0.516,972,1018
+coral reef,13,"['brain coral', 'sea anemone', 'conch', 'stingray', 'loggerhead sea turtle']","[0.2, 0.04, 0.04, 0.02, 0.02]",1.4366055002620477,0.52,0.52,0.52,0.001,0.52,973,905
+geyser,3,"['conch', 'binoculars', 'sandbar']","[0.02, 0.02, 0.02]",0.0,0.94,0.94,0.94,0.001,0.94,974,835
+lakeshore,21,"['breakwater', 'dock', 'swing', 'boathouse', 'great white shark']","[0.18, 0.08, 0.06, 0.04, 0.02]",1.039188922370416,0.3,0.385,0.3,0.001,0.342,975,1099
+promontory,11,"['cliff', 'breakwater', 'beach', 'lakeshore', 'sandbar']","[0.16, 0.12, 0.12, 0.04, 0.04]",-0.1111111111111108,0.38,0.576,0.38,0.001,0.478,976,905
+sandbar,17,"['breakwater', 'beach', 'swing', 'american alligator', 'pelican']","[0.1, 0.1, 0.04, 0.02, 0.02]",0.2961528510345608,0.48,0.414,0.48,0.001,0.447,977,1095
+beach,23,"['sandbar', 'dock', 'cliff', 'lakeshore', 'leatherback sea turtle']","[0.1599999999999999, 0.0399999999999999, 0.0399999999999999, 0.0399999999999999, 0.0199999999999999]",1.408201770543732,0.3399999999999999,0.386,0.34,0.001,0.363,978,1026
+valley,13,"['lakeshore', 'mountain', 'cliff', 'volcano', 'brain coral']","[0.08, 0.04, 0.04, 0.04, 0.02]",0.8675276172357083,0.62,0.66,0.62,0.001,0.64,979,899
+volcano,9,"['valley', 'ox', 'grocery store', 'ocean liner', 'monastery']","[0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",1.4999999999999984,0.7999999999999998,0.833,0.8,0.001,0.816,980,792
+baseball player,7,"['baseball', 'basketball', 'mitten', 'parallel bars', 'pickelhaube']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8200000000000001,0.651,0.82,0.001,0.736,981,1283
+bridegroom,24,"['swing', 'west highland white terrier', 'asian elephant', 'bikini', 'candle']","[0.06, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.48,0.649,0.48,0.001,0.564,982,1153
+scuba diver,9,"['snorkel', 'tiger shark', 'loggerhead sea turtle', 'killer whale', 'sea cucumber']","[0.1, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.7400000000000001,0.712,0.74,0.001,0.726,983,881
+rapeseed,3,"['bell pepper', 'fig', 'yellow ladys slipper']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.81,0.94,0.001,0.875,984,893
+daisy,2,"['fly', 'bee']","[0.02, 0.02]",0.0,0.96,0.941,0.96,0.001,0.95,985,804
+yellow ladys slipper,0,[],[],0.0,1.0,0.98,1.0,0.001,0.99,986,886
+corn,14,"['corn cob', 'plate', 'frying pan', 'mashed potatoes', 'cucumber']","[0.5999999999999999, 0.06, 0.04, 0.04, 0.04]",1.4954968555510295,0.04,0.167,0.04,0.0,0.104,987,961
+acorn,8,"['mushroom', 'sea anemone', 'snail', 'weevil', 'fig']","[0.04, 0.02, 0.02, 0.02, 0.02]",1.5000000000000009,0.8200000000000001,0.837,0.82,0.001,0.828,988,1107
+rose hip,3,"['ant', 'soda bottle', 'fig']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.9399999999999998,0.839,0.94,0.001,0.89,989,1083
+horse chestnut seed,7,"['trilobite', 'snail', 'leafhopper', 'sea urchin', 'swing']","[0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.0,0.8599999999999999,0.796,0.86,0.001,0.828,990,1013
+coral fungus,5,"['hen of the woods mushroom', 'earth star fungus', 'sea anemone', 'cauliflower', 'butternut squash']","[0.0599999999999999, 0.0399999999999999, 0.0199999999999999, 0.0199999999999999, 0.0199999999999999]",0.8437499999999999,0.84,0.894,0.84,0.001,0.867,991,1235
+agaric,6,"['mushroom', 'bolete', 'ant', 'wheelbarrow', 'paintbrush']","[0.08, 0.04, 0.02, 0.02, 0.02]",1.1500493356615296,0.8,0.656,0.8,0.001,0.728,992,849
+gyromitra,3,"['stinkhorn mushroom', 'conch', 'bolete']","[0.04, 0.02, 0.02]",0.7071067811865479,0.92,0.793,0.92,0.001,0.856,993,1361
+stinkhorn mushroom,6,"['gyromitra', 'earth star fungus', 'slug', 'fiddler crab', 'ant']","[0.04, 0.04, 0.02, 0.02, 0.02]",0.4082482904638644,0.8400000000000001,0.75,0.84,0.001,0.795,994,1315
+earth star fungus,1,['stinkhorn mushroom'],[0.02],0.0,0.98,0.69,0.98,0.001,0.835,995,1375
+hen of the woods mushroom,7,"['gyromitra', 'box turtle', 'scorpion', 'poke bonnet', 'cleaver']","[0.1399999999999999, 0.02, 0.02, 0.02, 0.02]",1.4999999999999996,0.74,0.822,0.74,0.001,0.781,996,1204
+bolete,11,"['mushroom', 'earth star fungus', 'hamper', 'letter opener', 'mortar and pestle']","[0.1399999999999999, 0.1399999999999999, 0.02, 0.02, 0.02]",0.4082482904638631,0.54,0.614,0.54,0.001,0.577,997,1047
+corn cob,6,"['corn', 'cricket insect', 'fox squirrel', 'sarong', 'swing']","[0.08, 0.02, 0.02, 0.02, 0.02]",1.5000000000000002,0.8200000000000001,0.512,0.82,0.002,0.666,998,968
+toilet paper,36,"['paper towel', 'toilet seat', 'band aid', 'lampshade', 'product packet  packaging']","[0.1399999999999999, 0.06, 0.04, 0.04, 0.04]",1.3627927530355548,0.06,0.5,0.06,0.0,0.28,999,699
