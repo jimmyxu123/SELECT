@@ -1,7 +1,11 @@
 # 🌋 SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Recognition
 
 This is the repository for the SELECT benchmark of data curation strategies and
-the ImageNet++ dataset. The repository contains links to and descriptions of
+the ImageNet++ dataset. 
+
+Please check out our ![website](https://nyu-dice-lab.github.io/SELECT/) for updates on this project.
+
+The repository contains links to and descriptions of
 the ImageNet++ dataset, a superset of ImageNet-1k. It also contains the code we
 used to train our data curation benchmark models, and all of the necessary
 scripts for evaluating those models in a manner similar to that described in
@@ -265,10 +269,6 @@ python run_select.py \
 	--dataset_n_samples 5000"
 
 ```
-
-## Paper, Website, and Docs
-
-Coming Soon
 
 ## Citation
 
