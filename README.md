@@ -1,7 +1,7 @@
 # 🌋 SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Recognition
 
 This is the repository for the SELECT benchmark of data curation strategies and
-the ImageNet++ dataset. 
+the ImageNet++ dataset, derived from our 2024 NeurIPS Datasets and Benchmarks [paper](https://arxiv.org/abs/2410.05057).
 
 Please check out our [website](https://nyu-dice-lab.github.io/SELECT/) for updates on this project.
 
@@ -272,6 +272,18 @@ python run_select.py \
 
 ## Citation
 
-Coming Soon
+If you find our work useful, please consider citing it!
+
+```
+@misc{feuer2024selectlargescalebenchmarkdata,
+      title={SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Classification}, 
+      author={Benjamin Feuer and Jiawei Xu and Niv Cohen and Patrick Yubeaton and Govind Mittal and Chinmay Hegde},
+      year={2024},
+      eprint={2410.05057},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.05057}, 
+}
+```
 
 
