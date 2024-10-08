@@ -3,7 +3,7 @@
 This is the repository for the SELECT benchmark of data curation strategies and
 the ImageNet++ dataset. 
 
-Please check out our ![website](https://nyu-dice-lab.github.io/SELECT/) for updates on this project.
+Please check out our [website](https://nyu-dice-lab.github.io/SELECT/) for updates on this project.
 
 The repository contains links to and descriptions of
 the ImageNet++ dataset, a superset of ImageNet-1k. It also contains the code we
